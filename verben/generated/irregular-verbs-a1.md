@@ -2,7 +2,7 @@
 
 | N  | Infinitiv (3rd Person Singular) | Präteritum | Partizip II | Übersetzung | Beispiele |
 |----|---------------------------------|------------|-------------|-------------|-----------|
-| 1 | beginnen (beginnt) | begann | hat begonnen | to begin / починати | mit Dat<br> der Beginn - начало<br> Präsens: Ich beginne ein neues Buch zu lesen.<br> Perfekt: Ich habe meine Hausaufgaben begonnen.<br> Präsens: Ich beginne mit der Arbeit. (I begin with the work.)<br> Präteritum: Er begann das Projekt gestern. (He began the project yesterday.)<br> Perfekt: Wir haben das Meeting um 10 Uhr begonnen. (We have begun the meeting at 10 o'clock.)<br> |
+| 1 | beginnen (beginnt) | begann | hat begonnen | to begin / починати | mit Dat<br> der Beginn - начало<br><br><br>Präsens: Ich beginne ein neues Buch zu lesen.<br><br>Perfekt: Ich habe meine Hausaufgaben begonnen.<br><br>Präsens: Ich beginne mit der Arbeit. (I begin with the work.)<br><br>Präteritum: Er begann das Projekt gestern. (He began the project yesterday.)<br><br>Perfekt: Wir haben das Meeting um 10 Uhr begonnen. (We have begun the meeting at 10 o'clock.)<br> |
 | 2 | bleiben (bleibt) | blieb | ist geblieben | to stay, remain / залишатися | Präsens: Ich bleibe zu Hause. (I stay at home.)<br><br>Präteritum: Ich blieb gestern zu Hause. (I stayed at home yesterday.)<br><br>Perfekt: Ich bin zu Hause geblieben. (I have stayed at home.)<br> |
 | 3 | essen (isst) | aß | hat gegessen | to eat / їсти |  |
 | 4 | fahren (fährt) | fuhr | ist gefahren | to drive, to go / їхати |  |
