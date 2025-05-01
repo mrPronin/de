@@ -42,8 +42,15 @@ def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
         ukrainian = verb['translations']['ukrainian']
         translations = f"{english} / {ukrainian}"
 
-        # Use examples directly (now a simple string)
-        examples = verb.get("examples", "").replace(";", "<br>").strip()
+        # Use examples directly and preserve line breaks
+        # by replacing them with <br>
+        examples = verb.get("examples", "")
+        if examples:
+            # Replace newlines with <br> tags
+            examples = examples.replace("\n", "<br>")
+            # Also handle any semicolons for backward compatibility
+            examples = examples.replace(";", "<br>")
+            examples = examples.strip()
 
         # Add the verb row
         prefix = f"| {verb['id']} | {verb['infinitiv']} ({verb['person3']}) | "
@@ -154,8 +161,11 @@ def markdown_to_yaml(md_file: str, output_dir: str = None) -> str:
         # Extract examples as a simple string
         examples = ""
         if len(cells) > 5:
-            # Replace <br> with semicolons for the simplified format
-            examples = cells[5].replace("<br>", ";")
+            # First replace <br> with newlines for better readability in YAML
+            examples = cells[5].replace("<br>", "\n")
+            # For backward compatibility, also replace semicolons with newlines
+            examples = examples.replace(";", "\n")
+            examples = examples.strip()
 
         # Create the verb dictionary
         verb = {
