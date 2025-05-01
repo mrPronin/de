@@ -8,23 +8,8 @@ verbs:
     translations:
       english: to begin
       ukrainian: починати
-    examples:
-      grammar: mit Dat
-      noun: der Beginn - начало
-      examples:
-        - tense: Präsens
-          text: Ich beginne ein neues Buch zu lesen.
-        - tense: Perfekt
-          text: Ich habe meine Hausaufgaben begonnen.
-        - tense: Präsens
-          text: Ich beginne mit der Arbeit.
-          translation: I begin with the work.
-        - tense: Präteritum
-          text: Er begann das Projekt gestern.
-          translation: He began the project yesterday.
-        - tense: Perfekt
-          text: Wir haben das Meeting um 10 Uhr begonnen.
-          translation: We have begun the meeting at 10 o'clock.
+    examples: >
+      mit Dat; der Beginn - начало; Präsens: Ich beginne ein neues Buch zu lesen.; Perfekt: Ich habe meine Hausaufgaben begonnen.; Präsens: Ich beginne mit der Arbeit. (I begin with the work.); Präteritum: Er begann das Projekt gestern. (He began the project yesterday.); Perfekt: Wir haben das Meeting um 10 Uhr begonnen. (We have begun the meeting at 10 o'clock.)
   
   - id: 2
     infinitiv: bleiben
@@ -34,7 +19,7 @@ verbs:
     translations:
       english: to stay
       ukrainian: залишатися
-    examples: {}
+    examples: ""
   
   - id: 3
     infinitiv: essen
@@ -44,7 +29,7 @@ verbs:
     translations:
       english: to eat
       ukrainian: їсти
-    examples: {}
+    examples: ""
   
   - id: 4
     infinitiv: fahren
@@ -54,7 +39,7 @@ verbs:
     translations:
       english: to drive, to go
       ukrainian: їхати
-    examples: {}
+    examples: ""
   
   - id: 5
     infinitiv: fangen
@@ -64,7 +49,7 @@ verbs:
     translations:
       english: to catch
       ukrainian: ловити
-    examples: {}
+    examples: ""
   
   - id: 6
     infinitiv: finden
@@ -74,7 +59,7 @@ verbs:
     translations:
       english: to find
       ukrainian: знаходити
-    examples: {}
+    examples: ""
   
   - id: 7
     infinitiv: fliegen
@@ -84,7 +69,7 @@ verbs:
     translations:
       english: to fly
       ukrainian: літати
-    examples: {}
+    examples: ""
   
   - id: 8
     infinitiv: geben
@@ -94,7 +79,7 @@ verbs:
     translations:
       english: to give
       ukrainian: давати
-    examples: {}
+    examples: ""
   
   - id: 9
     infinitiv: gehen
@@ -104,7 +89,7 @@ verbs:
     translations:
       english: to go
       ukrainian: йти
-    examples: {}
+    examples: ""
   
   - id: 10
     infinitiv: heißen
@@ -114,7 +99,7 @@ verbs:
     translations:
       english: to be called
       ukrainian: називатися
-    examples: {}
+    examples: ""
   
   - id: 11
     infinitiv: helfen
@@ -124,7 +109,7 @@ verbs:
     translations:
       english: to help
       ukrainian: допомагати
-    examples: {}
+    examples: ""
   
   - id: 12
     infinitiv: kommen
@@ -134,7 +119,7 @@ verbs:
     translations:
       english: to come
       ukrainian: приходити
-    examples: {}
+    examples: ""
   
   - id: 13
     infinitiv: lesen
@@ -144,7 +129,7 @@ verbs:
     translations:
       english: to read
       ukrainian: читати
-    examples: {}
+    examples: ""
   
   - id: 14
     infinitiv: nehmen
@@ -154,7 +139,7 @@ verbs:
     translations:
       english: to take
       ukrainian: брати
-    examples: {}
+    examples: ""
   
   - id: 15
     infinitiv: rufen
@@ -164,7 +149,7 @@ verbs:
     translations:
       english: to call
       ukrainian: кликати
-    examples: {}
+    examples: ""
   
   - id: 16
     infinitiv: schlafen
@@ -174,7 +159,7 @@ verbs:
     translations:
       english: to sleep
       ukrainian: спати
-    examples: {}
+    examples: ""
   
   - id: 17
     infinitiv: schreiben
@@ -184,7 +169,7 @@ verbs:
     translations:
       english: to write
       ukrainian: писати
-    examples: {}
+    examples: ""
   
   - id: 18
     infinitiv: schwimmen
@@ -194,7 +179,7 @@ verbs:
     translations:
       english: to swim
       ukrainian: плавати
-    examples: {}
+    examples: ""
   
   - id: 19
     infinitiv: sehen
@@ -204,7 +189,7 @@ verbs:
     translations:
       english: to see
       ukrainian: бачити
-    examples: {}
+    examples: ""
   
   - id: 20
     infinitiv: sein
@@ -214,7 +199,7 @@ verbs:
     translations:
       english: to be
       ukrainian: бути
-    examples: {}
+    examples: ""
   
   - id: 21
     infinitiv: singen
@@ -224,7 +209,7 @@ verbs:
     translations:
       english: to sing
       ukrainian: співати
-    examples: {}
+    examples: ""
   
   - id: 22
     infinitiv: sprechen
@@ -234,7 +219,7 @@ verbs:
     translations:
       english: to speak
       ukrainian: говорити
-    examples: {}
+    examples: ""
   
   - id: 23
     infinitiv: stehen
@@ -244,7 +229,7 @@ verbs:
     translations:
       english: to stand
       ukrainian: стояти
-    examples: {}
+    examples: ""
   
   - id: 24
     infinitiv: treffen
@@ -254,7 +239,7 @@ verbs:
     translations:
       english: to meet
       ukrainian: зустрічати
-    examples: {}
+    examples: ""
   
   - id: 25
     infinitiv: trinken
@@ -264,7 +249,7 @@ verbs:
     translations:
       english: to drink
       ukrainian: пити
-    examples: {}
+    examples: ""
   
   - id: 26
     infinitiv: tun
@@ -274,4 +259,4 @@ verbs:
     translations:
       english: to do
       ukrainian: робити
-    examples: {}
+    examples: ""
