@@ -480,7 +480,19 @@ verbs:
     translations:
       english: to sing
       ukrainian: співати
-    examples: ""
+    examples: |
+      Präsens:
+        Ich singe gerne in der Dusche. / I sing in the shower.
+        Du singst wunderschön. / You sing beautifully.
+        Sie/er/es singt ein Lied. / She/he/it sings a song.
+
+      Präteritum:
+        Ich sang gestern auf der Geburtstagsfeier. / I sang at the birthday party yesterday.
+        Du sangst ein traditionelles Lied. / You sang a traditional song.
+        Sie/er/es sang ein Solo. / She/he/it sang a solo.
+
+      Perfekt:
+        Ich habe oft in einem Chor gesungen. / I have sung in a choir often.
   
   - id: 22
     infinitiv: sprechen
@@ -489,8 +501,22 @@ verbs:
     partizip: hat gesprochen
     translations:
       english: to speak
-      ukrainian: говорити
-    examples: ""
+      ukrainian: говорити, розмовляти
+    examples: |
+      mit, über, von
+
+      Mit wem hast du gesprochen? / Who were you talking to?
+      Von wem hast du gesprochen? / From whom did you speak?
+      Worüber hast du gesprochen? / About what did you speak?
+
+      Präsens:
+        Ich spreche Deutsch. / I speak German.
+
+      Präteritum:
+        Gestern sprach er mit seinem Freund. / Yesterday, he spoke with his friend.
+
+      Perfekt:
+        Sie hat gerade mit ihm gesprochen. / She has just spoken with him.
   
   - id: 23
     infinitiv: stehen
@@ -500,7 +526,21 @@ verbs:
     translations:
       english: to stand
       ukrainian: стояти
-    examples: ""
+    examples: |
+      der Stand - положення, стан
+
+      der Familienstand - сімейний стан
+
+      der Zustand - стан
+
+      Präsens:
+        Ich stehe hier. / I am standing here.
+
+      Präteritum:
+        Gestern stand er vor dem Haus. / Yesterday, he stood in front of the house.
+
+      Perfekt:
+        Er hat den ganzen Tag in der Schlange gestanden. / He has stood in line all day.
   
   - id: 24
     infinitiv: treffen
