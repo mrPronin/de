@@ -549,8 +549,31 @@ verbs:
     partizip: hat getroffen
     translations:
       english: to meet
-      ukrainian: зустрічати
-    examples: ""
+      ukrainian: зустрічати, заставати
+    examples: |
+      <v> Akk; sich <v> mit Dat
+
+      Ich habe mich mit meinem Freund getroffen.
+
+      Ich habe eine richtige Lösung getroffen.
+
+      Maßnahmen treffen - принять меры.
+
+      Entscheidung treffen - приять решение
+
+      das Treffen - встреча
+
+      Präsens:
+        Ich treffe mich oft mit meinen Freunden. / I often meet up with my friends.
+        Du triffst eine gute Entscheidung. / You are making a good decision. 
+
+      Präteritum:
+        Ich traf mich gestern mit meinen Freunden. / I met up with my friends yesterday.
+        Du trafst eine gute Entscheidung. / You made a good decision.
+
+      Perfekt:
+        Ich habe mich oft mit meinen Freunden getroffen. / I have often met up with my friends.
+        Du hast eine gute Entscheidung getroffen. / You have made a good decision.
   
   - id: 25
     infinitiv: trinken
@@ -560,7 +583,22 @@ verbs:
     translations:
       english: to drink
       ukrainian: пити
-    examples: ""
+    examples: |
+      be-,
+      Er ist betrunken - он выпивший
+
+      ertrinken - захлебнуться
+
+      Ich trinke auf Sie / auf Ihr Wohl.
+
+      Präsens:
+        Ich trinke gerne Wasser. / I like to drink water.
+
+      Präteritum:
+        Gestern trank er einen Kaffee. / Yesterday, he drank a coffee.
+
+      Perfekt:
+        Sie hat bereits ihren Tee getrunken. / She has already drunk her tea.
   
   - id: 26
     infinitiv: tun
@@ -570,4 +608,17 @@ verbs:
     translations:
       english: to do
       ukrainian: робити
-    examples: ""
+    examples: |
+      Der Kopf tut mir weh.
+      Ich habe viel zu tun.
+      Tun Sie mir bitte den Gefallen / Пожалуйста, сделайте мне одолжение.
+      die Tat - действие
+
+      Präsens:
+        Ich tue mein Bestes, um zu helfen. / I do my best to help.
+
+      Präteritum:
+        Gestern tat er, was von ihm verlangt wurde. / Yesterday, he did what was asked of him.
+
+      Perfekt:
+        Sie haben bereits viel für die Gemeinschaft getan. / They have already done a lot for the community.
