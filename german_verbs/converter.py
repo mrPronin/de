@@ -43,12 +43,13 @@ def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
         translations = f"{english} / {ukrainian}"
 
         # Use examples directly (now a simple string)
-        examples = verb.get("examples", "").replace(";", "<br>")
+        examples = verb.get("examples", "").replace(";", "<br>").strip()
 
         # Add the verb row
         prefix = f"| {verb['id']} | {verb['infinitiv']} ({verb['person3']}) | "
         suffix = f"{verb['präteritum']} | {verb['partizip']} | "
-        row = prefix + suffix + f"{translations} | {examples} |"
+        translations = f"{translations}"
+        row = f"{prefix}{suffix}{translations} | {examples} |"
         md_lines.append(row)
 
     # Join the lines to create the full Markdown content
