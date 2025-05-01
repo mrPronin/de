@@ -221,8 +221,30 @@ verbs:
     translations:
       english: to help
       ukrainian: допомагати
-    examples: ""
-  
+    examples: |
+      Dat / bei / in / mit
+
+      helfen <Dat> bei <Dat> - я допоміг у чому (дією)
+
+      Ich helfe meinem Freund bei der Vorbereitung auf seine Prüfung. / I am helping my friend with preparing for his exam.
+
+
+      helfen <Dat> mit <Dat> - я допоміг чим
+      Ich habe meiner Tochter mit einem Rat geholfen. / I helped my daughter with a piece of advice.
+
+      helfen <Dat> in <Dat> - я допоміг у чому
+      Ich habe meiner Tochter in der Schule geholfen. / I helped my daughter at school.
+
+      die Hilfe - допомога
+
+      der Helfer - помічник
+
+      Präsens: Ich helfe meiner Freundin beim Umzug. Ich helfe dir gern. / I'm helping my girlfriend move. I'm happy to help you.
+
+      Präteritum: Gestern half ich ihm bei seinen Hausaufgaben. / Yesterday I helped him with his homework.
+
+      Perfekt: Ich habe ihr beim Umzug geholfen. / I helped her move.
+
   - id: 12
     infinitiv: kommen
     person3: kommt
@@ -231,7 +253,22 @@ verbs:
     translations:
       english: to come
       ukrainian: приходити
-    examples: ""
+    examples: |
+      zu <Dat>
+
+      an, - прибувати
+      herein, - входити
+      be, - отримувати (без зусиль)
+      vor, - траплятися
+
+      Wie kommt du darauf? / How did you come up with that?
+      Das kommt oft vor! / That happens often!
+
+      Präsens: Ich komme gleich zu dir. / I'll be right with you.
+
+      Präteritum: Letzte Woche kam sie zu Besuch. / Last week she came to visit.
+
+      Perfekt: Sie ist aus Deutschland gekommen. / She came from Germany.
   
   - id: 13
     infinitiv: lesen
@@ -240,9 +277,26 @@ verbs:
     partizip: hat gelesen
     translations:
       english: to read
-      ukrainian: читати
-    examples: ""
-  
+      ukrainian: читати, збирати
+    examples: |
+      das Lesen - читання
+      der Leser - читач
+      die Lesegeschwindigkeit - швидкість читання
+      der Leserbrief - лист читача
+      leserlich - читабельність
+
+      die Vorlesung - лекція
+      vorlesen - читати вголос
+
+      Dieser Text ist nicht leserlich. / This text is not readable.
+      Man kann Trauben, Kartoffeln lesen. / You can harvest grapes and potatoes.
+
+      Präsens: Ich lese ein Buch. / I am reading a book.
+
+      Präteritum: Ich las gestern ein Buch. / I read a book yesterday.
+
+      Perfekt: Ich habe das Buch gelesen. / I have read the book.
+
   - id: 14
     infinitiv: nehmen
     person3: nimmt
@@ -251,7 +305,28 @@ verbs:
     translations:
       english: to take
       ukrainian: брати
-    examples: ""
+    examples: |
+      Akk
+
+      ein | nehmen - приймати
+      ab | nehmen - скинути вагу
+      zu | nehmen - набрати вагу
+
+      die Nahme - прийом
+
+      Ich nehme den Bus, das Taxi. / I take the bus, the taxi.
+
+      Ich nehme das Problem ernst. / I take the problem seriously.
+
+      Ich nehme Abschied von meinem Freund. / I say goodbye to my friend.
+
+      Ich nehme Bad. / I take a bath.
+
+      Präsens: Ich nehme den Schlüssel. / I take the key.
+
+      Präteritum: Ich nahm den Zug. / I took the train.
+
+      Perfekt: Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
   
   - id: 15
     infinitiv: rufen
@@ -259,9 +334,33 @@ verbs:
     präteritum: rief
     partizip: hat gerufen
     translations:
-      english: to call
-      ukrainian: кликати
-    examples: ""
+      english: to call, shout
+      ukrainian: кричати, кликати
+    examples: |
+      Akk
+
+      ein | rufen - звертатися
+      ab | rufen - відмовлятися
+      zu | rufen - закликати
+      anrufen - набирати по телефону
+
+      die Ruf - крик, відгук
+      Diese Firma hat einen guten Ruf. / This company has a good reputation.
+
+      Präsens:
+        Ich rufe meine Freundin an. / I call my friend.
+        Du rufst den Namen deines Hundes. / You call your dog's name.
+        Er ruft nach Hilfe. / He calls for help.
+
+      Präteritum:
+        Ich rief meine Freundin an. / I called my friend.
+        Du riefst den Namen deines Hundes. / You called your dog's name.
+        Er rief nach Hilfe. / He called for help.
+
+      Perfekt:
+        Ich habe meine Freundin angerufen. / I have called my friend.
+        Du hast den Namen deines Hundes angerufen. / You have called your dog's name.
+        Er hat nach Hilfe gerufen. / He has called for help.
   
   - id: 16
     infinitiv: schlafen
@@ -271,7 +370,21 @@ verbs:
     translations:
       english: to sleep
       ukrainian: спати
-    examples: ""
+    examples: |
+      der Schlaf - сон
+      ein | schlafen - засинати
+      bei <Dat> schlafen - Indicating where someone sleeps.
+      Er schläft bei seinem Freund. / He sleeps at his friend's place.
+
+      über <Akk> schlafen - Sleeping through something.
+      Sie schlief über das ganze Konzert. / She slept through the entire concert.
+
+      Präsens: Ich schlafe jede Nacht etwa sieben Stunden. / I sleep about seven hours every night.
+
+      Präteritum: Letzte Nacht schlief ich sehr schlecht wegen des Lärms. / Last night I slept very badly because of the noise.
+
+      Perfekt: Er hat den ganzen Tag geschlafen, nachdem er krank wurde. / He slept all day after he got sick.      
+
   
   - id: 17
     infinitiv: schreiben
@@ -281,17 +394,39 @@ verbs:
     translations:
       english: to write
       ukrainian: писати
-    examples: ""
+    examples: |
+      das Schreiben - писання
+      beschreiben - описувати
+      aus | schreiben - write out, announce; виписувати
+      ein | schreiben  - виписувати
+
+      Präsens: Ich schreibe einen Brief an meinen Freund. / I am writing a letter to my friend.
+
+      Präteritum: Sie schrieb gestern in ihr Tagebuch. / She wrote in her diary yesterday.
+
+      Perfekt: Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
   
   - id: 18
     infinitiv: schwimmen
     person3: schwimmt
     präteritum: schwamm
-    partizip: hat/ist geschwommen
+    partizip: hat / ist geschwommen
     translations:
       english: to swim
-      ukrainian: плавати
-    examples: ""
+      ukrainian: плавати, пливти
+    examples: |
+      hat: I habe viel geschwommen - Я багато плавав
+
+      ist: Ich bin auf andere Seite geschwommen - Я переплив на інший бік
+
+      Präsens: Ich schwimme jeden Morgen im See. Ich schwimme gern im Schwimmbad. / I like to swim in the swimming pool.
+
+      Präteritum: Letzten Sommer schwamm ich im Meer. / Last summer, I swam in the sea.
+
+      Perfekt:
+        Ich bin heute im Fluss geschwommen. / I swam in the river today.
+        Ich habe viel geschwommen. / I swam a lot.
+        Sie haben heute Morgen bereits 500 Meter geschwommen. / They have already swum 500 meters this morning.
   
   - id: 19
     infinitiv: sehen
@@ -301,7 +436,15 @@ verbs:
     translations:
       english: to see
       ukrainian: бачити
-    examples: ""
+    examples: |
+      aus | sehen - to look; виглядати
+      an | sehen sich <Dat> - to stare; дивитися (впритул, довго)
+
+      Präsens: Ich sehe einen schönen Sonnenuntergang. / I see a beautiful sunset.
+
+      Präteritum: Gestern sah ich einen Film im Kino. / Yesterday, I saw a movie in the cinema.
+
+      Perfekt: Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
   
   - id: 20
     infinitiv: sein
@@ -311,7 +454,23 @@ verbs:
     translations:
       english: to be
       ukrainian: бути
-    examples: ""
+    examples: |
+      das Sein - the being
+
+      Das Unternehmen ist in / außer Betrieb.
+
+      Präsens:
+        Ich bin glücklich. / I am happy.
+        Du bist mein bester Freund. / You are my best friend.
+        Er/sie/es ist heute nicht hier. / He/she/it is not here today.
+
+      Präteritum:
+        Ich war gestern müde. / I was tired yesterday.
+        Du warst in den Ferien am Strand. / You were at the beach during the holidays.
+        Er/sie/es war letztes Jahr im Ausland. / He/she/it was abroad last year.
+
+      Perfekt:
+        Ich bin schon einmal in Paris gewesen. / I have been to Paris before.
   
   - id: 21
     infinitiv: singen
