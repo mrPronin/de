@@ -17,9 +17,14 @@ verbs:
     präteritum: blieb
     partizip: ist geblieben
     translations:
-      english: to stay
+      english: to stay, remain
       ukrainian: залишатися
-    examples: ""
+    examples: >
+      Präsens: Ich bleibe zu Hause. (I stay at home.)
+
+      Präteritum: Ich blieb gestern zu Hause. (I stayed at home yesterday.)
+
+      Perfekt: Ich bin zu Hause geblieben. (I have stayed at home.)
   
   - id: 3
     infinitiv: essen
