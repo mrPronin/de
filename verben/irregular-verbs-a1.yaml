@@ -44,7 +44,15 @@ verbs:
     translations:
       english: to eat
       ukrainian: їсти
-    examples: ""
+    examples: |
+      das Essen - їжа
+      die Essgewohnheiten - харчові звички
+
+      Präsens: Ich esse gerne Pizza. Du isst immer zu spät.
+
+      Präteritum: Gestern aß ich ein großes Stück Kuchen. Letzte Woche aßen wir zusammen in einem schicken Restaurant.
+
+      Präteritum: Ich habe gestern Abend eine Pizza gegessen. Wir haben heute Morgen ein leckeres Frühstück gegessen.
   
   - id: 4
     infinitiv: fahren
@@ -52,9 +60,21 @@ verbs:
     präteritum: fuhr
     partizip: ist gefahren
     translations:
-      english: to drive, to go
+      english: to drive, to go, to travel
       ukrainian: їхати
-    examples: ""
+    examples: |
+      die Fahrt - поїздка
+
+      ist - якщо пасажир
+      hat - якщо за кермом
+
+      Ich bin mit dem Bus gefahren. Ich bin mit der Bahn gefahren.
+
+      Präsens: Ich fahre mit dem Auto zur Arbeit. Er fährt gerne Fahrrad in seiner Freizeit.
+
+      Präteritum: Gestern fuhr ich mit dem Zug nach Hamburg. Letzte Woche fuhren wir in den Urlaub ans Meer.
+
+      Perfekt: Ich bin heute Morgen mit dem Bus zur Schule gefahren. Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen.
   
   - id: 5
     infinitiv: fangen
@@ -64,7 +84,16 @@ verbs:
     translations:
       english: to catch
       ukrainian: ловити
-    examples: ""
+    examples: |
+      der Fang
+
+      an-, - починати
+
+      Präsens: Ich fang an, ein neues Buch zu lesen.
+
+      Präteritum: Ich fing an, mit dem neuen Job zu arbeiten.
+
+      Perfekt: Ich habe angefangen, mit dem neuen Job zu arbeiten.
   
   - id: 6
     infinitiv: finden
@@ -74,7 +103,22 @@ verbs:
     translations:
       english: to find
       ukrainian: знаходити
-    examples: ""
+    examples: |
+      das Fundbüro - бюро знахідок
+
+      das Gefunden - знахідка
+
+      der Finder - шукач
+
+      der Erfinder - дослідник
+
+      er-, винаходити
+
+      Präsens: Ich finde es schwer, mit meinen Eltern zu sprechen.
+
+      Präteritum: Ich habe gestern das neue Smartphone gefunden.
+
+      Perfekt: Ich habe das neue Smartphone gefunden.
   
   - id: 7
     infinitiv: fliegen
@@ -84,7 +128,17 @@ verbs:
     translations:
       english: to fly
       ukrainian: літати
-    examples: ""
+    examples: |
+      der Flug - політ
+      der Abflug - відліт
+      die Ankunft - прибуття
+      das Flugzeug - літак
+
+      Präsens: Ich fliege oft nach München.
+
+      Präteritum: Gestern flog ich nach Berlin.
+
+      Perfekt: Ich bin gestern nach Berlin geflogen.
   
   - id: 8
     infinitiv: geben
@@ -94,7 +148,24 @@ verbs:
     translations:
       english: to give
       ukrainian: давати
-    examples: ""
+    examples: |
+      j-m <Dat>
+      etw <Akk>
+      die Gabe - подарунок
+
+      auf-, - здаватися 
+
+      einen Rat / Kuss / Stoß
+
+      Gib nicht auf! / Не здавайся!
+
+      Eine Party geben. - організувати вечірку
+
+      Präsens: Ich gebe dir das Buch. Du gibst mir eine Antwort.
+
+      Präteritum: Ich gab dir das Buch gestern. Du gabst mir eine Antwort.
+
+      Präteritum: Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
   
   - id: 9
     infinitiv: gehen
@@ -104,7 +175,25 @@ verbs:
     translations:
       english: to go
       ukrainian: йти
-    examples: ""
+    examples: |
+      wohin? - Akk
+      Es geht alles schief. - Все йде не так.
+
+      der Gang - ход, Ein-/ Ausgang;
+
+      Es geht um <Akk> - мова йде про ...
+      In Rente gehen. - Вийти на пенсію.
+      Mein Traum geht in Erfüllung. - Моя мрія збувається.
+
+      In die Bäckerei gehen. Zum Bäcker gehen.
+      Wie gehet's es dir. 
+      Wie geht es ihnen?
+
+      Präsens: Ich gehe zur Arbeit jeden Tag. Ihr geht gerne in den Park.
+
+      Präteritum: Ich ging gestern zur Arbeit. Ihr gingt gerne in den Park.
+
+      Perfekt: Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
   
   - id: 10
     infinitiv: heißen
@@ -112,9 +201,17 @@ verbs:
     präteritum: hieß
     partizip: hat geheißen
     translations:
-      english: to be called
+      english: to be called, to name
       ukrainian: називатися
-    examples: ""
+    examples: |
+      Wie heißt das auf Deutsch? / What is it called in German?
+      Was soll das heißen?! / What does that mean?
+
+      Präsens: Sie heißt Maria. / Her name is Maria.
+
+      Präteritum: Früher hieß sie Anna. / She used to be called Anna.
+
+      Perfekt: Die Straße hat früher anders geheißen. / The street used to have a different name.    
   
   - id: 11
     infinitiv: helfen
