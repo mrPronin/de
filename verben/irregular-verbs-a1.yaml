@@ -9,17 +9,19 @@ verbs:
       english: to begin
       ukrainian: починати
     examples: |
-      mit Dat; der Beginn - начало;
+      mit Dat; der Beginn - початок;
       
-      Präsens: Ich beginne ein neues Buch zu lesen.
+      Präsens:
+        Ich beginne ein neues Buch zu lesen. / I begin to read a new book.
+        Ich beginne mit der Arbeit. / I begin with the work.
       
-      Perfekt: Ich habe meine Hausaufgaben begonnen.
+      Präteritum:
+        Er begann das Projekt gestern. / He began the project yesterday.
+        Ich begann mit der Arbeit. / I began with the work.
       
-      Präsens: Ich beginne mit der Arbeit. (I begin with the work.)
-      
-      Präteritum: Er begann das Projekt gestern. (He began the project yesterday.)
-      
-      Perfekt: Wir haben das Meeting um 10 Uhr begonnen. (We have begun the meeting at 10 o'clock.)
+      Perfekt:
+        Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
+        Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
   
   - id: 2
     infinitiv: bleiben
@@ -30,11 +32,16 @@ verbs:
       english: to stay, remain
       ukrainian: залишатися
     examples: |
-      Präsens: Ich bleibe zu Hause. (I stay at home.)
+      Wo? - Dat
+      bei - Dat
+      Ich bleibe bei meiner Meinung (bei der Sache).
+      Das bleibt  unter uns!
+ 
+      Präsens: Ich bleibe zu Hause. / I stay at home.
 
-      Präteritum: Ich blieb gestern zu Hause. (I stayed at home yesterday.)
+      Präteritum: Ich blieb gestern zu Hause. / I stayed at home yesterday.
 
-      Perfekt: Ich bin zu Hause geblieben. (I have stayed at home.)
+      Perfekt: Ich bin zu Hause geblieben. / I have stayed at home.
   
   - id: 3
     infinitiv: essen
@@ -46,6 +53,7 @@ verbs:
       ukrainian: їсти
     examples: |
       das Essen - їжа
+      das Festessen - святкова вечеря
       die Essgewohnheiten - харчові звички
 
       Präsens: Ich esse gerne Pizza. Du isst immer zu spät.
@@ -68,13 +76,26 @@ verbs:
       ist - якщо пасажир
       hat - якщо за кермом
 
-      Ich bin mit dem Bus gefahren. Ich bin mit der Bahn gefahren.
+      Beispiele
+        Ich bin mit dem Bus gefahren. / I drove with the bus.
+        Ich bin mit der Bahn gefahren. / I drove with the train.
+        Haben Sie Auto gefahren? / Have you driven a car?
+        am Steuer sein; steuern
+        Waren Sie am Steuer? / Were you at the wheel?
+        vor Schreck in die Höhe fahren / to drive into the sky from fear
+        vor Wut auf die Palme fahren / to drive into the sky from anger
 
-      Präsens: Ich fahre mit dem Auto zur Arbeit. Er fährt gerne Fahrrad in seiner Freizeit.
+      Präsens:
+        Ich fahre mit dem Auto zur Arbeit. / I drive with the car to work.
+        Er fährt gerne Fahrrad in seiner Freizeit. / He likes to ride a bike in his free time.
 
-      Präteritum: Gestern fuhr ich mit dem Zug nach Hamburg. Letzte Woche fuhren wir in den Urlaub ans Meer.
+      Präteritum:
+        Gestern fuhr ich mit dem Zug nach Hamburg. / I drove with the train to Hamburg yesterday.
+        Letzte Woche fuhren wir in den Urlaub ans Meer. / Last week, we went on vacation to the sea.
 
-      Perfekt: Ich bin heute Morgen mit dem Bus zur Schule gefahren. Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen.
+      Perfekt:
+        Ich bin heute Morgen mit dem Bus zur Schule gefahren. / I drove with the bus to school this morning.
+        Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen. / She drove to the supermarket with the car to buy groceries.
   
   - id: 5
     infinitiv: fangen
