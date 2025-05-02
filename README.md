@@ -1,109 +1,92 @@
 # German Verbs
 
-A Python package for working with German verb data.
+A Python package for learning German irregular verbs using interactive practice.
 
 ## Installation
 
-You can install the package using uv (recommended):
+Use `uv` to install the package in development mode:
 
 ```bash
-# Create a virtual environment
-uv venv
-
-# Activate the virtual environment
-# On Windows:
-# .venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
-
-# Install the package in development mode
 uv pip install -e .
-```
-
-Or using standard pip:
-
-```bash
-pip install -e .
 ```
 
 ## Usage
 
-### Interactive Learning
+### Converting YAML to Markdown
 
-Practice your German irregular verbs with the interactive learning script:
+Convert verb data from YAML to Markdown:
 
 ```bash
-# Run directly after installation
-learn-verbs
+uv run -m german_verbs.converter verben/irregular-verbs-a1.yaml
+```
 
-# Or specify a custom YAML file
-learn-verbs verben/irregular-verbs-a1.yaml
+This will create a formatted Markdown file in the `verben/generated` directory.
 
-# Using uv run (if you haven't installed the package)
-uv run -m german_verbs.learn verben/irregular-verbs-a1.yaml
+### Interactive Learning
+
+Practice German verbs interactively:
+
+```bash
+uv run -m german_verbs.learn
 ```
 
 Options:
 
-```bash
-# Limit the number of questions
-learn-verbs --question-limit 10
+* `yaml_file`: Use a specific YAML file (default: irregular-verbs-a1.yaml)
+* `--question-limit`, `-n`: Limit the number of questions (default: 0 = unlimited)
+* `--mode`, `-m`: Practice specific types of questions:
+  - `random`: All question types (default)
+  - `infinitive`: Infinitive → Präteritum & Partizip II 
+  - `prateritum`: Präteritum → Infinitive & Partizip II
+  - `partizip`: Partizip II → Infinitive & Präteritum
+  - `english`: English → German forms
+  - `ukrainian`: Ukrainian → German forms
+* `--sequential`, `-s`: Practice verbs in sequential order (instead of random)
 
-# Practice a specific type of question
-learn-verbs --mode infinitive  # From infinitive to other forms
-learn-verbs --mode prateritum  # From präteritum to other forms
-learn-verbs --mode partizip    # From partizip to other forms
-learn-verbs --mode english     # From English translation
-learn-verbs --mode ukrainian   # From Ukrainian translation
-```
-
-When answering questions, you can:
-- Type the correct answer
-- Type `?` to see help about the current verb
-
-### Command Line Tools
-
-List all available verbs:
-```bash
-german-verbs list
-```
-
-Get a verb by ID:
-```bash
-german-verbs get-by-id 1
-```
-
-Get a verb by infinitive:
-```bash
-german-verbs get beginnen
-```
-
-### Converting YAML to Markdown
-
-There are several ways to convert YAML files to Markdown:
-
-#### Using the installed script
+Example:
 
 ```bash
-# Convert a specific YAML file
-yaml2md verben/irregular-verbs-a1.yaml
-
-# Specify a custom output directory
-yaml2md verben/irregular-verbs-a1.yaml -o path/to/output
+# Practice 10 questions with Ukrainian translations in sequential order
+uv run -m german_verbs.learn verben/irregular-verbs-a1.yaml -n 10 -m ukrainian -s
 ```
 
-#### Using the german-verbs CLI
+## Interactive Learning Features
+
+- Press Enter at any question prompt to see the full verb information
+- Press Ctrl+C at any time to end the session and see your statistics
+- Get instant feedback on correct and incorrect answers
+- Review your progress with detailed statistics
+
+## File Formats
+
+### YAML Structure
+
+The YAML files in the `verben` directory have the following structure:
+
+```yaml
+title: "Unregelmäßige Verben - A1"
+verbs:
+  - id: 1
+    infinitiv: beginnen
+    person3: beginnt
+    präteritum: begann
+    partizip: hat begonnen
+    translations:
+      english: to begin
+      ukrainian: починати
+    examples: |
+      mit Dat
+      
+      der Beginn - начало
+      
+      Präsens: Ich beginne ein neues Buch zu lesen.
+      Perfekt: Ich habe meine Hausaufgaben begonnen.
+```
+
+## Development
+
+To make changes to the package, edit the files in the `german_verbs` directory, then reinstall the package with:
 
 ```bash
-# Convert a specific file
-german-verbs convert-to-md verben/irregular-verbs-a1.yaml
-
-# Convert all YAML files
-german-verbs convert-all
-```
-
-## Project Structure
-
-- `verben/`: Contains the raw verb data files (YAML)
-- `verben/generated/`: Contains generated output files (MD)
-- `german_verbs/`: Python package with code for working with verb data 
+uv pip install -e .
+``` 

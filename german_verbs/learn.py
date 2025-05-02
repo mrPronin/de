@@ -21,6 +21,8 @@ class VerbLearner:
         self.verbs = self.data["verbs"]
         self.correct_answers = 0
         self.total_questions = 0
+        self.sequential = False
+        self.current_index = 0
         self.question_types = [
             self._question_infinitive_to_forms,
             self._question_prateritum_to_forms,
@@ -308,9 +310,17 @@ class VerbLearner:
                 click.echo(f"The correct {term} is: {correct_partizip}")
             return False
 
-    def ask_random_question(self) -> None:
-        """Ask a random question about a random verb."""
-        verb = random.choice(self.verbs)
+    def ask_question(self) -> None:
+        """Ask a question about a verb, random or sequential."""
+        if self.sequential:
+            # Get verb in sequential order
+            verb = self.verbs[self.current_index]
+            self.current_index = (self.current_index + 1) % len(self.verbs)
+        else:
+            # Get a random verb
+            verb = random.choice(self.verbs)
+        
+        # Get question type (random in either case)
         question_function = random.choice(self.question_types)
 
         self.total_questions += 1
@@ -322,12 +332,18 @@ class VerbLearner:
         """Run an interactive practice session."""
         click.echo(click.style("=== German Verb Practice ===", bold=BOLD))
         click.echo(f"Loaded {len(self.verbs)} verbs from {self.data['title']}")
+        
+        if self.sequential:
+            click.echo("Order: Sequential")
+        else:
+            click.echo("Order: Random")
+        
         click.echo("Press Ctrl+C at any time to end the session "
                    "and see your statistics.")
 
         try:
             while True:
-                self.ask_random_question()
+                self.ask_question()
 
                 # Show current stats
                 correct = self.correct_answers
@@ -428,7 +444,12 @@ class VerbLearner:
     default="random",
     help="Practice mode - which type of questions to ask"
 )
-def learn(yaml_file, question_limit, mode):
+@click.option(
+    "--sequential", "-s",
+    is_flag=True,
+    help="Practice verbs in sequential order instead of random"
+)
+def learn(yaml_file, question_limit, mode, sequential):
     """Learn German irregular verbs through interactive practice.
 
     Provide a YAML_FILE path to use a specific verb list.
@@ -450,14 +471,21 @@ def learn(yaml_file, question_limit, mode):
             idx = mode_map[mode]
             learner.question_types = [learner.question_types[idx]]
 
+    # Set sequential mode if requested
+    learner.sequential = sequential
+
     try:
         if question_limit > 0:
             click.echo(f"Practice session with {question_limit} questions")
             click.echo(f"Learning mode: {mode}")
+            if sequential:
+                click.echo("Order: Sequential")
+            else:
+                click.echo("Order: Random")
 
             for _ in range(question_limit):
                 try:
-                    learner.ask_random_question()
+                    learner.ask_question()
                 except KeyboardInterrupt:
                     break
 
