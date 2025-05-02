@@ -1,0 +1,380 @@
+title: "Unregelmäßige Verben - A2"
+verbs:
+  - id: 1
+    infinitiv: bleiben
+    präteritum: blieb
+    partizip: ist geblieben
+    translations:
+      english: to stay, remain
+      ukrainian: залишатися
+    examples: |
+      Präsens:
+        Ich bleibe zu Hause. / I stay at home.
+      
+      Präteritum:
+        Ich blieb gestern zu Hause. / I stayed at home yesterday.
+      
+      Perfekt:
+        Ich bin zu Hause geblieben. / I have stayed at home.
+    person3: bleibt
+      
+  - id: 2
+    infinitiv: beißen
+    präteritum: biss
+    partizip: hat gebissen
+    translations:
+      english: to bite
+      ukrainian: кусати
+    examples: |
+      der Biss - укус
+      das Gebiss - прикус
+      
+      in <Akk>
+      
+      an·beißen - bite; відкусити,
+      
+      beißende Kritik / Ironie
+      
+      Präsens:
+        Der Hund beißt den Ball. / The dog bites the ball.
+      
+      Präteritum:
+        Der Hund biss den Briefträger. / The dog bit the mailman.
+      
+      Perfekt:
+        Der Hund hat den Ball gebissen. / The dog has bitten the ball.
+    person3: beißt
+      
+  - id: 3
+    infinitiv: biegen
+    präteritum: bog
+    partizip: hat / ist gebogen
+    translations:
+      english: to turn
+      ukrainian: згинати, повертати
+    examples: |
+      ab·biegen - turn; повертати
+      
+      der Bogen - арка
+      der Regenbogen - веселка
+      der Geigenbogen - смичок
+      die Geige - скрипка 
+      
+      Beispiele
+        Du biegst nach links ab. / You bend to the left.
+        Sie haben die Regeln gebogen, um ihre Ziele zu erreichen. / They have bent the rules to achieve their goals.
+      
+      Präsens:
+        Ich biege das Metall. / I bend the metal.
+      
+      Präteritum:
+        Ich bog den Draht. / I bent the wire.
+      
+      Perfekt:
+        Ich habe das Metall gebogen. / I have bent the metal.
+    person3: biegt
+      
+  - id: 4
+    infinitiv: bieten
+    präteritum: bot
+    partizip: hat geboten
+    translations:
+      english: to offer
+      ukrainian: пропонувати
+    examples: |
+      das Angebot - offer; пропозиція
+      
+      пропонувати кому <Dat> що <Akk>
+
+
+      an·bieten - to offer, propose; пропонувати
+      
+      Beispiele
+        Das Leben bietet uns Millionen von Möglichkeiten. / Life offers us millions of opportunities.
+        
+        Ich biete ihm einen Kaffe. / I offer him a coffee.
+
+        Auf dem Markt gibt es ein reines Angebot. / There is a pure offer on the market.
+      
+      Präsens:
+        Ich biete dir meine Hilfe. / I offer you my help.
+      
+      Präteritum:
+        Er bot mir seine Unterstützung. / He offered me his support.
+      
+      Perfekt:
+        Sie hat mir einen guten Preis geboten. / She offered me a good price.
+    person3: bietet
+      
+  - id: 5
+    infinitiv: binden
+    präteritum: band
+    partizip: hat gebunden
+    translations:
+      english: to bind, tie
+      ukrainian: зв'язувати
+    examples: |
+      verbinden - зʼєднувати,
+      aufbinden - розв'язувати,
+      abbinden - відв'язувати,
+      zubinden - прив'язувати,
+      
+      die Bindung - прив'язаність
+      die Verbindung - зв'язок
+      der Verband - союз
+      das Band - бант
+      der Band - том, книга
+      die Band - банда
+      
+      Präsens:
+        Ich binde meine Schuhe. / I tie my shoes.
+      
+      Präteritum:
+        Er band das Paket zusammen. / He tied the package together.
+      
+      Perfekt:
+        Sie hat das Buch mit einem Band gebunden. / She has tied the book with a ribbon.
+    person3: bindet
+      
+  - id: 6
+    infinitiv: beginnen
+    präteritum: begann
+    partizip: hat begonnen
+    translations:
+      english: to begin, start
+      ukrainian: починати
+    examples: |
+      mit Dat; der Beginn - початок;
+      
+      Präsens:
+        Ich beginne ein neues Buch zu lesen. / I begin to read a new book.
+        Ich beginne mit der Arbeit. / I begin with the work.
+      
+      Präteritum:
+        Er begann das Projekt gestern. / He began the project yesterday.
+        Ich begann mit der Arbeit. / I began with the work.
+      
+      Perfekt:
+        Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
+        Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
+    person3: beginnt
+      
+  - id: 7
+    infinitiv: brechen
+    präteritum: brach
+    partizip: hat gebrochen
+    translations:
+      english: to break, destroy
+      ukrainian: зламати, розбити
+    examples: |
+      erbrechen - throw up, vomit; блювати
+      das Erbrechen - блювота
+      der Bruch - поломка, несправність
+      zer-,
+      
+      Präsens:
+        Ich breche das Brot. / I break the bread.
+      
+      Präteritum:
+        Er brach das Glas. / He broke the glass.
+      
+      Perfekt:
+        Sie hat den Stift gebrochen. / She has broken the pen.
+    person3: bricht
+      
+  - id: 8
+    infinitiv: befehlen
+    präteritum: befahl
+    partizip: hat befohlen
+    translations:
+      english: to order, command
+      ukrainian: наказувати
+    examples: |
+      <Dat>
+      
+      Präsens:
+        Der Offizier befiehlt den Soldaten, zu marschieren. / The officer commands the soldiers to march.
+      
+      Präteritum:
+        Der General befahl den Angriff. / The general commanded the attack.
+      
+      Perfekt:
+        Der König hat dem Diener befohlen, das Tor zu öffnen. / The king has commanded the servant to open the gate.
+    person3: befiehlt
+      
+  - id: 9
+    infinitiv: betrügen
+    präteritum: betrog
+    partizip: hat betrogen
+    translations:
+      english: to fool, diddle
+      ukrainian: обманювати
+    examples: |
+      der Betrug - deception, fraud; обман
+      
+      Präsens:
+        Er betrügt bei den Hausaufgaben. / He cheats on the homework.
+      
+      Präteritum:
+        Sie betrog ihren Freund. / She cheated on her boyfriend.
+      
+      Perfekt:
+        Ich habe ihn nie betrogen. / I have never cheated on him.
+    person3: betrügt
+      
+  - id: 10
+    infinitiv: bewegen
+    präteritum: bewog
+    partizip: hat bewogen
+    translations:
+      english: to move
+      ukrainian: спонукати, рухатись
+    examples: |
+      (zu)
+      (sich)
+      
+      die Bewegung - movement, motion; рух
+      
+      Präsens:
+        Ich bewege den Stuhl. / I move the chair.
+      
+      Präteritum:
+        Er bewog ihn zum Umzug. / He persuaded him to move.
+      
+      Perfekt:
+        Sie hat ihn zum Umzug bewogen. / She has persuaded him to move.
+    person3: bewegt
+      
+  - id: 11
+    infinitiv: blasen
+    präteritum: blies
+    partizip: hat geblasen
+    translations:
+      english: to blow
+      ukrainian: дути, сурмити
+    examples: |
+      die Blase - the bubble
+      die Harmblase - urinary bladder; сечовий міхур
+      die Galenblase - galen bladder; жовчний міхур  
+      das Blasinstrument - wind instrument; духовий інструмент
+      
+      ausblasen - blow out; видути,
+      
+      Präsens:
+        Der Wind bläst stark. / The wind blows strongly.
+      
+      Präteritum:
+        Der Wind blies gestern heftig. / The wind blew heavily yesterday.
+      
+      Perfekt:
+        Der Wind hat die ganze Nacht stark geblasen. / The wind has blown strongly all night.
+    person3: bläst
+      
+  - id: 12
+    infinitiv: braten
+    präteritum: briet
+    partizip: hat gebraten
+    translations:
+      english: to bake, fry, roast
+      ukrainian: смажити
+    examples: |
+      der Braten - the roast / печеня
+      
+      Präsens:
+        Ich brate das Fleisch in der Pfanne. / I fry the meat in the pan.
+      
+      Präteritum:
+        Er briet gestern das Gemüse. / He fried the vegetables yesterday.
+      
+      Perfekt:
+        Sie hat das Hähnchen im Ofen gebraten. / She has roasted the chicken in the oven.
+    person3: brät
+      
+  - id: 13
+    infinitiv: backen
+    präteritum: buk, backte
+    partizip: hat gebacken
+    translations:
+      english: to bake
+      ukrainian: пекти
+    examples: |
+      <Akk>
+      
+      der Bäcker - baker; пекар
+      das Backen - baking; печеня
+      das Gebäck - baked goods; випічка
+      
+      Präsens:
+        Ich backe einen Kuchen. / I bake a cake.
+      
+      Präteritum:
+        Sie buk gestern Brot. / She baked bread yesterday.
+      
+      Perfekt:
+        Er hat einen Apfelkuchen gebacken. / He has baked an apple pie.
+    person3: backt/bäckt
+      
+  - id: 14
+    infinitiv: brennen
+    präteritum: brannte
+    partizip: hat gebrant
+    translations:
+      english: to burn
+      ukrainian: горіти
+    examples: |
+      der Brandt, Brände - пожар
+      verbrennen - burn; спалювати
+      
+      Präsens:
+        Das Feuer brennt hell. / The fire burns brightly.
+      
+      Präteritum:
+        Das Holz brannte gut. / The wood burned well.
+      
+      Perfekt:
+        Die Kerze hat lange gebrannt. / The candle has burned for a long time.
+    person3: brennt
+      
+  - id: 15
+    infinitiv: bringen
+    präteritum: brachte
+    partizip: hat gebracht
+    translations:
+      english: to bring
+      ukrainian: приносити
+    examples: |
+      der Bringer - bringer; приносити
+      der Glücksbringer - то, що приносить щастя
+      mitbringen - приносити з собою
+      
+      Präsens:
+        Ich bringe dir ein Geschenk. / I bring you a gift.
+      
+      Präteritum:
+        Er brachte das Buch zur Schule. / He brought the book to school.
+      
+      Perfekt:
+        Sie hat den Kuchen zur Party gebracht. / She has brought the cake to the party.
+    person3: bringt
+      
+  - id: 16
+    infinitiv: bitten
+    präteritum: bat
+    partizip: hat gebeten
+    translations:
+      english: to ask a favour, appeal, plead
+      ukrainian: просити
+    examples: |
+      die Bitte - прохання 
+      die Bitte um <Akk>
+      
+      Präsens:
+        Ich habe eine Bitte an Sie. / I have a request to you.
+        Ich bitte dich um Hilfe. / I ask you for help.
+      
+      Präteritum:
+        Er bat mich um einen Gefallen. / He asked me for a favor.
+      
+      Perfekt:
+        Sie hat mich um Unterstützung gebeten. / She has asked me for support.
+    person3: bittet
