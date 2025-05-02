@@ -6,6 +6,10 @@ from typing import Dict, Any
 import click
 
 from german_verbs.verbs import load_verb_data
+from german_verbs.colors import (
+    CORRECT_COLOR, INCORRECT_COLOR, HELP_COLOR,
+    HIGHLIGHT_COLOR, STAT_COLOR, BOLD
+)
 
 
 class VerbLearner:
@@ -31,16 +35,22 @@ class VerbLearner:
         correct_prateritum = verb["präteritum"]
         correct_partizip = verb["partizip"]
 
-        click.echo(f"\nGiven the infinitive: {infinitive}")
-        click.echo("Type '?' for help at any prompt")
-        
-        prateritum = click.prompt("What is the Präteritum form?")
-        if prateritum == '?':
+        # Highlight infinitive in the prompt
+        term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        click.echo(f"\nGiven the {term}: {infinitive}")
+        click.echo("Press Enter for help at any prompt")
+
+        # Highlight Präteritum in the prompt
+        term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        prateritum = click.prompt(f"What is the {term} form?", default="")
+        if prateritum == "":
             self._show_verb_help(verb)
             return self._question_infinitive_to_forms(verb)
-        
-        partizip = click.prompt("What is the Partizip II form?")
-        if partizip == '?':
+
+        # Highlight Partizip II in the prompt
+        term = click.style("Partizip II", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        partizip = click.prompt(f"What is the {term} form?", default="")
+        if partizip == "":
             self._show_verb_help(verb)
             return self._question_infinitive_to_forms(verb)
 
@@ -48,14 +58,18 @@ class VerbLearner:
         partizip_correct = partizip.lower() == correct_partizip.lower()
 
         if prateritum_correct and partizip_correct:
-            click.echo(click.style("Correct!", fg="green", bold=True))
+            click.echo(click.style("Correct!", fg=CORRECT_COLOR, bold=BOLD))
             return True
         else:
-            click.echo(click.style("Incorrect!", fg="red", bold=True))
+            click.echo(click.style("Incorrect!",
+                                   fg=INCORRECT_COLOR, bold=BOLD))
             if not prateritum_correct:
-                click.echo(f"The correct Präteritum is: {correct_prateritum}")
+                term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {correct_prateritum}")
             if not partizip_correct:
-                click.echo(f"The correct Partizip II is: {correct_partizip}")
+                term = click.style("Partizip II",
+                                   fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {correct_partizip}")
             return False
 
     def _question_prateritum_to_forms(self, verb: Dict[str, Any]) -> bool:
@@ -64,23 +78,42 @@ class VerbLearner:
         prateritum = verb["präteritum"]
         correct_partizip = verb["partizip"]
 
-        click.echo(f"\nGiven the Präteritum: {prateritum}")
+        # Highlight Präteritum in the prompt
+        term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        click.echo(f"\nGiven the {term}: {prateritum}")
+        click.echo("Press Enter for help at any prompt")
 
-        answer_infinitive = click.prompt("What is the infinitive form?")
-        answer_partizip = click.prompt("What is the Partizip II form?")
+        # Highlight infinitive in the prompt
+        term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_infinitive = click.prompt(
+            f"What is the {term} form?", default="")
+        if answer_infinitive == "":
+            self._show_verb_help(verb)
+            return self._question_prateritum_to_forms(verb)
+
+        # Highlight Partizip II in the prompt
+        term = click.style("Partizip II", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_partizip = click.prompt(f"What is the {term} form?", default="")
+        if answer_partizip == "":
+            self._show_verb_help(verb)
+            return self._question_prateritum_to_forms(verb)
 
         infinitive_correct = answer_infinitive.lower() == infinitive.lower()
         partizip_correct = answer_partizip.lower() == correct_partizip.lower()
 
         if infinitive_correct and partizip_correct:
-            click.echo(click.style("Correct!", fg="green", bold=True))
+            click.echo(click.style("Correct!", fg=CORRECT_COLOR, bold=BOLD))
             return True
         else:
-            click.echo(click.style("Incorrect!", fg="red", bold=True))
+            click.echo(click.style("Incorrect!",
+                                   fg=INCORRECT_COLOR, bold=BOLD))
             if not infinitive_correct:
-                click.echo(f"The correct infinitive is: {infinitive}")
+                term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {infinitive}")
             if not partizip_correct:
-                click.echo(f"The correct Partizip II is: {correct_partizip}")
+                term = click.style("Partizip II",
+                                   fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {correct_partizip}")
             return False
 
     def _question_partizip_to_forms(self, verb: Dict[str, Any]) -> bool:
@@ -89,24 +122,44 @@ class VerbLearner:
         correct_prateritum = verb["präteritum"]
         partizip = verb["partizip"]
 
-        click.echo(f"\nGiven the Partizip II: {partizip}")
+        # Highlight Partizip II in the prompt
+        term = click.style("Partizip II", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        click.echo(f"\nGiven the {term}: {partizip}")
+        click.echo("Press Enter for help at any prompt")
 
-        answer_infinitive = click.prompt("What is the infinitive form?")
-        answer_prateritum = click.prompt("What is the Präteritum form?")
+        # Highlight infinitive in the prompt
+        term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_infinitive = click.prompt(
+            f"What is the {term} form?", default=""
+        )
+        if answer_infinitive == "":
+            self._show_verb_help(verb)
+            return self._question_partizip_to_forms(verb)
+
+        # Highlight Präteritum in the prompt
+        term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_prateritum = click.prompt(
+            f"What is the {term} form?", default="")
+        if answer_prateritum == "":
+            self._show_verb_help(verb)
+            return self._question_partizip_to_forms(verb)
 
         infinitive_correct = answer_infinitive.lower() == infinitive.lower()
         prateritum_correct = (answer_prateritum.lower() ==
                               correct_prateritum.lower())
 
         if infinitive_correct and prateritum_correct:
-            click.echo(click.style("Correct!", fg="green", bold=True))
+            click.echo(click.style("Correct!", fg=CORRECT_COLOR, bold=BOLD))
             return True
         else:
-            click.echo(click.style("Incorrect!", fg="red", bold=True))
+            click.echo(click.style("Incorrect!",
+                                   fg=INCORRECT_COLOR, bold=BOLD))
             if not infinitive_correct:
-                click.echo(f"The correct infinitive is: {infinitive}")
+                term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {infinitive}")
             if not prateritum_correct:
-                click.echo(f"The correct Präteritum is: {correct_prateritum}")
+                term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {correct_prateritum}")
             return False
 
     def _question_english_to_forms(self, verb: Dict[str, Any]) -> bool:
@@ -116,11 +169,41 @@ class VerbLearner:
         correct_partizip = verb["partizip"]
         english = verb["translations"]["english"]
 
-        click.echo(f"\nGiven the English translation: {english}")
+        # Highlight English in the prompt
+        term = click.style(
+            "English translation",
+            fg=HIGHLIGHT_COLOR,
+            bold=BOLD
+        )
+        click.echo(f"\nGiven the {term}: {english}")
+        click.echo("Press Enter for help at any prompt")
 
-        answer_infinitive = click.prompt("What is the infinitive form?")
-        answer_prateritum = click.prompt("What is the Präteritum form?")
-        answer_partizip = click.prompt("What is the Partizip II form?")
+        # Highlight infinitive in the prompt
+        term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_infinitive = click.prompt(
+            f"What is the {term} form?",
+            default=""
+        )
+        if answer_infinitive == "":
+            self._show_verb_help(verb)
+            return self._question_english_to_forms(verb)
+
+        # Highlight Präteritum in the prompt
+        term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_prateritum = click.prompt(
+            f"What is the {term} form?",
+            default=""
+        )
+        if answer_prateritum == "":
+            self._show_verb_help(verb)
+            return self._question_english_to_forms(verb)
+
+        # Highlight Partizip II in the prompt
+        term = click.style("Partizip II", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_partizip = click.prompt(f"What is the {term} form?", default="")
+        if answer_partizip == "":
+            self._show_verb_help(verb)
+            return self._question_english_to_forms(verb)
 
         infinitive_correct = answer_infinitive.lower() == infinitive.lower()
         prateritum_correct = (answer_prateritum.lower() ==
@@ -132,16 +215,24 @@ class VerbLearner:
                        partizip_correct)
 
         if all_correct:
-            click.echo(click.style("Correct!", fg="green", bold=True))
+            click.echo(click.style("Correct!", fg=CORRECT_COLOR, bold=BOLD))
             return True
         else:
-            click.echo(click.style("Incorrect!", fg="red", bold=True))
+            click.echo(click.style("Incorrect!",
+                                   fg=INCORRECT_COLOR, bold=BOLD))
             if not infinitive_correct:
-                click.echo(f"The correct infinitive is: {infinitive}")
+                term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {infinitive}")
             if not prateritum_correct:
-                click.echo(f"The correct Präteritum is: {correct_prateritum}")
+                term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {correct_prateritum}")
             if not partizip_correct:
-                click.echo(f"The correct Partizip II is: {correct_partizip}")
+                term = click.style(
+                    "Partizip II",
+                    fg=HIGHLIGHT_COLOR,
+                    bold=BOLD
+                )
+                click.echo(f"The correct {term} is: {correct_partizip}")
             return False
 
     def _question_ukrainian_to_forms(self, verb: Dict[str, Any]) -> bool:
@@ -151,21 +242,39 @@ class VerbLearner:
         correct_partizip = verb["partizip"]
         ukrainian = verb["translations"]["ukrainian"]
 
-        click.echo(f"\nGiven the Ukrainian translation: {ukrainian}")
-        click.echo("Type '?' for help at any prompt")
+        # Highlight Ukrainian in the prompt
+        term = click.style(
+            "Ukrainian translation",
+            fg=HIGHLIGHT_COLOR,
+            bold=BOLD
+        )
+        click.echo(f"\nGiven the {term}: {ukrainian}")
+        click.echo("Press Enter for help at any prompt")
 
-        answer_infinitive = click.prompt("What is the infinitive form?")
-        if answer_infinitive == '?':
+        # Highlight infinitive in the prompt
+        term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_infinitive = click.prompt(
+            f"What is the {term} form?",
+            default=""
+        )
+        if answer_infinitive == "":
             self._show_verb_help(verb)
             return self._question_ukrainian_to_forms(verb)
 
-        answer_prateritum = click.prompt("What is the Präteritum form?")
-        if answer_prateritum == '?':
+        # Highlight Präteritum in the prompt
+        term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_prateritum = click.prompt(
+            f"What is the {term} form?",
+            default=""
+        )
+        if answer_prateritum == "":
             self._show_verb_help(verb)
             return self._question_ukrainian_to_forms(verb)
 
-        answer_partizip = click.prompt("What is the Partizip II form?")
-        if answer_partizip == '?':
+        # Highlight Partizip II in the prompt
+        term = click.style("Partizip II", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        answer_partizip = click.prompt(f"What is the {term} form?", default="")
+        if answer_partizip == "":
             self._show_verb_help(verb)
             return self._question_ukrainian_to_forms(verb)
 
@@ -179,16 +288,24 @@ class VerbLearner:
                        partizip_correct)
 
         if all_correct:
-            click.echo(click.style("Correct!", fg="green", bold=True))
+            click.echo(click.style("Correct!", fg=CORRECT_COLOR, bold=BOLD))
             return True
         else:
-            click.echo(click.style("Incorrect!", fg="red", bold=True))
+            click.echo(click.style("Incorrect!",
+                                   fg=INCORRECT_COLOR, bold=BOLD))
             if not infinitive_correct:
-                click.echo(f"The correct infinitive is: {infinitive}")
+                term = click.style("infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {infinitive}")
             if not prateritum_correct:
-                click.echo(f"The correct Präteritum is: {correct_prateritum}")
+                term = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+                click.echo(f"The correct {term} is: {correct_prateritum}")
             if not partizip_correct:
-                click.echo(f"The correct Partizip II is: {correct_partizip}")
+                term = click.style(
+                    "Partizip II",
+                    fg=HIGHLIGHT_COLOR,
+                    bold=BOLD
+                )
+                click.echo(f"The correct {term} is: {correct_partizip}")
             return False
 
     def ask_random_question(self) -> None:
@@ -203,7 +320,7 @@ class VerbLearner:
 
     def run_practice_session(self) -> None:
         """Run an interactive practice session."""
-        click.echo(click.style("=== German Verb Practice ===", bold=True))
+        click.echo(click.style("=== German Verb Practice ===", bold=BOLD))
         click.echo(f"Loaded {len(self.verbs)} verbs from {self.data['title']}")
         click.echo("Press Ctrl+C at any time to end the session "
                    "and see your statistics.")
@@ -234,7 +351,11 @@ class VerbLearner:
     def show_statistics(self) -> None:
         """Show the statistics of the practice session."""
         click.echo("\n" + "=" * 50)
-        click.echo(click.style("Practice Session Statistics", bold=True))
+        click.echo(click.style(
+            "Practice Session Statistics",
+            fg=STAT_COLOR,
+            bold=BOLD
+        ))
         click.echo("=" * 50)
 
         if self.total_questions == 0:
@@ -250,35 +371,42 @@ class VerbLearner:
         # Give some feedback based on performance
         if percentage >= 90:
             msg = "\nExcellent job! You're mastering these verbs!"
-            click.echo(click.style(msg, fg="green", bold=True))
+            click.echo(click.style(msg, fg=CORRECT_COLOR, bold=BOLD))
         elif percentage >= 70:
             msg = "\nGood work! Keep practicing to improve further."
-            click.echo(click.style(msg, fg="green"))
+            click.echo(click.style(msg, fg=CORRECT_COLOR))
         elif percentage >= 50:
             msg = "\nNot bad, but there's room for improvement. Keep going!"
-            click.echo(click.style(msg, fg="yellow"))
+            click.echo(click.style(msg, fg=HIGHLIGHT_COLOR))
         else:
             msg = "\nKeep practicing! Learning these verbs takes time."
-            click.echo(click.style(msg, fg="red"))
+            click.echo(click.style(msg, fg=INCORRECT_COLOR))
 
     def _show_verb_help(self, verb: Dict[str, Any]) -> None:
         """Display full information about a verb as help."""
         click.echo("\n" + "=" * 50)
-        click.echo(click.style("Verb Help", fg="blue", bold=True))
+        click.echo(click.style("Verb Help", fg=HELP_COLOR, bold=BOLD))
         click.echo("=" * 50)
-        
-        # Display basic info
-        click.echo(f"Infinitive: {verb['infinitiv']} ({verb['person3']})")
-        click.echo(f"Präteritum: {verb['präteritum']}")
-        click.echo(f"Partizip II: {verb['partizip']}")
-        click.echo(f"English: {verb['translations']['english']}")
-        click.echo(f"Ukrainian: {verb['translations']['ukrainian']}")
-        
+
+        # Display basic info using highlighted terms
+        infinitive = click.style("Infinitive", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        prateritum = click.style("Präteritum", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        partizip = click.style("Partizip II", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        english = click.style("English", fg=HIGHLIGHT_COLOR, bold=BOLD)
+        ukrainian = click.style("Ukrainian", fg=HIGHLIGHT_COLOR, bold=BOLD)
+
+        click.echo(f"{infinitive}: {verb['infinitiv']} ({verb['person3']})")
+        click.echo(f"{prateritum}: {verb['präteritum']}")
+        click.echo(f"{partizip}: {verb['partizip']}")
+        click.echo(f"{english}: {verb['translations']['english']}")
+        click.echo(f"{ukrainian}: {verb['translations']['ukrainian']}")
+
         # Display examples if available
         if verb.get("examples"):
-            click.echo("\nExamples:")
+            examples = click.style("Examples", fg=HIGHLIGHT_COLOR, bold=BOLD)
+            click.echo(f"\n{examples}:")
             click.echo(verb["examples"])
-        
+
         click.echo("\n" + "=" * 50)
         click.echo("Press Enter to continue...")
         input()  # Wait for user to press Enter
