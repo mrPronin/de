@@ -4,7 +4,7 @@ A Python package for working with German verb data.
 
 ## Installation
 
-You can install the package using uv:
+You can install the package using uv (recommended):
 
 ```bash
 # Create a virtual environment
@@ -16,11 +16,11 @@ uv venv
 # On macOS/Linux:
 source .venv/bin/activate
 
-# Install the package
+# Install the package in development mode
 uv pip install -e .
 ```
 
-Or using pip:
+Or using standard pip:
 
 ```bash
 pip install -e .
@@ -28,7 +28,40 @@ pip install -e .
 
 ## Usage
 
-### Command Line
+### Interactive Learning
+
+Practice your German irregular verbs with the interactive learning script:
+
+```bash
+# Run directly after installation
+learn-verbs
+
+# Or specify a custom YAML file
+learn-verbs verben/irregular-verbs-a1.yaml
+
+# Using uv run (if you haven't installed the package)
+uv run -m german_verbs.learn verben/irregular-verbs-a1.yaml
+```
+
+Options:
+
+```bash
+# Limit the number of questions
+learn-verbs --question-limit 10
+
+# Practice a specific type of question
+learn-verbs --mode infinitive  # From infinitive to other forms
+learn-verbs --mode prateritum  # From präteritum to other forms
+learn-verbs --mode partizip    # From partizip to other forms
+learn-verbs --mode english     # From English translation
+learn-verbs --mode ukrainian   # From Ukrainian translation
+```
+
+When answering questions, you can:
+- Type the correct answer
+- Type `?` to see help about the current verb
+
+### Command Line Tools
 
 List all available verbs:
 ```bash
@@ -49,24 +82,14 @@ german-verbs get beginnen
 
 There are several ways to convert YAML files to Markdown:
 
-#### Using uv run (Recommended)
-
-The most reliable way to run the conversion script:
+#### Using the installed script
 
 ```bash
 # Convert a specific YAML file
-uv run yaml2md verben/irregular-verbs-a1.yaml
+yaml2md verben/irregular-verbs-a1.yaml
 
 # Specify a custom output directory
-uv run yaml2md verben/irregular-verbs-a1.yaml -o path/to/output
-```
-
-#### Using the installed script
-
-If the package is properly installed with entry points:
-
-```bash
-yaml2md verben/irregular-verbs-a1.yaml
+yaml2md verben/irregular-verbs-a1.yaml -o path/to/output
 ```
 
 #### Using the german-verbs CLI
@@ -79,24 +102,8 @@ german-verbs convert-to-md verben/irregular-verbs-a1.yaml
 german-verbs convert-all
 ```
 
-### Python API
-
-```python
-from german_verbs.verbs import get_verb_by_infinitive, format_verb_display
-from german_verbs.converter import yaml_to_markdown
-
-# Get data for "beginnen"
-verb = get_verb_by_infinitive("beginnen")
-
-# Display formatted info
-print(format_verb_display(verb))
-
-# Convert a file
-yaml_to_markdown("verben/irregular-verbs-a1.yaml", "verben/generated")
-```
-
 ## Project Structure
 
-- `verben/`: Contains the raw verb data files (YAML, MD)
-- `verben/generated/`: Contains generated output files
+- `verben/`: Contains the raw verb data files (YAML)
+- `verben/generated/`: Contains generated output files (MD)
 - `german_verbs/`: Python package with code for working with verb data 

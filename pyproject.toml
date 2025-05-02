@@ -1,22 +1,22 @@
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "german_verbs"
+name = "german-verbs"
 version = "0.1.0"
-description = "German irregular verbs data and utilities"
+description = "Tools for working with German verb data"
 readme = "README.md"
 requires-python = ">=3.8"
-license = { text = "MIT" }
 dependencies = [
+    "click>=8.0.0",
     "pyyaml>=6.0",
-    "click>=8.1.0",
 ]
 
 [project.scripts]
 german-verbs = "german_verbs.cli:main"
 yaml2md = "german_verbs.converter:yaml_to_md_cli"
+learn-verbs = "german_verbs.learn:learn"
 
-[tool.hatch.build.targets.wheel]
+[tool.setuptools]
 packages = ["german_verbs"] 
