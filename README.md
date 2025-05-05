@@ -17,7 +17,7 @@ uv pip install -e .
 Convert verb data from YAML to Markdown:
 
 ```bash
-uv run -m german_verbs.converter verben/irregular-verbs-a1.yaml
+uv run yaml2md verben/irregular-verbs-a1.yaml
 ```
 
 This will create a formatted Markdown file in the `verben/generated` directory.
@@ -28,6 +28,8 @@ Practice German verbs interactively:
 
 ```bash
 uv run -m german_verbs.learn
+# or
+uv run learn-verbs verben/irregular-verbs-a1.yaml
 ```
 
 Options:
