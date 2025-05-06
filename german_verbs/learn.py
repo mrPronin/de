@@ -319,7 +319,7 @@ class VerbLearner:
         else:
             # Get a random verb
             verb = random.choice(self.verbs)
-        
+
         # Get question type (random in either case)
         question_function = random.choice(self.question_types)
 
@@ -332,12 +332,12 @@ class VerbLearner:
         """Run an interactive practice session."""
         click.echo(click.style("=== German Verb Practice ===", bold=BOLD))
         click.echo(f"Loaded {len(self.verbs)} verbs from {self.data['title']}")
-        
+
         if self.sequential:
             click.echo("Order: Sequential")
         else:
             click.echo("Order: Random")
-        
+
         click.echo("Press Ctrl+C at any time to end the session "
                    "and see your statistics.")
 
