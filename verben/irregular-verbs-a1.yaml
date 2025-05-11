@@ -469,14 +469,16 @@ verbs:
   
   - id: 20
     infinitiv: sein
-    person3: ist
     präteritum: war
     partizip: ist gewesen
     translations:
       english: to be
       ukrainian: бути
+    person3: ist
     examples: |
       das Sein - the being
+
+      Er ist ein guter Arzt. / He is a good doctor.
 
       Das Unternehmen ist in / außer Betrieb.
 
@@ -495,13 +497,17 @@ verbs:
   
   - id: 21
     infinitiv: singen
-    person3: singt
     präteritum: sang
     partizip: hat gesungen
     translations:
       english: to sing
       ukrainian: співати
+    person3: singt
     examples: |
+      Im Chor singen - співати в хорі
+      Das Lied singen - співати пісню
+      der Sänger - співак
+
       Präsens:
         Ich singe gerne in der Dusche. / I sing in the shower.
         Du singst wunderschön. / You sing beautifully.
@@ -517,18 +523,43 @@ verbs:
   
   - id: 22
     infinitiv: sprechen
-    person3: spricht
     präteritum: sprach
     partizip: hat gesprochen
     translations:
       english: to speak
       ukrainian: говорити, розмовляти
+    person3: spricht
     examples: |
-      mit, über, von
+      ansprechen - звертатися до
+
+      aussprechen - вимовляти
+
+      die Aussprache - вимова
+      
+      die Sprache - мова
+      die Fremdsprache - іноземна мова
+      die Amtssprache - державна мова
+
+      Was sprechen Sie? - На яких мовах ви говорите?
+
+      Ich spreche English fließend. / I speak English fluently.
+
+      der Sprecher - той, що говорить
+
+      mit, über, von, für
 
       Mit wem hast du gesprochen? / Who were you talking to?
       Von wem hast du gesprochen? / From whom did you speak?
       Worüber hast du gesprochen? / About what did you speak?
+      Für wen hast du gesprochen? / For whom did you speak?
+
+      versprechen - обіцяти
+
+      die Versprechung - обіцянка
+      das Gespräch - розмова
+      das Gesprächspartner - співрозмовник
+
+      gesprochenes Deutsch - розмовна німецька
 
       Präsens:
         Ich spreche Deutsch. / I speak German.
@@ -541,18 +572,32 @@ verbs:
   
   - id: 23
     infinitiv: stehen
-    person3: steht
     präteritum: stand
     partizip: hat gestanden
     translations:
       english: to stand
       ukrainian: стояти
+    person3: steht
     examples: |
+      bestehen aus - складатися з
+        Die Gruppe besteht aus 10 Personen
+      bestehen in - складатися в
+        Das Problem besteht darin, dass
+      bestehen auf - складатися на
+        Ich bestehe darauf, dass
+
+      erstehen - з'явитися
+
+      der Aufstand - бунт
+      der Widerstand - опір
+
       der Stand - положення, стан
 
       der Familienstand - сімейний стан
 
       der Zustand - стан
+      der Verstand - розум
+      das Verstandniss - розуміння
 
       Präsens:
         Ich stehe hier. / I am standing here.
@@ -565,14 +610,15 @@ verbs:
   
   - id: 24
     infinitiv: treffen
-    person3: trifft
     präteritum: traf
     partizip: hat getroffen
     translations:
       english: to meet
       ukrainian: зустрічати, заставати
     examples: |
-      <v> Akk; sich <v> mit Dat
+      <v> Akk
+      sich <v> mit Dat
+      be-,
 
       Ich habe mich mit meinem Freund getroffen.
 
@@ -583,6 +629,8 @@ verbs:
       Entscheidung treffen - прийняти рішення
 
       das Treffen - зустріч
+
+      Ins Auge treffen - влучити в ціль
 
       Präsens:
         Ich treffe mich oft mit meinen Freunden. / I often meet up with my friends.
@@ -595,15 +643,16 @@ verbs:
       Perfekt:
         Ich habe mich oft mit meinen Freunden getroffen. / I have often met up with my friends.
         Du hast eine gute Entscheidung getroffen. / You have made a good decision.
-  
+    person3: trifft
+
   - id: 25
     infinitiv: trinken
-    person3: trinkt
     präteritum: trank
     partizip: hat getrunken
     translations:
       english: to drink
       ukrainian: пити
+    person3: trinkt
     examples: |
       be-,
       Er ist betrunken - він напідпитку
@@ -623,12 +672,12 @@ verbs:
   
   - id: 26
     infinitiv: tun
-    person3: tut
     präteritum: tat
     partizip: hat getan
     translations:
       english: to do
       ukrainian: робити
+    person3: tut
     examples: |
       Der Kopf tut mir weh. / My head hurts.
       Ich habe viel zu tun. / I have a lot to do.
