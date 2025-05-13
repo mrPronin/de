@@ -253,8 +253,8 @@ class VerbLearner:
 
         # Highlight English in the prompt
         term = click.style(
-            "English translation", 
-            fg=HIGHLIGHT_COLOR, 
+            "English translation",
+            fg=HIGHLIGHT_COLOR,
             bold=BOLD
         )
         answer_english = click.prompt(
@@ -274,8 +274,8 @@ class VerbLearner:
             click.echo(click.style("Incorrect!",
                                    fg=INCORRECT_COLOR, bold=BOLD))
             term = click.style(
-                "English translation", 
-                fg=HIGHLIGHT_COLOR, 
+                "English translation",
+                fg=HIGHLIGHT_COLOR,
                 bold=BOLD
             )
             click.echo(f"The correct {term} is: {english}")
