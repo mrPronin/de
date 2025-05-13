@@ -41,15 +41,16 @@ Options:
   - `infinitive`: Infinitive → Präteritum & Partizip II 
   - `prateritum`: Präteritum → Infinitive & Partizip II
   - `partizip`: Partizip II → Infinitive & Präteritum
-  - `english`: English → German forms
-  - `ukrainian`: Ukrainian → German forms
+  - `english`: English → German infinitive
+  - `ukrainian`: Ukrainian → German infinitive
+  - `german`: German infinitive → English translation
 * `--sequential`, `-s`: Practice verbs in sequential order (instead of random)
 
 Example:
 
 ```bash
 # Practice 10 questions with Ukrainian translations in sequential order
-uv run -m german_verbs.learn verben/irregular-verbs-a1.yaml -n 10 -m ukrainian -s
+uv run learn-verbs verben/irregular-verbs-a1.yaml -n 10 -m ukrainian -s
 ```
 
 ## Interactive Learning Features
