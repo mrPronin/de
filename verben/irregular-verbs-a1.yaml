@@ -358,15 +358,19 @@ verbs:
       ukrainian: кричати, кликати
     person3: ruft
     examples: |
-      Akk
+      <Akk>
 
-      ein | rufen - звертатися
-      ab | rufen - відмовлятися
-      zu | rufen - закликати
-      anrufen - набирати по телефону
+      der Ruf - крик, відгук
+        Diese Firma hat einen guten Ruf. / This company has a good reputation.
 
-      die Ruf - крик, відгук
-      Diese Firma hat einen guten Ruf. / This company has a good reputation.
+      Präfixe:
+        an | rufen <Akk> - набирати по телефону
+          Ich have meinen Freund angerufen. / I called my friend.
+          Ruf mich an. / Call me.
+          Ruf mich Morgen abend an. / Call me tomorrow evening.
+        ab | rufen - відмовлятися
+        auf | rufen zu <Dat> - призивати до чогось
+          Ich habe meine Kollegen zur Disziplin / Ordnung aufgerufen. / I called my colleagues to discipline / order.
 
       Präsens:
         Ich rufe meine Freundin an. / I call my friend.
@@ -393,18 +397,31 @@ verbs:
     person3: schläft
     examples: |
       der Schlaf - сон
-      ein | schlafen - засинати
-      bei <Dat> schlafen - Indicating where someone sleeps.
-      Er schläft bei seinem Freund. / He sleeps at his friend's place.
+      der Acht-stunden-schlaf - сон вісім годин
+      
+      Präfixe:
+        ein | schlafen - засинати
+          <sein>
+          Ich bin schlecht eingeschlafen. / I slept badly.
+        aus | schlafen - to sleep through
+          Ich habe die letzte Nacht ausgeschlafen. / I slept through the last night.
+        ver | schlafen - to sleep / проспати
+          
+      Prepositionen:
+        bei <Dat> schlafen - Indicating where someone sleeps.
+          Er schläft bei seinem Freund. / He sleeps at his friend's place.
 
-      über <Akk> schlafen - Sleeping through something.
-      Sie schlief über das ganze Konzert. / She slept through the entire concert.
+        über <Akk> schlafen - Sleeping through something.
+          Sie schlief über das ganze Konzert. / She slept through the entire concert.
 
-      Präsens: Ich schlafe jede Nacht etwa sieben Stunden. / I sleep about seven hours every night.
+      Präsens:
+        Ich schlafe jede Nacht etwa sieben Stunden. / I sleep about seven hours every night.
 
-      Präteritum: Letzte Nacht schlief ich sehr schlecht wegen des Lärms. / Last night I slept very badly because of the noise.
+      Präteritum:
+        Letzte Nacht schlief ich sehr schlecht wegen des Lärms. / Last night I slept very badly because of the noise.
 
-      Perfekt: Er hat den ganzen Tag geschlafen, nachdem er krank wurde. / He slept all day after he got sick.      
+      Perfekt:
+        Er hat den ganzen Tag geschlafen, nachdem er krank wurde. / He slept all day after he got sick.      
 
   
   - id: 17
@@ -418,14 +435,34 @@ verbs:
     examples: |
       das Schreiben - писання
       beschreiben - описувати
+
+      schreiben an <Akk> - писати кому
+        Ich habe an dich geschrieben. / I wrote to you.
+
       aus | schreiben - write out, announce; виписувати
-      ein | schreiben  - виписувати
+        Ich habe die neuen Wörter aus dem Text ausgeschrieben. / I have written out the new words from the text.
+        Ich have neue Wörter aus dem Text ausgeschrieben. / I have written out the new words from the text.
+      
+      ein | schreiben  - вписати
+        Ich habe neuen Wörter in den Text eingeschrieben. / I have written new words in the text.
 
-      Präsens: Ich schreibe einen Brief an meinen Freund. / I am writing a letter to my friend.
+      auf | schreiben - write on; написати на
+        Ich habe seine Addresse aufgeschrieben. / I have written down his address.
 
-      Präteritum: Sie schrieb gestern in ihr Tagebuch. / She wrote in her diary yesterday.
+      be | schreiben - write about; описувати
+        Beschreiben Sie bitte das Bild. / Please describe the picture.
 
-      Perfekt: Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
+      die Schrift - письмо
+      die schrifliche Arbeit - письмова робота
+
+      Präsens:
+        Ich schreibe einen Brief an meinen Freund. / I am writing a letter to my friend.
+
+      Präteritum:
+        Sie schrieb gestern in ihr Tagebuch. / She wrote in her diary yesterday.
+
+      Perfekt:
+        Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
   
   - id: 18
     infinitiv: schwimmen
@@ -436,13 +473,19 @@ verbs:
       ukrainian: плавати, пливти
     person3: schwimmt
     examples: |
+      das Schwimmen - плавання
+      der Schwimmer - плавець
+      die Schwimmstunde - урок плавання
+
       hat: I habe viel geschwommen - Я багато плавав
 
       ist: Ich bin auf andere Seite geschwommen - Я переплив на інший бік
 
-      Präsens: Ich schwimme jeden Morgen im See. Ich schwimme gern im Schwimmbad. / I like to swim in the swimming pool.
+      Präsens:
+        Ich schwimme jeden Morgen im See. Ich schwimme gern im Schwimmbad. / I like to swim in the swimming pool.
 
-      Präteritum: Letzten Sommer schwamm ich im Meer. / Last summer, I swam in the sea.
+      Präteritum:
+        Letzten Sommer schwamm ich im Meer. / Last summer, I swam in the sea.
 
       Perfekt:
         Ich bin heute im Fluss geschwommen. / I swam in the river today.
@@ -458,6 +501,17 @@ verbs:
       ukrainian: бачити
     person3: sieht
     examples: |
+      das Sehen - бачення
+      die Sicht - зір
+      Klare Sicht haben - мати гарний зір
+
+      sichtbar - видимий
+      sichtlich - видимий
+
+      Rücksicht nehmen auf <Akk> - 
+      
+      rücksichtslos - 
+
       aus | sehen - to look; виглядати
       an | sehen sich <Dat> - to stare; дивитися (впритул, довго)
 
