@@ -198,23 +198,36 @@ verbs:
     person3: geht
     examples: |
       wohin? - Akk
+
+      ins Geschäft; Die Uhr geht nicht.
+
       Es geht alles schief. - Все йде не так.
 
       der Gang - ход, Ein-/ Ausgang;
+      die Eingang
+      die Ausgang
+      die Ausweg - вихід із ситуації
+      die Stadtrundgang
 
       Es geht um <Akk> - мова йде про ...
+      in Erfüllung; 
       In Rente gehen. - Вийти на пенсію.
       Mein Traum geht in Erfüllung. - Моя мрія збувається.
 
       In die Bäckerei gehen. Zum Bäcker gehen.
+
       Wie gehet's es dir. 
       Wie geht es ihnen?
+        Es geht schief.
 
-      Präsens: Ich gehe zur Arbeit jeden Tag. Ihr geht gerne in den Park.
+      Präsens:
+        Ich gehe zur Arbeit jeden Tag. Ihr geht gerne in den Park.
 
-      Präteritum: Ich ging gestern zur Arbeit. Ihr gingt gerne in den Park.
+      Präteritum:
+        Ich ging gestern zur Arbeit. Ihr gingt gerne in den Park.
 
-      Perfekt: Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
+      Perfekt:
+        Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
   
   - id: 10
     infinitiv: heißen
@@ -225,14 +238,18 @@ verbs:
       ukrainian: називатися
     person3: heißt
     examples: |
+      Wie heißen Sie? / 
       Wie heißt das auf Deutsch? / What is it called in German?
       Was soll das heißen?! / What does that mean?
 
-      Präsens: Sie heißt Maria. / Her name is Maria.
+      Präsens:
+        Sie heißt Maria. / Her name is Maria.
 
-      Präteritum: Früher hieß sie Anna. / She used to be called Anna.
+      Präteritum:
+        Früher hieß sie Anna. / She used to be called Anna.
 
-      Perfekt: Die Straße hat früher anders geheißen. / The street used to have a different name.    
+      Perfekt:
+        Die Straße hat früher anders geheißen. / The street used to have a different name.    
   
   - id: 11
     infinitiv: helfen
@@ -246,6 +263,13 @@ verbs:
       Dat / bei / in / mit
 
       helfen <Dat> bei <Dat> - я допоміг у чому (дією)
+
+      helfen Dat, bei / in / mit: bei der Hausarbeit;
+      im Haushalt;
+      mit dem Rat;
+      ins Auto; aus dem Auto; in den Mantel; aus dem Mantel;
+      Medizin hilft gegen Grippe / bei der Erkältung;
+      die Hilfe; der Helfer; die Helferin
 
       Ich helfe meinem Freund bei der Vorbereitung auf seine Prüfung. / I am helping my friend with preparing for his exam.
 
@@ -277,19 +301,32 @@ verbs:
     examples: |
       zu <Dat>
 
+      kommen zu,..; nach Hause;
+      
+      Wie komme ich zum Bahnhof?
+      Woher kommen Sie?
+      Wie kommst du darauf?
+      zum Ziel kommen;
+      hereinkommen: Komm herein!
+      einen Brief bekommen;
+
       an, - прибувати
       herein, - входити
       be, - отримувати (без зусиль)
       vor, - траплятися
+        vorkommen - So etwas kommt oft vor!
 
       Wie kommt du darauf? / How did you come up with that?
       Das kommt oft vor! / That happens often!
 
-      Präsens: Ich komme gleich zu dir. / I'll be right with you.
+      Präsens:
+        Ich komme gleich zu dir. / I'll be right with you.
 
-      Präteritum: Letzte Woche kam sie zu Besuch. / Last week she came to visit.
+      Präteritum:
+        Letzte Woche kam sie zu Besuch. / Last week she came to visit.
 
-      Perfekt: Sie ist aus Deutschland gekommen. / She came from Germany.
+      Perfekt:
+        Sie ist aus Deutschland gekommen. / She came from Germany.
   
   - id: 13
     infinitiv: lesen
@@ -306,17 +343,24 @@ verbs:
       der Leserbrief - лист читача
       leserlich - читабельність
 
+      lesen etw.: ein Buch; das Lesen der Bücher;
+      die Märchen den Kindern vorlesen;
+      
       die Vorlesung - лекція
+        eine Vorlesung halten
       vorlesen - читати вголос
 
       Dieser Text ist nicht leserlich. / This text is not readable.
       Man kann Trauben, Kartoffeln lesen. / You can harvest grapes and potatoes.
 
-      Präsens: Ich lese ein Buch. / I am reading a book.
+      Präsens:
+        Ich lese ein Buch. / I am reading a book.
 
-      Präteritum: Ich las gestern ein Buch. / I read a book yesterday.
+      Präteritum:
+        Ich las gestern ein Buch. / I read a book yesterday.
 
-      Perfekt: Ich habe das Buch gelesen. / I have read the book.
+      Perfekt:
+        Ich habe das Buch gelesen. / I have read the book.
 
   - id: 14
     infinitiv: nehmen
@@ -332,6 +376,7 @@ verbs:
       ein | nehmen - приймати
       ab | nehmen - скинути вагу
       zu | nehmen - набрати вагу
+        abnehmen - zunehmen
 
       die Nahme - прийом
 
@@ -343,11 +388,23 @@ verbs:
 
       Ich nehme Bad. / I take a bath.
 
-      Präsens: Ich nehme den Schlüssel. / I take the key.
+      nehmen etw. den Bus, das Bad;
+      Imbiss zu sich; - щось поїсти
+      Abschied von <Dat>; - прощатись
+      in Anspruch; - займати якісь час
+      das Problem ernst nehmen; - сприйняти проблему сеьрйозно
+      die Aufnahme - die Notaufnahme;
+      die Medizin einnehmen;
+      
 
-      Präteritum: Ich nahm den Zug. / I took the train.
+      Präsens:
+        Ich nehme den Schlüssel. / I take the key.
 
-      Perfekt: Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
+      Präteritum:
+        Ich nahm den Zug. / I took the train.
+
+      Perfekt:
+        Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
   
   - id: 15
     infinitiv: rufen
