@@ -132,34 +132,56 @@ verbs:
       der Finder - шукач
 
       der Erfinder - дослідник
+      die Erfindung - винахід
 
-      er-, винаходити
+      erfinden - винаходити
 
-      Präsens: Ich finde es schwer, mit meinen Eltern zu sprechen.
+      Beispiele:
+        пряме значення:
+          einen Fehler finden; / find a mistake
+          richtige Lösung finden / find the right solution
+          den Ausweg finden / find the way out
+          Anerkennung finden / get recognition
+        непряме значення:
+          j-n nett finden / find someone nice
+          etw wichtig finden / find something important
 
-      Präteritum: Ich habe gestern das neue Smartphone gefunden.
+      Präsens:
+        Ich finde es schwer, mit meinen Eltern zu sprechen. / I find it difficult to talk to my parents.
 
-      Perfekt: Ich habe das neue Smartphone gefunden.
+      Präteritum:
+        Ich habe gestern das neue Smartphone gefunden. / I found the new smartphone yesterday.
+
+      Perfekt:
+        Ich habe das neue Smartphone gefunden. / I have found the new smartphone.
   
   - id: 7
     infinitiv: fliegen
     präteritum: flog
-    partizip: ist geflogen
+    partizip: ist / hat geflogen
     translations:
       english: to fly
       ukrainian: літати
     person3: fliegt
     examples: |
       der Flug - політ
+        der Flug N 3465;
       der Abflug - відліт
       die Ankunft - прибуття
       das Flugzeug - літак
 
-      Präsens: Ich fliege oft nach München.
+      Beispiele:
+        ist: Ich bin nach Spanien geflogen. / I flew to Spain.
+        hat: Der Pilot hat die Maschine geflogen. / The pilot flew the plane.
 
-      Präteritum: Gestern flog ich nach Berlin.
+      Präsens:
+        Ich fliege oft nach München. / I often fly to Munich.
 
-      Perfekt: Ich bin gestern nach Berlin geflogen.
+      Präteritum:
+        Gestern flog ich nach Berlin. / I flew to Berlin yesterday.
+
+      Perfekt:
+        Ich bin gestern nach Berlin geflogen. / I flew to Berlin yesterday.
   
   - id: 8
     infinitiv: geben
@@ -172,21 +194,31 @@ verbs:
     examples: |
       j-m <Dat>
       etw <Akk>
-      die Gabe - подарунок
+      die Gabe - дань, милость
+      die Gottesgabe - божья милость
+      die Begabung - дар, талант
 
-      auf-, - здаватися 
+      auf-, - здаватися
 
-      einen Rat / Kuss / Stoß
+      Beispiele:
+        ein Geschenk / einen Kuss / einen Rat / sein Wort /
+        einen Rat / Kuss / Stoß
+        Ich gebe mir viel Mühe. / I try my best.
+        Eine Party geben. - організувати вечірку
+        aufgeben - здаватися
+        Gib nicht auf! / Не здавайся!
+        Gib nie auf! / Не здавайся!
+        es gibt ein / eine / einen <Akk>;
+        Das Kind ist begabt. / The child is talented.
 
-      Gib nicht auf! / Не здавайся!
+      Präsens:
+        Ich gebe dir das Buch. Du gibst mir eine Antwort.
 
-      Eine Party geben. - організувати вечірку
+      Präteritum:
+        Ich gab dir das Buch gestern. Du gabst mir eine Antwort.
 
-      Präsens: Ich gebe dir das Buch. Du gibst mir eine Antwort.
-
-      Präteritum: Ich gab dir das Buch gestern. Du gabst mir eine Antwort.
-
-      Präteritum: Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
+      Präteritum:
+        Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
   
   - id: 9
     infinitiv: gehen
@@ -572,11 +604,14 @@ verbs:
       aus | sehen - to look; виглядати
       an | sehen sich <Dat> - to stare; дивитися (впритул, довго)
 
-      Präsens: Ich sehe einen schönen Sonnenuntergang. / I see a beautiful sunset.
+      Präsens:
+        Ich sehe einen schönen Sonnenuntergang. / I see a beautiful sunset.
 
-      Präteritum: Gestern sah ich einen Film im Kino. / Yesterday, I saw a movie in the cinema.
+      Präteritum:
+        Gestern sah ich einen Film im Kino. / Yesterday, I saw a movie in the cinema.
 
-      Perfekt: Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
+      Perfekt:
+        Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
   
   - id: 20
     infinitiv: sein
