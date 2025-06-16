@@ -9,7 +9,10 @@ verbs:
       ukrainian: починати
     person3: beginnt
     examples: |
-      mit Dat; der Beginn - початок;
+      mit <Dat>;
+      der Beginn - початок;
+
+      mit der Arbeit = zu arbeiten beginnen; der Beginn
       
       Präsens:
         Ich beginne ein neues Buch zu lesen. / I begin to read a new book.
@@ -35,13 +38,22 @@ verbs:
       Wo? - Dat
       bei - Dat
       Ich bleibe bei meiner Meinung (bei der Sache).
-      Das bleibt  unter uns!
+      Das bleibt unter uns! / Let's keep this between us!
+
+      im Bett; im Hotel;
+      bei der Meinung;
+      bei der Sache;
+      am Leben;
  
-      Präsens: Ich bleibe zu Hause. / I stay at home.
+      Präsens:
+        Ich bleibe zu Hause. / I stay at home.
+        Ich bleibe bei meiner Meinung. / I stay with my opinion.
 
-      Präteritum: Ich blieb gestern zu Hause. / I stayed at home yesterday.
+      Präteritum:
+        Ich blieb gestern zu Hause. / I stayed at home yesterday.
 
-      Perfekt: Ich bin zu Hause geblieben. / I have stayed at home.
+      Perfekt:
+        Ich bin zu Hause geblieben. / I have stayed at home.
   
   - id: 3
     infinitiv: essen
@@ -56,11 +68,14 @@ verbs:
       das Festessen - святкова вечеря
       die Essgewohnheiten - харчові звички
 
-      Präsens: Ich esse gerne Pizza. Du isst immer zu spät.
+      Präsens:
+        Ich esse gerne Pizza. Du isst immer zu spät.
 
-      Präteritum: Gestern aß ich ein großes Stück Kuchen. Letzte Woche aßen wir zusammen in einem schicken Restaurant.
+      Präteritum:
+        Gestern aß ich ein großes Stück Kuchen. Letzte Woche aßen wir zusammen in einem schicken Restaurant.
 
-      Präteritum: Ich habe gestern Abend eine Pizza gegessen. Wir haben heute Morgen ein leckeres Frühstück gegessen.
+      Perfekt:
+        Ich habe gestern Abend eine Pizza gegessen. Wir haben heute Morgen ein leckeres Frühstück gegessen.
   
   - id: 4
     infinitiv: fahren
@@ -72,14 +87,23 @@ verbs:
     person3: fährt
     examples: |
       die Fahrt - поїздка
+      der Fahrer - водій
 
       ist - якщо пасажир
       hat - якщо за кермом
 
+      fahre zu <Dat> - я доїхав до ...
+      fahre in <Akk> - я в'їхав в ...
+      fahre an <Akk> - я в'їхав на ...
+      fahre nach - нет артикля
+      fahre mit <Dat>
+
       Beispiele
+        Ich fahre zur Arbeit / I drive to work.
+        Ich fahre ins Ausland / I drive abroad.
         Ich bin mit dem Bus gefahren. / I drove with the bus.
         Ich bin mit der Bahn gefahren. / I drove with the train.
-        Haben Sie Auto gefahren? / Have you driven a car?
+        Haben Sie Auto gefahren? / Have you driven a car? /
         am Steuer sein; steuern
         Waren Sie am Steuer? / Were you at the wheel?
         vor Schreck in die Höhe fahren / to drive into the sky from fear
