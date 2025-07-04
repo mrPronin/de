@@ -35,8 +35,8 @@ verbs:
       ukrainian: залишатися
     person3: bleibt
     examples: |
-      Wo? - Dat
-      bei - Dat
+      Wo? - <Dat>
+      bei - <Dat>
       Ich bleibe bei meiner Meinung (bei der Sache).
       Das bleibt unter uns! / Let's keep this between us!
 
@@ -590,9 +590,11 @@ verbs:
       der Schwimmer - плавець
       die Schwimmstunde - урок плавання
 
-      hat: I habe viel geschwommen - Я багато плавав
+      hat:
+        I habe viel geschwommen - Я багато плавав
 
-      ist: Ich bin auf andere Seite geschwommen - Я переплив на інший бік
+      ist:
+        Ich bin auf andere Seite geschwommen - Я переплив на інший бік
 
       Präsens:
         Ich schwimme jeden Morgen im See. Ich schwimme gern im Schwimmbad. / I like to swim in the swimming pool.
@@ -788,7 +790,7 @@ verbs:
     person3: trifft
     examples: |
       <v> Akk
-      sich <v> mit Dat
+      sich <v> mit <Dat> - зустрічатися з
       be-,
 
       Ich habe mich mit meinem Freund getroffen.
