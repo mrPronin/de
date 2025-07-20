@@ -12,19 +12,19 @@ verbs:
       mit <Dat>;
       der Beginn - початок;
 
-      mit der Arbeit = zu arbeiten beginnen; der Beginn
+      mit der Arbeit = zu arbeiten beginnen
       
       Präsens:
         Ich beginne ein neues Buch zu lesen. / I begin to read a new book.
         Ich beginne mit der Arbeit. / I begin with the work.
       
       Präteritum:
-        Er begann das Projekt gestern. / He began the project yesterday.
         Ich begann mit der Arbeit. / I began with the work.
+        Er begann das Projekt gestern. / He began the project yesterday.
       
       Perfekt:
-        Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
         Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
+        Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
   
   - id: 2
     infinitiv: bleiben
@@ -37,13 +37,14 @@ verbs:
     examples: |
       Wo? - <Dat>
       bei - <Dat>
-      Ich bleibe bei meiner Meinung (bei der Sache).
+      Ich bleibe bei meiner Meinung (bei der Sache). / I stay with my opinion (about the matter).
       Das bleibt unter uns! / Let's keep this between us!
 
-      im Bett; im Hotel;
-      bei der Meinung;
-      bei der Sache;
-      am Leben;
+      im Bett bleiben / to stay in bed
+      im Hotel bleiben / to stay in a hotel
+      bei der Meinung bleiben / to stay with my opinion
+      bei der Sache bleiben / to stay with the matter
+      am Leben bleiben / to stay alive
  
       Präsens:
         Ich bleibe zu Hause. / I stay at home.
@@ -133,6 +134,7 @@ verbs:
       der Fang
 
       an-, - починати
+      empfangen - приймати
 
       Präsens: Ich fang an, ein neues Buch zu lesen.
 
@@ -316,35 +318,37 @@ verbs:
       ukrainian: допомагати
     person3: hilft
     examples: |
-      Dat / bei / in / mit
+      Präpositionen:
+        helfen <Dat> bei <Dat> / helped with something / я допоміг у чому (дією)
+          helfen bei der Hausarbeit / I am helping with the homework / я допоміг у домашніх завданнях
 
-      helfen <Dat> bei <Dat> - я допоміг у чому (дією)
+          Ich helfe meinem Freund bei der Vorbereitung auf seine Prüfung. / I am helping my friend with preparing for his exam.
 
-      helfen Dat, bei / in / mit: bei der Hausarbeit;
-      im Haushalt;
-      mit dem Rat;
+        helfen <Dat> mit <Dat> / helped with something / я допоміг чим (радою)
+          helfen mit dem Rat / I am helping with the advice / я допоміг з радою
+          Ich habe meiner Tochter mit einem Rat geholfen. / I helped my daughter with a piece of advice.
+
+        helfen <Dat> in <Dat> / helped with something / я допоміг у чому
+          helfen im Haushalt / I am helping with the household / я допоміг у домашніх справах
+          Ich habe meiner Tochter in der Schule geholfen. / I helped my daughter at school.
+
       ins Auto; aus dem Auto; in den Mantel; aus dem Mantel;
+      
       Medizin hilft gegen Grippe / bei der Erkältung;
-      die Hilfe; der Helfer; die Helferin
 
-      Ich helfe meinem Freund bei der Vorbereitung auf seine Prüfung. / I am helping my friend with preparing for his exam.
+      die Hilfe / the help / допомога
+      der Helfer / the helper / помічник
+      die Helferin / the helper / помічниця
 
+      Präsens:
+        Ich helfe meiner Freundin beim Umzug. / I'm helping my girlfriend move.
+        Ich helfe dir gern. / I'm happy to help you.
 
-      helfen <Dat> mit <Dat> - я допоміг чим
-      Ich habe meiner Tochter mit einem Rat geholfen. / I helped my daughter with a piece of advice.
+      Präteritum:
+        Gestern half ich ihm bei seinen Hausaufgaben. / Yesterday I helped him with his homework.
 
-      helfen <Dat> in <Dat> - я допоміг у чому
-      Ich habe meiner Tochter in der Schule geholfen. / I helped my daughter at school.
-
-      die Hilfe - допомога
-
-      der Helfer - помічник
-
-      Präsens: Ich helfe meiner Freundin beim Umzug. Ich helfe dir gern. / I'm helping my girlfriend move. I'm happy to help you.
-
-      Präteritum: Gestern half ich ihm bei seinen Hausaufgaben. / Yesterday I helped him with his homework.
-
-      Perfekt: Ich habe ihr beim Umzug geholfen. / I helped her move.
+      Perfekt:
+        Ich habe ihr beim Umzug geholfen. / I helped her move.
 
   - id: 12
     infinitiv: kommen
