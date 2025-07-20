@@ -333,7 +333,7 @@ verbs:
           Ich habe meiner Tochter in der Schule geholfen. / I helped my daughter at school.
 
       ins Auto; aus dem Auto; in den Mantel; aus dem Mantel;
-      
+
       Medizin hilft gegen Grippe / bei der Erkältung;
 
       die Hilfe / the help / допомога
@@ -706,34 +706,40 @@ verbs:
       ukrainian: говорити, розмовляти
     person3: spricht
     examples: |
+      Präpositionen:
+        mit <Dat> - з кому
+          Ich spreche mit meinem Freund. / I speak with my friend.
+          Mit wem hast du gesprochen? / Who were you talking to? / З ким ти розмовляв?
+
+        über <Akk> - про що
+          Ich spreche über die neue Politik. / I speak about the new policy.
+          Worüber hast du gesprochen? / About what did you speak? / Про що ти розмовляв?
+
+        von <Akk> - від кого
+          Von wem hast du gesprochen? / From whom did you speak? / Про кого ти говорив?
+
+        für <Akk> - для кого
+          Für wen hast du gesprochen? / For whom did you speak? / Від імені кого ти розмовляв?
+
       ansprechen - звертатися до
 
       aussprechen - вимовляти
 
       die Aussprache - вимова
       
-      die Sprache - мова
-      die Fremdsprache - іноземна мова
-      die Amtssprache - державна мова
+      Substantive:
+        die Sprache - мова
+        die Fremdsprache - іноземна мова
+        die Amtssprache - державна мова
+        der Sprecher - той, що говорить
+        die Versprechung - обіцянка
+        das Gespräch - розмова
+        das Gesprächspartner - співрозмовник
 
       Was sprechen Sie? - На яких мовах ви говорите?
-
       Ich spreche English fließend. / I speak English fluently.
 
-      der Sprecher - той, що говорить
-
-      mit, über, von, für
-
-      Mit wem hast du gesprochen? / Who were you talking to?
-      Von wem hast du gesprochen? / From whom did you speak?
-      Worüber hast du gesprochen? / About what did you speak?
-      Für wen hast du gesprochen? / For whom did you speak?
-
       versprechen - обіцяти
-
-      die Versprechung - обіцянка
-      das Gespräch - розмова
-      das Gesprächspartner - співрозмовник
 
       gesprochenes Deutsch - розмовна німецька
 
