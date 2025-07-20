@@ -553,11 +553,18 @@ verbs:
       ukrainian: писати
     person3: schreibt
     examples: |
-      das Schreiben - писання
-      beschreiben - описувати
+      Präpositionen:
+        schreiben an <Akk> - писати кому
+          Ich habe an dich geschrieben. / I wrote to you.
 
-      schreiben an <Akk> - писати кому
-        Ich habe an dich geschrieben. / I wrote to you.
+        schreiben aus <Dat> - write out, announce / виписувати
+          Ich habe die neuen Wörter aus dem Text ausgeschrieben. / I have written out the new words from the text. / Я виписав нові слова з тексту.
+
+      Substantive:
+        das Schreiben - писання
+        beschreiben - описувати
+        die Schrift - письмо
+        die schrifliche Arbeit - письмова робота
 
       aus | schreiben - write out, announce; виписувати
         Ich habe die neuen Wörter aus dem Text ausgeschrieben. / I have written out the new words from the text.
@@ -571,9 +578,6 @@ verbs:
 
       be | schreiben - write about; описувати
         Beschreiben Sie bitte das Bild. / Please describe the picture.
-
-      die Schrift - письмо
-      die schrifliche Arbeit - письмова робота
 
       Präsens:
         Ich schreibe einen Brief an meinen Freund. / I am writing a letter to my friend.
