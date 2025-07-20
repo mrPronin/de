@@ -627,14 +627,15 @@ verbs:
       ukrainian: бачити
     person3: sieht
     examples: |
-      das Sehen - бачення
-      die Sicht - зір
-      Klare Sicht haben - мати гарний зір
+      Substantive:
+        das Sehen - бачення
+        die Sicht - зір
+        Klare Sicht haben - мати гарний зір
 
       sichtbar - видимий
       sichtlich - видимий
 
-      Rücksicht nehmen auf <Akk> - 
+      Rücksicht nehmen auf <Akk> / 
       
       rücksichtslos - 
 
@@ -806,21 +807,23 @@ verbs:
       ukrainian: зустрічати, заставати
     person3: trifft
     examples: |
-      <v> Akk
-      sich <v> mit <Dat> - зустрічатися з
+      treffen <Akk>
+
+      Präpositionen:
+        sich treffen mit <Dat> / meet with / зустрічатися з
+          Ich treffe mich mit meinem Freund. / I meet up with my friend. / Я зустрічаюся зі своїм другом.
+          Ich habe mich mit meinem Freund getroffen. / I met up with my friend.
+
+      Substantive:
+        das Treffen - зустріч
+
       be-,
 
-      Ich habe mich mit meinem Freund getroffen.
-
-      Ich habe eine richtige Lösung getroffen.
-
-      Maßnahmen treffen - вжити заходів.
-
-      Entscheidung treffen - прийняти рішення
-
-      das Treffen - зустріч
-
-      Ins Auge treffen - влучити в ціль
+      Phrasen:
+        Ich habe eine richtige Lösung getroffen. / I have made a good decision.
+        Maßnahmen treffen - вжити заходів.
+        Entscheidung treffen - прийняти рішення
+        Ins Auge treffen - влучити в ціль
 
       Präsens:
         Ich treffe mich oft mit meinen Freunden. / I often meet up with my friends.
