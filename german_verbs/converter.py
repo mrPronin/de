@@ -29,7 +29,7 @@ def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
     md_lines.append("")
 
     # Create the table header
-    header = "| N  | Infinitiv (3rd Person Singular) | Präteritum | "
+    header = "| N  | Infinitiv | Präteritum | "
     header += "Partizip II | Übersetzung | Beispiele |"
     md_lines.append(header)
     md_lines.append("|----|---------------------------------|------------|"
