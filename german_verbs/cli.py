@@ -171,5 +171,71 @@ def convert_all(output_dir):
     return 0
 
 
+@main.command()
+def find_duplicates():
+    """Find duplicate verbs across all YAML files in the verben directory."""
+    try:
+        verben_dir = Path("verben")
+        if not verben_dir.exists():
+            click.echo("Error: 'verben' directory not found.", err=True)
+            return 1
+
+        # Find all YAML files in the verben directory
+        yaml_files = []
+        for yaml_file in verben_dir.glob("*.yaml"):
+            yaml_files.append(yaml_file)
+        if not yaml_files:
+            click.echo("No YAML files found in the 'verben' directory.")
+            return 0
+
+        # Dictionary to track verbs: {infinitive: [files containing it]}
+        verb_locations = {}
+        
+        # Scan each YAML file
+        for yaml_file in yaml_files:
+            try:
+                data = load_verb_data(str(yaml_file))
+                file_name = yaml_file.name
+                
+                if "verbs" not in data:
+                    click.echo(f"Warning: No 'verbs' key found in {file_name}")
+                    continue
+                    
+                for verb in data["verbs"]:
+                    infinitive = verb.get("infinitiv", "").strip()
+                    if infinitive:
+                        if infinitive not in verb_locations:
+                            verb_locations[infinitive] = []
+                        verb_locations[infinitive].append(file_name)
+                        
+            except Exception as e:
+                click.echo(f"Error reading {yaml_file}: {e}", err=True)
+                continue
+
+        # Find and report duplicates
+        duplicates_found = False
+        for infinitive, files in verb_locations.items():
+            # Check if verb appears in multiple files
+            if len(files) > 1:
+                if not duplicates_found:
+                    click.echo("Duplicate verbs found:")
+                    click.echo("=" * 40)
+                    duplicates_found = True
+                
+                click.echo(f"Verb: {infinitive}")
+                for file_name in files:
+                    click.echo(f"  - {file_name}")
+                click.echo()
+
+        if not duplicates_found:
+            click.echo("No duplicate verbs found across YAML files.")
+            
+        return 0
+        
+    except Exception as e:
+        click.echo(f"Error: {e}", err=True)
+        return 1
+
+
 if __name__ == "__main__":
     main()

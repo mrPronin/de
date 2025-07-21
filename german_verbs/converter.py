@@ -229,30 +229,15 @@ def markdown_to_yaml(md_file: str, output_dir: str = None) -> str:
     return str(output_path)
 
 
-def yaml_to_md_cli():
-    """CLI entry point for the yaml2md command."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Convert German verb YAML files to Markdown"
-    )
-    parser.add_argument("yaml_file", help="Path to the YAML file to convert")
-    parser.add_argument(
-        "-o", "--output-dir",
-        help="Output directory (default: verben/generated)",
-        default="verben/generated"
-    )
-
-    args = parser.parse_args()
-
-    try:
-        output_path = yaml_to_markdown(args.yaml_file, args.output_dir)
-        print(f"Generated Markdown file: {output_path}")
-        return 0
-    except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
-        return 1
-
-
 if __name__ == "__main__":
-    sys.exit(yaml_to_md_cli())
+    # For direct module execution, convert the first argument as YAML file
+    if len(sys.argv) > 1:
+        try:
+            output_path = yaml_to_markdown(sys.argv[1])
+            print(f"Generated Markdown file: {output_path}")
+        except Exception as e:
+            print(f"Error: {e}", file=sys.stderr)
+            sys.exit(1)
+    else:
+        print("Usage: python -m german_verbs.converter <yaml_file>")
+        sys.exit(1)
