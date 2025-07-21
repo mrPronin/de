@@ -10,7 +10,9 @@ verbs:
     person3: beginnt
     examples: |
       mit <Dat>
-      der Beginn - початок;
+
+      **Substantive**:
+        der Beginn - початок
 
       mit der Arbeit = zu arbeiten beginnen
       
@@ -18,11 +20,11 @@ verbs:
         Ich beginne ein neues Buch zu lesen. / I begin to read a new book.
         Ich beginne mit der Arbeit. / I begin with the work.
       
-      Präteritum:
+      **Präteritum**:
         Ich begann mit der Arbeit. / I began with the work.
         Er begann das Projekt gestern. / He began the project yesterday.
       
-      Perfekt:
+      **Perfekt**:
         Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
         Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
   
@@ -46,14 +48,14 @@ verbs:
       bei der Sache bleiben / to stay with the matter
       am Leben bleiben / to stay alive
  
-      Präsens:
+      **Präsens**:
         Ich bleibe zu Hause. / I stay at home.
         Ich bleibe bei meiner Meinung. / I stay with my opinion.
 
-      Präteritum:
+      **Präteritum**:
         Ich blieb gestern zu Hause. / I stayed at home yesterday.
 
-      Perfekt:
+      **Perfekt**:
         Ich bin zu Hause geblieben. / I have stayed at home.
   
   - id: 3
@@ -69,13 +71,13 @@ verbs:
       das Festessen - святкова вечеря
       die Essgewohnheiten - харчові звички
 
-      Präsens:
+      **Präsens**:
         Ich esse gerne Pizza. Du isst immer zu spät.
 
-      Präteritum:
+      **Präteritum**:
         Gestern aß ich ein großes Stück Kuchen. Letzte Woche aßen wir zusammen in einem schicken Restaurant.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe gestern Abend eine Pizza gegessen. Wir haben heute Morgen ein leckeres Frühstück gegessen.
   
   - id: 4
@@ -99,7 +101,7 @@ verbs:
       fahre nach - нет артикля
       fahre mit <Dat>
 
-      Beispiele
+      **Beispiele**:
         Ich fahre zur Arbeit / I drive to work.
         Ich fahre ins Ausland / I drive abroad.
         Ich bin mit dem Bus gefahren. / I drove with the bus.
@@ -110,15 +112,15 @@ verbs:
         vor Schreck in die Höhe fahren / to drive into the sky from fear
         vor Wut auf die Palme fahren / to drive into the sky from anger
 
-      Präsens:
+      **Präsens**:
         Ich fahre mit dem Auto zur Arbeit. / I drive with the car to work.
         Er fährt gerne Fahrrad in seiner Freizeit. / He likes to ride a bike in his free time.
 
-      Präteritum:
+      **Präteritum**:
         Gestern fuhr ich mit dem Zug nach Hamburg. / I drove with the train to Hamburg yesterday.
         Letzte Woche fuhren wir in den Urlaub ans Meer. / Last week, we went on vacation to the sea.
 
-      Perfekt:
+      **Perfekt**:
         Ich bin heute Morgen mit dem Bus zur Schule gefahren. / I drove with the bus to school this morning.
         Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen. / She drove to the supermarket with the car to buy groceries.
   
@@ -136,11 +138,14 @@ verbs:
       an-, - починати
       empfangen - приймати
 
-      Präsens: Ich fang an, ein neues Buch zu lesen.
+      **Präsens**:
+        Ich fang an, ein neues Buch zu lesen.
 
-      Präteritum: Ich fing an, mit dem neuen Job zu arbeiten.
+      **Präteritum**:
+        Ich fing an, mit dem neuen Job zu arbeiten.
 
-      Perfekt: Ich habe angefangen, mit dem neuen Job zu arbeiten.
+      **Perfekt**:
+        Ich habe angefangen, mit dem neuen Job zu arbeiten.
   
   - id: 6
     infinitiv: finden
@@ -162,7 +167,7 @@ verbs:
 
       erfinden - винаходити
 
-      Beispiele:
+      **Beispiele**:
         пряме значення:
           einen Fehler finden; / find a mistake
           richtige Lösung finden / find the right solution
@@ -172,13 +177,13 @@ verbs:
           j-n nett finden / find someone nice
           etw wichtig finden / find something important
 
-      Präsens:
+      **Präsens**:
         Ich finde es schwer, mit meinen Eltern zu sprechen. / I find it difficult to talk to my parents.
 
-      Präteritum:
+      **Präteritum**:
         Ich habe gestern das neue Smartphone gefunden. / I found the new smartphone yesterday.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe das neue Smartphone gefunden. / I have found the new smartphone.
   
   - id: 7
@@ -191,22 +196,22 @@ verbs:
     person3: fliegt
     examples: |
       der Flug - політ
-        der Flug N 3465;
+      der Flug N 3465
       der Abflug - відліт
       die Ankunft - прибуття
       das Flugzeug - літак
 
-      Beispiele:
+      **Beispiele**:
         ist: Ich bin nach Spanien geflogen. / I flew to Spain.
         hat: Der Pilot hat die Maschine geflogen. / The pilot flew the plane.
 
-      Präsens:
+      **Präsens**:
         Ich fliege oft nach München. / I often fly to Munich.
 
-      Präteritum:
+      **Präteritum**:
         Gestern flog ich nach Berlin. / I flew to Berlin yesterday.
 
-      Perfekt:
+      **Perfekt**:
         Ich bin gestern nach Berlin geflogen. / I flew to Berlin yesterday.
   
   - id: 8
@@ -226,7 +231,7 @@ verbs:
 
       auf-, - здаватися
 
-      Beispiele:
+      **Beispiele**:
         ein Geschenk / einen Kuss / einen Rat / sein Wort /
         einen Rat / Kuss / Stoß
         Ich gebe mir viel Mühe. / I try my best.
@@ -237,13 +242,13 @@ verbs:
         es gibt ein / eine / einen <Akk>;
         Das Kind ist begabt. / The child is talented.
 
-      Präsens:
+      **Präsens**:
         Ich gebe dir das Buch. Du gibst mir eine Antwort.
 
-      Präteritum:
+      **Präteritum**:
         Ich gab dir das Buch gestern. Du gabst mir eine Antwort.
 
-      Präteritum:
+      **Perfekt**:
         Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
   
   - id: 9
@@ -278,13 +283,13 @@ verbs:
       Wie geht es ihnen?
         Es geht schief.
 
-      Präsens:
+      **Präsens**:
         Ich gehe zur Arbeit jeden Tag. Ihr geht gerne in den Park.
 
-      Präteritum:
+      **Präteritum**:
         Ich ging gestern zur Arbeit. Ihr gingt gerne in den Park.
 
-      Perfekt:
+      **Perfekt**:
         Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
   
   - id: 10
@@ -300,13 +305,13 @@ verbs:
       Wie heißt das auf Deutsch? / What is it called in German?
       Was soll das heißen?! / What does that mean?
 
-      Präsens:
+      **Präsens**:
         Sie heißt Maria. / Her name is Maria.
 
-      Präteritum:
+      **Präteritum**:
         Früher hieß sie Anna. / She used to be called Anna.
 
-      Perfekt:
+      **Perfekt**:
         Die Straße hat früher anders geheißen. / The street used to have a different name.    
   
   - id: 11
@@ -318,7 +323,7 @@ verbs:
       ukrainian: допомагати
     person3: hilft
     examples: |
-      Präpositionen:
+      **Präpositionen**:
         helfen <Dat> bei <Dat> / helped with something / я допоміг у чому (дією)
           helfen bei der Hausarbeit / I am helping with the homework / я допоміг у домашніх завданнях
 
@@ -340,14 +345,14 @@ verbs:
       der Helfer / the helper / помічник
       die Helferin / the helper / помічниця
 
-      Präsens:
+      **Präsens**:
         Ich helfe meiner Freundin beim Umzug. / I'm helping my girlfriend move.
         Ich helfe dir gern. / I'm happy to help you.
 
-      Präteritum:
+      **Präteritum**:
         Gestern half ich ihm bei seinen Hausaufgaben. / Yesterday I helped him with his homework.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe ihr beim Umzug geholfen. / I helped her move.
 
   - id: 12
@@ -359,7 +364,7 @@ verbs:
       ukrainian: приходити
     person3: kommt
     examples: |
-      Präpositionen:
+      **Präpositionen**:
         kommen zu <Dat> - до чого
           Ich komme zu dir. / I come to you.
           Komm zu mir. / Come to me.
@@ -382,13 +387,13 @@ verbs:
         vorkommen - So etwas kommt oft vor!
 
 
-      Präsens:
+      **Präsens**:
         Ich komme gleich zu dir. / I'll be right with you.
 
-      Präteritum:
+      **Präteritum**:
         Letzte Woche kam sie zu Besuch. / Last week she came to visit.
 
-      Perfekt:
+      **Perfekt**:
         Sie ist aus Deutschland gekommen. / She came from Germany.
   
   - id: 13
@@ -416,13 +421,13 @@ verbs:
       Dieser Text ist nicht leserlich. / This text is not readable.
       Man kann Trauben, Kartoffeln lesen. / You can harvest grapes and potatoes.
 
-      Präsens:
+      **Präsens**:
         Ich lese ein Buch. / I am reading a book.
 
-      Präteritum:
+      **Präteritum**:
         Ich las gestern ein Buch. / I read a book yesterday.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe das Buch gelesen. / I have read the book.
 
   - id: 14
@@ -434,7 +439,7 @@ verbs:
       ukrainian: брати
     person3: nimmt
     examples: |
-      Akk
+      <Akk>
 
       ein | nehmen - приймати
       ab | nehmen - скинути вагу
@@ -459,14 +464,13 @@ verbs:
       die Aufnahme - die Notaufnahme;
       die Medizin einnehmen;
       
-
-      Präsens:
+      **Präsens**:
         Ich nehme den Schlüssel. / I take the key.
 
-      Präteritum:
+      **Präteritum**:
         Ich nahm den Zug. / I took the train.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
   
   - id: 15
@@ -483,7 +487,7 @@ verbs:
       der Ruf - крик, відгук
         Diese Firma hat einen guten Ruf. / This company has a good reputation.
 
-      Präfixe:
+      **Präfixe**:
         an | rufen <Akk> - набирати по телефону
           Ich have meinen Freund angerufen. / I called my friend.
           Ruf mich an. / Call me.
@@ -492,17 +496,17 @@ verbs:
         auf | rufen zu <Dat> - призивати до чогось
           Ich habe meine Kollegen zur Disziplin / Ordnung aufgerufen. / I called my colleagues to discipline / order.
 
-      Präsens:
+      **Präsens**:
         Ich rufe meine Freundin an. / I call my friend.
         Du rufst den Namen deines Hundes. / You call your dog's name.
         Er ruft nach Hilfe. / He calls for help.
 
-      Präteritum:
+      **Präteritum**:
         Ich rief meine Freundin an. / I called my friend.
         Du riefst den Namen deines Hundes. / You called your dog's name.
         Er rief nach Hilfe. / He called for help.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe meine Freundin angerufen. / I have called my friend.
         Du hast den Namen deines Hundes angerufen. / You have called your dog's name.
         Er hat nach Hilfe gerufen. / He has called for help.
@@ -519,7 +523,7 @@ verbs:
       der Schlaf - сон
       der Acht-stunden-schlaf - сон вісім годин
       
-      Präfixe:
+      **Präfixe**:
         ein | schlafen - засинати
           <sein>
           Ich bin schlecht eingeschlafen. / I slept badly.
@@ -527,20 +531,20 @@ verbs:
           Ich habe die letzte Nacht ausgeschlafen. / I slept through the last night.
         ver | schlafen - to sleep / проспати
           
-      Prepositionen:
+      **Prepositionen**:
         bei <Dat> schlafen - Indicating where someone sleeps.
           Er schläft bei seinem Freund. / He sleeps at his friend's place.
 
         über <Akk> schlafen - Sleeping through something.
           Sie schlief über das ganze Konzert. / She slept through the entire concert.
 
-      Präsens:
+      **Präsens**:
         Ich schlafe jede Nacht etwa sieben Stunden. / I sleep about seven hours every night.
 
-      Präteritum:
+      **Präteritum**:
         Letzte Nacht schlief ich sehr schlecht wegen des Lärms. / Last night I slept very badly because of the noise.
 
-      Perfekt:
+      **Perfekt**:
         Er hat den ganzen Tag geschlafen, nachdem er krank wurde. / He slept all day after he got sick.      
 
   
@@ -553,14 +557,14 @@ verbs:
       ukrainian: писати
     person3: schreibt
     examples: |
-      Präpositionen:
+      **Präpositionen**:
         schreiben an <Akk> - писати кому
           Ich habe an dich geschrieben. / I wrote to you.
 
         schreiben aus <Dat> - write out, announce / виписувати
           Ich habe die neuen Wörter aus dem Text ausgeschrieben. / I have written out the new words from the text. / Я виписав нові слова з тексту.
 
-      Substantive:
+      **Substantive**:
         das Schreiben - писання
         beschreiben - описувати
         die Schrift - письмо
@@ -579,13 +583,13 @@ verbs:
       be | schreiben - write about; описувати
         Beschreiben Sie bitte das Bild. / Please describe the picture.
 
-      Präsens:
+      **Präsens**:
         Ich schreibe einen Brief an meinen Freund. / I am writing a letter to my friend.
 
-      Präteritum:
+      **Präteritum**:
         Sie schrieb gestern in ihr Tagebuch. / She wrote in her diary yesterday.
 
-      Perfekt:
+      **Perfekt**:
         Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
   
   - id: 18
@@ -607,13 +611,13 @@ verbs:
       ist:
         Ich bin auf andere Seite geschwommen - Я переплив на інший бік
 
-      Präsens:
+      **Präsens**:
         Ich schwimme jeden Morgen im See. Ich schwimme gern im Schwimmbad. / I like to swim in the swimming pool.
 
-      Präteritum:
+      **Präteritum**:
         Letzten Sommer schwamm ich im Meer. / Last summer, I swam in the sea.
 
-      Perfekt:
+      **Perfekt**:
         Ich bin heute im Fluss geschwommen. / I swam in the river today.
         Ich habe viel geschwommen. / I swam a lot.
         Sie haben heute Morgen bereits 500 Meter geschwommen. / They have already swum 500 meters this morning.
@@ -627,7 +631,7 @@ verbs:
       ukrainian: бачити
     person3: sieht
     examples: |
-      Substantive:
+      **Substantive**:
         das Sehen - бачення
         die Sicht - зір
         Klare Sicht haben - мати гарний зір
@@ -642,13 +646,13 @@ verbs:
       aus | sehen - to look; виглядати
       an | sehen sich <Dat> - to stare; дивитися (впритул, довго)
 
-      Präsens:
+      **Präsens**:
         Ich sehe einen schönen Sonnenuntergang. / I see a beautiful sunset.
 
-      Präteritum:
+      **Präteritum**:
         Gestern sah ich einen Film im Kino. / Yesterday, I saw a movie in the cinema.
 
-      Perfekt:
+      **Perfekt**:
         Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
   
   - id: 20
@@ -666,17 +670,17 @@ verbs:
 
       Das Unternehmen ist in / außer Betrieb.
 
-      Präsens:
+      **Präsens**:
         Ich bin glücklich. / I am happy.
         Du bist mein bester Freund. / You are my best friend.
         Er/sie/es ist heute nicht hier. / He/she/it is not here today.
 
-      Präteritum:
+      **Präteritum**:
         Ich war gestern müde. / I was tired yesterday.
         Du warst in den Ferien am Strand. / You were at the beach during the holidays.
         Er/sie/es war letztes Jahr im Ausland. / He/she/it was abroad last year.
 
-      Perfekt:
+      **Perfekt**:
         Ich bin schon einmal in Paris gewesen. / I have been to Paris before.
   
   - id: 21
@@ -692,17 +696,17 @@ verbs:
       Das Lied singen - співати пісню
       der Sänger - співак
 
-      Präsens:
+      **Präsens**:
         Ich singe gerne in der Dusche. / I sing in the shower.
         Du singst wunderschön. / You sing beautifully.
         Sie/er/es singt ein Lied. / She/he/it sings a song.
 
-      Präteritum:
+      **Präteritum**:
         Ich sang gestern auf der Geburtstagsfeier. / I sang at the birthday party yesterday.
         Du sangst ein traditionelles Lied. / You sang a traditional song.
         Sie/er/es sang ein Solo. / She/he/it sang a solo.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe oft in einem Chor gesungen. / I have sung in a choir often.
   
   - id: 22
@@ -714,7 +718,7 @@ verbs:
       ukrainian: говорити, розмовляти
     person3: spricht
     examples: |
-      Präpositionen:
+      **Präpositionen**:
         mit <Dat> - з кому
           Ich spreche mit meinem Freund. / I speak with my friend.
           Mit wem hast du gesprochen? / Who were you talking to? / З ким ти розмовляв?
@@ -735,7 +739,7 @@ verbs:
 
       die Aussprache - вимова
       
-      Substantive:
+      **Substantive**:
         die Sprache - мова
         die Fremdsprache - іноземна мова
         die Amtssprache - державна мова
@@ -751,13 +755,13 @@ verbs:
 
       gesprochenes Deutsch - розмовна німецька
 
-      Präsens:
+      **Präsens**:
         Ich spreche Deutsch. / I speak German.
 
-      Präteritum:
+      **Präteritum**:
         Gestern sprach er mit seinem Freund. / Yesterday, he spoke with his friend.
 
-      Perfekt:
+      **Perfekt**:
         Sie hat gerade mit ihm gesprochen. / She has just spoken with him.
   
   - id: 23
@@ -789,13 +793,13 @@ verbs:
       der Verstand - розум
       das Verstandniss - розуміння
 
-      Präsens:
+      **Präsens**:
         Ich stehe hier. / I am standing here.
 
-      Präteritum:
+      **Präteritum**:
         Gestern stand er vor dem Haus. / Yesterday, he stood in front of the house.
 
-      Perfekt:
+      **Perfekt**:
         Er hat den ganzen Tag in der Schlange gestanden. / He has stood in line all day.
   
   - id: 24
@@ -809,31 +813,31 @@ verbs:
     examples: |
       treffen <Akk>
 
-      Präpositionen:
+      **Präpositionen**:
         sich treffen mit <Dat> / meet with / зустрічатися з
           Ich treffe mich mit meinem Freund. / I meet up with my friend. / Я зустрічаюся зі своїм другом.
           Ich habe mich mit meinem Freund getroffen. / I met up with my friend.
 
-      Substantive:
+      **Substantive**:
         das Treffen - зустріч
 
       be-,
 
-      Phrasen:
+      **Phrasen**:
         Ich habe eine richtige Lösung getroffen. / I have made a good decision.
         Maßnahmen treffen - вжити заходів.
         Entscheidung treffen - прийняти рішення
         Ins Auge treffen - влучити в ціль
 
-      Präsens:
+      **Präsens**:
         Ich treffe mich oft mit meinen Freunden. / I often meet up with my friends.
         Du triffst eine gute Entscheidung. / You are making a good decision. 
 
-      Präteritum:
+      **Präteritum**:
         Ich traf mich gestern mit meinen Freunden. / I met up with my friends yesterday.
         Du trafst eine gute Entscheidung. / You made a good decision.
 
-      Perfekt:
+      **Perfekt**:
         Ich habe mich oft mit meinen Freunden getroffen. / I have often met up with my friends.
         Du hast eine gute Entscheidung getroffen. / You have made a good decision.
 
@@ -853,13 +857,13 @@ verbs:
 
       Ich trinke auf Sie / auf Ihr Wohl.
 
-      Präsens:
+      **Präsens**:
         Ich trinke gerne Wasser. / I like to drink water.
 
-      Präteritum:
+      **Präteritum**:
         Gestern trank er einen Kaffee. / Yesterday, he drank a coffee.
 
-      Perfekt:
+      **Perfekt**:
         Sie hat bereits ihren Tee getrunken. / She has already drunk her tea.
   
   - id: 26
@@ -876,11 +880,11 @@ verbs:
       Tun Sie mir bitte den Gefallen. / Please do me a favor.
       die Tat - дія
 
-      Präsens:
+      **Präsens**:
         Ich tue mein Bestes, um zu helfen. / I do my best to help.
 
-      Präteritum:
+      **Präteritum**:
         Gestern tat er, was von ihm verlangt wurde. / Yesterday, he did what was asked of him.
 
-      Perfekt:
+      **Perfekt**:
         Sie haben bereits viel für die Gemeinschaft getan. / They have already done a lot for the community.
