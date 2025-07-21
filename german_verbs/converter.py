@@ -10,10 +10,10 @@ from german_verbs.verbs import load_verb_data
 
 def escape_angle_brackets(text: str) -> str:
     r"""Escape angle brackets for markdown to prevent HTML interpretation.
-    
+
     Args:
         text: The text to escape.
-        
+
     Returns:
         Text with < replaced by \< and > replaced by \>
     """
@@ -73,7 +73,7 @@ def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
         person3 = escape_angle_brackets(verb['person3'])
         präteritum = escape_angle_brackets(verb['präteritum'])
         partizip = escape_angle_brackets(verb['partizip'])
-        
+
         prefix = f"| {verb['id']} | {infinitiv} ({person3}) | "
         suffix = f"{präteritum} | {partizip} | "
         translations = f"{translations}"
