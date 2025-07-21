@@ -8,6 +8,20 @@ import yaml
 from german_verbs.verbs import load_verb_data
 
 
+def escape_angle_brackets(text: str) -> str:
+    r"""Escape angle brackets for markdown to prevent HTML interpretation.
+    
+    Args:
+        text: The text to escape.
+        
+    Returns:
+        Text with < replaced by \< and > replaced by \>
+    """
+    if not text:
+        return text
+    return text.replace("<", r"\<").replace(">", r"\>")
+
+
 def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
     """Convert a YAML verb file to Markdown format.
 
@@ -25,7 +39,7 @@ def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
     md_lines = []
 
     # Add the title
-    md_lines.append(f"# {data['title']}")
+    md_lines.append(f"# {escape_angle_brackets(data['title'])}")
     md_lines.append("")
 
     # Create the table header
@@ -37,24 +51,31 @@ def yaml_to_markdown(yaml_file: str, output_dir: str = None) -> str:
 
     # Add each verb to the table
     for verb in data["verbs"]:
-        # Format translations
-        english = verb['translations']['english']
-        ukrainian = verb['translations']['ukrainian']
+        # Format translations with angle bracket escaping
+        english = escape_angle_brackets(verb['translations']['english'])
+        ukrainian = escape_angle_brackets(verb['translations']['ukrainian'])
         translations = f"{english} / {ukrainian}"
 
         # Use examples directly and preserve line breaks
         # by replacing them with <br>
         examples = verb.get("examples", "")
         if examples:
+            # Escape angle brackets first
+            examples = escape_angle_brackets(examples)
             # Replace newlines with <br> tags
             examples = examples.replace("\n", "<br>")
             # Also handle any semicolons for backward compatibility
             examples = examples.replace(";", "<br>")
             examples = examples.strip()
 
-        # Add the verb row
-        prefix = f"| {verb['id']} | {verb['infinitiv']} ({verb['person3']}) | "
-        suffix = f"{verb['präteritum']} | {verb['partizip']} | "
+        # Add the verb row with escaped content
+        infinitiv = escape_angle_brackets(verb['infinitiv'])
+        person3 = escape_angle_brackets(verb['person3'])
+        präteritum = escape_angle_brackets(verb['präteritum'])
+        partizip = escape_angle_brackets(verb['partizip'])
+        
+        prefix = f"| {verb['id']} | {infinitiv} ({person3}) | "
+        suffix = f"{präteritum} | {partizip} | "
         translations = f"{translations}"
         row = f"{prefix}{suffix}{translations} | {examples} |"
         md_lines.append(row)
