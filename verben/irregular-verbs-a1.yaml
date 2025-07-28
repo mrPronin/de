@@ -133,11 +133,21 @@ verbs:
       ukrainian: ловити
     person3: fängt
     examples: |
-      der Fang
+      fangen <Akk>
 
       an-, - починати
       empfangen - приймати
+      empfangen - der Empfang
+      anfangen mit <Dat> - der Anfang
 
+      **Substantive**:
+        der Fänger / catcher / захоплювач
+        der Fang / catch - захоплення
+        der Gefangene / caught / ув'язнений
+        das Gefängnis / prison / в'язниця
+        der Empfang / the reception / прийом
+        der Anfang / the beginning / початок
+        
       **Präsens**:
         Ich fang an, ein neues Buch zu lesen.
 
@@ -156,16 +166,18 @@ verbs:
       ukrainian: знаходити
     person3: findet
     examples: |
-      das Fundbüro - бюро знахідок
-
-      das Gefunden - знахідка
-
-      der Finder - шукач
-
-      der Erfinder - дослідник
-      die Erfindung - винахід
+      finden <Akk>
 
       erfinden - винаходити
+
+      stattfinden - wo? <Dat>
+
+      **Substantive**:
+        das Fundbüro - бюро знахідок
+        das Gefunden - знахідка
+        der Finder - шукач
+        der Erfinder - винахідник
+        die Erfindung - винахід
 
       **Beispiele**:
         пряме значення:
@@ -195,11 +207,13 @@ verbs:
       ukrainian: літати
     person3: fliegt
     examples: |
-      der Flug - політ
-      der Flug N 3465
-      der Abflug - відліт
-      die Ankunft - прибуття
-      das Flugzeug - літак
+      **Substantive**:
+        der Flug - політ
+        der Flug N 3465
+        der Abflug - відліт
+        die Ankunft - прибуття
+        das Flugzeug - літак
+        die Fliege
 
       **Beispiele**:
         ist: Ich bin nach Spanien geflogen. / I flew to Spain.
@@ -229,7 +243,7 @@ verbs:
       die Gottesgabe - божья милость
       die Begabung - дар, талант
 
-      auf-, - здаватися
+      aufgeben - здаватися
 
       **Beispiele**:
         ein Geschenk / einen Kuss / einen Rat / sein Wort /
@@ -260,17 +274,17 @@ verbs:
       ukrainian: йти
     person3: geht
     examples: |
-      wohin? - Akk
+      wohin? - <Akk>
 
       ins Geschäft; Die Uhr geht nicht.
 
       Es geht alles schief. - Все йде не так.
 
       der Gang - ход, Ein-/ Ausgang;
-      die Eingang
-      die Ausgang
+      die Eingang - вхід
+      die Ausgang - вихід
       die Ausweg - вихід із ситуації
-      die Stadtrundgang
+      die Stadtrundgang / екскурсія по місту
 
       Es geht um <Akk> - мова йде про ...
       in Erfüllung; 
@@ -301,7 +315,7 @@ verbs:
       ukrainian: називатися
     person3: heißt
     examples: |
-      Wie heißen Sie? / 
+      Wie heißen Sie? / Як вас звати?
       Wie heißt das auf Deutsch? / What is it called in German?
       Was soll das heißen?! / What does that mean?
 
@@ -323,6 +337,11 @@ verbs:
       ukrainian: допомагати
     person3: hilft
     examples: |
+      **Substantive**:
+        die Hilfe / the help / допомога
+        der Helfer / the helper / помічник
+        die Helferin / the helper / помічниця
+
       **Präpositionen**:
         helfen <Dat> bei <Dat> / helped with something / я допоміг у чому (дією)
           helfen bei der Hausarbeit / I am helping with the homework / я допоміг у домашніх завданнях
@@ -337,13 +356,10 @@ verbs:
           helfen im Haushalt / I am helping with the household / я допоміг у домашніх справах
           Ich habe meiner Tochter in der Schule geholfen. / I helped my daughter at school.
 
-      ins Auto; aus dem Auto; in den Mantel; aus dem Mantel;
+      Der Mann hilft seiner Frau ins Auto (aus dem Auto). / The man helps his wife into the car (out of the car).
+      Der Mann hilft seiner Frau in den Mantel (aus dem Mantel). / The man helps his wife into the coat (out of the coat).
 
       Medizin hilft gegen Grippe / bei der Erkältung;
-
-      die Hilfe / the help / допомога
-      der Helfer / the helper / помічник
-      die Helferin / the helper / помічниця
 
       **Präsens**:
         Ich helfe meiner Freundin beim Umzug. / I'm helping my girlfriend move.
@@ -664,11 +680,12 @@ verbs:
       ukrainian: бути
     person3: ist
     examples: |
-      das Sein - the being
+      Substantive:
+        das Sein - the being
 
       Er ist ein guter Arzt. / He is a good doctor.
 
-      Das Unternehmen ist in / außer Betrieb.
+      Das Unternehmen ist in / außer Betrieb. / The company is in / out of business.
 
       **Präsens**:
         Ich bin glücklich. / I am happy.
@@ -781,6 +798,7 @@ verbs:
         Ich bestehe darauf, dass
 
       erstehen - з'явитися
+      verstehen - розуміти
 
       der Aufstand - бунт
       der Widerstand - опір
@@ -812,6 +830,7 @@ verbs:
     person3: trifft
     examples: |
       treffen <Akk>
+      treffen sich <Dat> - зустрічатися
 
       **Präpositionen**:
         sich treffen mit <Dat> / meet with / зустрічатися з
@@ -820,8 +839,9 @@ verbs:
 
       **Substantive**:
         das Treffen - зустріч
+        der Betrofene - одержувач
 
-      be-,
+      betreffen - стосуватися
 
       **Phrasen**:
         Ich habe eine richtige Lösung getroffen. / I have made a good decision.
@@ -850,10 +870,12 @@ verbs:
       ukrainian: пити
     person3: trinkt
     examples: |
-      be-,
+      betrinken - 
+      betrunken - п'яний
       Er ist betrunken - він напідпитку
 
       ertrinken - захлинутися
+      erfrischende - освіжаючий
 
       Ich trinke auf Sie / auf Ihr Wohl.
 
@@ -878,7 +900,12 @@ verbs:
       Der Kopf tut mir weh. / My head hurts.
       Ich habe viel zu tun. / I have a lot to do.
       Tun Sie mir bitte den Gefallen. / Please do me a favor.
-      die Tat - дія
+
+      Was tut Ihnen weh? - Що вам болить?
+      Wo tut es Ihnen weh?
+      
+      **Substantive**:
+        die Tat - дія
 
       **Präsens**:
         Ich tue mein Bestes, um zu helfen. / I do my best to help.
