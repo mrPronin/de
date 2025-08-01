@@ -177,76 +177,125 @@ verbs:
         - Sie hat das Hähnchen im Ofen gebraten. / She has roasted the chicken in the oven. / Вона смажила курятину в духовці.
 
   - id: 6
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    infinitiv: fallen
+    präteritum: fiel
+    partizip: ist gefallen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to fall
+      ukrainian: падати
+    person3: fällt
     examples: |
+      fallen - wohin- <Akk>
+
       **trennbare Verben**:
+        - hinfallen - to fall down (on the ground) / падати на землю
+          - Er fällt oft beim Laufen hin. / He often falls when running. / Він часто падає під час бігу.
+        - auffallen <Dat> - to stand out, to be noticeable / кидатись в очі, бути помітним
+          - Mir fällt auf, dass du heute sehr ruhig bist. / I notice that you are very quiet today. / Я помічаю, що ти сьогодні дуже тихий.
+        - einfallen - to come to mind, collapse / спадати / спадати на думку
+          - Mir fällt nichts Gutes ein. / Nothing good comes to mind. / Мені нічого не спадає на думку.
+        - ausfallen - to fail, be canceled / випадати, скасовуватися
+          - Der Unterricht fällt heute aus. / The lesson is canceled today. / Заняття сьогодні скасовуються.
+        - abfallen - to fall off / відпадати
+          - Die Blätter fallen im Herbst ab. / The leaves fall in autumn. / Листя опадає восени.
+        - herunterfallen - to fall down / падати вниз
+          - Das Glas ist heruntergefallen. / The glass has fallen. / Склянка впала вниз.
+        - durchfallen - to fail (exam) / провалювати
+          - Ich bin durch die Prüfung gefallen. / I failed the exam. / Я провалив іспит.
 
       **Substantive**:
-      
+        - der Fall - auf keinen Fall / auf jeden Fall / the case / падіння, випадок
+        - der Zufall - the coincidence / збіг, випадковість
+        - der Durchfall - the failure / провал
+
       **Beispiele**:
+        - die Temperaturen fallen / the temperatures fall / Температури падають.
+        - die Preise fallen / the prices fall / Ціни падають
+        - im Krieg fallen / in the war fall / відбувається війна
+        - durch die Prüfung fallen / through the test fall / провалився тест
+        - einen Baum fallen / a tree fall / впало дерево
+        - Die Mathe ist heute ausgefallen. / The math is canceled today. / Математика сьогодні скасовується.
 
       **Präsens**:
-        
+        - Der Apfel fällt vom Baum. / The apple falls from the tree. / Яблуко падає з дерева.
       
       **Präteritum**:
-        
+        - Der Apfel fiel vom Baum. / The apple fell from the tree. / Яблуко впало з дерева.
       
       **Perfekt**:
-        
+        - Der Apfel ist vom Baum gefallen. / The apple has fallen from the tree. / Яблуко впало з дерева.
 
   - id: 7
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    infinitiv: gefallen
+    präteritum: gefiel
+    partizip: hat gefallen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to like
+      ukrainian: подобатися
+    person3: gefällt
     examples: |
+      gefallen - j-m
+
       **trennbare Verben**:
 
       **Substantive**:
+        - der Gefallen - the favor / послуга; j-m einen Gefallen tun
       
       **Beispiele**:
+        - Wie gefällt dir der Film? / How do you like the film? / Як вам фільм?
+        - Was gefällt dir an diesem Film? / What do you like about this film? / Що вам подобається в цьому фільмі?
 
       **Präsens**:
+        - Ich gefällt dir. / I like you. / Я вам подобаюся.
+        - Der Film gefällt mir. / The film suits me. / Мене подобається цей фільм.
         
-      
       **Präteritum**:
-        
+        - Ich gefiel dir. / I liked you. / Я вам подобався.
+        - Der Film gefiel mir. / The film suited me. / Мене подобався цей фільм.
       
       **Perfekt**:
-        
+        - Ich gefiel dir. / I liked you. / Я вам подобався.
+        - Der Film gefiel mir. / The film suited me. / Мене подобався цей фільм.
 
   - id: 8
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    infinitiv: gewinnen
+    präteritum: gewann
+    partizip: hat gewonnen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to win
+      ukrainian: вигравати, добувати (копалини)
+    person3: gewinnt
     examples: |
       **trennbare Verben**:
+        - dazu | gewinnen - to gain additionally / набувати додатково
+          - Mit dem neuen Projekt gewinnen wir viel Erfahrung dazu. / With the new project we gain a lot of experience. / З новим проектом ми отримуємо багато досвіду.
+        - zurück | gewinnen - to win back / повертати (назад)
+          - Wir müssen das Vertrauen unserer Kunden zurückgewinnen. / We must win back the trust of our customers. / Ми повинні повернути довіру наших клієнтів.
+
+      **nicht trennbare Verben**:
+        - gewinnen (без префікса) – to win, to gain / вигравати, здобувати
 
       **Substantive**:
+        - der Gewinn / -e - прибуток; der Verlust / -e - збиток
       
       **Beispiele**:
+        - einen Wettkampf gewinnen / to win a competition / виграти змагання
+        - den Krieg gewinnen / to win the war / виграти війну
+        - die Eisenerz gewinnen / extract iron ore / видобувати залізну руду
+        - die Kunden gewinnen / to win customers / завоювати клієнтів
+        - einen Preis gewinnen / to win a prize / виграти приз
+        - Vertrauen gewinnen / to win trust / завоювати довіру
+        - das Erdöl gewinnen / to extract oil / видобувати нафту
+        - den Gewinn erwirtschaften / to make a profit / отримувати прибуток
 
       **Präsens**:
-        
+        - Sie gewinnt oft bei Lotterien. - She often wins at lotteries. / Вона часто виграє в лотереї.
       
       **Präteritum**:
-        
+        - Sie gewann oft bei Lotterien. - She won often at lotteries. / Вона часто вигравала в лотереї.
       
       **Perfekt**:
-        
+        - Sie hat oft bei Lotterien gewonnen. - She won often at lotteries. / Вона часто вигравала в лотереї.
 
   - id: 9
     infinitiv: 
