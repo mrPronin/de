@@ -298,28 +298,46 @@ verbs:
         - Sie hat oft bei Lotterien gewonnen. - She won often at lotteries. / Вона часто вигравала в лотереї.
 
   - id: 9
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    infinitiv: laden
+    präteritum: lud
+    partizip: hat geladen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to load, to charge
+      ukrainian: вантажити
+    person3: lädt
     examples: |
+      laden etw. wohin?
+
       **trennbare Verben**:
 
       **Substantive**:
+        - aufladen - to charge / заряджати
+          - Ich lade mein Handy auf. – I charge my phone. / Я заряджаю свій телефон.
+        - einladen - to invite / запрошувати
+          - Ich lade dich zur Party ein. – I invite you to the party. / Я запрошую тебе на вечірку.
+        - herunterladen - to download / завантажувати (з інтернету)
+          - Ich lade die Datei herunter. – I download the file. / Я завантажую файл.
+        - hochladen - to upload / завантажувати (в інтернет)
+          - Ich lade das Video hoch. – I upload the video. / Я завантажую відео.
+        - ausladen - to unload / розвантажувати
+          - Ich lade den Kofferraum aus. – I unload the trunk. / Я розвантажую багажник.
       
       **Beispiele**:
+        - auf einen LKW laden / to load a truck / вантажити вантаж на вантажівку
+
 
       **Präsens**:
-        
+        - Ich lade mein Handy auf. - I charge my phone. / Я заряджаю свій телефон.
+        - Sie laden das Gepäck in den Kofferraum des Autos. / They load the luggage into the trunk of the car. / Вони вантажують багаж у багажник автомобіля.
       
       **Präteritum**:
-        
+        - Gestern lud ich meine Freunde zum Essen ein. - Yesterday, I invited my friends for dinner. / Вчора я запросив своїх друзів на вечерю.
+        - Letzte Woche luden wir den Lieferwagen mit den Paketen. - Last week we loaded the van with the parcels. / Ми вантажили вантажівку пакетами.
       
       **Perfekt**:
-        
+        - Ich habe mein Auto gerade vollgetankt und die Batterie geladen. - I have just refueled my car and charged the battery. / Я щойно заправил машину і зарядив акумулятор.
+        - Ich habe gestern mein Fahrrad aufgeladen. - Yesterday, I charged my bicycle. / Вчора я зарядив велосипед.
+        - Er hat das Dokument auf den USB-Stick geladen. - He loaded the document onto the USB stick. / Він завантажив документ на USB-накопичувач.
 
   - id: 10
     infinitiv: 
