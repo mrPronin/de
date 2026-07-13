@@ -1069,9 +1069,9 @@ verbs:
     person3: sitzt
     examples: |
       **Substantive**:
-        der Stuhl - стілець
         die Sitzung - засідання
-        der Platz - місце
+        der Sitzplatz - місце для сидіння
+        der Sitzende - той, що сидить
 
       **Beispiele**:
         Bitte setzen Sie sich! / Please sit down!
