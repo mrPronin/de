@@ -1188,7 +1188,7 @@ verbs:
       **Substantive**:
         die Wäsche - білизна
         der Waschsalon - пральня
-        das Auto - автомобіль
+        die Wäscheleine - вішалка для білизни
 
       **Beispiele**:
         Ich wasche meine Hände. / I wash my hands.
@@ -1216,8 +1216,8 @@ verbs:
     examples: |
       **Substantive**:
         der Wurf - кидок
-        der Müll - сміття
-        der Ball - м'яч
+        die Wurfscheibe - фрисбі
+        der Werfer - кидун
 
       **Beispiele**:
         Er wirft den Ball. / He throws the ball.
@@ -1244,9 +1244,9 @@ verbs:
     person3: weiß
     examples: |
       **Substantive**:
-        die Antwort - відповідь
-        die Wahrheit - правда
         das Wissen - знання
+        der Wissende - обізнана людина
+        die Kenntnis - обізнаність
 
       **Beispiele**:
         Ich weiß die Antwort. / I know the answer.
@@ -1274,9 +1274,9 @@ verbs:
     person3: reitet
     examples: |
       **Substantive**:
-        das Pferd - кінь
         der Reiter - вершник
         die Reiterei - кіннота
+        das Reitpferd - верховий кінь
 
       **Beispiele**:
         Er reitet gerne. / He likes to ride.
@@ -1303,9 +1303,9 @@ verbs:
     person3: trägt
     examples: |
       **Substantive**:
-        die Tasche - сумка
-        der Koffer - чемодан
-        das Kleid - сукня
+        der Träger - носій
+        die Tragetasche - сумка для перенесення
+        das Tragetuch - перев'язувальна тканина
 
       **Beispiele**:
         Ich trage eine Jacke. / I wear a jacket.
@@ -1333,8 +1333,8 @@ verbs:
     examples: |
       **Substantive**:
         das Verständnis - розуміння
-        die Sprache - мова
-        der Text - текст
+        der Verständiger - той, хто розуміє
+        die Verstärkung - підсилення
 
       **Beispiele**n:
         Ich verstehe dich. / I understand you.
@@ -1363,8 +1363,8 @@ verbs:
     examples: |
       **Substantive**:
         der Lauf - біг
-        die Straße - вулиця
-        der Hund - собака
+        der Läufer - бігун
+        die Laufbahn - бігова доріжка
 
       **Beispiele**:
         Ich laufe jeden Morgen. / I run every morning.
@@ -1391,9 +1391,8 @@ verbs:
     person3: lässt
     examples: |
       **Substantive**:
-        die Erlaubnis - дозвіл
-        der Platz - місце
-        die Tür - двері
+        der Gelassene - спокійна людина
+        die Gelassenheit - спокій
 
       **Beispiele**:
         Lass mich in Ruhe! / Leave me alone!
@@ -1421,8 +1420,7 @@ verbs:
     examples: |
       **Substantive**:
         der Anfang - початок
-        die Arbeit - робота
-        der Film - фільм
+        die Anfängerin - початківець
 
       **Beispiele**:
         Wann fängt der Film an? / When does the film start?
@@ -1449,9 +1447,8 @@ verbs:
     person3: steht auf
     examples: |
       **Substantive**:
-        der Morgen - ранок
-        die Uhr - годинник
-        früh - рано
+        der Aufsteiger - той, хто піднімається
+        die Aufstiegsquote - частота підйомів
 
       **Beispiele**:
         Ich stehe um sieben Uhr auf. / I get up at seven o'clock.
@@ -1478,9 +1475,8 @@ verbs:
     person3: steigt aus
     examples: |
       **Substantive**:
-        der Bus - автобус
-        die Haltestelle - зупинка
-        der Zug - поїзд
+        der Aussteiger - той, хто виходить
+        die Ausstiegshilfe - система допомоги при виході
 
       **Beispiele**:
         Wo steigen Sie aus? / Where do you get off?
@@ -1507,9 +1503,8 @@ verbs:
     person3: steigt ein
     examples: |
       **Substantive**:
-        der Bus - автобус
-        die Bahn - поїзд
-        der Zug - потяг
+        der Einsteiger - початківець
+        die Einstiegsphase - фаза входу
 
       **Beispiele**:
         Bitte steigen Sie ein! / Please get on!
@@ -1537,8 +1532,6 @@ verbs:
     examples: |
       **Substantive**:
         das Aussehen - зовнішність
-        die Müdigkeit - втому
-        gut / schlecht - добре / погано
 
       **Beispiele**:
         Wie siehst du aus? / How do you look?
@@ -1566,8 +1559,7 @@ verbs:
     examples: |
       **Substantive**:
         das Fernsehen - телебачення
-        der Film - фільм
-        die Serie - серіал
+        der Fernsehzuschauer - глядач
 
       **Beispiele**:
         Ich sehe gerne fern. / I like to watch TV.
@@ -1594,9 +1586,8 @@ verbs:
     person3: bringt mit
     examples: |
       **Substantive**:
-        das Geschenk - подарунок
-        die Flasche - пляшка
-        der Kuchen - торт
+        der Mitbringsel - те, що приносять
+        die Mitnahme - взяти з собою
 
       **Beispiele**:
         Kannst du eine Flasche Wasser mitbringen? / Can you bring a bottle of water?
@@ -1623,9 +1614,8 @@ verbs:
     person3: steigt
     examples: |
       **Substantive**:
-        der Berg - гора
-        die Treppe - сходи
-        das Gebirge - гірський хребет
+        der Steiger - гірник, альпініст
+        die Steigung - підйом
 
       **Beispiele**:
         Er steigt den Berg hinauf. / He climbs the mountain.
