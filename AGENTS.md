@@ -37,6 +37,7 @@ python3 scripts/renumber_yaml.py verben/*.yaml                    # all files
 Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.yaml`). After editing (adding/removing verbs), run `scripts/renumber_yaml.py` to fix sequential IDs. Each file has a `title` string and a `verbs` list. Each verb: `id`, `infinitiv`, `präteritum` (note: **non-ASCII key — preserve the ä**), `partizip`, `person3`, `translations.{english,ukrainian}`, and free-text `examples`.
 
 - Default data file everywhere: `irregular-verbs-a1.yaml`.
+- **Never regenerate MD files without explicit user instruction.** Do not run `convert-to-md`, `convert-all`, or `convert.py` unless the user explicitly asks.
 - `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.
 - YAML↔MD round-trips are lossy (examples flattened to `<br>`, angle brackets escaped).
 - `person3` stored parenthetically in MD infinitive cell.
