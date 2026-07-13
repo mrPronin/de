@@ -24,7 +24,8 @@ No known blockers. There is no automated test suite, linter, or CI.
 | 2 | YAML↔Markdown conversion + escaping | done |
 | 3 | Interactive practice modes | done |
 | 4 | Data curation (A1 → A2 → beyond) | in progress |
-| 5 | Testing / linting / CI | planned |
+| 5 | Maintenance scripts | done |
+| 6 | Testing / linting / CI | planned |
 
 ## Architecture
 
@@ -43,6 +44,8 @@ Directory-relative paths (`verben/`, `verben/generated/`) are hardcoded, so comm
 ```
 de/
 ├── convert.py                  # standalone shortcut ≈ `german-verbs convert-all`
+├── scripts/                    # maintenance utilities
+│   └── renumber_yaml.py       # renumber verb IDs after manual edits
 ├── pyproject.toml              # package + [project.scripts] entry points
 ├── german_verbs/
 │   ├── verbs.py                # data layer: load, lookup, display formatting
@@ -141,6 +144,30 @@ uv run learn-verbs verben/irregular-verbs-b.yaml -n 10 -m ukrainian -s
 ### Verification
 Run a short session (`-n 3`) and confirm scoring/help behavior.
 
+## Phase 5: Maintenance Scripts — done
+
+### Problem
+Manual edits to YAML files (adding/removing verbs) leave ID gaps and duplicates, requiring tedious manual renumbering.
+
+### Design Decisions
+| Decision | Choice | Rationale |
+|---|---|---|
+| Standalone script | `scripts/renumber_yaml.py` | No install needed; runs with stdlib (`re`, `sys`, `pathlib`) |
+| Target detection | Match `- id:` lines inside `verbs:` block | Avoids renumbering unrelated YAML fields |
+
+### Key Changes
+`scripts/renumber_yaml.py` — renames verb IDs sequentially from 1. Defaults to A1 file; accepts one or more paths.
+
+### Usage
+```bash
+python3 scripts/renumber_yaml.py verben/irregular-verbs-b.yaml   # single file
+python3 scripts/renumber_yaml.py verben/*.yaml                    # all files
+python3 scripts/renumber_yaml.py                                  # defaults to A1
+```
+
+### Verification
+Run against any YAML file, then `grep "id:"` to confirm sequential numbering.
+
 ## Known Issues & Workarounds
 
 - **Lossy YAML↔MD round-trip.** `markdown_to_yaml` is explicitly simplified; treat generated MD as output-only and keep YAML authoritative. Permanent by design.
@@ -153,10 +180,11 @@ Run a short session (`-n 3`) and confirm scoring/help behavior.
 | Date | Decision | Reason |
 |---|---|---|
 | 2026-07-13 | Introduced `IMPLEMENTATION_PLAN.md` and root `CLAUDE.md` | Document project direction and give coding agents fast onboarding |
+| 2026-07-14 | Removed "bleiben" from b.yaml; added `scripts/renumber_yaml.py` | "bleiben" is A1-level (verified via DuckDuckGo); renumber script prevents manual ID errors after data edits |
 
 ## Future Work
 
-- Add a minimal test suite (conversion round-trip, `load_verb_data` resolution, lookups) and a linter — Phase 5.
+- Add a minimal test suite (conversion round-trip, `load_verb_data` resolution, lookups) and a linter — Phase 6.
 - Continue verb data curation beyond A2.
 - Consider spaced-repetition / progress persistence across sessions (currently stats are per-session only).
 - Consider consolidating grouping scheme (CEFR-level files vs. letter-based `-b` file) to avoid overlap; `find-duplicates` exists partly to manage this.

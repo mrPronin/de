@@ -24,11 +24,17 @@ uv run german-verbs <subcommand> [-f YAML_FILE]
 
 `convert.py` at the repo root is a standalone shortcut equivalent to `convert-all`.
 
+`scripts/renumber_yaml.py` renumbers verb IDs sequentially after manual edits (add/remove verbs).
+```bash
+python3 scripts/renumber_yaml.py verben/irregular-verbs-b.yaml   # single file
+python3 scripts/renumber_yaml.py verben/*.yaml                    # all files
+```
+
 **No test suite, linter config, or CI.** Verify changes by running the CLI commands directly.
 
 ## Data model & conventions
 
-Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.yaml`). Each file has a `title` string and a `verbs` list. Each verb: `id`, `infinitiv`, `präteritum` (note: **non-ASCII key — preserve the ä**), `partizip`, `person3`, `translations.{english,ukrainian}`, and free-text `examples`.
+Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.yaml`). After editing (adding/removing verbs), run `scripts/renumber_yaml.py` to fix sequential IDs. Each file has a `title` string and a `verbs` list. Each verb: `id`, `infinitiv`, `präteritum` (note: **non-ASCII key — preserve the ä**), `partizip`, `person3`, `translations.{english,ukrainian}`, and free-text `examples`.
 
 - Default data file everywhere: `irregular-verbs-a1.yaml`.
 - `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.

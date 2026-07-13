@@ -1,24 +1,6 @@
 title: "Unregelmäßige Verben - A2"
 verbs:
   - id: 1
-    infinitiv: bleiben
-    präteritum: blieb
-    partizip: ist geblieben
-    translations:
-      english: to stay, remain
-      ukrainian: залишатися
-    examples: |
-      Präsens:
-        Ich bleibe zu Hause. / I stay at home.
-      
-      Präteritum:
-        Ich blieb gestern zu Hause. / I stayed at home yesterday.
-      
-      Perfekt:
-        Ich bin zu Hause geblieben. / I have stayed at home.
-    person3: bleibt
-      
-  - id: 2
     infinitiv: beißen
     präteritum: biss
     partizip: hat gebissen
@@ -45,7 +27,7 @@ verbs:
         Der Hund hat den Ball gebissen. / The dog has bitten the ball.
     person3: beißt
       
-  - id: 3
+  - id: 2
     infinitiv: biegen
     präteritum: bog
     partizip: hat / ist gebogen
@@ -74,7 +56,7 @@ verbs:
         Ich habe das Metall gebogen. / I have bent the metal.
     person3: biegt
       
-  - id: 4
+  - id: 3
     infinitiv: bieten
     präteritum: bot
     partizip: hat geboten
@@ -106,7 +88,7 @@ verbs:
         Sie hat mir einen guten Preis geboten. / She offered me a good price.
     person3: bietet
       
-  - id: 5
+  - id: 4
     infinitiv: binden
     präteritum: band
     partizip: hat gebunden
@@ -136,7 +118,7 @@ verbs:
         Sie hat das Buch mit einem Band gebunden. / She has tied the book with a ribbon.
     person3: bindet
       
-  - id: 6
+  - id: 5
     infinitiv: beginnen
     präteritum: begann
     partizip: hat begonnen
@@ -159,7 +141,7 @@ verbs:
         Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
     person3: beginnt
       
-  - id: 7
+  - id: 6
     infinitiv: brechen
     präteritum: brach
     partizip: hat gebrochen
@@ -182,7 +164,7 @@ verbs:
         Sie hat den Stift gebrochen. / She has broken the pen.
     person3: bricht
       
-  - id: 8
+  - id: 7
     infinitiv: befehlen
     präteritum: befahl
     partizip: hat befohlen
@@ -202,7 +184,7 @@ verbs:
         Der König hat dem Diener befohlen, das Tor zu öffnen. / The king has commanded the servant to open the gate.
     person3: befiehlt
       
-  - id: 9
+  - id: 8
     infinitiv: betrügen
     präteritum: betrog
     partizip: hat betrogen
@@ -222,7 +204,7 @@ verbs:
         Ich habe ihn nie betrogen. / I have never cheated on him.
     person3: betrügt
       
-  - id: 10
+  - id: 9
     infinitiv: bewegen
     präteritum: bewog
     partizip: hat bewogen
@@ -245,7 +227,7 @@ verbs:
         Sie hat ihn zum Umzug bewogen. / She has persuaded him to move.
     person3: bewegt
       
-  - id: 11
+  - id: 10
     infinitiv: blasen
     präteritum: blies
     partizip: hat geblasen
@@ -270,7 +252,7 @@ verbs:
         Der Wind hat die ganze Nacht stark geblasen. / The wind has blown strongly all night.
     person3: bläst
       
-  - id: 12
+  - id: 11
     infinitiv: braten
     präteritum: briet
     partizip: hat gebraten
@@ -290,7 +272,7 @@ verbs:
         Sie hat das Hähnchen im Ofen gebraten. / She has roasted the chicken in the oven.
     person3: brät
       
-  - id: 13
+  - id: 12
     infinitiv: backen
     präteritum: buk, backte
     partizip: hat gebacken
@@ -314,7 +296,7 @@ verbs:
         Er hat einen Apfelkuchen gebacken. / He has baked an apple pie.
     person3: backt/bäckt
       
-  - id: 14
+  - id: 13
     infinitiv: brennen
     präteritum: brannte
     partizip: hat gebrant
@@ -335,7 +317,7 @@ verbs:
         Die Kerze hat lange gebrannt. / The candle has burned for a long time.
     person3: brennt
       
-  - id: 15
+  - id: 14
     infinitiv: bringen
     präteritum: brachte
     partizip: hat gebracht
@@ -357,7 +339,7 @@ verbs:
         Sie hat den Kuchen zur Party gebracht. / She has brought the cake to the party.
     person3: bringt
       
-  - id: 16
+  - id: 15
     infinitiv: bitten
     präteritum: bat
     partizip: hat gebeten
