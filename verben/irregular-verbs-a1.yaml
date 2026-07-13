@@ -907,3 +907,735 @@ verbs:
 
       **Perfekt**:
         Sie haben bereits viel für die Gemeinschaft getan. / They have already done a lot for the community.
+  
+  - id: 26
+    level: A1
+    infinitiv: bekommen
+    präteritum: bekam
+    partizip: hat bekommen
+    translations:
+      english: to get, receive
+      ukrainian: отримувати
+    person3: bekommt
+    examples: |
+      **Substantive**:
+        die Nachricht - повідомлення
+        die Antwort - відповідь
+        die Lieferung - доставка
+        der Brief - лист
+
+      **Beispiele**:
+        Ich habe eine gute Nachricht bekommen. / I got good news.
+        Hast du meine E-Mail bekommen? / Did you get my email?
+        Er bekam einen Brief von seiner Freundin. / He received a letter from his girlfriend.
+
+      **Präsens**:
+        Ich bekomme morgen ein Geschenk. / I get a gift tomorrow.
+        Du bekommst deine Antwort heute. / You get your answer today.
+
+      **Präteritum**:
+        Gestern bekam ich einen Anruf. / Yesterday I got a call.
+
+      **Perfekt**:
+        Ich habe gestern eine gute Nachricht bekommen. / I got good news yesterday.
+  
+  - id: 27
+    level: A1
+    infinitiv: brechen
+    präteritum: brach
+    partizip: hat gebrochen
+    translations:
+      english: to break
+      ukrainian: лампати
+    person3: bricht
+    examples: |
+      **Substantive**:
+        der Bruch - перелом, розрив
+        die Brille - окуляри (bricht = розбиває)
+        der Glasbruch - поломка скла
+
+      **Beispiele**:
+        Das Glas ist gefallen und zerbrochen. / The glass fell and broke.
+        Er hat sein Bein gebrochen. / He broke his leg.
+
+      **Präsens**:
+        Ich breche das Brot. / I break the bread.
+        Du brichst dir den Finger nicht! / Don't break your finger!
+
+      **Präteritum**:
+        Gestern brach sie das Glas. / Yesterday she broke the glass.
+
+      **Perfekt**:
+        Ich habe das Fenster gebrochen. / I broke the window.
+  
+  - id: 28
+    level: A1
+    infinitiv: denken
+    präteritum: dachte
+    partizip: hat gedacht
+    translations:
+      english: to think
+      ukrainian: думати
+    person3: denkt
+    examples: |
+      **Substantive**:
+        der Gedanke - думка
+        die Meinung - думка, думка
+        der Denker - мислитель
+
+      **Beispiele**:
+        Ich denke, das ist richtig. / I think that's right.
+        Was denkst du darüber? / What do you think about it?
+        Er denkt oft an seine Kindheit. / He often thinks about his childhood.
+
+      **Präsens**:
+        Ich denke viel nach. / I think a lot.
+        Du denkst zu schnell. / You think too fast.
+
+      **Präteritum**:
+        Gestern dachte ich an dich. / Yesterday I thought of you.
+
+      **Perfekt**:
+        Ich habe viel darüber nachgedacht. / I thought a lot about it.
+  
+  - id: 29
+    level: A1
+    infinitiv: kennen
+    präteritum: kannte
+    partizip: hat gekannt
+    translations:
+      english: to know (a person, place)
+      ukrainian: знати (людину, місце)
+    person3: kennt
+    examples: |
+      **Substantive**:
+        die Bekanntschaft - знайомство
+        der Nachbar - сусід
+        die Stadt - місто
+
+      **Beispiele**:
+        Ich kenne ihn seit der Schule. / I have known him since school.
+        Kennst du diesen Ort? / Do you know this place?
+        Er kennt alle hier. / He knows everyone here.
+
+      **Präsens**:
+        Ich kenne das Buch. / I know the book.
+        Du kennst die Antwort. / You know the answer.
+
+      **Präteritum**:
+        Früher kannte ich sie nicht. / I didn't know her before.
+
+      **Perfekt**:
+        Ich habe sie auf der Party kennengelernt. / I met her at the party.
+  
+  - id: 30
+    level: A1
+    infinitiv: liegen
+    präteritum: lag
+    partizip: hat gelegen
+    translations:
+      english: to lie (be located)
+      ukrainian: знаходитися, лежати
+    person3: liegt
+    examples: |
+      **Substantive**:
+        die Lage - розташування
+        der Standort - місце розташування
+        das Bett - ліжко
+
+      **Beispiele**:
+        Das Hotel liegt am Stadtrand. / The hotel is located on the outskirts.
+        Das Buch liegt auf dem Tisch. / The book lies on the table.
+
+      **Präsens**:
+        Ich liege gerne im Bett. / I like to lie in bed.
+        Du liegst falsch. / You are wrong.
+
+      **Präteritum**:
+        Gestern lag ich im Bett. / Yesterday I lay in bed.
+
+      **Perfekt**:
+        Ich habe den ganzen Tag im Bett gelegen. / I lay in bed all day.
+  
+  - id: 31
+    level: A1
+    infinitiv: sitzen
+    präteritum: saß
+    partizip: hat gesessen
+    translations:
+      english: to sit
+      ukrainian: сидіти
+    person3: sitzt
+    examples: |
+      **Substantive**:
+        der Stuhl - стілець
+        die Sitzung - засідання
+        der Platz - місце
+
+      **Beispiele**:
+        Bitte setzen Sie sich! / Please sit down!
+        Er sitzt im Garten. / He sits in the garden.
+
+      **Präsens**:
+        Ich sitze hier. / I sit here.
+        Du sitzt am Tisch. / You sit at the table.
+
+      **Präteritum**:
+        Gestern saß ich im Park. / Yesterday I sat in the park.
+
+      **Perfekt**:
+        Ich habe lange im Wartezimmer gesessen. / I sat in the waiting room for a long time.
+  
+  - id: 32
+    level: A1
+    infinitiv: springen
+    präteritum: sprang
+    partizip: ist gesprungen
+    translations:
+      english: to jump
+      ukrainian: стрибати
+    person3: springt
+    examples: |
+      **Substantive**:
+        der Sprung - стрибок
+        das Springen - стрибки
+        die Höhe - висота
+
+      **Beispiele**:
+        Er springt über den Zaun. / He jumps over the fence.
+        Die Kinder springen im Garten. / The children jump in the garden.
+
+      **Präsens**:
+        Ich springe gerne. / I like to jump.
+        Du springst hoch. / You jump high.
+
+      **Präteritum**:
+        Gestern sprang er über den Graben. / Yesterday he jumped over the ditch.
+
+      **Perfekt**:
+        Ich bin über den Fluss gesprungen. / I jumped over the river.
+  
+  - id: 33
+    level: A1
+    infinitiv: vergessen
+    präteritum: vergaß
+    partizip: hat vergessen
+    translations:
+      english: to forget
+      ukrainian: забувати
+    person3: vergisst
+    examples: |
+      **Substantive**:
+        das Vergessen - забуття
+        die Erinnerung - спогад
+        der Name - ім'я
+
+      **Beispiele**:
+        Ich habe deinen Namen vergessen. / I forgot your name.
+        Vergiss nicht, die Tür abzuschließen! / Don't forget to lock the door!
+        Er hat das Datum vergessen. / He forgot the date.
+
+      **Präsens**:
+        Ich vergesse nie meinen Geburtstag. / I never forget my birthday.
+        Du vergisst immer alles! / You always forget everything!
+
+      **Präteritum**:
+        Gestern vergaß ich die Schlüssel. / Yesterday I forgot the keys.
+
+      **Perfekt**:
+        Ich habe das Meeting vergessen. / I forgot the meeting.
+  
+  - id: 34
+    level: A1
+    infinitiv: verlieren
+    präteritum: verlor
+    partizip: hat verloren
+    translations:
+      english: to lose
+      ukrainian: втрачати
+    person3: verliert
+    examples: |
+      **Substantive**:
+        der Verlust - втрата
+        die Zeit - час
+        das Spiel - гра, матч
+
+      **Beispiele**:
+        Ich habe meine Tasche verloren. / I lost my bag.
+        Er hat das Spiel verloren. / He lost the game.
+
+      **Präsens**:
+        Ich verliere nie die Hoffnung. / I never lose hope.
+        Du verlierst viel Zeit. / You waste a lot of time.
+
+      **Präteritum**:
+        Gestern verlor ich meinen Schlüssel. / Yesterday I lost my key.
+
+      **Perfekt**:
+        Ich habe das Spiel verloren. / I lost the game.
+  
+  - id: 35
+    level: A1
+    infinitiv: waschen
+    präteritum: wusch
+    partizip: hat gewaschen
+    translations:
+      english: to wash
+      ukrainian: прати, мити
+    person3: wäscht
+    examples: |
+      **Substantive**:
+        die Wäsche - білизна
+        der Waschsalon - пральня
+        das Auto - автомобіль
+
+      **Beispiele**:
+        Ich wasche meine Hände. / I wash my hands.
+        Er wäscht sein Auto. / He washes his car.
+
+      **Präsens**:
+        Ich wasche jeden Tag mein Haar. / I wash my hair every day.
+        Du wäschst die Kleidung. / You wash the clothes.
+
+      **Präteritum**:
+        Gestern wusch ich die Wäsche. / Yesterday I washed the laundry.
+
+      **Perfekt**:
+        Ich habe die Kleidung gewaschen. / I washed the clothes.
+  
+  - id: 36
+    level: A1
+    infinitiv: werfen
+    präteritum: warf
+    partizip: hat geworfen
+    translations:
+      english: to throw
+      ukrainian: кидати, кидало
+    person3: wirft
+    examples: |
+      **Substantive**:
+        der Wurf - кидок
+        der Müll - сміття
+        der Ball - м'яч
+
+      **Beispiele**:
+        Er wirft den Ball. / He throws the ball.
+        Wirf den Müll weg! / Throw away the trash!
+
+      **Präsens**:
+        Ich werfe den Stein. / I throw the stone.
+        Du wirfst gut. / You throw well.
+
+      **Präteritum**:
+        Gestern warf er den Ball. / Yesterday he threw the ball.
+
+      **Perfekt**:
+        Ich habe den Müll geworfen. / I threw away the trash.
+  
+  - id: 37
+    level: A1
+    infinitiv: wissen
+    präteritum: wusste
+    partizip: hat gewusst
+    translations:
+      english: to know (a fact)
+      ukrainian: знати (факт)
+    person3: weiß
+    examples: |
+      **Substantive**:
+        die Antwort - відповідь
+        die Wahrheit - правда
+        das Wissen - знання
+
+      **Beispiele**:
+        Ich weiß die Antwort. / I know the answer.
+        Weißt du, wie spät es ist? / Do you know what time it is?
+        Er weiß alles. / He knows everything.
+
+      **Präsens**:
+        Ich weiß das nicht. / I don't know that.
+        Du weißt es besser. / You know it better.
+
+      **Präteritum**:
+        Ich wusste nicht, was ich tun sollte. / I didn't know what to do.
+
+      **Perfekt**:
+        Ich habe es schon immer gewusst. / I have always known it.
+  
+  - id: 38
+    level: A1
+    infinitiv: reiten
+    präteritum: ritt
+    partizip: ist geritten
+    translations:
+      english: to ride (horse)
+      ukrainian: їздити (на коні)
+    person3: reitet
+    examples: |
+      **Substantive**:
+        das Pferd - кінь
+        der Reiter - вершник
+        die Reiterei - кіннота
+
+      **Beispiele**:
+        Er reitet gerne. / He likes to ride.
+        Sie reitet ein schnelles Pferd. / She rides a fast horse.
+
+      **Präsens**:
+        Ich reite jeden Samstag. / I ride every Saturday.
+        Du reitest gut. / You ride well.
+
+      **Präteritum**:
+        Gestern ritt er durch den Wald. / Yesterday he rode through the forest.
+
+      **Perfekt**:
+        Ich bin im Park geritten. / I rode in the park.
+  
+  - id: 39
+    level: A1
+    infinitiv: tragen
+    präteritum: trug
+    partizip: hat getragen
+    translations:
+      english: to carry, wear (clothes)
+      ukrainian: нести, носити (одяг)
+    person3: trägt
+    examples: |
+      **Substantive**:
+        die Tasche - сумка
+        der Koffer - чемодан
+        das Kleid - сукня
+
+      **Beispiele**:
+        Ich trage eine Jacke. / I wear a jacket.
+        Er trägt einen schweren Koffer. / He carries a heavy suitcase.
+
+      **Präsens**:
+        Ich trage immer Jeans. / I always wear jeans.
+        Du trägst schöne Schuhe. / You wear nice shoes.
+
+      **Präteritum**:
+        Gestern trug sie ein rotes Kleid. / Yesterday she wore a red dress.
+
+      **Perfekt**:
+        Ich habe die Koffer getragen. / I carried the suitcases.
+  
+  - id: 40
+    level: A1
+    infinitiv: verstehen
+    präteritum: verstand
+    partizip: hat verstanden
+    translations:
+      english: to understand
+      ukrainian: розуміти
+    person3: versteht
+    examples: |
+      **Substantive**:
+        das Verständnis - розуміння
+        die Sprache - мова
+        der Text - текст
+
+      **Beispiele**n:
+        Ich verstehe dich. / I understand you.
+        Verstehst du Deutsch? / Do you understand German?
+        Er hat die Aufgabe verstanden. / He understood the task.
+
+      **Präsens**:
+        Ich verstehe das nicht. / I don't understand that.
+        Du verstehst alles. / You understand everything.
+
+      **Präteritum**:
+        Gestern verstand ich den Text nicht. / Yesterday I didn't understand the text.
+
+      **Perfekt**:
+        Ich habe die Regel verstanden. / I understood the rule.
+  
+  - id: 41
+    level: A1
+    infinitiv: laufen
+    präteritum: lief
+    partizip: ist gelaufen
+    translations:
+      english: to walk, run
+      ukrainian: ходити, бігти
+    person3: läuft
+    examples: |
+      **Substantive**:
+        der Lauf - біг
+        die Straße - вулиця
+        der Hund - собака
+
+      **Beispiele**:
+        Ich laufe jeden Morgen. / I run every morning.
+        Der Hund läuft im Park. / The dog runs in the park.
+
+      **Präsens**:
+        Ich laufe zur Arbeit. / I walk to work.
+        Du läufst schnell. / You run fast.
+
+      **Präteritum**:
+        Gestern lief ich im Wald. / Yesterday I ran in the forest.
+
+      **Perfekt**:
+        Ich bin im Park gelaufen. / I walked in the park.
+  
+  - id: 42
+    level: A1
+    infinitiv: lassen
+    präteritum: ließ
+    partizip: hat gelassen
+    translations:
+      english: to let, allow
+      ukrainian: дозволяти, залишати
+    person3: lässt
+    examples: |
+      **Substantive**:
+        die Erlaubnis - дозвіл
+        der Platz - місце
+        die Tür - двері
+
+      **Beispiele**:
+        Lass mich in Ruhe! / Leave me alone!
+        Er lässt das Fenster offen. / He leaves the window open.
+
+      **Präsens**:
+        Ich lasse das Buch liegen. / I leave the book lying.
+        Du lässt die Tür offen. / You leave the door open.
+
+      **Präteritum**:
+        Gestern ließ ich den Koffer hier. / Yesterday I left the suitcase here.
+
+      **Perfekt**:
+        Ich habe das Fenster gelassen. / I left the window.
+  
+  - id: 43
+    level: A1
+    infinitiv: anfangen
+    präteritum: fing an
+    partizip: hat angefangen
+    translations:
+      english: to begin, start (separable)
+      ukrainian: починати (відокремлений)
+    person3: fängt an
+    examples: |
+      **Substantive**:
+        der Anfang - початок
+        die Arbeit - робота
+        der Film - фільм
+
+      **Beispiele**:
+        Wann fängt der Film an? / When does the film start?
+        Ich habe mit Deutsch angefangen. / I started with German.
+
+      **Präsens**:
+        Ich fange jetzt an. / I start now.
+        Du fängst gut an. / You start well.
+
+      **Präteritum**:
+        Gestern fing es an zu regnen. / Yesterday it started to rain.
+
+      **Perfekt**:
+        Ich habe die Arbeit angefangen. / I started the work.
+  
+  - id: 44
+    level: A1
+    infinitiv: aufstehen
+    präteritum: stand auf
+    partizip: ist aufgestanden
+    translations:
+      english: to get up (separable)
+      ukrainian: підніматися (відокремлений)
+    person3: steht auf
+    examples: |
+      **Substantive**:
+        der Morgen - ранок
+        die Uhr - годинник
+        früh - рано
+
+      **Beispiele**:
+        Ich stehe um sieben Uhr auf. / I get up at seven o'clock.
+        Er steht früh auf. / He gets up early.
+
+      **Präsens**:
+        Ich stehe jeden Tag um sechs auf. / I get up every day at six.
+        Du stehst spät auf. / You get up late.
+
+      **Präteritum**:
+        Gestern stand ich um acht auf. / Yesterday I got up at eight.
+
+      **Perfekt**:
+        Ich bin um sieben Uhr aufgestanden. / I got up at seven o'clock.
+  
+  - id: 45
+    level: A1
+    infinitiv: aussteigen
+    präteritum: stieg aus
+    partizip: ist ausgestiegen
+    translations:
+      english: to get off (vehicle) (separable)
+      ukrainian: виходити (транспорт) (відокремлений)
+    person3: steigt aus
+    examples: |
+      **Substantive**:
+        der Bus - автобус
+        die Haltestelle - зупинка
+        der Zug - поїзд
+
+      **Beispiele**:
+        Wo steigen Sie aus? / Where do you get off?
+        Er steigt an der nächsten Haltestelle aus. / He gets off at the next stop.
+
+      **Präsens**:
+        Ich steige hier aus. / I get off here.
+        Du steigst am Bahnhof aus. / You get off at the station.
+
+      **Präteritum**:
+        Gestern stieg er am Hauptbahnhof aus. / Yesterday he got off at the main station.
+
+      **Perfekt**:
+        Ich bin an der Haltestelle ausgestiegen. / I got off at the stop.
+  
+  - id: 46
+    level: A1
+    infinitiv: einsteigen
+    präteritum: stieg ein
+    partizip: ist eingestiegen
+    translations:
+      english: to get on (vehicle) (separable)
+      ukrainian: садитися (транспорт) (відокремлений)
+    person3: steigt ein
+    examples: |
+      **Substantive**:
+        der Bus - автобус
+        die Bahn - поїзд
+        der Zug - потяг
+
+      **Beispiele**:
+        Bitte steigen Sie ein! / Please get on!
+        Er steigt in den Bus ein. / He gets on the bus.
+
+      **Präsens**:
+        Ich steige hier ein. / I get on here.
+        Du steigst in den Zug ein. / You get on the train.
+
+      **Präteritum**:
+        Gestern stieg er in den Zug ein. / Yesterday he got on the train.
+
+      **Perfekt**:
+        Ich bin in den Bus eingestiegen. / I got on the bus.
+  
+  - id: 47
+    level: A1
+    infinitiv: aussehen
+    präteritum: sah aus
+    partizip: hat ausgesehen
+    translations:
+      english: to look (appear) (separable)
+      ukrainian: виглядати (відокремлений)
+    person3: sieht aus
+    examples: |
+      **Substantive**:
+        das Aussehen - зовнішність
+        die Müdigkeit - втому
+        gut / schlecht - добре / погано
+
+      **Beispiele**:
+        Wie siehst du aus? / How do you look?
+        Er sieht müde aus. / He looks tired.
+
+      **Präsens**:
+        Ich sehe gut aus. / I look good.
+        Du siehst schön aus. / You look beautiful.
+
+      **Präteritum**:
+        Gestern sah er krank aus. / Yesterday he looked sick.
+
+      **Perfekt**:
+        Das Haus hat gut ausgesehen. / The house looked good.
+  
+  - id: 48
+    level: A1
+    infinitiv: fernsehen
+    präteritum: sah fern
+    partizip: hat ferngesehen
+    translations:
+      english: to watch TV (separable)
+      ukrainian: дивитися телевізор (відокремлений)
+    person3: sieht fern
+    examples: |
+      **Substantive**:
+        das Fernsehen - телебачення
+        der Film - фільм
+        die Serie - серіал
+
+      **Beispiele**:
+        Ich sehe gerne fern. / I like to watch TV.
+        Er sieht jeden Abend fern. / He watches TV every evening.
+
+      **Präsens**:
+        Ich sehe abends fern. / I watch TV in the evening.
+        Du siehst viel fern. / You watch a lot of TV.
+
+      **Präteritum**:
+        Gestern sah ich eine Serie. / Yesterday I watched a series.
+
+      **Perfekt**:
+        Ich habe gestern Abend ferngesehen. / I watched TV yesterday evening.
+  
+  - id: 49
+    level: A1
+    infinitiv: mitbringen
+    präteritum: brachte mit
+    partizip: hat mitgebracht
+    translations:
+      english: to bring along (separable)
+      ukrainian: приносити з собою (відокремлений)
+    person3: bringt mit
+    examples: |
+      **Substantive**:
+        das Geschenk - подарунок
+        die Flasche - пляшка
+        der Kuchen - торт
+
+      **Beispiele**:
+        Kannst du eine Flasche Wasser mitbringen? / Can you bring a bottle of water?
+        Er hat einen Kuchen mitgebracht. / He brought a cake.
+
+      **Präsens**:
+        Ich bringe ein Geschenk mit. / I bring a gift.
+        Du bringst die Unterlagen mit. / You bring the documents.
+
+      **Präteritum**:
+        Gestern brachte er einen Kuchen mit. / Yesterday he brought a cake.
+
+      **Perfekt**:
+        Ich habe eine Flasche Wasser mitgebracht. / I brought a bottle of water.
+  
+  - id: 50
+    level: A1
+    infinitiv: steigen
+    präteritum: stieg
+    partizip: ist gestiegen
+    translations:
+      english: to climb, ascend
+      ukrainian: підніматися, сходити
+    person3: steigt
+    examples: |
+      **Substantive**:
+        der Berg - гора
+        die Treppe - сходи
+        das Gebirge - гірський хребет
+
+      **Beispiele**:
+        Er steigt den Berg hinauf. / He climbs the mountain.
+        Sie steigt in die Berge. / She goes to the mountains.
+
+      **Präsens**:
+        Ich steige jeden Tag die Treppe. / I climb the stairs every day.
+        Du steigst hoch. / You climb high.
+
+      **Präteritum**:
+        Gestern stieg er den Berg hinauf. / Yesterday he climbed the mountain.
+
+      **Perfekt**:
+        Ich bin in die Berge gestiegen. / I went to the mountains.
