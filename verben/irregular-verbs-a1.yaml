@@ -1158,8 +1158,8 @@ verbs:
     examples: |
       **Substantive**:
         der Verlust - втрата
-        die Zeit - час
-        das Spiel - гра, матч
+        die Verlustrate - частка збитків
+        verlustfrei - беззбитковий
 
       **Beispiele**:
         Ich habe meine Tasche verloren. / I lost my bag.
