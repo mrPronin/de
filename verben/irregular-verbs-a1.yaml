@@ -1,7 +1,7 @@
 title: "Unregelmäßige Verben - A1"
 verbs:
   - id: 1
-    level: A2
+    level: A1
     infinitiv: beginnen
     präteritum: begann
     partizip: hat begonnen
@@ -30,7 +30,7 @@ verbs:
         Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
   
   - id: 2
-    level: A2
+    level: A1
     infinitiv: bleiben
     präteritum: blieb
     partizip: ist geblieben
@@ -61,7 +61,7 @@ verbs:
         Ich bin zu Hause geblieben. / I have stayed at home.
   
   - id: 3
-    level: A2
+    level: A1
     infinitiv: essen
     präteritum: aß
     partizip: hat gegessen
@@ -84,7 +84,7 @@ verbs:
         Ich habe gestern Abend eine Pizza gegessen. Wir haben heute Morgen ein leckeres Frühstück gegessen.
   
   - id: 4
-    level: A2
+    level: A1
     infinitiv: fahren
     präteritum: fuhr
     partizip: ist gefahren
@@ -129,7 +129,7 @@ verbs:
         Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen. / She drove to the supermarket with the car to buy groceries.
   
   - id: 5
-    level: A2
+    level: B1
     infinitiv: fangen
     präteritum: fing
     partizip: hat gefangen
@@ -163,7 +163,7 @@ verbs:
         Ich habe angefangen, mit dem neuen Job zu arbeiten.
   
   - id: 6
-    level: A2
+    level: A1
     infinitiv: finden
     präteritum: fand
     partizip: hat gefunden
@@ -205,7 +205,7 @@ verbs:
         Ich habe das neue Smartphone gefunden. / I have found the new smartphone.
   
   - id: 7
-    level: A2
+    level: A1
     infinitiv: fliegen
     präteritum: flog
     partizip: ist / hat geflogen
@@ -236,7 +236,7 @@ verbs:
         Ich bin gestern nach Berlin geflogen. / I flew to Berlin yesterday.
   
   - id: 8
-    level: A2
+    level: A1
     infinitiv: geben
     präteritum: gab
     partizip: hat gegeben
@@ -274,7 +274,7 @@ verbs:
         Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
   
   - id: 9
-    level: A2
+    level: A1
     infinitiv: gehen
     präteritum: ging
     partizip: ist gegangen
@@ -316,7 +316,7 @@ verbs:
         Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
   
   - id: 10
-    level: A2
+    level: A1
     infinitiv: heißen
     präteritum: hieß
     partizip: hat geheißen
