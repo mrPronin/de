@@ -339,7 +339,7 @@ verbs:
         Die Straße hat früher anders geheißen. / The street used to have a different name.    
   
   - id: 11
-    level: A2
+    level: A1
     infinitiv: helfen
     präteritum: half
     partizip: hat geholfen
@@ -383,7 +383,7 @@ verbs:
         Ich habe ihr beim Umzug geholfen. / I helped her move.
 
   - id: 12
-    level: A2
+    level: A1
     infinitiv: kommen
     präteritum: kam
     partizip: ist gekommen
@@ -425,7 +425,7 @@ verbs:
         Sie ist aus Deutschland gekommen. / She came from Germany.
   
   - id: 13
-    level: A2
+    level: A1
     infinitiv: lesen
     präteritum: las
     partizip: hat gelesen
@@ -460,7 +460,7 @@ verbs:
         Ich habe das Buch gelesen. / I have read the book.
 
   - id: 14
-    level: A2
+    level: A1
     infinitiv: nehmen
     präteritum: nahm
     partizip: hat genommen
@@ -504,7 +504,7 @@ verbs:
         Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
   
   - id: 15
-    level: A2
+    level: A1
     infinitiv: rufen
     präteritum: rief
     partizip: hat gerufen
@@ -543,7 +543,7 @@ verbs:
         Er hat nach Hilfe gerufen. / He has called for help.
   
   - id: 16
-    level: A2
+    level: A1
     infinitiv: schlafen
     präteritum: schlief
     partizip: hat geschlafen
@@ -581,7 +581,7 @@ verbs:
 
   
   - id: 17
-    level: A2
+    level: A1
     infinitiv: schreiben
     präteritum: schrieb
     partizip: hat geschrieben
@@ -626,7 +626,7 @@ verbs:
         Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
   
   - id: 18
-    level: A2
+    level: A1
     infinitiv: schwimmen
     präteritum: schwamm
     partizip: hat / ist geschwommen
@@ -657,7 +657,7 @@ verbs:
         Sie haben heute Morgen bereits 500 Meter geschwommen. / They have already swum 500 meters this morning.
   
   - id: 19
-    level: A2
+    level: A1
     infinitiv: sehen
     präteritum: sah
     partizip: hat gesehen
@@ -691,7 +691,7 @@ verbs:
         Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
   
   - id: 20
-    level: A2
+    level: A1
     infinitiv: sein
     präteritum: war
     partizip: ist gewesen
