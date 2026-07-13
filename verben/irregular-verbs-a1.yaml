@@ -129,40 +129,6 @@ verbs:
         Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen. / She drove to the supermarket with the car to buy groceries.
   
   - id: 5
-    level: B1
-    infinitiv: fangen
-    präteritum: fing
-    partizip: hat gefangen
-    translations:
-      english: to catch
-      ukrainian: ловити
-    person3: fängt
-    examples: |
-      fangen <Akk>
-
-      an-, - починати
-      empfangen - приймати
-      empfangen - der Empfang
-      anfangen mit <Dat> - der Anfang
-
-      **Substantive**:
-        der Fänger / catcher / захоплювач
-        der Fang / catch - захоплення
-        der Gefangene / caught / ув'язнений
-        das Gefängnis / prison / в'язниця
-        der Empfang / the reception / прийом
-        der Anfang / the beginning / початок
-        
-      **Präsens**:
-        Ich fang an, ein neues Buch zu lesen.
-
-      **Präteritum**:
-        Ich fing an, mit dem neuen Job zu arbeiten.
-
-      **Perfekt**:
-        Ich habe angefangen, mit dem neuen Job zu arbeiten.
-  
-  - id: 6
     level: A1
     infinitiv: finden
     präteritum: fand
@@ -204,7 +170,7 @@ verbs:
       **Perfekt**:
         Ich habe das neue Smartphone gefunden. / I have found the new smartphone.
   
-  - id: 7
+  - id: 6
     level: A1
     infinitiv: fliegen
     präteritum: flog
@@ -235,7 +201,7 @@ verbs:
       **Perfekt**:
         Ich bin gestern nach Berlin geflogen. / I flew to Berlin yesterday.
   
-  - id: 8
+  - id: 7
     level: A1
     infinitiv: geben
     präteritum: gab
@@ -273,7 +239,7 @@ verbs:
       **Perfekt**:
         Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
   
-  - id: 9
+  - id: 8
     level: A1
     infinitiv: gehen
     präteritum: ging
@@ -315,7 +281,7 @@ verbs:
       **Perfekt**:
         Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
   
-  - id: 10
+  - id: 9
     level: A1
     infinitiv: heißen
     präteritum: hieß
@@ -338,7 +304,7 @@ verbs:
       **Perfekt**:
         Die Straße hat früher anders geheißen. / The street used to have a different name.    
   
-  - id: 11
+  - id: 10
     level: A1
     infinitiv: helfen
     präteritum: half
@@ -382,7 +348,7 @@ verbs:
       **Perfekt**:
         Ich habe ihr beim Umzug geholfen. / I helped her move.
 
-  - id: 12
+  - id: 11
     level: A1
     infinitiv: kommen
     präteritum: kam
@@ -424,7 +390,7 @@ verbs:
       **Perfekt**:
         Sie ist aus Deutschland gekommen. / She came from Germany.
   
-  - id: 13
+  - id: 12
     level: A1
     infinitiv: lesen
     präteritum: las
@@ -459,7 +425,7 @@ verbs:
       **Perfekt**:
         Ich habe das Buch gelesen. / I have read the book.
 
-  - id: 14
+  - id: 13
     level: A1
     infinitiv: nehmen
     präteritum: nahm
@@ -503,7 +469,7 @@ verbs:
       **Perfekt**:
         Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
   
-  - id: 15
+  - id: 14
     level: A1
     infinitiv: rufen
     präteritum: rief
@@ -542,7 +508,7 @@ verbs:
         Du hast den Namen deines Hundes angerufen. / You have called your dog's name.
         Er hat nach Hilfe gerufen. / He has called for help.
   
-  - id: 16
+  - id: 15
     level: A1
     infinitiv: schlafen
     präteritum: schlief
@@ -580,7 +546,7 @@ verbs:
         Er hat den ganzen Tag geschlafen, nachdem er krank wurde. / He slept all day after he got sick.      
 
   
-  - id: 17
+  - id: 16
     level: A1
     infinitiv: schreiben
     präteritum: schrieb
@@ -625,7 +591,7 @@ verbs:
       **Perfekt**:
         Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
   
-  - id: 18
+  - id: 17
     level: A1
     infinitiv: schwimmen
     präteritum: schwamm
@@ -656,7 +622,7 @@ verbs:
         Ich habe viel geschwommen. / I swam a lot.
         Sie haben heute Morgen bereits 500 Meter geschwommen. / They have already swum 500 meters this morning.
   
-  - id: 19
+  - id: 18
     level: A1
     infinitiv: sehen
     präteritum: sah
@@ -690,7 +656,7 @@ verbs:
       **Perfekt**:
         Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
   
-  - id: 20
+  - id: 19
     level: A1
     infinitiv: sein
     präteritum: war
@@ -720,7 +686,7 @@ verbs:
       **Perfekt**:
         Ich bin schon einmal in Paris gewesen. / I have been to Paris before.
   
-  - id: 21
+  - id: 20
     level: A2
     infinitiv: singen
     präteritum: sang
@@ -747,7 +713,7 @@ verbs:
       **Perfekt**:
         Ich habe oft in einem Chor gesungen. / I have sung in a choir often.
   
-  - id: 22
+  - id: 21
     level: A2
     infinitiv: sprechen
     präteritum: sprach
@@ -803,7 +769,7 @@ verbs:
       **Perfekt**:
         Sie hat gerade mit ihm gesprochen. / She has just spoken with him.
   
-  - id: 23
+  - id: 22
     level: A2
     infinitiv: stehen
     präteritum: stand
@@ -843,7 +809,7 @@ verbs:
       **Perfekt**:
         Er hat den ganzen Tag in der Schlange gestanden. / He has stood in line all day.
   
-  - id: 24
+  - id: 23
     level: A2
     infinitiv: treffen
     präteritum: traf
@@ -885,7 +851,7 @@ verbs:
         Ich habe mich oft mit meinen Freunden getroffen. / I have often met up with my friends.
         Du hast eine gute Entscheidung getroffen. / You have made a good decision.
 
-  - id: 25
+  - id: 24
     level: A2
     infinitiv: trinken
     präteritum: trank
@@ -913,7 +879,7 @@ verbs:
       **Perfekt**:
         Sie hat bereits ihren Tee getrunken. / She has already drunk her tea.
   
-  - id: 26
+  - id: 25
     level: A2
     infinitiv: tun
     präteritum: tat

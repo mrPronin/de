@@ -360,3 +360,37 @@ verbs:
       Perfekt:
         Sie hat mich um Unterstützung gebeten. / She has asked me for support.
     person3: bittet
+  
+  - id: 16
+    level: B1
+    infinitiv: fangen
+    präteritum: fing
+    partizip: hat gefangen
+    translations:
+      english: to catch
+      ukrainian: ловити
+    person3: fängt
+    examples: |
+      fangen <Akk>
+
+      an-, - починати
+      empfangen - приймати
+      empfangen - der Empfang
+      anfangen mit <Dat> - der Anfang
+
+      **Substantive**:
+        der Fänger / catcher / захоплювач
+        der Fang / catch - захоплення
+        der Gefangene / caught / ув'язнений
+        das Gefängnis / prison / в'язниця
+        der Empfang / the reception / прийом
+        der Anfang / the beginning / початок
+        
+      **Präsens**:
+        Ich fang an, ein neues Buch zu lesen.
+
+      **Präteritum**:
+        Ich fing an, mit dem neuen Job zu arbeiten.
+
+      **Perfekt**:
+        Ich habe angefangen, mit dem neuen Job zu arbeiten.
