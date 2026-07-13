@@ -1,6 +1,7 @@
 title: "Unregelmäßige Verben - A1"
 verbs:
   - id: 1
+    level: A2
     infinitiv: beginnen
     präteritum: begann
     partizip: hat begonnen
@@ -29,6 +30,7 @@ verbs:
         Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
   
   - id: 2
+    level: A2
     infinitiv: bleiben
     präteritum: blieb
     partizip: ist geblieben
@@ -59,6 +61,7 @@ verbs:
         Ich bin zu Hause geblieben. / I have stayed at home.
   
   - id: 3
+    level: A2
     infinitiv: essen
     präteritum: aß
     partizip: hat gegessen
@@ -81,6 +84,7 @@ verbs:
         Ich habe gestern Abend eine Pizza gegessen. Wir haben heute Morgen ein leckeres Frühstück gegessen.
   
   - id: 4
+    level: A2
     infinitiv: fahren
     präteritum: fuhr
     partizip: ist gefahren
@@ -125,6 +129,7 @@ verbs:
         Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen. / She drove to the supermarket with the car to buy groceries.
   
   - id: 5
+    level: A2
     infinitiv: fangen
     präteritum: fing
     partizip: hat gefangen
@@ -158,6 +163,7 @@ verbs:
         Ich habe angefangen, mit dem neuen Job zu arbeiten.
   
   - id: 6
+    level: A2
     infinitiv: finden
     präteritum: fand
     partizip: hat gefunden
@@ -199,6 +205,7 @@ verbs:
         Ich habe das neue Smartphone gefunden. / I have found the new smartphone.
   
   - id: 7
+    level: A2
     infinitiv: fliegen
     präteritum: flog
     partizip: ist / hat geflogen
@@ -229,6 +236,7 @@ verbs:
         Ich bin gestern nach Berlin geflogen. / I flew to Berlin yesterday.
   
   - id: 8
+    level: A2
     infinitiv: geben
     präteritum: gab
     partizip: hat gegeben
@@ -266,6 +274,7 @@ verbs:
         Ich habe dir das Buch gegeben. Du hast mir eine Antwort gegeben.    
   
   - id: 9
+    level: A2
     infinitiv: gehen
     präteritum: ging
     partizip: ist gegangen
@@ -307,6 +316,7 @@ verbs:
         Ich bin heute zur Arbeit gegangen. Ihr seid gerne in den Park gegangen.    
   
   - id: 10
+    level: A2
     infinitiv: heißen
     präteritum: hieß
     partizip: hat geheißen
@@ -329,6 +339,7 @@ verbs:
         Die Straße hat früher anders geheißen. / The street used to have a different name.    
   
   - id: 11
+    level: A2
     infinitiv: helfen
     präteritum: half
     partizip: hat geholfen
@@ -372,6 +383,7 @@ verbs:
         Ich habe ihr beim Umzug geholfen. / I helped her move.
 
   - id: 12
+    level: A2
     infinitiv: kommen
     präteritum: kam
     partizip: ist gekommen
@@ -413,6 +425,7 @@ verbs:
         Sie ist aus Deutschland gekommen. / She came from Germany.
   
   - id: 13
+    level: A2
     infinitiv: lesen
     präteritum: las
     partizip: hat gelesen
@@ -447,6 +460,7 @@ verbs:
         Ich habe das Buch gelesen. / I have read the book.
 
   - id: 14
+    level: A2
     infinitiv: nehmen
     präteritum: nahm
     partizip: hat genommen
@@ -490,6 +504,7 @@ verbs:
         Ich habe gestern den Bus genommen. / Yesterday, I took the bus.
   
   - id: 15
+    level: A2
     infinitiv: rufen
     präteritum: rief
     partizip: hat gerufen
@@ -528,6 +543,7 @@ verbs:
         Er hat nach Hilfe gerufen. / He has called for help.
   
   - id: 16
+    level: A2
     infinitiv: schlafen
     präteritum: schlief
     partizip: hat geschlafen
@@ -565,6 +581,7 @@ verbs:
 
   
   - id: 17
+    level: A2
     infinitiv: schreiben
     präteritum: schrieb
     partizip: hat geschrieben
@@ -609,6 +626,7 @@ verbs:
         Wir haben bereits die Hausaufgaben geschrieben. / We have already written the homework.
   
   - id: 18
+    level: A2
     infinitiv: schwimmen
     präteritum: schwamm
     partizip: hat / ist geschwommen
@@ -639,6 +657,7 @@ verbs:
         Sie haben heute Morgen bereits 500 Meter geschwommen. / They have already swum 500 meters this morning.
   
   - id: 19
+    level: A2
     infinitiv: sehen
     präteritum: sah
     partizip: hat gesehen
@@ -672,6 +691,7 @@ verbs:
         Er hat die Sehenswürdigkeiten der Stadt gesehen. / He has seen the city's landmarks.
   
   - id: 20
+    level: A2
     infinitiv: sein
     präteritum: war
     partizip: ist gewesen
@@ -701,6 +721,7 @@ verbs:
         Ich bin schon einmal in Paris gewesen. / I have been to Paris before.
   
   - id: 21
+    level: A2
     infinitiv: singen
     präteritum: sang
     partizip: hat gesungen
@@ -727,6 +748,7 @@ verbs:
         Ich habe oft in einem Chor gesungen. / I have sung in a choir often.
   
   - id: 22
+    level: A2
     infinitiv: sprechen
     präteritum: sprach
     partizip: hat gesprochen
@@ -782,6 +804,7 @@ verbs:
         Sie hat gerade mit ihm gesprochen. / She has just spoken with him.
   
   - id: 23
+    level: A2
     infinitiv: stehen
     präteritum: stand
     partizip: hat gestanden
@@ -821,6 +844,7 @@ verbs:
         Er hat den ganzen Tag in der Schlange gestanden. / He has stood in line all day.
   
   - id: 24
+    level: A2
     infinitiv: treffen
     präteritum: traf
     partizip: hat getroffen
@@ -862,6 +886,7 @@ verbs:
         Du hast eine gute Entscheidung getroffen. / You have made a good decision.
 
   - id: 25
+    level: A2
     infinitiv: trinken
     präteritum: trank
     partizip: hat getrunken
@@ -889,6 +914,7 @@ verbs:
         Sie hat bereits ihren Tee getrunken. / She has already drunk her tea.
   
   - id: 26
+    level: A2
     infinitiv: tun
     präteritum: tat
     partizip: hat getan
