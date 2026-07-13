@@ -1,43 +1,44 @@
-# Irregular Verb YAML Format
+# Irregular Verb Format
+
+Verb data lives in `verben/*.yaml`. Each file has a `title` string and a `verbs` list.
 
 ## Schema
 
-Each YAML file (e.g. `verben/irregular-verbs-a1.yaml`) has a `title` string and a `verbs` list. Every verb entry contains these fields:
-
-| Field | Type | Description |
-|---|---|---|
-| `id` | int | Sequential integer ID |
-| `infinitiv` | string | Infinitive form |
-| `präteritum` | string | Simple past (3rd sg) — **note: key is `präteritum` with ä** |
-| `partizip` | string | Full participle phrase with auxiliary (`hat` or `ist`; both with `/` if applicable) |
-| `translations` | map | `english` + `ukrainian` keys |
-| `person3` | string | 3rd person singular present (er/sie/es) |
-| `examples` | string (block scalar `|`) | Free-form multi-line notes, grammar, conjugated examples |
-
-### Minimal YAML structure
-
-```yaml
-title: "Unregelmäßige Verben - A1"
-verbs:
-  - id: 1
-    infinitiv: beginnen
-    präteritum: begann
-    partizip: hat begonnen
-    translations:
-      english: to begin
-      ukrainian: починати
-    person3: beginnt
-    examples: |
-      Grammar notes and examples...
-```
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `id` | int | yes | Unique within the file (sequential per file, not global) |
+| `infinitiv` | string | yes | Base form of the verb |
+| `präteritum` | string | yes | Simple past, 3rd person singular |
+| `partizip` | string | yes | Full perfect form including auxiliary (`hat` / `ist`) |
+| `person3` | string | yes | 3rd person singular present |
+| `translations` | object | yes | Must contain `english` and `ukrainian` |
+| `examples` | multiline string | optional | Free-form notes (literal block scalar `|`) |
 
 ## Conventions
 
-- **`präteritum`** — non-ASCII key (with ä), preserve exactly
-- **`partizip`** — always includes the auxiliary verb (`hat` or `ist`), e.g. `ist gefallen`
-- **`examples`** — YAML block scalar (`|`) for multi-line free text; may include Markdown, HTML case tags (`<Dat>`, `<Akk>`), etc.
+### `partizip`
 
-## Best-Practice Example (`fallen`, from `irregular-verbs-a2.yaml`)
+Include the auxiliary verb:
+
+- `hat begonnen` (transitive)
+- `ist geblieben` (intransitive with movement/state change)
+- `hat / ist geschwommen` (when both auxiliaries are possible)
+
+### `präteritum`
+
+Always 3rd person singular form (e.g. `fuhr`, not `fahren wir`).
+
+### `examples`
+
+Free-form literal block scalar. Recommended structure:
+
+1. **Related nouns** — derivatives (e.g. `die Fahrt`, `der Fahrer`)
+2. **Prepositional usage** — cases and prepositions (e.g. `zu <Dat>`, `in <Akk>`)
+3. **Prefixed verbs** — separable/inseparable compounds (e.g. `anfangen`, `empfangen`)
+4. **Idioms / phrases** — fixed expressions
+5. **Sentence examples by tense** — bilingual (German / English), grouped under `**Präsens**`, `**Präteritum**`, `**Perfekt**`
+
+## Best-Practice Example (`fahren`, A1 file, ID 4)
 
 The most complete entry contains all top-level fields plus a rich `examples` block structured in these optional sections:
 
@@ -51,54 +52,49 @@ The most complete entry contains all top-level fields plus a rich `examples` blo
 8. **Perfekt** — conjugated example in perfect tense
 
 ```yaml
-  - id: 6
-    infinitiv: fallen
-    präteritum: fiel
-    partizip: ist gefallen
-    translations:
-      english: to fall
-      ukrainian: падати
-    person3: fällt
-    examples: |
-      fallen - wohin- <Akk>
+- id: 4
+  infinitiv: fahren
+  präteritum: fuhr
+  partizip: ist gefahren
+  translations:
+    english: to drive, to go, to travel
+    ukrainian: ихати
+  person3: fährt
+  examples: |
+    die Fahrt - поїздка
+    der Fahrer - водій
 
-      **trennbare Verben**:
-        - hinfallen - to fall down (on the ground) / падати на землю
-          - Er fällt oft beim Laufen hin. / He often falls when running. / Він часто падає під час бігу.
-        - auffallen <Dat> - to stand out, to be noticeable / кидатись в очі, бути помітним
-          - Mir fällt auf, dass du heute sehr ruhig bist. / I notice that you are very quiet today. / Я помічаю, що ти сьогодні дуже тихий.
-        - einfallen - to come to mind, collapse / спадати / спадати на думку
-          - Mir fällt nichts Gutes ein. / Nothing good comes to mind. / Мені нічого не спадає на думку.
-        - ausfallen - to fail, be canceled / випадати, скасовуватися
-          - Der Unterricht fällt heute aus. / The lesson is canceled today. / Заняття сьогодні скасовуються.
-        - abfallen - to fall off / відпадати
-          - Die Blätter fallen im Herbst ab. / The leaves fall in autumn. / Листя опадає восени.
-        - herunterfallen - to fall down / падати вниз
-          - Das Glas ist heruntergefallen. / The glass has fallen. / Склянка впала вниз.
-        - durchfallen - to fail (exam) / провалювати
-          - Ich bin durch die Prüfung gefallen. / I failed the exam. / Я провалив іспит.
+    ist - якщо пасажир
+    hat - якщо за кермом
 
-      **Substantive**:
-        - der Fall - auf keinen Fall / auf jeden Fall / the case / падіння, випадок
-        - der Zufall - the coincidence / збіг, випадковість
-        - der Durchfall - the failure / провал
+    fahre zu <Dat> - я доїхав до ...
+    fahre in <Akk> - я в'їхав в ...
+    fahre an <Akk> - я в'їхав на ...
+    fahre nach - нет артикля
+    fahre mit <Dat>
 
-      **Beispiele**:
-        - die Temperaturen fallen / the temperatures fall / Температури падають.
-        - die Preise fallen / the prices fall / Ціни падають
-        - im Krieg fallen / in the war fall / відбувається війна
-        - durch die Prüfung fallen / through the test fall / провалився тест
-        - einen Baum fallen / a tree fall / впало дерево
-        - Die Mathe ist heute ausgefallen. / The math is canceled today. / Математика сьогодні скасовується.
+    **Beispiele**:
+      Ich fahre zur Arbeit / I drive to work.
+      Ich fahre ins Ausland / I drive abroad.
+      Ich bin mit dem Bus gefahren. / I drove with the bus.
+      Ich bin mit der Bahn gefahren. / I drove with the train.
+      Haben Sie Auto gefahren? / Have you driven a car? /
+      am Steuer sein; steuern
+      Waren Sie am Steuer? / Were you at the wheel?
+      vor Schreck in die Höhe fahren / to drive into the sky from fear
+      vor Wut auf die Palme fahren / to drive into the sky from anger
 
-      **Präsens**:
-        - Der Apfel fällt vom Baum. / The apple falls from the tree. / Яблуко падає з дерева.
+    **Präsens**:
+      Ich fahre mit dem Auto zur Arbeit. / I drive with the car to work.
+      Er fährt gerne Fahrrad in seiner Freizeit. / He likes to ride a bike in his free time.
 
-      **Präteritum**:
-        - Der Apfel fiel vom Baum. / The apple fell from the tree. / Яблуко впало з дерева.
+    **Präteritum**:
+      Gestern fuhr ich mit dem Zug nach Hamburg. / I drove with the train to Hamburg yesterday.
+      Letzte Woche fuhren wir in den Urlaub ans Meer. / Last week, we went on vacation to the sea.
 
-      **Perfekt**:
-        - Der Apfel ist vom Baum gefallen. / The apple has fallen from the tree. / Яблуко впало з дерева.
+    **Perfekt**:
+      Ich bin heute Morgen mit dem Bus zur Schule gefahren. / I drove with the bus to school this morning.
+      Sie hat das Auto zum Supermarkt gefahren, um Lebensmittel einzukaufen. / She drove to the supermarket with the car to buy groceries.
 ```
 
 ## Completeness Score
