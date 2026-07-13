@@ -12,6 +12,7 @@ Verb data lives in `verben/*.yaml`. Each file has a `title` string and a `verbs`
 | `partizip` | string | yes | Full perfect form including auxiliary (`hat` / `ist`) |
 | `person3` | string | yes | 3rd person singular present |
 | `translations` | object | yes | Must contain `english` and `ukrainian` |
+| `level` | string | no | CEFR proficiency level (e.g. `A1`, `A2`, `B1`, `B2`, `C1`, `C2`) |
 | `examples` | multiline string | optional | Free-form notes (literal block scalar `|`) |
 
 ## Conventions
@@ -53,6 +54,7 @@ The most complete entry contains all top-level fields plus a rich `examples` blo
 
 ```yaml
 - id: 4
+  level: A2
   infinitiv: fahren
   präteritum: fuhr
   partizip: ist gefahren
@@ -118,3 +120,14 @@ A verb entry is scored out of 13 points:
 | 13 | Additional notes/extra content |
 
 Best-in-dataset verbs (12/13): `biegen`, `bieten`, `bitten`, `braten`, `fallen`, `gefallen`, `gewinnen`, `laden` (all in `irregular-verbs-a2.yaml`).
+
+### CEFR Levels
+
+| Level | Description |
+|---|---|
+| `A1` | Beginner — essential survival verbs (sein, haben, gehen, kommen…) |
+| `A2` | Elementary — daily life and routine contexts |
+| `B1` | Intermediate — abstract topics, work, education |
+| `B2` | Upper-intermediate — complex arguments, technical subjects |
+| `C1` | Advanced — academic, professional fluency |
+| `C2` | Proficiency — near-native mastery |
