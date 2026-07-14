@@ -55,3 +55,11 @@ Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.y
 | `cli.py` | `german-verbs` entry point: thin Click wrappers |
 
 Commands are generally run from the repo root (hardcoded `verben/` paths).
+
+## Search MCP throttling
+
+DuckDuckGo search blocks repeated identical queries (bot detection). When a query returns 0 results:
+- **Check result count** before retrying — empty responses may be bot-blocked, not genuinely empty.
+- **Vary the query** (different keywords/phrasing) instead of repeating the same one.
+- **Space out queries** — don't hammer the same search in rapid succession.
+- For `search_fetch_content`, use `backend='curl'` (Chrome TLS impersonation) to bypass bot filters.
