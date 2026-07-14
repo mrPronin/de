@@ -92,15 +92,14 @@ Wikimedia Commons enforces **HTTP 429 (Too Many Requests)** on rapid requests. M
 aufgeben, aufwachen, befehlen, bemerken, empfehlen, empfangen, ergreifen, erziehen, fangen, fliehen, genieren, gelingen, geschehen, gewähren, hegen, kauen, leihen, reiben, scheiden, schmeißen, schwören, verzeihen, zergehen, zeichnen, ziehen
 
 ### Missing b verbs (13)
-beißen, dulden, einladen, entzweien, flüstern, gähnen, hassen, küssen, lügen, mögen, rätseln, schämen
+backen, befehlen, beginnen, beißen, betrügen, bewegen, biegen, bieten, binden, blasen, braten, brechen, fangen
 
 ## Alternative Sources (if Commons is unavailable)
 
 | Source | Notes |
 |---|---|
-| **Forvo API** (`api.forvo.com`) | 6M pronunciations, requires API key, rate-limited |
 | **Wiktionary bulk audio** (`kaikki.org/dictionary/rawdata.html`) | 20.4GB tar with ~942K audio files — filter by our verb list |
-| **gTTS** (`gtts` Python library) | Google Text-to-Speech, free but synthetic voice (not native speaker) |
+| **Chrome DevTools MCP + verben.de** | Control a real browser to scrape pronunciation audio from `verben.de/verben/{word}` — captures native-speaker TTS output via network inspection |
 
 ## Notes
 

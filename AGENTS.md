@@ -94,5 +94,5 @@ Wikimedia Commons aggressively blocks programmatic access (HTTP 429). The search
 
 **Fallback sources (from `doc/004-how-to-download-audio.md`):**
 - **Wiktionary bulk dump** (`kaikki.org/dictionary/rawdata.html`, 20.4GB tar) — filter by verb list, no rate limiting
-- **Forvo API** (requires key)
-- **gTTS** (synthetic but free and fast)
+- **Chrome DevTools MCP + verben.de** — control a real browser to scrape `verben.de/verben/{word}` pages, capture native-speaker TTS audio via network inspection (bypasses bot detection)
+- **Wikimedia Commons** — primary source, crowdsourced native-speaker audio (rate-limited but works with sleep/retry)
