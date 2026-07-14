@@ -47,3 +47,34 @@ Verb data lives in `verben/*.yaml`, keyed by CEFR level / grouping (`irregular-v
 - `cli.py` — `german-verbs` entry point; thin Click wrappers over `verbs.py` and `converter.py`.
 
 Commands are generally run from the repo root because directory-relative paths (`verben/`, `verben/generated`) are hardcoded in `cli.py` and the `load_verb_data()` search chain.
+
+## Audio files (`audio/`)
+Pronunciation audio for German verbs, organized by CEFR level.
+
+### Current status (2026-07-14)
+
+| Level | Verbs | Downloaded | Missing |
+|---|---:|---:|---|
+| **a1** | 50 | 50 ✅ | 0 |
+| **a2** | 9 (with infinitiv) | 9 ✅ | 0 |
+| **b** | 16 | 3 | 13 |
+
+### Missing B verbs (13)
+`backen`, `befehlen`, `beginnen`, `beißen`, `betrügen`, `bewegen`, `biegen`, `bieten`, `binden`, `blasen`, `braten`, `brechen`, `fangen`
+
+### Source: Wikimedia Commons
+Wikimedia Commons hosts crowdsourced native-speaker audio. Files follow the pattern:
+```
+File:LL-Q188 (deu)-{username}-{word}.{ext}
+```
+Extensions: `.ogg` (preferred), `.mp3`, or `.wav`.
+
+### Download approach
+Wikimedia Commons aggressively blocks programmatic access (HTTP 429). Search API works intermittently; URL endpoints are consistently blocked.
+
+**Stored scripts live in `scripts/download_audio.py`** — do not regenerate inline. If it works, commit the script alongside new audio files.
+
+**Fallback sources (see `doc/004-how-to-download-audio.md`):**
+- **Wiktionary bulk dump** (`kaikki.org/dictionary/rawdata.html`, 20.4GB tar) — filter by verb list, no rate limiting
+- **Forvo API** (requires key)
+- **gTTS** (synthetic but free and fast)
