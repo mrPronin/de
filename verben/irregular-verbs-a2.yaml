@@ -2,70 +2,89 @@ title: "Unregelmäßige Verben - A2"
 verbs:
   - id: 1
     level: A2
-    infinitiv: backen
-    präteritum: backte
-    partizip: hat gebacken
+    infinitiv: essen
+    präteritum: aß
+    partizip: hat gegessen
     translations:
-      english: to bake
-      ukrainian: пекти
-    person3: backt
+      english: to eat
+      ukrainian: їсти
+    person3: esset
     examples: |
-      <Akk>
-
-      **Substantive**:
-        der Bäcker / the baker / пекар
-        das Backen / the baking / печеня
-        das Gebäck / the pastry / випічка
-        den Kuchen / the cake / торт
-        die Bäckerei / the bakery / пекарня
-
-      mit <Dat> backen = zu backen gehen
-      
-      **Präsens**:
-        Ich backe einen Kuchen. / I bake a cake.
-      
-      **Präteritum**:
-        Sie buk gestern Brot. / She baked bread yesterday.
-      
-      **Perfekt**:
-        Er hat einen Apfelkuchen gebacken. / He has baked an apple pie.
-  
+      Ich esse Brot. / I eat bread.
+      Er hat einen Apfel gegessen. / He ate an apple.
   - id: 2
     level: A2
-    infinitiv: biegen
-    präteritum: bog
-    partizip: hat / ist gebogen
+    infinitiv: beginnen
+    präteritum: began
+    partizip: hat begonnen
     translations:
-      english: to turn, bend
-      ukrainian: згинати, повертати
-    person3: biegt
+      english: to begin, start
+      ukrainian: починати
+    person3: beginnt
     examples: |
-      **trennbare Verben**:
-        abbiegen - to turn ( in transport) / повертати (в транспортних засобах); abbiegen links / rechts
-
-      **Substantive**:
-        der Bogen - арка
-        der Regenbogen - веселка
-        der Geigenbogen - смичок
-        die Geige - скрипка
-      
-      **Beispiele**:
-        - Du biegst nach links ab. / You turn left.
-        - Sie haben die Regeln gebogen, um ihre Ziele zu erreichen. / They have bent the rules to achieve their goals.
-        - Er biegt den Arm. / He bends his arm.
-        - Er hat das Bein gebogen. / He has bent his leg.
-        - Das Auto ist um die Ecke gebogen. / The car is bent around the corner.
-
-      **Präsens**:
-        Ich biege das Metall. / I bend the metal.
-      
-      **Präteritum**:
-        Ich bog den Draht. / I bent the wire.
-      
-      **Perfekt**:
-        Ich habe das Metall gebogen. / I have bent the metal.
-
+      Ich beginne meine Arbeit. / I start my work.
+      Die Arbeit hat begonnen. / The work has started.
   - id: 3
+    level: A2
+    infinitiv: bekommen
+    präteritum: bekam
+    partizip: hat bekommen
+    translations:
+      english: to get, receive
+      ukrainian: отримати, отбутати
+    person3: bekommt
+    examples: |
+      Ich habe das Buch bekommen. / I received the book.
+      Er hat eine Antwort bekommen. / He got an answer.
+  - id: 4
+    level: A2
+    infinitiv: beschreiben
+    präteritum: beschrieb
+    partizip: hat beschrieben
+    translations:
+      english: to describe
+      ukrainian: описувати
+    person3: beschreibt
+    examples: |
+      Sie beschreibt das Bild. / She describes the picture.
+      Er hat es beschrieben. / He has described it.
+  - id: 5
+    level: A2
+    infinitiv: besprechen
+    präteritum: besprach
+    partizip: hat besprochen
+    translations:
+      english: to discuss
+      ukrainian: обговорювати
+    person3: bespricht
+    examples: |
+      Wir haben das Projekt diskutiert. / We discussed the project.
+      Sie hat es besprochen. / She has discussed it.
+  - id: 6
+    level: A2
+    infinitiv: sich bewerben
+    präteritum: bewarb sich
+    partizip: hat sich beworben
+    translations:
+      english: to apply (for a job)
+      ukrainian: афілігуватися
+    person3: sich bewerbst
+    examples: |
+      Ich bewende mich um eine Stelle an. / I apply for a job.
+      Sie hat sich beworben. / She has applied.
+  - id: 7
+    level: A2
+    infinitiv: bleiben
+    präteritum: blieb
+    partizip: ist geblieben
+    translations:
+      english: to stay, remain
+      ukrainian: залишатися
+    person3: bleibt
+    examples: |
+      Wir bleiben hier. / We stay here.
+      Er ist geblieben. / He has stayed.
+  - id: 8
     level: A2
     infinitiv: bieten
     präteritum: bot
@@ -75,113 +94,69 @@ verbs:
       ukrainian: пропонувати, надавати можливість
     person3: bietet
     examples: |
-      bieten jemandem <Dat> etwas <Akk> - пропонувати кому <Dat> що <Akk>
-
-      **trennbare Verben**:
-        - anbieten - to offer / пропонувати щось конкретне (товар, послугу), часто цілеспрямовано комусь
-          Ich biete dir meine Hilfe an. / I offer you my help.
-        - aufbieten - to mobilize, to summon / мобілізувати, прикладати зусилля
-          Wir bieten alle Kräfte auf. / We mobilize all forces. / Ми мобілізуємо всі сили.
-        - ausbieten - to auction, to put up for sale / виставляти на продаж (аукціон)
-          Er bietet sein Auto für 1000 € aus. / He puts his car up for sale for 1000 €. / Він виставляє свою машину за 1000 €.
-        - darbieten - to present, to perform / представляти, виконувати (на сцені)
-          Die Künstler bieten ein schönes Konzert dar. / The artists offer a beautiful concert. / Артисти виконують чудовий концерт.
-
-      **Substantive**:
-        das Angebot - offer / пропозиція
-      
-      **Beispiele**:
-        - Ich biete ihm einen Kaffe. / I offer him a coffee.
-        - Auf dem Markt gibt es ein reines Angebot. / There is a pure offer on the market.
-        - Das Leben bietet uns Millionen von Möglichkeiten. / Life offers us millions of possibilities. / Життя пропонує нам мільйони можливостей.
-        - Kann ich Ihnen einen Kaffee anbieten? / Can I offer you a coffee? / Я можу вам запропонувати каву?
-        - Es gibt ein reiches Angebot an Waren. / There is a rich offer of goods. / Є багато товарів.
-        - Eine so gute Chance bietet sich nicht oft. / Such a good chance does not often occur. / Така можливість трапляється не часто.
-
-      **Präsens**:
-        - Ich biete ihnen einen Kaffe. / I offer them a coffee. / Я пропоную їм каву.
-        - Ich biete dir meine Hilfe. / I offer you my help. / Я пропоную вам свою допомогу.
-      
-      **Präteritum**:
-        - Er bot mir seine Unterstützung. / He offered me his support. / Він запропонував мені свою підтримку.
-      
-      **Perfekt**:
-        - Sie hat mir einen guten Preis geboten. / She offered me a good price. / Вона запропонувала мені хорошу ціну.        
-
-  - id: 4
+      Ich biete dir einen Kaffee. / I offer you a coffee.
+      Sie hat mir einen Preis geboten. / She offered me a price.
+  - id: 9
     level: A2
-    infinitiv: bitten
-    präteritum: bat
-    partizip: hat gebeten
+    infinitiv: bringen
+    präteritum: brachte
+    partizip: hat gebracht
     translations:
-      english: to ask (a favour), request
-      ukrainian: просити
-    person3: bittet
+      english: to bring
+      ukrainian: приносити
+    person3: bringt
     examples: |
-      bitten um <Akk>
-      
-      **nicht trennbare Verben**:
-        - verbitten - to forbid (formally) / суворо забороняти (офіційно)
-          Ich verbitte mir diesen Ton. / I forbid this tone. / Я не дозволяю такого тону.
-        - erbitten - to request, to ask for / благально просити
-          Ich habe den Urlaub erbeten. / I have asked for a vacation. / Я попросив про відпустку.
-        - überbitten - to outbid / перепросити, перебити ставку
-          Er hat mich beim Preis überboten. / He outbid me on the price. / Він запропонував вищу ціну.
-      
-      **Substantive**:
-        - die Bitte - the request / прохання
-      
-      **Beispiele**:
-        - Ich habe eine Bitte an Sie. / I have a request for you. / У мене до вас прохання.
-        - Er bittet um die Hilfe. / He asks for help. / Він просить про допомогу.
-
-      **Präsens**:
-        - Ich bitte dich um Hilfe. / I ask you for help. / Я прошу вас про допомогу.
-      
-      **Präteritum**:
-        - Er bat mich um einen Gefallen. / He asked me for a favor. / Він попросив мене про послугу.
-      
-      **Perfekt**:
-        - Sie hat mich um Unterstützung gebeten. / She has asked me for support. / Вона попросила мене про підтримку.
-
-  - id: 5
+      Ich bringe dir ein Buch. / I bring you a book.
+      Sie hat das Geld gebracht. / She brought the money.
+  - id: 10
     level: A2
-    infinitiv: braten
-    präteritum: briet
-    partizip: hat gebraten
+    infinitiv: backen
+    präteritum: buk / backte
+    partizip: hat gebacken
     translations:
-      english: to bake, fry, roast
-      ukrainian: смажити
-    person3: brät
+      english: to bake
+      ukrainian: пекти
+    person3: backt
     examples: |
-      **trennbare Verben**:
-        - anbraten - to sear, to brown / підсмажувати
-          Ich brate das Fleisch scharf an. / I sear the meat. / Я підсмажую м’ясо на сильному вогні.
-        - durchbraten - to cook through / просмажувати наскрізь
-          Das Steak soll gut durchgebraten sein. / The steak should be well-cooked through. / Стейк має бути добре просмажений.
-        - mitbraten - to fry together (with) / смажити разом (з)
-          Die Zwiebeln braten wir mit dem Fleisch mit. / We fry the onions with the meat. / Ми смажимо цибулю разом із м’ясом.
-
-      **Substantive**:
-        - der Braten - the roast / печеня
-        - der Gänsebraten - roast goose / смажена гуска
-      
-      **Beispiele**:
-        - Er brät Wurst. / He fries sausage. / Він смажить ковбасу.
-        - die Bratwurst schmeckt lecker. / the sausage tastes good. / ковбаса смачна.
-
-      **Präsens**:
-        - Ich brate das Fleisch in der Pfanne. / I fry the meat in the pan. / Я смажу м'ясо на сковороді.
-      
-      **Präteritum**:
-        - Ich bratete das Fleisch. / I fried the meat. / Я смажив м'ясо.
-        - Er briet gestern das Gemüse. / He fried the vegetables yesterday. / Він смажив овочі вчора.
-      
-      **Perfekt**:
-        - Er hat das Fleisch gebraten. / He has fried the meat. / Він смажив м'ясо.
-        - Sie hat das Hähnchen im Ofen gebraten. / She has roasted the chicken in the oven. / Вона смажила курятину в духовці.
-
-  - id: 6
+      Ich backe einen Kuchen. / I bake a cake.
+      Sie hat den Kuchen gebacken. / She baked the cake.
+  - id: 11
+    level: A2
+    infinitiv: empfehlen
+    präteritum: empfahl
+    partizip: hat empfohlen
+    translations:
+      english: to recommend
+      ukrainian: рекомендувати
+    person3: empfiehlt
+    examples: |
+      Ich empfehle dir dieses Buch. / I recommend this book to you.
+      Er hat mir einen Film empfohlen. / He recommended a film to me.
+  - id: 12
+    level: A2
+    infinitiv: empfangen
+    präteritum: empfing
+    partizip: hat empfangen
+    translations:
+      english: to receive
+      ukrainian: отримувати
+    person3: empfängt
+    examples: |
+      Wir haben die Nachrichten empfangen. / We received the messages.
+      Sie hat das Paket empfangen. / She received the package.
+  - id: 13
+    level: A2
+    infinitiv: finden
+    präteritum: fand
+    partizip: hat gefunden
+    translations:
+      english: to find
+      ukrainian: знайти
+    person3: findet
+    examples: |
+      Ich habe den Schlüssel gefunden. / I found the key.
+      Er hat den Fehler gefunden. / He found the mistake.
+  - id: 14
     level: A2
     infinitiv: fallen
     präteritum: fiel
@@ -191,47 +166,81 @@ verbs:
       ukrainian: падати
     person3: fällt
     examples: |
-      fallen - wohin- <Akk>
-
-      **trennbare Verben**:
-        - hinfallen - to fall down (on the ground) / падати на землю
-          - Er fällt oft beim Laufen hin. / He often falls when running. / Він часто падає під час бігу.
-        - auffallen <Dat> - to stand out, to be noticeable / кидатись в очі, бути помітним
-          - Mir fällt auf, dass du heute sehr ruhig bist. / I notice that you are very quiet today. / Я помічаю, що ти сьогодні дуже тихий.
-        - einfallen - to come to mind, collapse / спадати / спадати на думку
-          - Mir fällt nichts Gutes ein. / Nothing good comes to mind. / Мені нічого не спадає на думку.
-        - ausfallen - to fail, be canceled / випадати, скасовуватися
-          - Der Unterricht fällt heute aus. / The lesson is canceled today. / Заняття сьогодні скасовуються.
-        - abfallen - to fall off / відпадати
-          - Die Blätter fallen im Herbst ab. / The leaves fall in autumn. / Листя опадає восени.
-        - herunterfallen - to fall down / падати вниз
-          - Das Glas ist heruntergefallen. / The glass has fallen. / Склянка впала вниз.
-        - durchfallen - to fail (exam) / провалювати
-          - Ich bin durch die Prüfung gefallen. / I failed the exam. / Я провалив іспит.
-
-      **Substantive**:
-        - der Fall - auf keinen Fall / auf jeden Fall / the case / падіння, випадок
-        - der Zufall - the coincidence / збіг, випадковість
-        - der Durchfall - the failure / провал
-
-      **Beispiele**:
-        - die Temperaturen fallen / the temperatures fall / Температури падають.
-        - die Preise fallen / the prices fall / Ціни падають
-        - im Krieg fallen / in the war fall / відбувається війна
-        - durch die Prüfung fallen / through the test fall / провалився тест
-        - einen Baum fallen / a tree fall / впало дерево
-        - Die Mathe ist heute ausgefallen. / The math is canceled today. / Математика сьогодні скасовується.
-
-      **Präsens**:
-        - Der Apfel fällt vom Baum. / The apple falls from the tree. / Яблуко падає з дерева.
-      
-      **Präteritum**:
-        - Der Apfel fiel vom Baum. / The apple fell from the tree. / Яблуко впало з дерева.
-      
-      **Perfekt**:
-        - Der Apfel ist vom Baum gefallen. / The apple has fallen from the tree. / Яблуко впало з дерева.
-
-  - id: 7
+      Der Apfel fällt vom Baum. / The apple falls from the tree.
+      Der Apfel fiel vom Baum. / The apple fell from the tree.
+  - id: 15
+    level: A2
+    infinitiv: anfangen
+    präteritum: fing an
+    partizip: hat angefangen
+    translations:
+      english: to start
+      ukrainian: починати
+    person3: beginnt
+    examples: |
+      Ich beginne mit der Arbeit. / I start the work.
+      Er hat mit der Arbeit angefangen. / He has started working.
+  - id: 16
+    level: A2
+    infinitiv: fliegen
+    präteritum: flog
+    partizip: ist / hat geflogen
+    translations:
+      english: to fly
+      ukrainian: летіти
+    person3: fliegt
+    examples: |
+      Das Flugzeug fliegt. / The plane flies.
+      Er hat geflogen. / He has flown.
+  - id: 17
+    level: A2
+    infinitiv: abfahren
+    präteritum: fuhr ab
+    partizip: ist abgefahren
+    translations:
+      english: to depart
+      ukrainian: відъїдати
+    person3: abfährt
+    examples: |
+      Der Zug fährt ab. / The train departs.
+      Das Schiff ist abgefahren. / The ship has departed.
+  - id: 18
+    level: A2
+    infinitiv: fahren
+    präteritum: fuhr
+    partizip: ist / hat gefahren
+    translations:
+      english: to drive, go
+      ukrainian: їти, їздити
+    person3: fährt
+    examples: |
+      Ich fahre ins Büro. / I go to the office.
+      Sie hat gefahren. / She has gone.
+  - id: 19
+    level: A2
+    infinitiv: abgeben
+    präteritum: gab ab
+    partizip: hat abgegeben
+    translations:
+      english: to hand in, give up
+      ukrainian: віддавати
+    person3: abgibt
+    examples: |
+      Ich gebe den Auftrag ab. / I hand in the order.
+      Er hat das Dokument abgegeben. / He has handed in the document.
+  - id: 20
+    level: A2
+    infinitiv: geben
+    präteritum: gab
+    partizip: hat gegeben
+    translations:
+      english: to give
+      ukrainian: давати
+    person3: gibt
+    examples: |
+      Ich gebe dir das Buch. / I give you the book.
+      Sie hat mir help gegeben. / She gave me help.
+  - id: 21
     level: A2
     infinitiv: gefallen
     präteritum: gefiel
@@ -241,548 +250,473 @@ verbs:
       ukrainian: подобатися
     person3: gefällt
     examples: |
-      gefallen - j-m
-
-      **trennbare Verben**:
-
-      **Substantive**:
-        - der Gefallen - the favor / послуга; j-m einen Gefallen tun
-      
-      **Beispiele**:
-        - Wie gefällt dir der Film? / How do you like the film? / Як вам фільм?
-        - Was gefällt dir an diesem Film? / What do you like about this film? / Що вам подобається в цьому фільмі?
-
-      **Präsens**:
-        - Ich gefällt dir. / I like you. / Я вам подобаюся.
-        - Der Film gefällt mir. / The film suits me. / Мене подобається цей фільм.
-        
-      **Präteritum**:
-        - Ich gefiel dir. / I liked you. / Я вам подобався.
-        - Der Film gefiel mir. / The film suited me. / Мене подобався цей фільм.
-      
-      **Perfekt**:
-        - Ich gefiel dir. / I liked you. / Я вам подобався.
-        - Der Film gefiel mir. / The film suited me. / Мене подобався цей фільм.
-
-  - id: 8
+      Wie gefällt dir der Film? / How do you like the film?
+      Der Film gefiel mir. / The film suited me.
+  - id: 22
     level: A2
     infinitiv: gewinnen
     präteritum: gewann
     partizip: hat gewonnen
     translations:
       english: to win
-      ukrainian: вигравати, добувати (копалини)
+      ukrainian: вигравати, добувати
     person3: gewinnt
     examples: |
-      **trennbare Verben**:
-        - dazu | gewinnen - to gain additionally / набувати додатково
-          - Mit dem neuen Projekt gewinnen wir viel Erfahrung dazu. / With the new project we gain a lot of experience. / З новим проектом ми отримуємо багато досвіду.
-        - zurück | gewinnen - to win back / повертати (назад)
-          - Wir müssen das Vertrauen unserer Kunden zurückgewinnen. / We must win back the trust of our customers. / Ми повинні повернути довіру наших клієнтів.
-
-      **nicht trennbare Verben**:
-        - gewinnen (без префікса) – to win, to gain / вигравати, здобувати
-
-      **Substantive**:
-        - der Gewinn / -e - прибуток; der Verlust / -e - збиток
-      
-      **Beispiele**:
-        - einen Wettkampf gewinnen / to win a competition / виграти змагання
-        - den Krieg gewinnen / to win the war / виграти війну
-        - die Eisenerz gewinnen / extract iron ore / видобувати залізну руду
-        - die Kunden gewinnen / to win customers / завоювати клієнтів
-        - einen Preis gewinnen / to win a prize / виграти приз
-        - Vertrauen gewinnen / to win trust / завоювати довіру
-        - das Erdöl gewinnen / to extract oil / видобувати нафту
-        - den Gewinn erwirtschaften / to make a profit / отримувати прибуток
-
-      **Präsens**:
-        - Sie gewinnt oft bei Lotterien. - She often wins at lotteries. / Вона часто виграє в лотереї.
-      
-      **Präteritum**:
-        - Sie gewann oft bei Lotterien. - She won often at lotteries. / Вона часто вигравала в лотереї.
-      
-      **Perfekt**:
-        - Sie hat oft bei Lotterien gewonnen. - She won often at lotteries. / Вона часто вигравала в лотереї.
-
-  - id: 9
-    level: A2
-    infinitiv: laden
-    präteritum: lud
-    partizip: hat geladen
-    translations:
-      english: to load, to charge
-      ukrainian: вантажити
-    person3: lädt
-    examples: |
-      laden etw. wohin?
-
-      **trennbare Verben**:
-
-      **Substantive**:
-        - aufladen - to charge / заряджати
-          - Ich lade mein Handy auf. – I charge my phone. / Я заряджаю свій телефон.
-        - einladen - to invite / запрошувати
-          - Ich lade dich zur Party ein. – I invite you to the party. / Я запрошую тебе на вечірку.
-        - herunterladen - to download / завантажувати (з інтернету)
-          - Ich lade die Datei herunter. – I download the file. / Я завантажую файл.
-        - hochladen - to upload / завантажувати (в інтернет)
-          - Ich lade das Video hoch. – I upload the video. / Я завантажую відео.
-        - ausladen - to unload / розвантажувати
-          - Ich lade den Kofferraum aus. – I unload the trunk. / Я розвантажую багажник.
-        - umladen - to reload / перевантажувати
-      
-      **Beispiele**:
-        - auf einen LKW laden / to load a truck / вантажити вантаж на вантажівку
-
-
-      **Präsens**:
-        - Ich lade mein Handy auf. - I charge my phone. / Я заряджаю свій телефон.
-        - Sie laden das Gepäck in den Kofferraum des Autos. / They load the luggage into the trunk of the car. / Вони вантажують багаж у багажник автомобіля.
-      
-      **Präteritum**:
-        - Gestern lud ich meine Freunde zum Essen ein. - Yesterday, I invited my friends for dinner. / Вчора я запросив своїх друзів на вечерю.
-        - Letzte Woche luden wir den Lieferwagen mit den Paketen. - Last week we loaded the van with the parcels. / Ми вантажили вантажівку пакетами.
-      
-      **Perfekt**:
-        - Ich habe mein Auto gerade vollgetankt und die Batterie geladen. - I have just refueled my car and charged the battery. / Я щойно заправил машину і зарядив акумулятор.
-        - Ich habe gestern mein Fahrrad aufgeladen. - Yesterday, I charged my bicycle. / Вчора я зарядив велосипед.
-        - Er hat das Dokument auf den USB-Stick geladen. - He loaded the document onto the USB stick. / Він завантажив документ на USB-накопичувач.
-
-  - id: 10
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      - der Lebenslauf / Lebensleufe  - резюме
-      
-      **Beispiele**:
-        - Es leuft bei mir schon geschmiert. / It's running smoothly. / Все працює плавно.
-        - Hier läuft nichts. / Nothing is running here. / Тут нічого не працює.
-        - Ein neuer Film läuft im Kino. / A new film is playing in the cinema. / В кінотеатрі відбувається новий фільм.
-        - Meine Wohnung liegt in einem wunderschönen Wohnviertel in Berlin. / My apartment is in a beautiful neighborhood in Berlin. / Мій квартирі знаходиться в красивому районі Берліна.
-
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 11
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 12
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 13
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 14
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 15
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 16
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 17
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 18
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 19
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 20
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 21
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
-  - id: 22
-    infinitiv: 
-    präteritum: 
-    partizip: 
-    translations:
-      english: 
-      ukrainian: 
-    person3: 
-    examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
+      Sie gewinnt oft bei Lotterien. / She often wins at lotteries.
+      Er hat den Preis gewonnen. / He has won the prize.
   - id: 23
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    level: A2
+    infinitiv: gehen
+    präteritum: ging
+    partizip: ist / hat gegangen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to go
+      ukrainian: іти
+    person3: geht
     examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
+      Ich gehe nach Hause. / I go home.
+      Sie hat gegangen. / She has gone.
   - id: 24
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    level: A2
+    infinitiv: helfen
+    präteritum: half
+    partizip: hat geholfen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to help
+      ukrainian: допомогати
+    person3: hilft
     examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
+      Ich helfe dir. / I help you.
+      Er hat mir geholfen. / He has helped me.
   - id: 25
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    level: A2
+    infinitiv: halten
+    präteritum: hielt
+    partizip: hat gehalten
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to hold
+      ukrainian: тримати
+    person3: hält
     examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
+      Ich halte das Buch. / I hold the book.
+      Sie hat es gehalten. / She has held it.
   - id: 26
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    level: A2
+    infinitiv: ankommen
+    präteritum: kam an
+    partizip: ist / gekommen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to arrive
+      ukrainian: прийти
+    person3: ankommt
     examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
-
+      Der Zug ist angekommen. / The train has arrived.
+      Sie ist angekommen. / She has arrived.
   - id: 27
-    infinitiv: 
-    präteritum: 
-    partizip: 
+    level: A2
+    infinitiv: kommen
+    präteritum: kam
+    partizip: ist / gekommen
     translations:
-      english: 
-      ukrainian: 
-    person3: 
+      english: to come
+      ukrainian: приходити
+    person3: kommt
     examples: |
-      **trennbare Verben**:
-
-      **Substantive**:
-      
-      **Beispiele**:
-
-      **Präsens**:
-        
-      
-      **Präteritum**:
-        
-      
-      **Perfekt**:
-        
+      Ich komme morgen. / I come tomorrow.
+      Er ist gekommen. / He has come.
+  - id: 28
+    level: A2
+    infinitiv: lesen
+    präteritum: las
+    partizip: hat gelesen
+    translations:
+      english: to read
+      ukrainian: читати
+    person3: liest
+    examples: |
+      Ich lese ein Buch. / I read a book.
+      Sie hat lesen. / She has read.
+  - id: 29
+    level: A2
+    infinitiv: laufen
+    präteritum: lief
+    partizip: ist / gelaufen
+    translations:
+      english: to run
+      ukrainian: біgai
+    person3: läuft
+    examples: |
+      Ich laufe zur Arbeit. / I run to work.
+      Er hat gelaufen. / He has run.
+  - id: 30
+    level: A2
+    infinitiv: lassen
+    präteritum: ließ
+    partizip: hat gelassen
+    translations:
+      english: to let
+      ukrainian: дозvolити
+    person3: lässt
+    examples: |
+      Ich lasse dich gehen. / I let you go.
+      Sie hat es gelassen. / She has left it.
+  - id: 31
+    level: A2
+    infinitiv: einladen
+    präteritum: lud ein
+    partizip: hat eingeladen
+    translations:
+      english: to invite
+      ukrainian: запрошувати
+    person3: einlädt
+    examples: |
+      Ich lade dich zur Party ein. / I invite you to the party.
+      Sie hat mich eingeladen. / She invited me.
+  - id: 32
+    level: A2
+    infinitiv: abnehmen
+    präteritum: nahm ab
+    partizip: hat abgenommen
+    translations:
+      english: to dismiss
+      ukrainian: звільнити
+    person3: abnimmt
+    examples: |
+      Der Boss hat ihn abgenommen. / The boss dismissed him.
+      Sie hat die Position abgenommen. / She dismissed the position.
+  - id: 33
+    level: A2
+    infinitiv: annehmen
+    präteritum: nahm an
+    partizip: hat angenommen
+    translations:
+      english: to accept
+      ukrainian: приймати
+    person3: annimmt
+    examples: |
+      Ich nehme deine Hilfe an. / I accept your help.
+      Sie hat den Vorschlag angenommen. / She accepted the proposal.
+  - id: 34
+    level: A2
+    infinitiv: nehmen
+    präteritum: nahm
+    partizip: hat genommen
+    translations:
+      english: to take
+      ukrainian: брати
+    person3: nimmt
+    examples: |
+      Ich nehme das Buch. / I take the book.
+      Sie hat es genommen. / She took it.
+  - id: 35
+    level: A2
+    infinitiv: anrufen
+    präteritum: rief an
+    partizip: hat angerufen
+    translations:
+      english: to call (phone)
+      ukrainian: звонити
+    person3: anruft
+    examples: |
+      Ich rufe dich an. / I call you.
+      Sie hat mich angerufen. / She called me.
+  - id: 36
+    level: A2
+    infinitiv: rufen
+    präteritum: rief
+    partizip: hat gerufen
+    translations:
+      english: to call, shout
+      ukrainian: зовати
+    person3: ruft
+    examples: |
+      Ich rufe dich. / I call you.
+      Sie hat gerufen. / She shouted.
+  - id: 37
+    level: A2
+    infinitiv: ansehen
+    präteritum: sah an
+    partizip: hat angesehen
+    translations:
+      english: to look at
+      ukrainian: дивитися
+    person3: ansieht
+    examples: |
+      Ich sehe dich an. / I look at you.
+      Sie hat es angesehen. / She looked at it.
+  - id: 38
+    level: A2
+    infinitiv: sehen
+    präteritum: sah
+    partizip: hat gesehen
+    translations:
+      english: to see
+      ukrainian: бачити
+    person3: sieht
+    examples: |
+      Ich sehe dich. / I see you.
+      Sie hat gesehen. / She has seen.
+  - id: 39
+    level: A2
+    infinitiv: singen
+    präteritum: sang
+    partizip: hat gesungen
+    translations:
+      english: to sing
+      ukrainian: співати
+    person3: singt
+    examples: |
+      Ich singe ein Lied. / I sing a song.
+      Er hat gesungen. / He has sung.
+  - id: 40
+    level: A2
+    infinitiv: einschlafen
+    präteritum: schlief ein
+    partizip: ist / eingeschlafen
+    translations:
+      english: to fall asleep
+      ukrainian: заснувати
+    person3: einschläft
+    examples: |
+      Er hat einschlafen. / He fell asleep.
+      Sie ist eingeschlafen. / She has fallen asleep.
+  - id: 41
+    level: A2
+    infinitiv: schlafen
+    präteritum: schlief
+    partizip: hat / geschlafen
+    translations:
+      english: to sleep
+      ukrainian: спати
+    person3: schläft
+    examples: |
+      Ich schlafe gut. / I sleep well.
+      Er hat geschlafen. / He has slept.
+  - id: 42
+    level: A2
+    infinitiv: schreiben
+    präteritum: schrieb
+    partizip: hat / geschrieben
+    translations:
+      english: to write
+      ukrainian: писати
+    person3: schreibt
+    examples: |
+      Ich schreibe einen Brief. / I write a letter.
+      Sie hat geschrieben. / She has written.
+  - id: 43
+    level: A2
+    infinitiv: sprechen
+    präteritum: sprach
+    partizip: hat / gesprochen
+    translations:
+      english: to speak
+      ukrainian: мовiti
+    person3: spricht
+    examples: |
+      Ich spreche Deutsch. / I speak German.
+      Er hat gesprochen. / He has spoken.
+  - id: 44
+    level: A2
+    infinitiv: aufstehen
+    präteritum: stand auf
+    partizip: ist / aufgestanden
+    translations:
+      english: to get up
+      ukrainian: повстанти
+    person3: aufsteht
+    examples: |
+      Ich steh auf. / I get up.
+      Sie ist aufgestanden. / She has gotten up.
+  - id: 45
+    level: A2
+    infinitiv: stehen
+    präteritum: stand
+    partizip: hat / gestanden
+    translations:
+      english: to stand
+      ukrainian: стани
+    person3: steht
+    examples: |
+      Ich stehe auf der Bühne. / I stand on stage.
+      Sie hat gestanden. / She has stood.
+  - id: 46
+    level: A2
+    infinitiv: aussteigen
+    präteritum: stieg aus
+    partizip: ist / ausgestiegen
+    translations:
+      english: to get off (a vehicle)
+      ukrainian: спускатися
+    person3: aussteigt
+    examples: |
+      Wir steigen aus dem Zug. / We get off the train.
+      Er ist ausgestiegen. / He has gotten off.
+  - id: 47
+    level: A2
+    infinitiv: einsteigen
+    präteritum: stieg ein
+    partizip: ist / eingestiegen
+    translations:
+      english: to get on (a vehicle)
+      ukrainian: підіхати
+    person3: einsteigt
+    examples: |
+      Wir steigen in den Zug. / We get on the train.
+      Sie ist eingestiegen. / She has gotten on.
+  - id: 48
+    level: A2
+    infinitiv: treffen
+    präteritum: traf
+    partizip: hat / getroffen
+    translations:
+      english: to meet
+      ukrainian: зустрічатися
+    person3: trifft
+    examples: |
+      Wir treffen morgen. / We meet tomorrow.
+      Er hat mich getroffen. / He met me.
+  - id: 49
+    level: A2
+    infinitiv: trinken
+    präteritum: trank
+    partizip: hat / getrunken
+    translations:
+      english: to drink
+      ukrainian: п'яти
+    person3: trinkt
+    examples: |
+      Ich trinke Wasser. / I drink water.
+      Sie hat getrunken. / She has drunk.
+  - id: 50
+    level: A2
+    infinitiv: tragen
+    präteritum: trug
+    partizip: hat / getragen
+    translations:
+      english: to carry
+      ukrainian: нести
+    person3: trägt
+    examples: |
+      Ich trage das Buch. / I carry the book.
+      Sie hat getragen. / She has carried.
+  - id: 51
+    level: A2
+    infinitiv: vergessen
+    präteritum: vergaß
+    partizip: hat / vergessen
+    translations:
+      english: to forget
+      ukrainian: забути
+    person3: vergisst
+    examples: |
+      Ich habe es vergessen. / I forgot it.
+      Er hat mich vergessen. / He has forgotten me.
+  - id: 52
+    level: A2
+    infinitiv: verlassen
+    präteritum: verließ
+    partizip: hat / verlassen
+    translations:
+      english: to leave
+      ukrainian: відъїдати, залишати
+    person3: verlässt
+    examples: |
+      Ich verlasse den Raum. / I leave the room.
+      Sie hat verlassen. / She has left.
+  - id: 53
+    level: A2
+    infinitiv: verlieren
+    präteritum: verlor
+    partizip: hat / verloren
+    translations:
+      english: to lose
+      ukrainian: втрадати
+    person3: verliert
+    examples: |
+      Ich habe den Schlüssel verloren. / I lost the key.
+      Er hat die Spielerei verloren. / He has lost the game.
+  - id: 54
+    level: A2
+    infinitiv: verstehen
+    präteritum: verstand
+    partizip: hat / verstanden
+    translations:
+      english: to understand
+      ukrainian: розуміти
+    person3: versteht
+    examples: |
+      Ich verstehe das. / I understand that.
+      Sie hat verstanden. / She has understood.
+  - id: 55
+    level: A2
+    infinitiv: sein
+    präteritum: war
+    partizip: ist / gewesen
+    translations:
+      english: to be
+      ukrainian: бути
+    person3: ist
+    examples: |
+      Ich bin Student. / I am a student.
+      Er war da. / He was there.
+  - id: 56
+    level: A2
+    infinitiv: werfen
+    präteritum: warf
+    partizip: hat / geworfen
+    translations:
+      english: to throw
+      ukrainian: метати
+    person3: wirft
+    examples: |
+      Ich werfe den Ball. / I throw the ball.
+      Sie hat geworfen. / She threw.
+  - id: 57
+    level: A2
+    infinitiv: werden
+    präteritum: wurde
+    partizip: ist / geworden
+    translations:
+      english: to become
+      ukrainian: становитися
+    person3: wird
+    examples: |
+      Er wird Lehrer. / He will become a teacher.
+      Sie ist geworden. / She has become.
+  - id: 58
+    level: A2
+    infinitiv: waschen
+    präteritum: wusch
+    partizip: hat / gewaschen
+    translations:
+      english: to wash
+      ukrainian: мивати
+    person3: wascht
+    examples: |
+      Ich wasche die Hände. / I wash my hands.
+      Sie hat gewaschen. / She has washed.
+  - id: 59
+    level: A2
+    infinitiv: wissen
+    präteritum: wusste
+    partizip: hat / gewusst
+    translations:
+      english: to know
+      ukrainian: знати
+    person3: weiß
+    examples: |
+      Ich weiß nichts. / I know nothing.
+      Sie hat gewusst. / She knew.
+  - id: 60
+    level: A2
+    infinitiv: ziehen
+    präteritum: zog
+    partizip: hat / ist / gezogen
+    translations:
+      english: to pull, draw
+      ukrainian: тягати
+    person3: zieht
+    examples: |
+      Ich ziehe die Tür. / I pull the door.
+      Sie hat gezogen. / She pulled.
