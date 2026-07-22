@@ -48,5 +48,5 @@ Modal and auxiliary verbs (dürfen, können, müssen, wollen, haben, werden) are
 
 - All 25 are confirmed present in at least one external A1 source.
 - Verbs 18–25 are separable — prefix handling matters in conjugation.
-- Consider adding these as a new file (e.g., `irregular-verbs-a2.yaml`) or merging into the existing A1 file.
+- **A2 is now complete** (60 verbs in `irregular-verbs-a2.yaml`, 2026-07-22) — consider adding these A1 verbs to `irregular-verbs-a1.yaml` and renumbering with `scripts/renumber_yaml.py`.
 - After adding, run `scripts/renumber_yaml.py verben/*.yaml` to renumber IDs sequentially.

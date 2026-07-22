@@ -8,11 +8,12 @@ Help a learner practice German irregular verbs. The repository is primarily a **
 
 Delivered and working:
 - Two CLI entry points: `learn-verbs` (interactive practice) and `german-verbs` (data management/conversion).
-- Verb datasets: A1, A2, and a "b" grouping under `verben/`.
+- Verb datasets: A1, A2 (60 verbs), and a "b" grouping under `verben/`.
 - YAML↔Markdown conversion, duplicate detection, per-verb lookups.
+- YAML validation script (`scripts/validate_yaml.py`) for consistency checks.
 
 In progress:
-- Ongoing data authoring/curation (A2 verbs are the most recent active work — see `verben/irregular-verbs-a2.yaml`).
+- Ongoing data authoring/curation (A2 verbs are the most recent active work).
 
 No known blockers. There is no automated test suite, linter, or CI.
 
@@ -45,7 +46,8 @@ Directory-relative paths (`verben/`, `verben/generated/`) are hardcoded, so comm
 de/
 ├── convert.py                  # standalone shortcut ≈ `german-verbs convert-all`
 ├── scripts/                    # maintenance utilities
-│   └── renumber_yaml.py       # renumber verb IDs after manual edits
+│   ├── renumber_yaml.py       # renumber verb IDs after manual edits
+│   └── validate_yaml.py       # validate YAML syntax and schema
 ├── pyproject.toml              # package + [project.scripts] entry points
 ├── german_verbs/
 │   ├── verbs.py                # data layer: load, lookup, display formatting
@@ -55,8 +57,8 @@ de/
 │   └── colors.py               # Click styling constants
 └── verben/
     ├── irregular-verbs-a1.yaml # default data file everywhere
-    ├── irregular-verbs-a2.yaml
-    ├── irregular-verbs-b.yaml
+    ├── irregular-verbs-a2.yaml # 60 A2-level verbs
+    ├── irregular-verbs-b.yaml  # B-level verbs
     └── generated/*.md          # generated artifacts (do not hand-edit)
 ```
 
@@ -168,6 +170,19 @@ python3 scripts/renumber_yaml.py                                  # defaults to 
 ### Verification
 Run against any YAML file, then `grep "id:"` to confirm sequential numbering.
 
+#### YAML Validation Script (`scripts/validate_yaml.py`)
+
+Added to catch schema issues before they enter the repo:
+- Validates YAML syntax (via `yaml.safe_load`)
+- Checks required keys: `id`, `level`, `infinitiv`, `präteritum`, `partizip`, `translations`
+- Detects duplicate IDs
+- Reports missing keys per verb
+
+```bash
+python3 scripts/validate_yaml.py                    # all verben/*.yaml
+python3 scripts/validate_yaml.py verben/file.yaml  # specific file
+```
+
 ## Known Issues & Workarounds
 
 - **Lossy YAML↔MD round-trip.** `markdown_to_yaml` is explicitly simplified; treat generated MD as output-only and keep YAML authoritative. Permanent by design.
@@ -181,10 +196,13 @@ Run against any YAML file, then `grep "id:"` to confirm sequential numbering.
 |---|---|---|
 | 2026-07-13 | Introduced `IMPLEMENTATION_PLAN.md` and root `CLAUDE.md` | Document project direction and give coding agents fast onboarding |
 | 2026-07-14 | Removed "bleiben" from b.yaml; added `scripts/renumber_yaml.py` | "bleiben" is A1-level (verified via DuckDuckGo); renumber script prevents manual ID errors after data edits |
+| 2026-07-22 | Added `scripts/validate_yaml.py` for YAML schema validation | Catch missing keys and duplicates early; provide a lightweight linter |
+| 2026-07-22 | Filled all 60 A2 verbs from external reference list | Based on repeatso.com's curated A2 irregular verb list; validated with YAML parser |
 
 ## Future Work
 
 - Add a minimal test suite (conversion round-trip, `load_verb_data` resolution, lookups) and a linter — Phase 6.
-- Continue verb data curation beyond A2.
+- Continue verb data curation beyond A2 (B1, B2, C1, C2).
 - Consider spaced-repetition / progress persistence across sessions (currently stats are per-session only).
 - Consider consolidating grouping scheme (CEFR-level files vs. letter-based `-b` file) to avoid overlap; `find-duplicates` exists partly to manage this.
+- Add audio pronunciation files for all 60 A2 verbs (currently only 9/60 have audio).

@@ -18,16 +18,18 @@ uv run learn-verbs [YAML_FILE] [-n N] [-m MODE] [-s]
 
 # Data management
 uv run german-verbs <subcommand> [-f YAML_FILE]
-```
 
-`german-verbs` subcommands: `list`, `get <infinitive>`, `get-by-id <id>`, `convert-to-md <file>`, `convert-to-yaml <file>`, `convert-all`, `find-duplicates`.
+german-verbs subcommands: `list`, `get <infinitive>`, `get-by-id <id>`, `convert-to-md <file>`, `convert-to-yaml <file>`, `convert-all`, `find-duplicates`.
 
-`convert.py` at the repo root is a standalone shortcut equivalent to `convert-all`.
+convert.py at the repo root is a standalone shortcut equivalent to `convert-all`.
 
-`scripts/renumber_yaml.py` renumbers verb IDs sequentially after manual edits (add/remove verbs).
-```bash
+scripts/renumber_yaml.py renumbers verb IDs sequentially after manual edits (add/remove verbs).
 python3 scripts/renumber_yaml.py verben/irregular-verbs-b.yaml   # single file
 python3 scripts/renumber_yaml.py verben/*.yaml                    # all files
+
+scripts/validate_yaml.py validates YAML syntax and schema (required keys, duplicate IDs).
+python3 scripts/validate_yaml.py                    # all verben/*.yaml
+python3 scripts/validate_yaml.py verben/file.yaml   # specific file
 ```
 
 **No test suite, linter config, or CI.** Verify changes by running the CLI commands directly.
@@ -67,15 +69,15 @@ DuckDuckGo search blocks repeated identical queries (bot detection). When a quer
 ## Audio files (`audio/`)
 Pronunciation audio for German verbs, organized by CEFR level.
 
-### Current status (2026-07-14)
+### Current status (2026-07-22)
 
 | Level | Verbs | Downloaded | Missing |
-|---|---:|---:|---|
+|---|---:|---:|---:|
 | **a1** | 50 | 50 ✅ | 0 |
-| **a2** | 9 (with infinitiv) | 9 ✅ | 0 |
+| **a2** | 60 | 9 ✅ | 51 |
 | **b** | 16 | 3 | 13 |
 
-**Total: 62/93 verbs have audio.**
+**Total: 62/126 verbs have audio.**
 
 ### Missing B verbs (13)
 `backen`, `befehlen`, `beginnen`, `beißen`, `betrügen`, `bewegen`, `biegen`, `bieten`, `binden`, `blasen`, `braten`, `brechen`, `fangen`
