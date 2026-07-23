@@ -98,3 +98,15 @@ Wikimedia Commons aggressively blocks programmatic access (HTTP 429). The search
 - **Wiktionary bulk dump** (`kaikki.org/dictionary/rawdata.html`, 20.4GB tar) — filter by verb list, no rate limiting
 - **Chrome DevTools MCP + verben.de** — control a real browser to scrape `verben.de/verben/{word}` pages, capture native-speaker TTS audio via network inspection (bypasses bot detection)
 - **Wikimedia Commons** — primary source, crowdsourced native-speaker audio (rate-limited but works with sleep/retry)
+
+## ⚠️ HARD RULE: No edits without asking
+
+**Never modify files without explicit user confirmation.** This is a hard rule.
+
+- Before editing any file (YAML, MD, or otherwise), you **must**:
+  1. Show the user the current state of the file/section
+  2. Show the user the proposed changes
+  3. Ask for explicit approval (e.g., "Shall I make this change?" or "Please confirm")
+- The user must explicitly say something like "yes", "go ahead", "do it", or confirm the change before proceeding.
+- If the user has not explicitly confirmed, **do not edit**. Ask again.
+- This rule applies to all files, including `verben/*.yaml`, `AGENTS.md`, etc.

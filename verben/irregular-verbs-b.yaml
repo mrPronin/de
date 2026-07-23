@@ -56,38 +56,6 @@ verbs:
         Ich habe das Metall gebogen. / I have bent the metal.
     person3: biegt
       
-  - id: 3
-    infinitiv: bieten
-    präteritum: bot
-    partizip: hat geboten
-    translations:
-      english: to offer
-      ukrainian: пропонувати
-    examples: |
-      das Angebot - offer; пропозиція
-      
-      пропонувати кому <Dat> що <Akk>
-
-
-      an·bieten - to offer, propose; пропонувати
-      
-      Beispiele
-        Das Leben bietet uns Millionen von Möglichkeiten. / Life offers us millions of opportunities.
-        
-        Ich biete ihm einen Kaffe. / I offer him a coffee.
-
-        Auf dem Markt gibt es ein reines Angebot. / There is a pure offer on the market.
-      
-      Präsens:
-        Ich biete dir meine Hilfe. / I offer you my help.
-      
-      Präteritum:
-        Er bot mir seine Unterstützung. / He offered me his support.
-      
-      Perfekt:
-        Sie hat mir einen guten Preis geboten. / She offered me a good price.
-    person3: bietet
-      
   - id: 4
     infinitiv: binden
     präteritum: band
