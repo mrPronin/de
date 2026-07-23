@@ -36,18 +36,6 @@ verbs:
     examples: |
       Ich bewende mich um eine Stelle an. / I apply for a job.
       Sie hat sich beworben. / She has applied.
-  - id: 4
-    level: A2
-    infinitiv: bieten
-    präteritum: bot
-    partizip: hat geboten
-    translations:
-      english: to offer
-      ukrainian: пропонувати, надавати можливість
-    person3: bietet
-    examples: |
-      Ich biete dir einen Kaffee. / I offer you a coffee.
-      Sie hat mir einen Preis geboten. / She offered me a price.
   - id: 5
     level: A2
     infinitiv: bringen
