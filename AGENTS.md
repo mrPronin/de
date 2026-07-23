@@ -110,3 +110,12 @@ Wikimedia Commons aggressively blocks programmatic access (HTTP 429). The search
 - The user must explicitly say something like "yes", "go ahead", "do it", or confirm the change before proceeding.
 - If the user has not explicitly confirmed, **do not edit**. Ask again.
 - This rule applies to all files, including `verben/*.yaml`, `AGENTS.md`, etc.
+
+## ⚠️ HARD RULE: No commits/pushes without asking
+
+**Never commit or push changes to the repository without explicit user confirmation.** This is a hard rule.
+
+- Before running `git commit` or `git push`, you **must**:
+  1. Show the user the changes that would be committed
+  2. Ask for explicit approval (e.g., "Shall I commit and push these changes?")
+- The user must explicitly say something like "yes", "go ahead", "commit it", or confirm the commit before proceeding.
