@@ -128,3 +128,22 @@ When comparing data (e.g., YAML vs. Apple Notes), always:
 2. **Verify the complete data** before making comparison reports — never assume from partial file views
 3. **Double-check** when a user questions a report — trust the user over your memory of what you read
 4. **Show the full relevant data** to the user before making claims about completeness or differences
+
+## ⚠️ LESSONS LEARNED: YAML editing
+
+YAML files in this project are the primary content. They are **never** regenerated or reformatted.
+
+- **Never use `yaml.dump()` / `yaml.safe_dump()`** when editing an existing YAML file — it always normalizes formatting, stripping quotes, changing indentation, and losing comments.
+- **Always use text-based tools** for edits:
+  - `sed` — targeted in-place replacement
+  - Python `replace()` on line-by-line read
+  - Pi's `edit` tool — exact text replacement
+- **Never regenerate MD files without explicit user instruction.** Do not run `convert-to-md`, `convert-all`, or `convert.py` unless the user explicitly asks.
+- `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.
+
+
+When comparing data (e.g., YAML vs. Apple Notes), always:
+1. **Use `grep` first** to locate the exact entry, then read the full file section
+2. **Verify the complete data** before making comparison reports — never assume from partial file views
+3. **Double-check** when a user questions a report — trust the user over your memory of what you read
+4. **Show the full relevant data** to the user before making claims about completeness or differences
