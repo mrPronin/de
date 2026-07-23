@@ -119,3 +119,12 @@ Wikimedia Commons aggressively blocks programmatic access (HTTP 429). The search
   1. Show the user the changes that would be committed
   2. Ask for explicit approval (e.g., "Shall I commit and push these changes?")
 - The user must explicitly say something like "yes", "go ahead", "commit it", or confirm the commit before proceeding.
+- If the user has not explicitly confirmed, **do not commit or push**. Ask again.
+
+## ⚠️ LESSONS LEARNED: Data verification before reporting
+
+When comparing data (e.g., YAML vs. Apple Notes), always:
+1. **Use `grep` first** to locate the exact entry, then read the full file section
+2. **Verify the complete data** before making comparison reports — never assume from partial file views
+3. **Double-check** when a user questions a report — trust the user over your memory of what you read
+4. **Show the full relevant data** to the user before making claims about completeness or differences
