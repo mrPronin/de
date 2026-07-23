@@ -1662,3 +1662,34 @@ verbs:
 
       Perfekt:
         Sie hat mir einen guten Preis geboten. / She offered me a good price.
+
+  - id: 52
+    level: A1
+    infinitiv: binden
+    präteritum: band
+    partizip: hat gebunden
+    translations:
+      english: to bind, tie
+      ukrainian: зв'язувати
+    person3: bindet
+    examples: |
+      verbinden - з'єднувати,
+      aufbinden - розв'язувати,
+      abbinden - відв'язувати,
+      zubinden - прив'язувати,
+
+      die Bindung - прив'язаність
+      die Verbindung - зв'язок
+      der Verband - союз
+      das Band - бант
+      der Band - том, книга
+      die Band - банда
+
+      Präsens:
+        Ich binde meine Schuhe. / I tie my shoes.
+
+      Präteritum:
+        Er band das Paket zusammen. / He tied the package together.
+
+      Perfekt:
+        Sie hat das Buch mit einem Band gebunden. / She has tied the book with a ribbon.

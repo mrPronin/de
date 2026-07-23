@@ -58,37 +58,28 @@ verbs:
         Ich habe das Metall gebogen. / I have bent the metal.
     person3: biegt
       
-  - id: 4
-    infinitiv: binden
-    präteritum: band
-    partizip: hat gebunden
+  - id: 3
+    infinitiv: beginnen
+    präteritum: begann
+    partizip: hat begonnen
     translations:
-      english: to bind, tie
-      ukrainian: зв'язувати
+      english: to begin, start
+      ukrainian: починати
     examples: |
-      verbinden - зʼєднувати,
-      aufbinden - розв'язувати,
-      abbinden - відв'язувати,
-      zubinden - прив'язувати,
-      
-      die Bindung - прив'язаність
-      die Verbindung - зв'язок
-      der Verband - союз
-      das Band - бант
-      der Band - том, книга
-      die Band - банда
-      
+      mit Dat; der Beginn - початок;
+
       Präsens:
-        Ich binde meine Schuhe. / I tie my shoes.
-      
+        Ich beginne ein neues Buch zu lesen. / I begin to read a new book.
+        Ich beginne mit der Arbeit. / I begin with the work.
+
       Präteritum:
-        Er band das Paket zusammen. / He tied the package together.
-      
+        Er began das Projekt gestern. / He began the project yesterday.
+        Ich began mit der Arbeit. / I began with the work.
+
       Perfekt:
-        Sie hat das Buch mit einem Band gebunden. / She has tied the book with a ribbon.
-    person3: bindet
-      
-  - id: 5
+        Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
+        Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
+    person3: beginnt
     infinitiv: beginnen
     präteritum: begann
     partizip: hat begonnen
@@ -111,7 +102,7 @@ verbs:
         Ich habe meine Hausaufgaben begonnen. / I have begun my homework.
     person3: beginnt
       
-  - id: 6
+  - id: 4
     infinitiv: brechen
     präteritum: brach
     partizip: hat gebrochen
@@ -134,7 +125,7 @@ verbs:
         Sie hat den Stift gebrochen. / She has broken the pen.
     person3: bricht
       
-  - id: 7
+  - id: 5
     infinitiv: befehlen
     präteritum: befahl
     partizip: hat befohlen
@@ -154,7 +145,7 @@ verbs:
         Der König hat dem Diener befohlen, das Tor zu öffnen. / The king has commanded the servant to open the gate.
     person3: befiehlt
       
-  - id: 8
+  - id: 6
     infinitiv: betrügen
     präteritum: betrog
     partizip: hat betrogen
@@ -174,7 +165,7 @@ verbs:
         Ich habe ihn nie betrogen. / I have never cheated on him.
     person3: betrügt
       
-  - id: 9
+  - id: 7
     infinitiv: bewegen
     präteritum: bewog
     partizip: hat bewogen
@@ -197,7 +188,7 @@ verbs:
         Sie hat ihn zum Umzug bewogen. / She has persuaded him to move.
     person3: bewegt
       
-  - id: 10
+  - id: 8
     infinitiv: blasen
     präteritum: blies
     partizip: hat geblasen
@@ -222,7 +213,7 @@ verbs:
         Der Wind hat die ganze Nacht stark geblasen. / The wind has blown strongly all night.
     person3: bläst
       
-  - id: 11
+  - id: 9
     infinitiv: braten
     präteritum: briet
     partizip: hat gebraten
@@ -242,7 +233,7 @@ verbs:
         Sie hat das Hähnchen im Ofen gebraten. / She has roasted the chicken in the oven.
     person3: brät
       
-  - id: 12
+  - id: 10
     infinitiv: backen
     präteritum: buk, backte
     partizip: hat gebacken
@@ -266,7 +257,7 @@ verbs:
         Er hat einen Apfelkuchen gebacken. / He has baked an apple pie.
     person3: backt/bäckt
       
-  - id: 13
+  - id: 11
     infinitiv: brennen
     präteritum: brannte
     partizip: hat gebrant
@@ -287,7 +278,7 @@ verbs:
         Die Kerze hat lange gebrannt. / The candle has burned for a long time.
     person3: brennt
       
-  - id: 14
+  - id: 12
     infinitiv: bringen
     präteritum: brachte
     partizip: hat gebracht
@@ -309,7 +300,7 @@ verbs:
         Sie hat den Kuchen zur Party gebracht. / She has brought the cake to the party.
     person3: bringt
       
-  - id: 15
+  - id: 13
     infinitiv: bitten
     präteritum: bat
     partizip: hat gebeten
@@ -331,7 +322,7 @@ verbs:
         Sie hat mich um Unterstützung gebeten. / She has asked me for support.
     person3: bittet
   
-  - id: 16
+  - id: 14
     level: B1
     infinitiv: fangen
     präteritum: fing

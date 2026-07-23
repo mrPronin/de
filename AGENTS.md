@@ -139,6 +139,17 @@ YAML files in this project are the primary content. They are **never** regenerat
   - Python `replace()` on line-by-line read
   - Pi's `edit` tool — exact text replacement
 - **Never regenerate MD files without explicit user instruction.** Do not run `convert-to-md`, `convert-all`, or `convert.py` unless the user explicitly asks.
+
+## ⚠️ LESSONS LEARNED: CEFR Level Format
+
+- **Always use uppercase CEFR levels** (`A1`, `A2`, `B1`, `B2`, `C1`, `C2`)
+- **Never use lowercase** (`a1`, `a2`, etc.)
+- The `level` key in YAML must be uppercase (e.g., `level: A1`, not `level: a1`)
+- This is consistent with the project's data model and the official CEFR standard.
+
+## ⚠️ LESSONS LEARNED: Data verification before reporting
+
+When comparing data (e.g., YAML vs. Apple Notes), always:
 - `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.
 
 
