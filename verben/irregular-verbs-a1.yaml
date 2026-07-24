@@ -1663,3 +1663,27 @@ verbs:
 
       Perfekt:
         Sie hat das Buch mit einem Band gebunden. / She has tied the book with a ribbon.
+
+  - id: 53
+    infinitiv: bewegen
+    präteritum: bewog
+    partizip: hat bewogen
+    level: A1
+    translations:
+      english: to move
+      ukrainian: спонукати, рухатись
+    examples: |
+      (zu)
+      (sich)
+
+      die Bewegung - movement, motion; рух
+
+      Präsens:
+        Ich bewege den Stuhl. / I move the chair. / Я рухаю стілець.
+
+      Präteritum:
+        Er bewog ihn zum Umzug. / He persuaded him to move. / Він спонукав його переїхати.
+
+      Perfekt:
+        Sie hat ihn zum Umzug bewogen. / She has persuaded him to move. / Вона спонукала його переїхати.
+    person3: bewegt

@@ -129,30 +129,6 @@ verbs:
     person3: betrügt
       
   - id: 6
-    infinitiv: bewegen
-    präteritum: bewog
-    partizip: hat bewogen
-    level: B1
-    translations:
-      english: to move
-      ukrainian: спонукати, рухатись
-    examples: |
-      (zu)
-      (sich)
-      
-      die Bewegung - movement, motion; рух
-      
-      Präsens:
-        Ich bewege den Stuhl. / I move the chair.
-      
-      Präteritum:
-        Er bewog ihn zum Umzug. / He persuaded him to move.
-      
-      Perfekt:
-        Sie hat ihn zum Umzug bewogen. / She has persuaded him to move.
-    person3: bewegt
-      
-  - id: 7
     infinitiv: blasen
     präteritum: blies
     partizip: hat geblasen
@@ -178,7 +154,7 @@ verbs:
         Der Wind hat die ganze Nacht stark geblasen. / The wind has blown strongly all night.
     person3: bläst
       
-  - id: 8
+  - id: 7
     infinitiv: braten
     präteritum: briet
     partizip: hat gebraten
@@ -199,7 +175,7 @@ verbs:
         Sie hat das Hähnchen im Ofen gebraten. / She has roasted the chicken in the oven.
     person3: brät
       
-  - id: 9
+  - id: 8
     infinitiv: backen
     präteritum: buk, backte
     partizip: hat gebacken
@@ -224,7 +200,7 @@ verbs:
         Er hat einen Apfelkuchen gebacken. / He has baked an apple pie.
     person3: backt/bäckt
       
-  - id: 10
+  - id: 9
     infinitiv: brennen
     präteritum: brannte
     partizip: hat gebrant
@@ -246,7 +222,7 @@ verbs:
         Die Kerze hat lange gebrannt. / The candle has burned for a long time.
     person3: brennt
       
-  - id: 11
+  - id: 10
     infinitiv: bringen
     präteritum: brachte
     partizip: hatgebracht
@@ -269,7 +245,7 @@ verbs:
         Sie hat den Kuchen zur Party gebracht. / She has brought the cake to the party.
     person3: bringt
       
-  - id: 12
+  - id: 11
     infinitiv: bitten
     präteritum: bat
     partizip: hat gebeten
@@ -292,7 +268,7 @@ verbs:
         Sie hat mich um Unterstützung gebeten. / She has asked me for support.
     person3: bittet
   
-  - id: 13
+  - id: 12
     level: B1
     infinitiv: fangen
     präteritum: fing
