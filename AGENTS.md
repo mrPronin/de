@@ -26,6 +26,9 @@ convert.py at the repo root is a standalone shortcut equivalent to `convert-all`
 scripts/renumber_yaml.py renumbers verb IDs sequentially after manual edits (add/remove verbs).
 python3 scripts/renumber_yaml.py verben/irregular-verbs-b.yaml   # single file
 python3 scripts/renumber_yaml.py verben/*.yaml                    # all files
+- **IDs must be purely numeric** (e.g. `5`, not `5b`). Non-numeric IDs are silently skipped by the renumber script.
+  - If inserting a verb between existing ones, use the next available numeric ID and let renumber fix gaps.
+  - Never hand-assign non-numeric IDs — always run `renumber_yaml.py` after edits.
 
 scripts/validate_yaml.py validates YAML syntax and schema (required keys, duplicate IDs).
 python3 scripts/validate_yaml.py                    # all verben/*.yaml
