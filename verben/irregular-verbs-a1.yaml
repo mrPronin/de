@@ -939,36 +939,6 @@ verbs:
       **Perfekt**:
         Ich habe gestern eine gute Nachricht bekommen. / I got good news yesterday.
   
-  - id: 27
-    level: A1
-    infinitiv: brechen
-    präteritum: brach
-    partizip: hat gebrochen
-    translations:
-      english: to break
-      ukrainian: ламати
-    person3: bricht
-    examples: |
-      **Substantive**:
-        der Bruch - перелом, розрив
-        der Knochenbruch - перелом кістки
-        der Glasbruch - поломка скла
-        der Bruchteil - частина, дріб
-
-      **Beispiele**:
-        Das Glas ist gefallen und zerbrochen. / The glass fell and broke.
-        Er hat sein Bein gebrochen. / He broke his leg.
-
-      **Präsens**:
-        Ich breche das Brot. / I break the bread.
-        Du brichst dir den Finger nicht! / Don't break your finger!
-
-      **Präteritum**:
-        Gestern brach sie das Glas. / Yesterday she broke the glass.
-
-      **Perfekt**:
-        Ich habe das Fenster gebrochen. / I broke the window.
-  
   - id: 28
     level: A1
     infinitiv: denken

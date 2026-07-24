@@ -70,18 +70,22 @@ verbs:
       erbrechen - throw up, vomit; блювати
       das Erbrechen - блювота
       der Bruch - поломка, несправність
-      zer-,
-      
+      der Knochenbruch - перелом кістки
+      der Glasbruch - поломка скла
+      der Bruchteil - частина, дріб
+      zerbrechen - to break into pieces, shatter; розбити на шматки, розсипати
+      (C2, inseparable prefix; auxiliary: sein/haben)
+
       Präsens:
         Ich breche das Brot. / I break the bread.
-      
+
       Präteritum:
         Er brach das Glas. / He broke the glass.
-      
+
       Perfekt:
         Sie hat den Stift gebrochen. / She has broken the pen.
     person3: bricht
-      
+
   - id: 4
     infinitiv: befehlen
     präteritum: befahl
