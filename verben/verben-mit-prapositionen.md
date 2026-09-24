@@ -66,7 +66,7 @@ an / vor → Dativ (у цих дієсловах)
 | 15 | zu | gehen zu \<Dat\> | йти до | to go to |  |
 | 16 | zu | gehören zu \<Dat\> | належати до | to belong to | Ich gehöre zu dieser Gruppe. |
 | 17 | bei | wohnen bei \<Dat\> | жити у когось | to live with (at someone’s place) |  |
-| 18 | zu | gratulieren zu \<Dat\> | вітати когось із чимось | to congratulate on | Ich gratuliere dir zum Geburtstag. |
+| 18 | zu | gratulieren \<Dat\> zu \<Dat\> | вітати когось із чимось | to congratulate (someone) on | Ich gratuliere dir zum Geburtstag. |
 | 19 | zu | einladen zu \<Dat\> | запрошувати когось на щось | to invite to | Ich lade dich zur Party ein. |
 | 20 | bei | sich bedanken bei \<Dat\> | дякувати комусь | to thank (someone) | Ich bedanke mich bei meiner Frau. |
 | 21 | mit | beginnen mit \<Dat\> | починати з чимось | to begin with | Ich beginne mit der Arbeit.<br>Ich beginne mit dem Projekt. |

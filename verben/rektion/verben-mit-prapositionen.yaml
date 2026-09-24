@@ -416,9 +416,9 @@ verbs:
   - id: 48
     case: Dat
     präposition: zu
-    verb: gratulieren zu <Dat>
+    verb: gratulieren <Dat> zu <Dat>
     translations:
-      english: to congratulate on
+      english: to congratulate (someone) on
       ukrainian: вітати когось із чимось
     example:
       - Ich gratuliere dir zum Geburtstag.
