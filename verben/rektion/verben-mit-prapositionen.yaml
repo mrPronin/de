@@ -299,6 +299,16 @@ verbs:
       - Über wen lachst du? – Über sie. (Person)
       - Worüber lachst du? – Ich lache auch darüber. (Sache)
   - id: 33
+    case: Akk
+    präposition: über
+    verb: nachdenken über <Akk>
+    translations:
+      english: to think about / to reflect on
+      ukrainian: обмірковувати щось / роздумувати над чимось / аналізувати щось
+    example:
+      - Ich denke über deine Frage nach.
+      - Worüber denkst du nach?
+  - id: 34
     case: Dat
     präposition: mit
     verb: anfangen mit <Dat>
@@ -307,35 +317,35 @@ verbs:
       ukrainian: починати з
     example:
       - Ich fange mit meiner Arbeit an.
-  - id: 34
+  - id: 35
     case: Dat
     präposition: mit
     verb: telefonieren mit <Dat>
     translations:
       english: to talk on the phone with
       ukrainian: телефонувати комусь / розмовляти по телефону з
-  - id: 35
+  - id: 36
     case: Dat
     präposition: mit
     verb: sich beschäftigen mit <Dat>
     translations:
       english: to deal with / to be busy with
       ukrainian: займатися чимось
-  - id: 36
+  - id: 37
     case: Dat
     präposition: mit
     verb: sprechen mit <Dat>
     translations:
       english: to speak with
       ukrainian: говорити з
-  - id: 37
+  - id: 38
     case: Dat
     präposition: mit
     verb: reden mit <Dat>
     translations:
       english: to talk with
       ukrainian: розмовляти з
-  - id: 38
+  - id: 39
     case: Dat
     präposition: mit
     verb: diskutieren mit <Dat>
@@ -344,14 +354,14 @@ verbs:
       ukrainian: дискутувати з
     example:
       - Ich diskutiere mit meinem Freund über ein neues Projekt.
-  - id: 39
+  - id: 40
     case: Dat
     präposition: mit
     verb: arbeiten mit <Dat>
     translations:
       english: to work with / to work using / to deal with
       ukrainian: працювати з / працювати за допомогою / мати справу з
-  - id: 40
+  - id: 41
     case: Dat
     präposition: mit
     verb: sich unterhalten mit <Dat>
@@ -360,7 +370,7 @@ verbs:
       ukrainian: спілкуватися з / розмовляти з / вести бесіду з
     example:
       - Ich unterhalte mich mit meinen Freunden.
-  - id: 41
+  - id: 42
     case: Dat
     präposition: nach
     verb: fragen nach <Dat>
@@ -370,28 +380,28 @@ verbs:
     example:
       - Ich frage nach seiner Telefonnummer.
       - Ich frage nach Ihren persönlichen Daten.
-  - id: 42
+  - id: 43
     case: Dat
     präposition: nach
     verb: sich erkundigen nach <Dat>
     translations:
       english: to inquire about
       ukrainian: довідуватися / цікавитися
-  - id: 43
+  - id: 44
     case: Dat
     präposition: nach
     verb: suchen nach <Dat>
     translations:
       english: to look for something / someone
       ukrainian: шукати щось / когось
-  - id: 44
+  - id: 45
     case: Dat
     präposition: vor
     verb: sich fürchten vor <Dat>
     translations:
       english: to be afraid of
       ukrainian: боятися
-  - id: 45
+  - id: 46
     case: Dat
     präposition: an
     verb: teilnehmen an <Dat>
@@ -400,7 +410,7 @@ verbs:
       ukrainian: брати участь у
     example:
       - Ich nehme an diesem Projekt teil.
-  - id: 46
+  - id: 47
     case: Dat
     präposition: von
     verb: träumen von <Dat>
@@ -412,14 +422,14 @@ verbs:
       - Von wem träumst du? – Von Herrn Schulz. / Von ihm.
       - Ich träume nicht davon.
       - Ich habe 2 Millionen Euro im Lotto gewonnen. Davon habe ich nie geträumt.
-  - id: 47
+  - id: 48
     case: Dat
     präposition: zu
     verb: gehen zu <Dat>
     translations:
       english: to go to
       ukrainian: йти до
-  - id: 48
+  - id: 49
     case: Dat
     präposition: zu
     verb: gehören zu <Dat>
@@ -428,14 +438,14 @@ verbs:
       ukrainian: належати до
     example:
       - Ich gehöre zu dieser Gruppe.
-  - id: 49
+  - id: 50
     case: Dat
     präposition: bei
     verb: wohnen bei <Dat>
     translations:
       english: to live with (at someone’s place)
       ukrainian: жити у когось
-  - id: 50
+  - id: 51
     case: Dat
     präposition: zu
     verb: gratulieren <Dat> zu <Dat>
@@ -444,7 +454,7 @@ verbs:
       ukrainian: вітати когось із чимось
     example:
       - Ich gratuliere dir zum Geburtstag.
-  - id: 51
+  - id: 52
     case: Dat
     präposition: zu
     verb: einladen zu <Dat>
@@ -453,7 +463,7 @@ verbs:
       ukrainian: запрошувати когось на щось
     example:
       - Ich lade dich zur Party ein.
-  - id: 52
+  - id: 53
     case: Dat
     präposition: bei
     verb: sich bedanken bei <Dat>
@@ -462,7 +472,7 @@ verbs:
       ukrainian: дякувати комусь
     example:
       - Ich bedanke mich bei meiner Frau.
-  - id: 53
+  - id: 54
     case: Dat
     präposition: mit
     verb: beginnen mit <Dat>
@@ -472,7 +482,7 @@ verbs:
     example:
       - Ich beginne mit der Arbeit.
       - Ich beginne mit dem Projekt.
-  - id: 54
+  - id: 55
     case: Dat
     präposition: bei
     verb: sich beschweren bei <Dat>
@@ -481,7 +491,7 @@ verbs:
       ukrainian: скаржитись комусь
     example:
       - Ich beschwere mich beim Arzt über meine Krankheit.
-  - id: 55
+  - id: 56
     case: Dat
     präposition: bei
     verb: sich entschuldigen bei <Dat>
@@ -490,7 +500,7 @@ verbs:
       ukrainian: вибачатися перед кимось
     example:
       - Ich entschuldige mich bei dir für meinen Fehler.
-  - id: 56
+  - id: 57
     case: Dat
     präposition: bei
     verb: sich informieren bei <Dat>

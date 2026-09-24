@@ -43,6 +43,7 @@ sich freuen має два значення:
 | 30 | für | sich entschuldigen für \<Akk\> | вибачатися за щось | to apologize for | Ich entschuldige mich bei dir für meinen Fehler. |
 | 31 | auf | hoffen auf \<Akk\> | сподіватися на щось / надіятися на щось | to hope for | Ich hoffe auf eine leichte Prüfung.<br>Worauf hoffst du? |
 | 32 | über | lachen über \<Akk\> | сміятися з когось / з чогось | to laugh at / about | Ich lache über einen Witz.<br>Wir lachen über diese Situation.<br>Über wen lachst du? – Über sie. (Person)<br>Worüber lachst du? – Ich lache auch darüber. (Sache) |
+| 33 | über | nachdenken über \<Akk\> | обмірковувати щось / роздумувати над чимось / аналізувати щось | to think about / to reflect on | Ich denke über deine Frage nach.<br>Worüber denkst du nach? |
 
 ## Verb + Präposition + Dat
 
