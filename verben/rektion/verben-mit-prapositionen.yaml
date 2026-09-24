@@ -217,156 +217,170 @@ verbs:
       english: to be committed to / to get involved in / to campaign for
       ukrainian: займатися чимось активно / виступати за щось / брати участь у чомусь
   - id: 30
+    case: Akk
+    präposition: für
+    verb: sich entschuldigen für <Akk>
+    translations:
+      english: to apologize for
+      ukrainian: вибачатися за щось
+  - id: 31
     case: Dat
     präposition: mit
     verb: anfangen mit <Dat>
     translations:
       english: to start with
       ukrainian: починати з
-  - id: 31
+  - id: 32
     case: Dat
     präposition: mit
     verb: telefonieren mit <Dat>
     translations:
       english: to talk on the phone with
       ukrainian: телефонувати комусь / розмовляти по телефону з
-  - id: 32
+  - id: 33
     case: Dat
     präposition: mit
     verb: sich beschäftigen mit <Dat>
     translations:
       english: to deal with / to be busy with
       ukrainian: займатися чимось
-  - id: 33
+  - id: 34
     case: Dat
     präposition: mit
     verb: sprechen mit <Dat>
     translations:
       english: to speak with
       ukrainian: говорити з
-  - id: 34
+  - id: 35
     case: Dat
     präposition: mit
     verb: reden mit <Dat>
     translations:
       english: to talk with
       ukrainian: розмовляти з
-  - id: 35
+  - id: 36
     case: Dat
     präposition: mit
     verb: diskutieren mit <Dat>
     translations:
       english: to discuss with
       ukrainian: дискутувати з
-  - id: 36
+  - id: 37
     case: Dat
     präposition: mit
     verb: arbeiten mit <Dat>
     translations:
       english: to work with / to work using / to deal with
       ukrainian: працювати з / працювати за допомогою / мати справу з
-  - id: 37
+  - id: 38
     case: Dat
     präposition: mit
     verb: sich unterhalten mit <Dat>
     translations:
       english: to talk with / to have a conversation with / to converse with
       ukrainian: спілкуватися з / розмовляти з / вести бесіду з
-  - id: 38
+  - id: 39
     case: Dat
     präposition: nach
     verb: fragen nach <Dat>
     translations:
       english: to ask about
       ukrainian: питати про
-  - id: 39
+  - id: 40
     case: Dat
     präposition: nach
     verb: sich erkundigen nach <Dat>
     translations:
       english: to inquire about
       ukrainian: довідуватися / цікавитися
-  - id: 40
+  - id: 41
     case: Dat
     präposition: nach
     verb: suchen nach <Dat>
     translations:
       english: to look for something / someone
       ukrainian: шукати щось / когось
-  - id: 41
+  - id: 42
     case: Dat
     präposition: vor
     verb: sich fürchten vor <Dat>
     translations:
       english: to be afraid of
       ukrainian: боятися
-  - id: 42
+  - id: 43
     case: Dat
     präposition: an
     verb: teilnehmen an <Dat>
     translations:
       english: to participate in
       ukrainian: брати участь у
-  - id: 43
+  - id: 44
     case: Dat
     präposition: von
     verb: träumen von <Dat>
     translations:
       english: to dream of / about
       ukrainian: мріяти про
-  - id: 44
+  - id: 45
     case: Dat
     präposition: zu
     verb: gehen zu <Dat>
     translations:
       english: to go to
       ukrainian: йти до
-  - id: 45
+  - id: 46
     case: Dat
     präposition: zu
     verb: gehören zu <Dat>
     translations:
       english: to belong to
       ukrainian: належати до
-  - id: 46
+  - id: 47
     case: Dat
     präposition: bei
     verb: wohnen bei <Dat>
     translations:
       english: to live with (at someone’s place)
       ukrainian: жити у когось
-  - id: 47
+  - id: 48
     case: Dat
     präposition: zu
     verb: gratulieren zu <Dat>
     translations:
       english: to congratulate on
       ukrainian: вітати когось із чимось
-  - id: 48
+  - id: 49
     case: Dat
     präposition: zu
     verb: einladen zu <Dat>
     translations:
       english: to invite to
       ukrainian: запрошувати когось на щось
-  - id: 49
+  - id: 50
     case: Dat
     präposition: bei
     verb: sich bedanken bei <Dat>
     translations:
       english: to thank (someone)
       ukrainian: дякувати комусь
-  - id: 50
+  - id: 51
     case: Dat
     präposition: mit
     verb: beginnen mit <Dat>
     translations:
       english: to begin with
       ukrainian: починати з чимось
-  - id: 51
+  - id: 52
     case: Dat
     präposition: bei
     verb: sich beschweren bei <Dat>
     translations:
       english: to complain to
       ukrainian: скаржитись комусь
+  - id: 53
+    case: Dat
+    präposition: bei
+    verb: sich entschuldigen bei <Dat>
+    translations:
+      english: to apologize to (someone)
+      ukrainian: вибачатися перед кимось

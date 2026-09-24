@@ -40,6 +40,7 @@ sich freuen має два значення:
 | 27 | um | sich bewerben um \<Akk\> | подаватись на щось | to apply for |
 | 28 | an | denken an \<Akk\> | думати про когось / про щось | to think of / about |
 | 29 | für | sich engagieren für \<Akk\> | займатися чимось активно / виступати за щось / брати участь у чомусь | to be committed to / to get involved in / to campaign for |
+| 30 | für | sich entschuldigen für \<Akk\> | вибачатися за щось | to apologize for |
 
 ## Verb + Präposition + Dat
 
@@ -70,3 +71,4 @@ an / vor → Dativ (у цих дієсловах)
 | 20 | bei | sich bedanken bei \<Dat\> | дякувати комусь | to thank (someone) |
 | 21 | mit | beginnen mit \<Dat\> | починати з чимось | to begin with |
 | 22 | bei | sich beschweren bei \<Dat\> | скаржитись комусь | to complain to |
+| 23 | bei | sich entschuldigen bei \<Dat\> | вибачатися перед кимось | to apologize to (someone) |
