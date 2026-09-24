@@ -576,3 +576,15 @@ verbs:
     example:
       - Ich treffe mich heute Abend mit meinen Freunden.
       - Mit wem triffst du dich?
+  - id: 64
+    case: Dat
+    präposition: an
+    verb: zweifeln an <Dat>
+    translations:
+      english: to doubt
+      ukrainian: сумніватися в комусь / в чомусь
+    note: "ich zweifle (-eln: e fällt weg, wie ich sammle), du zweifelst"
+    example:
+      - Ich zweifle an dir.
+      - An wem zweifelst du? (Person)
+      - Woran zweifelst du? (Sache)
