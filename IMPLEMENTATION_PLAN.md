@@ -11,7 +11,7 @@ Delivered and working:
 - Verb datasets: A1, A2 (60 verbs), and a "b" grouping under `verben/`.
 - YAML↔Markdown conversion, duplicate detection, per-verb lookups.
 - YAML validation script (`scripts/validate_yaml.py`) for consistency checks.
-- Reference table of verbs with fixed prepositions (Rektion): `verben/rektion/verben-mit-prapositionen.yaml` (35 Akk + 26 Dat, UA/EN) → generated `verben/verben-mit-prapositionen.md` via `scripts/rektion_to_md.py`.
+- Reference table of verbs with fixed prepositions (Rektion): `verben/rektion/verben-mit-prapositionen.yaml` (35 Akk + 27 Dat, UA/EN) → generated `verben/verben-mit-prapositionen.md` via `scripts/rektion_to_md.py`.
 
 In progress:
 - Ongoing data authoring/curation (A2 verbs are the most recent active work).

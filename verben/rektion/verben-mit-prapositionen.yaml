@@ -554,3 +554,14 @@ verbs:
       - Er spricht oft von seiner Familie.
       - Von wem sprichst du? (Person)
       - Wovon sprichst du? (Sache)
+  - id: 62
+    case: Dat
+    präposition: mit
+    verb: sich treffen mit <Dat>
+    translations:
+      english: to meet (up) with
+      ukrainian: зустрічатися з кимось
+    note: jemanden treffen = zufällig oder geplant begegnen; sich mit jemandem treffen = verabredet
+    example:
+      - Ich treffe mich heute Abend mit meinen Freunden.
+      - Mit wem triffst du dich?
