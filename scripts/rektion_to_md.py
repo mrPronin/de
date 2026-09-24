@@ -3,8 +3,9 @@
 
 Renders one section per case (Akk, then Dat): heading, rules, optional note,
 and a table numbered from 1 within the section. Angle brackets are escaped
-(`<Akk>` -> `\\<Akk\\>`) and an entry's `note` is appended to the verb cell
-after `<br><br>`, matching the conventions in german_verbs/converter.py.
+(`<Akk>` -> `\\<Akk\\>`), an entry's `note` is appended to the verb cell
+after `<br><br>`, and its `example` list fills the Beispiele column joined
+by `<br>`, matching the conventions in german_verbs/converter.py.
 
 Usage:
     python scripts/rektion_to_md.py [YAML_FILE] [-o MD_FILE]
@@ -46,8 +47,8 @@ def render(data: dict) -> str:
         if notes.get(case):
             out += notes[case].rstrip("\n").split("\n") + [""]
         out += [
-            "| N | Präposition | Verb | Übersetzung ua | Übersetzung en |",
-            "|---|---|---|---|---|",
+            "| N | Präposition | Verb | Übersetzung ua | Übersetzung en | Beispiele |",
+            "|---|---|---|---|---|---|",
         ]
         rows = [v for v in verbs if v["case"] == case]
         for n, v in enumerate(rows, start=1):
@@ -55,9 +56,11 @@ def render(data: dict) -> str:
             if v.get("note"):
                 verb += "<br><br>" + escape(v["note"])
             t = v.get("translations", {})
+            examples = "<br>".join(escape(x) for x in v.get("example", []))
             out.append(
                 f"| {n} | {v['präposition']} | {verb} | "
-                f"{t.get('ukrainian', '')} | {t.get('english', '')} |"
+                f"{escape(t.get('ukrainian', ''))} | {escape(t.get('english', ''))} | "
+                f"{examples} |"
             )
         out.append("")
     return "\n".join(out[:-1]) + "\n"

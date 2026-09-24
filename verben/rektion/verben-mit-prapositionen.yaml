@@ -19,6 +19,9 @@ verbs:
     translations:
       english: to wait for
       ukrainian: чекати на
+    example:
+      - Ich warte auf deine Antwort.
+      - Worauf wartest du?
   - id: 2
     case: Akk
     präposition: auf
@@ -26,6 +29,8 @@ verbs:
     translations:
       english: to look forward to
       ukrainian: радіти (чомусь майбутньому) / з нетерпінням чекати
+    example:
+      - Ich freue mich auf meinen Urlaub.
   - id: 3
     case: Akk
     präposition: auf
@@ -33,6 +38,8 @@ verbs:
     translations:
       english: to prepare for
       ukrainian: готуватися до
+    example:
+      - Ich bereite mich auf die Prüfung vor.
   - id: 4
     case: Akk
     präposition: über
@@ -40,6 +47,9 @@ verbs:
     translations:
       english: to be happy about
       ukrainian: радіти (чомусь теперішньому/минулому)
+    example:
+      - Ich freue mich über unsere Party.
+      - Ich freue mich sehr darüber.
   - id: 5
     case: Akk
     präposition: über
@@ -54,6 +64,8 @@ verbs:
     translations:
       english: to talk about
       ukrainian: розмовляти про
+    example:
+      - Über wen redest du?
   - id: 7
     case: Akk
     präposition: über
@@ -61,6 +73,8 @@ verbs:
     translations:
       english: to discuss
       ukrainian: дискутувати про
+    example:
+      - Ich diskutiere mit meinem Freund über ein neues Projekt.
   - id: 8
     case: Akk
     präposition: über
@@ -68,6 +82,8 @@ verbs:
     translations:
       english: to inform oneself about
       ukrainian: інформувати себе про / дізнаватися про
+    example:
+      - Ich informiere mich bei dir über den Stundenplan.
   - id: 9
     case: Akk
     präposition: über
@@ -75,6 +91,8 @@ verbs:
     translations:
       english: to talk about / to have a conversation about
       ukrainian: спілкуватися про щось / розмовляти про щось
+    example:
+      - Ich unterhalte mich mit meinen Freunden über meinen Geburtstag.
   - id: 10
     case: Akk
     präposition: für
@@ -96,6 +114,9 @@ verbs:
     translations:
       english: to be interested in
       ukrainian: цікавитися
+    example:
+      - Ich interessiere mich für Sport.
+      - Wofür interessierst du dich?
   - id: 13
     case: Akk
     präposition: an
@@ -110,6 +131,10 @@ verbs:
     translations:
       english: to believe in
       ukrainian: вірити в
+    example:
+      - Ich glaube an die Menschen.
+      - Ich glaube an die menschliche Vernunft.
+      - Woran glaubst du?
   - id: 15
     case: Akk
     präposition: um
@@ -117,6 +142,8 @@ verbs:
     translations:
       english: to take care of
       ukrainian: піклуватися про
+    example:
+      - Die Eltern kümmern sich um die Kinder.
   - id: 16
     case: Akk
     präposition: auf
@@ -124,6 +151,8 @@ verbs:
     translations:
       english: to do without / to give up
       ukrainian: відмовлятися від чогось / когось
+    example:
+      - Ich verzichte auf das Rauchen.
   - id: 17
     case: Akk
     präposition: über
@@ -131,6 +160,8 @@ verbs:
     translations:
       english: to be annoyed / angry about
       ukrainian: сердитися / злитися / дратуватися через щось або на когось
+    example:
+      - Ich ärgere mich über den Lärm.
   - id: 18
     case: Akk
     präposition: über
@@ -152,6 +183,8 @@ verbs:
     translations:
       english: to get used to
       ukrainian: звикати до чогось
+    example:
+      - Ich gewöhne mich an das Leben in Berlin.
   - id: 21
     case: Akk
     präposition: um
@@ -160,6 +193,8 @@ verbs:
       english: to ask for
       ukrainian: просити про щось
     note: jemanden um etwas bitten
+    example:
+      - Ich bitte um Hilfe.
   - id: 22
     case: Akk
     präposition: auf
@@ -167,6 +202,10 @@ verbs:
     translations:
       english: to pay attention to
       ukrainian: звертати увагу на щось / когось
+    example:
+      - Ich achte auf meine Gesundheit.
+      - Auf wen achtest du? (Person)
+      - Worauf achtest du? (Sache / Situation)
   - id: 23
     case: Akk
     präposition: auf
@@ -174,6 +213,8 @@ verbs:
     translations:
       english: to answer / to reply to
       ukrainian: відповідати комусь на щось
+    example:
+      - Ich antworte auf deine Frage.
   - id: 24
     case: Akk
     präposition: auf
@@ -181,6 +222,8 @@ verbs:
     translations:
       english: to look after / to watch out for
       ukrainian: наглядати за кимось / стежити за чимось / бути уважним
+    example:
+      - Ich passe auf die Kinder auf.
   - id: 25
     case: Akk
     präposition: für
@@ -188,6 +231,8 @@ verbs:
     translations:
       english: to thank for
       ukrainian: дякувати за щось
+    example:
+      - Ich bedanke mich für Ihre Unterstützung.
   - id: 26
     case: Akk
     präposition: über
@@ -195,6 +240,8 @@ verbs:
     translations:
       english: to complain about
       ukrainian: скаржитись на щось / когось
+    example:
+      - Ich beschwere mich beim Arzt über meine Krankheit.
   - id: 27
     case: Akk
     präposition: um
@@ -209,6 +256,8 @@ verbs:
     translations:
       english: to think of / about
       ukrainian: думати про когось / про щось
+    example:
+      - Ich denke an die Zukunft.
   - id: 29
     case: Akk
     präposition: für
@@ -216,6 +265,8 @@ verbs:
     translations:
       english: to be committed to / to get involved in / to campaign for
       ukrainian: займатися чимось активно / виступати за щось / брати участь у чомусь
+    example:
+      - Ich engagiere mich für das Projekt.
   - id: 30
     case: Akk
     präposition: für
@@ -223,6 +274,8 @@ verbs:
     translations:
       english: to apologize for
       ukrainian: вибачатися за щось
+    example:
+      - Ich entschuldige mich bei dir für meinen Fehler.
   - id: 31
     case: Dat
     präposition: mit
@@ -230,6 +283,8 @@ verbs:
     translations:
       english: to start with
       ukrainian: починати з
+    example:
+      - Ich fange mit meiner Arbeit an.
   - id: 32
     case: Dat
     präposition: mit
@@ -265,6 +320,8 @@ verbs:
     translations:
       english: to discuss with
       ukrainian: дискутувати з
+    example:
+      - Ich diskutiere mit meinem Freund über ein neues Projekt.
   - id: 37
     case: Dat
     präposition: mit
@@ -279,13 +336,18 @@ verbs:
     translations:
       english: to talk with / to have a conversation with / to converse with
       ukrainian: спілкуватися з / розмовляти з / вести бесіду з
+    example:
+      - Ich unterhalte mich mit meinen Freunden.
   - id: 39
     case: Dat
     präposition: nach
     verb: fragen nach <Dat>
     translations:
       english: to ask about
-      ukrainian: питати про
+      ukrainian: питати про <щось>
+    example:
+      - Ich frage nach seiner Telefonnummer.
+      - Ich frage nach Ihren persönlichen Daten.
   - id: 40
     case: Dat
     präposition: nach
@@ -314,6 +376,8 @@ verbs:
     translations:
       english: to participate in
       ukrainian: брати участь у
+    example:
+      - Ich nehme an diesem Projekt teil.
   - id: 44
     case: Dat
     präposition: von
@@ -321,6 +385,11 @@ verbs:
     translations:
       english: to dream of / about
       ukrainian: мріяти про
+    example:
+      - Wovon träumst du?
+      - Von wem träumst du? – Von Herrn Schulz. / Von ihm.
+      - Ich träume nicht davon.
+      - Ich habe 2 Millionen Euro im Lotto gewonnen. Davon habe ich nie geträumt.
   - id: 45
     case: Dat
     präposition: zu
@@ -335,6 +404,8 @@ verbs:
     translations:
       english: to belong to
       ukrainian: належати до
+    example:
+      - Ich gehöre zu dieser Gruppe.
   - id: 47
     case: Dat
     präposition: bei
@@ -349,6 +420,8 @@ verbs:
     translations:
       english: to congratulate on
       ukrainian: вітати когось із чимось
+    example:
+      - Ich gratuliere dir zum Geburtstag.
   - id: 49
     case: Dat
     präposition: zu
@@ -356,6 +429,8 @@ verbs:
     translations:
       english: to invite to
       ukrainian: запрошувати когось на щось
+    example:
+      - Ich lade dich zur Party ein.
   - id: 50
     case: Dat
     präposition: bei
@@ -363,6 +438,8 @@ verbs:
     translations:
       english: to thank (someone)
       ukrainian: дякувати комусь
+    example:
+      - Ich bedanke mich bei meiner Frau.
   - id: 51
     case: Dat
     präposition: mit
@@ -370,6 +447,9 @@ verbs:
     translations:
       english: to begin with
       ukrainian: починати з чимось
+    example:
+      - Ich beginne mit der Arbeit.
+      - Ich beginne mit dem Projekt.
   - id: 52
     case: Dat
     präposition: bei
@@ -377,6 +457,8 @@ verbs:
     translations:
       english: to complain to
       ukrainian: скаржитись комусь
+    example:
+      - Ich beschwere mich beim Arzt über meine Krankheit.
   - id: 53
     case: Dat
     präposition: bei
@@ -384,3 +466,5 @@ verbs:
     translations:
       english: to apologize to (someone)
       ukrainian: вибачатися перед кимось
+    example:
+      - Ich entschuldige mich bei dir für meinen Fehler.

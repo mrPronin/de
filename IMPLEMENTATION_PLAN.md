@@ -189,7 +189,7 @@ python3 scripts/validate_yaml.py verben/file.yaml  # specific file
 
 #### Rektion MD Generator (`scripts/rektion_to_md.py`)
 
-Renders `verben/rektion/verben-mit-prapositionen.yaml` to `verben/verben-mit-prapositionen.md`: one section per case (Akk, Dat) with rules, optional note and a table numbered from 1 per section; `<`/`>` escaped and `note` appended to the verb cell after `<br><br>`, same as `converter.py`.
+Renders `verben/rektion/verben-mit-prapositionen.yaml` to `verben/verben-mit-prapositionen.md`: one section per case (Akk, Dat) with rules, optional note and a table numbered from 1 per section; `<`/`>` escaped, `note` appended to the verb cell after `<br><br>`, `example` list rendered as the Beispiele column (`<br>`-joined), same as `converter.py`.
 
 ```bash
 python3 scripts/rektion_to_md.py                        # default YAML → default MD
@@ -216,6 +216,7 @@ Verified: output is byte-identical to the MD exported from the Apple Note.
 | 2026-09-24 | Exported Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)" to `verben/verben-mit-prapositionen.md` as plain MD (not YAML) | Different shape from irregular-verb schema (no forms, preposition + case instead); filled 18 missing EN translations and fixed `jemanend`→`jemanden`, `jemandem um etwas bitten`→`jemanden …` (bitten takes Akk). The Apple Note itself still has the old content |
 | 2026-09-24 | Converted `verben-mit-prapositionen.md` to `verben/rektion/verben-mit-prapositionen.yaml` (50 entries, IDs 1–50 across Akk then Dat) | Subfolder rather than `verben/` because the validator, `convert-all` and `find-duplicates` glob `verben/*.yaml` non-recursively and would choke on the non-irregular schema; avoids code changes. MD kept alongside |
 | 2026-09-24 | Made the Rektion YAML the source of truth; added `scripts/rektion_to_md.py` to generate the MD. YAML `rules` became per-case lists and the *sich freuen* hint moved to `notes.Akk` | One place to edit instead of syncing two files by hand; restructured rules so the generated MD matches the original layout exactly. Standalone script (not a `german-verbs` subcommand) because the schema is unrelated to `converter.py` |
+| 2026-09-24 | Added optional `example` list to Rektion YAML (36 of 53 entries), extracted from lesson transcript `DE-B1-20260908_transcript.md`; `rektion_to_md.py` now also escapes `<`/`>` in translations | Transcript is noisy speech-to-text, so sentences were taken from the teacher's corrections and grammar-fixed rather than copied verbatim; examples are rendered to a Beispiele column joined by `<br>`. Escaping fix: a UA translation `<щось>` would otherwise render as an invisible HTML tag |
 
 ## Future Work
 
