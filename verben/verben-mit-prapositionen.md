@@ -41,6 +41,7 @@ sich freuen має два значення:
 | 28 | an | denken an \<Akk\> | думати про когось / про щось | to think of / about | Ich denke an die Zukunft. |
 | 29 | für | sich engagieren für \<Akk\> | займатися чимось активно / виступати за щось / брати участь у чомусь | to be committed to / to get involved in / to campaign for | Ich engagiere mich für das Projekt. |
 | 30 | für | sich entschuldigen für \<Akk\> | вибачатися за щось | to apologize for | Ich entschuldige mich bei dir für meinen Fehler. |
+| 31 | auf | hoffen auf \<Akk\> | сподіватися на щось / надіятися на щось | to hope for | Ich hoffe auf eine leichte Prüfung.<br>Worauf hoffst du? |
 
 ## Verb + Präposition + Dat
 
