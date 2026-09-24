@@ -57,6 +57,9 @@ verbs:
     translations:
       english: to talk about
       ukrainian: говорити про
+    example:
+      - Wir sprechen über das neue Projekt.
+      - Worüber sprecht ihr?
   - id: 6
     case: Akk
     präposition: über
@@ -100,6 +103,9 @@ verbs:
     translations:
       english: to register for
       ukrainian: записатися на
+    example:
+      - Ich melde mich für den Deutschkurs an.
+      - Wofür hast du dich angemeldet?
   - id: 11
     case: Akk
     präposition: für
@@ -107,6 +113,9 @@ verbs:
     translations:
       english: to thank for
       ukrainian: дякувати за
+    example:
+      - Ich danke dir für deine Hilfe.
+      - Wofür dankst du ihm?
   - id: 12
     case: Akk
     präposition: für
@@ -124,6 +133,10 @@ verbs:
     translations:
       english: to remember
       ukrainian: пам’ятати / згадувати
+    example:
+      - Ich erinnere mich gern an meine Kindheit.
+      - Erinnerst du dich an mich?
+      - Woran erinnerst du dich?
   - id: 14
     case: Akk
     präposition: an
@@ -169,6 +182,9 @@ verbs:
     translations:
       english: to be surprised at
       ukrainian: дивуватися чомусь / комусь
+    example:
+      - Ich wundere mich über das Wetter.
+      - Worüber wunderst du dich?
   - id: 19
     case: Akk
     präposition: über
@@ -176,6 +192,9 @@ verbs:
     translations:
       english: to get upset / worked up about
       ukrainian: злитися, нервувати, обурюватися через щось / когось
+    example:
+      - Er regt sich über den Verkehr auf.
+      - Worüber regst du dich auf?
   - id: 20
     case: Akk
     präposition: an
@@ -249,6 +268,9 @@ verbs:
     translations:
       english: to apply for
       ukrainian: подаватись на щось
+    example:
+      - Ich bewerbe mich um eine Stelle als Softwareentwickler.
+      - Worum bewirbst du dich?
   - id: 28
     case: Akk
     präposition: an
@@ -357,6 +379,9 @@ verbs:
     translations:
       english: to talk on the phone with
       ukrainian: телефонувати комусь / розмовляти по телефону з
+    example:
+      - Ich telefoniere jeden Tag mit meiner Mutter.
+      - Mit wem telefonierst du?
   - id: 39
     case: Dat
     präposition: mit
@@ -364,6 +389,9 @@ verbs:
     translations:
       english: to deal with / to be busy with
       ukrainian: займатися чимось
+    example:
+      - Ich beschäftige mich mit der deutschen Grammatik.
+      - Womit beschäftigst du dich?
   - id: 40
     case: Dat
     präposition: mit
@@ -371,6 +399,9 @@ verbs:
     translations:
       english: to speak with
       ukrainian: говорити з
+    example:
+      - Ich spreche mit dir über unsere Pläne.
+      - Mit wem sprichst du?
   - id: 41
     case: Dat
     präposition: mit
@@ -378,6 +409,9 @@ verbs:
     translations:
       english: to talk with
       ukrainian: розмовляти з
+    example:
+      - Ich rede mit meinem Chef.
+      - Mit wem redest du?
   - id: 42
     case: Dat
     präposition: mit
@@ -394,6 +428,10 @@ verbs:
     translations:
       english: to work with / to work using / to deal with
       ukrainian: працювати з / працювати за допомогою / мати справу з
+    example:
+      - Ich arbeite mit meinen Kollegen zusammen.
+      - Ich arbeite mit dem Computer.
+      - Womit arbeitest du?
   - id: 44
     case: Dat
     präposition: mit
@@ -420,6 +458,9 @@ verbs:
     translations:
       english: to inquire about
       ukrainian: довідуватися / цікавитися
+    example:
+      - Ich erkundige mich nach dem Weg.
+      - Wonach erkundigst du dich?
   - id: 47
     case: Dat
     präposition: nach
@@ -427,6 +468,9 @@ verbs:
     translations:
       english: to look for something / someone
       ukrainian: шукати щось / когось
+    example:
+      - Ich suche nach meinem Schlüssel.
+      - Wonach suchst du?
   - id: 48
     case: Dat
     präposition: vor
@@ -434,6 +478,9 @@ verbs:
     translations:
       english: to be afraid of
       ukrainian: боятися
+    example:
+      - Das Kind fürchtet sich vor dem Hund.
+      - Wovor fürchtest du dich?
   - id: 49
     case: Dat
     präposition: an
@@ -462,6 +509,9 @@ verbs:
     translations:
       english: to go to
       ukrainian: йти до
+    example:
+      - Ich gehe zum Arzt.
+      - Zu wem gehst du?
   - id: 52
     case: Dat
     präposition: zu
@@ -478,6 +528,9 @@ verbs:
     translations:
       english: to live with (at someone’s place)
       ukrainian: жити у когось
+    example:
+      - Ich wohne bei meinen Eltern.
+      - Bei wem wohnst du?
   - id: 54
     case: Dat
     präposition: zu
