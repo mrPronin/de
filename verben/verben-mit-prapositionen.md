@@ -79,3 +79,4 @@ an / vor → Dativ (у цих дієсловах)
 | 23 | bei | sich entschuldigen bei \<Dat\> | вибачатися перед кимось | to apologize to (someone) | Ich entschuldige mich bei dir für meinen Fehler. |
 | 24 | bei | sich informieren bei \<Dat\> | дізнаватися в когось / десь | to get information from (someone / somewhere) | Ich informiere mich bei dir über den Stundenplan.<br>Bei wem informierst du dich? |
 | 25 | zu | passen zu \<Dat\> | пасувати до чогось / підходити комусь | to go with / to suit / to match | Das passt zu dir.<br>Diese Schuhe passen zu deinem Kleid. |
+| 26 | von | sprechen von \<Dat\><br><br>von \<Dat\> — often a mention in passing; über \<Akk\> — talking about a topic in detail | говорити про когось / про щось (згадувати) | to speak of / to talk about | Er spricht oft von seiner Familie.<br>Von wem sprichst du? (Person)<br>Wovon sprichst du? (Sache) |

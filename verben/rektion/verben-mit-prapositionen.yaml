@@ -542,3 +542,15 @@ verbs:
     example:
       - Das passt zu dir.
       - Diese Schuhe passen zu deinem Kleid.
+  - id: 61
+    case: Dat
+    präposition: von
+    verb: sprechen von <Dat>
+    translations:
+      english: to speak of / to talk about
+      ukrainian: говорити про когось / про щось (згадувати)
+    note: von <Dat> — often a mention in passing; über <Akk> — talking about a topic in detail
+    example:
+      - Er spricht oft von seiner Familie.
+      - Von wem sprichst du? (Person)
+      - Wovon sprichst du? (Sache)
