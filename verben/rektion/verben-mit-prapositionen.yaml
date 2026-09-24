@@ -1,0 +1,372 @@
+title: Verben mit festen Präpositionen (Rektion)
+rules:
+  Akk:
+    - auf / über / für / an / um → Akkusativ
+  Dat:
+    - mit / nach / bei / von / zu → завжди Dativ
+    - an / vor → Dativ (у цих дієсловах)
+notes:
+  Akk: |
+    sich freuen має два значення:
+
+    - auf → майбутнє
+    - über → факт / теперішнє / минуле
+verbs:
+  - id: 1
+    case: Akk
+    präposition: auf
+    verb: warten auf <Akk>
+    translations:
+      english: to wait for
+      ukrainian: чекати на
+  - id: 2
+    case: Akk
+    präposition: auf
+    verb: sich freuen auf <Akk>
+    translations:
+      english: to look forward to
+      ukrainian: радіти (чомусь майбутньому) / з нетерпінням чекати
+  - id: 3
+    case: Akk
+    präposition: auf
+    verb: sich vorbereiten auf <Akk>
+    translations:
+      english: to prepare for
+      ukrainian: готуватися до
+  - id: 4
+    case: Akk
+    präposition: über
+    verb: sich freuen über <Akk>
+    translations:
+      english: to be happy about
+      ukrainian: радіти (чомусь теперішньому/минулому)
+  - id: 5
+    case: Akk
+    präposition: über
+    verb: sprechen über <Akk>
+    translations:
+      english: to talk about
+      ukrainian: говорити про
+  - id: 6
+    case: Akk
+    präposition: über
+    verb: reden über <Akk>
+    translations:
+      english: to talk about
+      ukrainian: розмовляти про
+  - id: 7
+    case: Akk
+    präposition: über
+    verb: diskutieren über <Akk>
+    translations:
+      english: to discuss
+      ukrainian: дискутувати про
+  - id: 8
+    case: Akk
+    präposition: über
+    verb: sich informieren über <Akk>
+    translations:
+      english: to inform oneself about
+      ukrainian: інформувати себе про / дізнаватися про
+  - id: 9
+    case: Akk
+    präposition: über
+    verb: sich unterhalten über <Akk>
+    translations:
+      english: to talk about / to have a conversation about
+      ukrainian: спілкуватися про щось / розмовляти про щось
+  - id: 10
+    case: Akk
+    präposition: für
+    verb: sich anmelden für <Akk>
+    translations:
+      english: to register for
+      ukrainian: записатися на
+  - id: 11
+    case: Akk
+    präposition: für
+    verb: danken für <Akk>
+    translations:
+      english: to thank for
+      ukrainian: дякувати за
+  - id: 12
+    case: Akk
+    präposition: für
+    verb: sich interessieren für <Akk>
+    translations:
+      english: to be interested in
+      ukrainian: цікавитися
+  - id: 13
+    case: Akk
+    präposition: an
+    verb: sich erinnern an <Akk>
+    translations:
+      english: to remember
+      ukrainian: пам’ятати / згадувати
+  - id: 14
+    case: Akk
+    präposition: an
+    verb: glauben an <Akk>
+    translations:
+      english: to believe in
+      ukrainian: вірити в
+  - id: 15
+    case: Akk
+    präposition: um
+    verb: sich kümmern um <Akk>
+    translations:
+      english: to take care of
+      ukrainian: піклуватися про
+  - id: 16
+    case: Akk
+    präposition: auf
+    verb: verzichten auf <Akk> etwas/jemanden
+    translations:
+      english: to do without / to give up
+      ukrainian: відмовлятися від чогось / когось
+  - id: 17
+    case: Akk
+    präposition: über
+    verb: sich ärgern über <Akk> etwas/jemanden
+    translations:
+      english: to be annoyed / angry about
+      ukrainian: сердитися / злитися / дратуватися через щось або на когось
+  - id: 18
+    case: Akk
+    präposition: über
+    verb: sich wundern über <Akk> etwas/jemanden
+    translations:
+      english: to be surprised at
+      ukrainian: дивуватися чомусь / комусь
+  - id: 19
+    case: Akk
+    präposition: über
+    verb: sich aufregen über <Akk> etwas/jemanden
+    translations:
+      english: to get upset / worked up about
+      ukrainian: злитися, нервувати, обурюватися через щось / когось
+  - id: 20
+    case: Akk
+    präposition: an
+    verb: sich gewöhnen an <Akk>
+    translations:
+      english: to get used to
+      ukrainian: звикати до чогось
+  - id: 21
+    case: Akk
+    präposition: um
+    verb: bitten um <Akk>
+    translations:
+      english: to ask for
+      ukrainian: просити про щось
+    note: jemanden um etwas bitten
+  - id: 22
+    case: Akk
+    präposition: auf
+    verb: achten auf <Akk>
+    translations:
+      english: to pay attention to
+      ukrainian: звертати увагу на щось / когось
+  - id: 23
+    case: Akk
+    präposition: auf
+    verb: antworten auf <Akk>
+    translations:
+      english: to answer / to reply to
+      ukrainian: відповідати комусь на щось
+  - id: 24
+    case: Akk
+    präposition: auf
+    verb: aufpassen auf <Akk>
+    translations:
+      english: to look after / to watch out for
+      ukrainian: наглядати за кимось / стежити за чимось / бути уважним
+  - id: 25
+    case: Akk
+    präposition: für
+    verb: sich bedanken für <Akk>
+    translations:
+      english: to thank for
+      ukrainian: дякувати за щось
+  - id: 26
+    case: Akk
+    präposition: über
+    verb: sich beschweren über <Akk>
+    translations:
+      english: to complain about
+      ukrainian: скаржитись на щось / когось
+  - id: 27
+    case: Akk
+    präposition: um
+    verb: sich bewerben um <Akk>
+    translations:
+      english: to apply for
+      ukrainian: подаватись на щось
+  - id: 28
+    case: Akk
+    präposition: an
+    verb: denken an <Akk>
+    translations:
+      english: to think of / about
+      ukrainian: думати про когось / про щось
+  - id: 29
+    case: Akk
+    präposition: für
+    verb: sich engagieren für <Akk>
+    translations:
+      english: to be committed to / to get involved in / to campaign for
+      ukrainian: займатися чимось активно / виступати за щось / брати участь у чомусь
+  - id: 30
+    case: Dat
+    präposition: mit
+    verb: anfangen mit <Dat>
+    translations:
+      english: to start with
+      ukrainian: починати з
+  - id: 31
+    case: Dat
+    präposition: mit
+    verb: telefonieren mit <Dat>
+    translations:
+      english: to talk on the phone with
+      ukrainian: телефонувати комусь / розмовляти по телефону з
+  - id: 32
+    case: Dat
+    präposition: mit
+    verb: sich beschäftigen mit <Dat>
+    translations:
+      english: to deal with / to be busy with
+      ukrainian: займатися чимось
+  - id: 33
+    case: Dat
+    präposition: mit
+    verb: sprechen mit <Dat>
+    translations:
+      english: to speak with
+      ukrainian: говорити з
+  - id: 34
+    case: Dat
+    präposition: mit
+    verb: reden mit <Dat>
+    translations:
+      english: to talk with
+      ukrainian: розмовляти з
+  - id: 35
+    case: Dat
+    präposition: mit
+    verb: diskutieren mit <Dat>
+    translations:
+      english: to discuss with
+      ukrainian: дискутувати з
+  - id: 36
+    case: Dat
+    präposition: mit
+    verb: arbeiten mit <Dat>
+    translations:
+      english: to work with / to work using / to deal with
+      ukrainian: працювати з / працювати за допомогою / мати справу з
+  - id: 37
+    case: Dat
+    präposition: mit
+    verb: sich unterhalten mit <Dat>
+    translations:
+      english: to talk with / to have a conversation with / to converse with
+      ukrainian: спілкуватися з / розмовляти з / вести бесіду з
+  - id: 38
+    case: Dat
+    präposition: nach
+    verb: fragen nach <Dat>
+    translations:
+      english: to ask about
+      ukrainian: питати про
+  - id: 39
+    case: Dat
+    präposition: nach
+    verb: sich erkundigen nach <Dat>
+    translations:
+      english: to inquire about
+      ukrainian: довідуватися / цікавитися
+  - id: 40
+    case: Dat
+    präposition: nach
+    verb: suchen nach <Dat>
+    translations:
+      english: to look for something / someone
+      ukrainian: шукати щось / когось
+  - id: 41
+    case: Dat
+    präposition: vor
+    verb: sich fürchten vor <Dat>
+    translations:
+      english: to be afraid of
+      ukrainian: боятися
+  - id: 42
+    case: Dat
+    präposition: an
+    verb: teilnehmen an <Dat>
+    translations:
+      english: to participate in
+      ukrainian: брати участь у
+  - id: 43
+    case: Dat
+    präposition: von
+    verb: träumen von <Dat>
+    translations:
+      english: to dream of / about
+      ukrainian: мріяти про
+  - id: 44
+    case: Dat
+    präposition: zu
+    verb: gehen zu <Dat>
+    translations:
+      english: to go to
+      ukrainian: йти до
+  - id: 45
+    case: Dat
+    präposition: zu
+    verb: gehören zu <Dat>
+    translations:
+      english: to belong to
+      ukrainian: належати до
+  - id: 46
+    case: Dat
+    präposition: bei
+    verb: wohnen bei <Dat>
+    translations:
+      english: to live with (at someone’s place)
+      ukrainian: жити у когось
+  - id: 47
+    case: Dat
+    präposition: zu
+    verb: gratulieren zu <Dat>
+    translations:
+      english: to congratulate on
+      ukrainian: вітати когось із чимось
+  - id: 48
+    case: Dat
+    präposition: zu
+    verb: einladen zu <Dat>
+    translations:
+      english: to invite to
+      ukrainian: запрошувати когось на щось
+  - id: 49
+    case: Dat
+    präposition: bei
+    verb: sich bedanken bei <Dat>
+    translations:
+      english: to thank (someone)
+      ukrainian: дякувати комусь
+  - id: 50
+    case: Dat
+    präposition: mit
+    verb: beginnen mit <Dat>
+    translations:
+      english: to begin with
+      ukrainian: починати з чимось
+  - id: 51
+    case: Dat
+    präposition: bei
+    verb: sich beschweren bei <Dat>
+    translations:
+      english: to complain to
+      ukrainian: скаржитись комусь

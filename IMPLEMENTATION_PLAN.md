@@ -11,7 +11,7 @@ Delivered and working:
 - Verb datasets: A1, A2 (60 verbs), and a "b" grouping under `verben/`.
 - YAML↔Markdown conversion, duplicate detection, per-verb lookups.
 - YAML validation script (`scripts/validate_yaml.py`) for consistency checks.
-- Reference table of verbs with fixed prepositions (Rektion): `verben/verben-mit-prapositionen.md` (28 Akk + 22 Dat, UA/EN).
+- Reference table of verbs with fixed prepositions (Rektion): `verben/rektion/verben-mit-prapositionen.yaml` (29 Akk + 22 Dat, UA/EN) → generated `verben/verben-mit-prapositionen.md` via `scripts/rektion_to_md.py`.
 
 In progress:
 - Ongoing data authoring/curation (A2 verbs are the most recent active work).
@@ -47,6 +47,7 @@ Directory-relative paths (`verben/`, `verben/generated/`) are hardcoded, so comm
 de/
 ├── convert.py                  # standalone shortcut ≈ `german-verbs convert-all`
 ├── scripts/                    # maintenance utilities
+│   ├── rektion_to_md.py       # verben/rektion/*.yaml → verben/verben-mit-prapositionen.md
 │   ├── renumber_yaml.py       # renumber verb IDs after manual edits
 │   └── validate_yaml.py       # validate YAML syntax and schema
 ├── pyproject.toml              # package + [project.scripts] entry points
@@ -60,7 +61,8 @@ de/
     ├── irregular-verbs-a1.yaml # default data file everywhere
     ├── irregular-verbs-a2.yaml # 60 A2-level verbs
     ├── irregular-verbs-b.yaml  # B-level verbs
-    ├── verben-mit-prapositionen.md # hand-maintained Rektion table (from Apple Note DE - 09)
+    ├── verben-mit-prapositionen.md # generated from rektion/ YAML (do not hand-edit)
+    ├── rektion/verben-mit-prapositionen.yaml # Rektion source of truth, own schema; subfolder keeps it out of verben/*.yaml tooling
     └── generated/*.md          # generated artifacts (do not hand-edit)
 ```
 
@@ -185,6 +187,17 @@ python3 scripts/validate_yaml.py                    # all verben/*.yaml
 python3 scripts/validate_yaml.py verben/file.yaml  # specific file
 ```
 
+#### Rektion MD Generator (`scripts/rektion_to_md.py`)
+
+Renders `verben/rektion/verben-mit-prapositionen.yaml` to `verben/verben-mit-prapositionen.md`: one section per case (Akk, Dat) with rules, optional note and a table numbered from 1 per section; `<`/`>` escaped and `note` appended to the verb cell after `<br><br>`, same as `converter.py`.
+
+```bash
+python3 scripts/rektion_to_md.py                        # default YAML → default MD
+python3 scripts/rektion_to_md.py path.yaml -o out.md
+```
+
+Verified: output is byte-identical to the MD exported from the Apple Note.
+
 ## Known Issues & Workarounds
 
 - **Lossy YAML↔MD round-trip.** `markdown_to_yaml` is explicitly simplified; treat generated MD as output-only and keep YAML authoritative. Permanent by design.
@@ -201,6 +214,8 @@ python3 scripts/validate_yaml.py verben/file.yaml  # specific file
 | 2026-07-22 | Added `scripts/validate_yaml.py` for YAML schema validation | Catch missing keys and duplicates early; provide a lightweight linter |
 | 2026-07-22 | Filled all 60 A2 verbs from external reference list | Based on repeatso.com's curated A2 irregular verb list; validated with YAML parser |
 | 2026-09-24 | Exported Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)" to `verben/verben-mit-prapositionen.md` as plain MD (not YAML) | Different shape from irregular-verb schema (no forms, preposition + case instead); filled 18 missing EN translations and fixed `jemanend`→`jemanden`, `jemandem um etwas bitten`→`jemanden …` (bitten takes Akk). The Apple Note itself still has the old content |
+| 2026-09-24 | Converted `verben-mit-prapositionen.md` to `verben/rektion/verben-mit-prapositionen.yaml` (50 entries, IDs 1–50 across Akk then Dat) | Subfolder rather than `verben/` because the validator, `convert-all` and `find-duplicates` glob `verben/*.yaml` non-recursively and would choke on the non-irregular schema; avoids code changes. MD kept alongside |
+| 2026-09-24 | Made the Rektion YAML the source of truth; added `scripts/rektion_to_md.py` to generate the MD. YAML `rules` became per-case lists and the *sich freuen* hint moved to `notes.Akk` | One place to edit instead of syncing two files by hand; restructured rules so the generated MD matches the original layout exactly. Standalone script (not a `german-verbs` subcommand) because the schema is unrelated to `converter.py` |
 
 ## Future Work
 

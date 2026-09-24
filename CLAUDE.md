@@ -25,6 +25,8 @@ uv run german-verbs <subcommand> [-f YAML_FILE]        # data management
 
 `convert.py` at the repo root is a standalone shortcut equivalent to `convert-all`.
 
+`python3 scripts/rektion_to_md.py` regenerates `verben/verben-mit-prapositionen.md` from `verben/rektion/verben-mit-prapositionen.yaml` (edit the YAML, run renumber if entries were inserted, then regenerate).
+
 There is **no test suite, linter config, or CI**. Verify changes by running the CLI commands directly.
 
 ## Data model & conventions
@@ -34,7 +36,7 @@ Verb data lives in `verben/*.yaml`, keyed by CEFR level / grouping (`irregular-v
 - Default data file everywhere is `irregular-verbs-a1.yaml`. Both CLIs and `load_verb_data()` fall back to it.
 - `verben/generated/*.md` are **generated artifacts** — produce them via `convert-to-md`/`convert-all`, don't hand-edit. Some YAML files intentionally have no generated MD.
 - YAML↔MD round-trips are lossy: MD tables flatten `examples` newlines to `<br>` and escape `<`/`>` as `\<`/`\>` (`converter.py:escape_angle_brackets`). `markdown_to_yaml` reverses this but is explicitly simplified and may not handle all edge cases.
-- `verben/verben-mit-prapositionen.md` is a **hand-maintained** reference table (verbs with fixed prepositions, Akk/Dat, UA/EN translations) exported from the Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)". Not YAML-backed and not a generated artifact — edit it directly.
+- Rektion (verbs with fixed prepositions, Akk/Dat, UA/EN; from Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)"): **source of truth is `verben/rektion/verben-mit-prapositionen.yaml`** (own schema: `id`, `case` Akk|Dat, `präposition`, `verb`, `translations.{english,ukrainian}`, optional `note`; top-level `rules.<case>` list and `notes.<case>` block). `verben/verben-mit-prapositionen.md` is **generated** from it by `python3 scripts/rektion_to_md.py` — edit the YAML, then regenerate; don't hand-edit the MD. The YAML lives in a subfolder on purpose — `validate_yaml.py`, `convert-all` and `find-duplicates` glob `verben/*.yaml` non-recursively and assume the irregular-verb schema.
 - `person3` is stored parenthetically in the MD infinitive cell (`beginnen (beginnt)`) and parsed back out.
 
 ## Architecture

@@ -33,6 +33,9 @@ python3 scripts/renumber_yaml.py verben/*.yaml                    # all files
 scripts/validate_yaml.py validates YAML syntax and schema (required keys, duplicate IDs).
 python3 scripts/validate_yaml.py                    # all verben/*.yaml
 python3 scripts/validate_yaml.py verben/file.yaml   # specific file
+
+scripts/rektion_to_md.py regenerates verben/verben-mit-prapositionen.md from verben/rektion/verben-mit-prapositionen.yaml.
+python3 scripts/rektion_to_md.py                    # default YAML → default MD
 ```
 
 **No test suite, linter config, or CI.** Verify changes by running the CLI commands directly.
@@ -44,7 +47,7 @@ Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.y
 - Default data file everywhere: `irregular-verbs-a1.yaml`.
 - **Never regenerate MD files without explicit user instruction.** Do not run `convert-to-md`, `convert-all`, or `convert.py` unless the user explicitly asks.
 - `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.
-- `verben/verben-mit-prapositionen.md` is a **hand-maintained** reference table (verbs with fixed prepositions, Akk/Dat, UA/EN translations) exported from the Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)". Not YAML-backed and not a generated artifact — edit it directly.
+- Rektion (verbs with fixed prepositions, Akk/Dat, UA/EN; from Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)"): **source of truth is `verben/rektion/verben-mit-prapositionen.yaml`** (own schema: `id`, `case` Akk|Dat, `präposition`, `verb`, `translations.{english,ukrainian}`, optional `note`; top-level `rules.<case>` list and `notes.<case>` block). `verben/verben-mit-prapositionen.md` is **generated** from it by `python3 scripts/rektion_to_md.py` — edit the YAML, then regenerate; don't hand-edit the MD. The YAML lives in a subfolder on purpose — `validate_yaml.py`, `convert-all` and `find-duplicates` glob `verben/*.yaml` non-recursively and assume the irregular-verb schema.
 - YAML↔MD round-trips are lossy (examples flattened to `<br>`, angle brackets escaped).
 - `person3` stored parenthetically in MD infinitive cell.
 

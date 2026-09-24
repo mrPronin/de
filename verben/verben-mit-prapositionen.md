@@ -39,6 +39,7 @@ sich freuen має два значення:
 | 26 | über | sich beschweren über \<Akk\> | скаржитись на щось / когось | to complain about |
 | 27 | um | sich bewerben um \<Akk\> | подаватись на щось | to apply for |
 | 28 | an | denken an \<Akk\> | думати про когось / про щось | to think of / about |
+| 29 | für | sich engagieren für \<Akk\> | займатися чимось активно / виступати за щось / брати участь у чомусь | to be committed to / to get involved in / to campaign for |
 
 ## Verb + Präposition + Dat
 
