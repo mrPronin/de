@@ -478,3 +478,13 @@ verbs:
       ukrainian: вибачатися перед кимось
     example:
       - Ich entschuldige mich bei dir für meinen Fehler.
+  - id: 55
+    case: Dat
+    präposition: bei
+    verb: sich informieren bei <Dat>
+    translations:
+      english: to get information from (someone / somewhere)
+      ukrainian: дізнаватися в когось / десь
+    example:
+      - Ich informiere mich bei dir über den Stundenplan.
+      - Bei wem informierst du dich?
