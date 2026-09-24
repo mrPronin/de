@@ -76,3 +76,4 @@ an / vor → Dativ (у цих дієсловах)
 | 22 | bei | sich beschweren bei \<Dat\> | скаржитись комусь | to complain to | Ich beschwere mich beim Arzt über meine Krankheit. |
 | 23 | bei | sich entschuldigen bei \<Dat\> | вибачатися перед кимось | to apologize to (someone) | Ich entschuldige mich bei dir für meinen Fehler. |
 | 24 | bei | sich informieren bei \<Dat\> | дізнаватися в когось / десь | to get information from (someone / somewhere) | Ich informiere mich bei dir über den Stundenplan.<br>Bei wem informierst du dich? |
+| 25 | zu | passen zu \<Dat\> | пасувати до чогось / підходити комусь | to go with / to suit / to match | Das passt zu dir.<br>Diese Schuhe passen zu deinem Kleid. |

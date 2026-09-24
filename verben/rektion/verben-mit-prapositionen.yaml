@@ -510,3 +510,13 @@ verbs:
     example:
       - Ich informiere mich bei dir über den Stundenplan.
       - Bei wem informierst du dich?
+  - id: 58
+    case: Dat
+    präposition: zu
+    verb: passen zu <Dat>
+    translations:
+      english: to go with / to suit / to match
+      ukrainian: пасувати до чогось / підходити комусь
+    example:
+      - Das passt zu dir.
+      - Diese Schuhe passen zu deinem Kleid.
