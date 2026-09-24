@@ -34,6 +34,7 @@ Verb data lives in `verben/*.yaml`, keyed by CEFR level / grouping (`irregular-v
 - Default data file everywhere is `irregular-verbs-a1.yaml`. Both CLIs and `load_verb_data()` fall back to it.
 - `verben/generated/*.md` are **generated artifacts** — produce them via `convert-to-md`/`convert-all`, don't hand-edit. Some YAML files intentionally have no generated MD.
 - YAML↔MD round-trips are lossy: MD tables flatten `examples` newlines to `<br>` and escape `<`/`>` as `\<`/`\>` (`converter.py:escape_angle_brackets`). `markdown_to_yaml` reverses this but is explicitly simplified and may not handle all edge cases.
+- `verben/verben-mit-prapositionen.md` is a **hand-maintained** reference table (verbs with fixed prepositions, Akk/Dat, UA/EN translations) exported from the Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)". Not YAML-backed and not a generated artifact — edit it directly.
 - `person3` is stored parenthetically in the MD infinitive cell (`beginnen (beginnt)`) and parsed back out.
 
 ## Architecture

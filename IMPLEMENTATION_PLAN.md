@@ -11,6 +11,7 @@ Delivered and working:
 - Verb datasets: A1, A2 (60 verbs), and a "b" grouping under `verben/`.
 - YAML↔Markdown conversion, duplicate detection, per-verb lookups.
 - YAML validation script (`scripts/validate_yaml.py`) for consistency checks.
+- Reference table of verbs with fixed prepositions (Rektion): `verben/verben-mit-prapositionen.md` (28 Akk + 22 Dat, UA/EN).
 
 In progress:
 - Ongoing data authoring/curation (A2 verbs are the most recent active work).
@@ -59,6 +60,7 @@ de/
     ├── irregular-verbs-a1.yaml # default data file everywhere
     ├── irregular-verbs-a2.yaml # 60 A2-level verbs
     ├── irregular-verbs-b.yaml  # B-level verbs
+    ├── verben-mit-prapositionen.md # hand-maintained Rektion table (from Apple Note DE - 09)
     └── generated/*.md          # generated artifacts (do not hand-edit)
 ```
 
@@ -198,6 +200,7 @@ python3 scripts/validate_yaml.py verben/file.yaml  # specific file
 | 2026-07-14 | Removed "bleiben" from b.yaml; added `scripts/renumber_yaml.py` | "bleiben" is A1-level (verified via DuckDuckGo); renumber script prevents manual ID errors after data edits |
 | 2026-07-22 | Added `scripts/validate_yaml.py` for YAML schema validation | Catch missing keys and duplicates early; provide a lightweight linter |
 | 2026-07-22 | Filled all 60 A2 verbs from external reference list | Based on repeatso.com's curated A2 irregular verb list; validated with YAML parser |
+| 2026-09-24 | Exported Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)" to `verben/verben-mit-prapositionen.md` as plain MD (not YAML) | Different shape from irregular-verb schema (no forms, preposition + case instead); filled 18 missing EN translations and fixed `jemanend`→`jemanden`, `jemandem um etwas bitten`→`jemanden …` (bitten takes Akk). The Apple Note itself still has the old content |
 
 ## Future Work
 

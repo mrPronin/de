@@ -44,6 +44,7 @@ Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.y
 - Default data file everywhere: `irregular-verbs-a1.yaml`.
 - **Never regenerate MD files without explicit user instruction.** Do not run `convert-to-md`, `convert-all`, or `convert.py` unless the user explicitly asks.
 - `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.
+- `verben/verben-mit-prapositionen.md` is a **hand-maintained** reference table (verbs with fixed prepositions, Akk/Dat, UA/EN translations) exported from the Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)". Not YAML-backed and not a generated artifact — edit it directly.
 - YAML↔MD round-trips are lossy (examples flattened to `<br>`, angle brackets escaped).
 - `person3` stored parenthetically in MD infinitive cell.
 
