@@ -47,6 +47,7 @@ sich freuen має два значення:
 | 34 | auf | reagieren auf \<Akk\> | реагувати на щось / когось | to react to | Ich reagiere auf den Stress.<br>Worauf reagierst du? |
 | 35 | an | schicken an \<Akk\><br><br>jemandem etwas schicken = etwas an jemanden schicken | надсилати комусь / кудись | to send to | Ich schicke viele Briefe an dich.<br>Ich schicke diesen Brief an diese Organisation.<br>An wen schickst du den Brief? |
 | 36 | auf | sich verlassen auf \<Akk\> | покладатися на когось / щось | to rely on / to count on | Ich verlasse mich auf meine Frau.<br>Auf wen verlässt du dich? (Person)<br>Worauf verlässt du dich? (Sache) |
+| 37 | für | ausgeben für \<Akk\> | витрачати (гроші) на | to spend (money) on | Sie gibt viel Geld für gesundes Essen aus.<br>Wofür gibst du dein Geld aus? |
 
 ## Verb + Präposition + Dat
 
