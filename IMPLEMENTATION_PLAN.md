@@ -28,6 +28,7 @@ No known blockers. There is no automated test suite, linter, or CI.
 | 4 | Data curation (A1 → A2 → beyond) | in progress |
 | 5 | Maintenance scripts | done |
 | 6 | Testing / linting / CI | planned |
+| 7 | `lesson-notes` agent skill (Claude Code + Codex) | done |
 
 ## Architecture
 
@@ -45,6 +46,8 @@ Directory-relative paths (`verben/`, `verben/generated/`) are hardcoded, so comm
 
 ```
 de/
+├── .claude/skills/lesson-notes/SKILL.md # Claude Code skill: /lesson-notes [YYYYMMDD]
+├── .agents/skills/lesson-notes/SKILL.md # Codex copy of the same skill: $lesson-notes
 ├── convert.py                  # standalone shortcut ≈ `german-verbs convert-all`
 ├── scripts/                    # maintenance utilities
 │   ├── rektion_to_md.py       # verben/rektion/*.yaml → verben/verben-mit-prapositionen.md
@@ -198,6 +201,34 @@ python3 scripts/rektion_to_md.py path.yaml -o out.md
 
 Verified: output is byte-identical to the MD exported from the Apple Note.
 
+## Phase 7: `lesson-notes` agent skill — done
+
+### Problem
+Bilingual lesson notes (тези заняття) from noisy B1 lesson transcripts were produced by a long ad-hoc prompt each time; the format (UA/DE headings, articles on nouns, Rektion tables, typical mistakes, Organisatorisches) had to be re-explained.
+
+### Design Decisions
+| Decision | Choice | Rationale |
+|---|---|---|
+| Scope | Project-level skill, not global | Tied to this repo: offers to add new Rektion verbs to `verben/rektion/verben-mit-prapositionen.yaml` |
+| Two agents | Separate copies: `.claude/skills/` (Claude Code) and `.agents/skills/` (Codex) | Codex reads repo skills from `$REPO_ROOT/.agents/skills` and has no `$ARGUMENTS`/`argument-hint`; Codex copy takes the date from the message and spells out the `md-to-pdf` call instead of pointing to the global CLAUDE.md |
+| Output | Chat by default, file only on request | Matches how the notes are used; PDF via `md-to-pdf` beside the transcript |
+| Rektion sync | Offer only, never auto-edit | Data edits stay explicit |
+
+### Key Changes
+- `.claude/skills/lesson-notes/SKILL.md`, `.agents/skills/lesson-notes/SKILL.md`.
+
+### Usage
+```text
+/lesson-notes 20260917     # Claude Code (no arg → newest lesson with a transcript)
+$lesson-notes 20260917     # Codex
+```
+
+### Dependencies
+Lesson transcripts in `~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/DE-B1-<YYYYMMDD>_transcript.md` (outside the repo).
+
+### Verification
+Format derived from the notes produced for lesson 20260915. Skill invocation itself not yet run in either agent.
+
 ## Known Issues & Workarounds
 
 - **Lossy YAML↔MD round-trip.** `markdown_to_yaml` is explicitly simplified; treat generated MD as output-only and keep YAML authoritative. Permanent by design.
@@ -218,6 +249,7 @@ Verified: output is byte-identical to the MD exported from the Apple Note.
 | 2026-09-24 | Made the Rektion YAML the source of truth; added `scripts/rektion_to_md.py` to generate the MD. YAML `rules` became per-case lists and the *sich freuen* hint moved to `notes.Akk` | One place to edit instead of syncing two files by hand; restructured rules so the generated MD matches the original layout exactly. Standalone script (not a `german-verbs` subcommand) because the schema is unrelated to `converter.py` |
 | 2026-09-24 | Added optional `example` list to Rektion YAML (36 of 53 entries), extracted from lesson transcript `DE-B1-20260908_transcript.md`; `rektion_to_md.py` now also escapes `<`/`>` in translations | Transcript is noisy speech-to-text, so sentences were taken from the teacher's corrections and grammar-fixed rather than copied verbatim; examples are rendered to a Beispiele column joined by `<br>`. Escaping fix: a UA translation `<щось>` would otherwise render as an invisible HTML tag |
 | 2026-09-24 | Rektion list grown to 64 entries (36 Akk + 28 Dat) incl. remaining lesson verbs; wrote `example` for the 17 entries the transcript didn't cover, so every entry now has examples | Each entry gets a statement plus the matching question form (wo-/da-compound for things, Präposition + wen/wem for persons), mirroring the lesson's question-building rule. Author-written examples, not from the transcript |
+| 2026-09-28 | Added `lesson-notes` skill for Claude Code and Codex as two separate copies | Codex skill discovery (`.agents/skills`) and argument handling differ from Claude Code; the two files must be kept in sync by hand |
 
 ## Future Work
 
