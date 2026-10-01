@@ -29,7 +29,7 @@ No known blockers. There is no automated test suite, linter, or CI.
 | 5 | Maintenance scripts | done |
 | 6 | Testing / linting / CI | planned |
 | 7 | `lesson-notes` agent skill (Claude Code + Codex) | done |
-| 8 | SemVer: `--version`, CHANGELOG, `german-verbs-v1.0.0` | in progress |
+| 8 | SemVer: `--version`, CHANGELOG, `german-verbs-v1.0.0` | done |
 
 ## Architecture
 
@@ -230,7 +230,7 @@ Lesson transcripts in `~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/DE-B1-<YYYYMMDD>_tra
 ### Verification
 Format derived from the notes produced for lesson 20260915. Skill invocation itself not yet run in either agent.
 
-## Phase 8: SemVer — `--version`, CHANGELOG, `german-verbs-v1.0.0` — in progress
+## Phase 8: SemVer — `--version`, CHANGELOG, `german-verbs-v1.0.0` — done
 
 ### Problem
 The operator asked to apply semver.org to every sibling repo of mini-agent (mini-agent Phase 155;
@@ -259,6 +259,11 @@ neither CLI had `--version`.
   `german-verbs get sein` still works.
 - The version logic was checked against a throwaway git repo: no tag → `+dev`; at the tag → `+1`;
   a data commit after the tag → still `+1`; a code edit → `+dev`.
+- The first `tools/release.sh 1.0.0` refused: `pyproject.toml and german_verbs/__init__.py disagree`.
+  `__init__.py`'s version line ends with a trailing space, and the script's `sed` required `"` at the
+  end of the line. Fixed so it reads up to the closing quote; nothing had been tagged.
+- **Released `german-verbs-v1.0.0`** (build 123). `german-verbs --version` and
+  `learn-verbs --version` now say `german-verbs 1.0.0+123`.
 
 ## Known Issues & Workarounds
 
