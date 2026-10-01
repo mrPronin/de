@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A Python CLI package (`german-verbs`, v0.2.0) for learning German irregular verbs. The verb data itself (YAML files under `verben/`) is the primary content that changes; the Python code in `german_verbs/` is a stable toolset for practicing, displaying, and converting that data. Note most commits are data edits, not code edits.
+A Python CLI package (`german-verbs`; version in `pyproject.toml`, history in `CHANGELOG.md`) for learning German irregular verbs. The verb data itself (YAML files under `verben/`) is the primary content that changes; the Python code in `german_verbs/` is a stable toolset for practicing, displaying, and converting that data. Note most commits are data edits, not code edits.
 
 ## Commands
 
@@ -24,6 +24,12 @@ uv run german-verbs <subcommand> [-f YAML_FILE]        # data management
 `german-verbs` subcommands: `list`, `get <infinitive>`, `get-by-id <id>`, `convert-to-md <file>`, `convert-to-yaml <file>`, `convert-all`, `find-duplicates`.
 
 `convert.py` at the repo root is a standalone shortcut equivalent to `convert-all`.
+
+**Versioning** (README → Versioning, Phase 8): SemVer, tag `german-verbs-vX.Y.Z`, `--version` on both
+CLIs. A change to the code, scripts, skill or a YAML schema adds a line under `## [Unreleased]` in
+`CHANGELOG.md` in the same commit; data commits don't. Release with `tools/release.sh …` only after
+an approved push. A change the lesson-notes skill, existing verb files or mini-agent's `/project`
+must follow is MAJOR.
 
 `python3 scripts/rektion_to_md.py` regenerates `verben/verben-mit-prapositionen.md` from `verben/rektion/verben-mit-prapositionen.yaml` (edit the YAML, run renumber if entries were inserted, then regenerate).
 

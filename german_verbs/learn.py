@@ -6,6 +6,7 @@ from typing import Dict, Any
 import click
 
 from german_verbs.verbs import load_verb_data
+from german_verbs.version import print_version
 from german_verbs.colors import (
     CORRECT_COLOR, INCORRECT_COLOR, HELP_COLOR,
     HIGHLIGHT_COLOR, STAT_COLOR, BOLD
@@ -419,6 +420,14 @@ class VerbLearner:
     "--sequential", "-s",
     is_flag=True,
     help="Practice verbs in sequential order instead of random"
+)
+@click.option(
+    "--version",
+    is_flag=True,
+    expose_value=False,
+    is_eager=True,
+    callback=print_version,
+    help="Print german-verbs X.Y.Z+<build> and exit.",
 )
 def learn(yaml_file, question_limit, mode, sequential):
     """Learn German irregular verbs through interactive practice.

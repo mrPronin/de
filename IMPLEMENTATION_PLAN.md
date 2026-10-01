@@ -29,6 +29,7 @@ No known blockers. There is no automated test suite, linter, or CI.
 | 5 | Maintenance scripts | done |
 | 6 | Testing / linting / CI | planned |
 | 7 | `lesson-notes` agent skill (Claude Code + Codex) | done |
+| 8 | SemVer: `--version`, CHANGELOG, `german-verbs-v1.0.0` | in progress |
 
 ## Architecture
 
@@ -229,6 +230,36 @@ Lesson transcripts in `~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/DE-B1-<YYYYMMDD>_tra
 ### Verification
 Format derived from the notes produced for lesson 20260915. Skill invocation itself not yet run in either agent.
 
+## Phase 8: SemVer — `--version`, CHANGELOG, `german-verbs-v1.0.0` — in progress
+
+### Problem
+The operator asked to apply semver.org to every sibling repo of mini-agent (mini-agent Phase 155;
+movie-list Phase 19 is the reference). The package had been bumped once by hand (`0.1.0` →
+`0.2.0`, 2025-05-13, `d981da1`) but never tagged, `german_verbs/__init__.py` still said `0.1.0`, and
+neither CLI had `--version`.
+
+### Design Decisions
+| Decision | Choice | Rationale |
+|---|---|---|
+| What the version covers | both CLIs, scripts, `convert.py`, the lesson-notes skill (both copies), the YAML schemas | They change together; verb data is content |
+| What is breaking | the Rektion YAML schema (the skill reads it), the verb schema (`validate_yaml.py`), the CLI commands mini-agent's `/project` runs | Those are the only consumers |
+| Start | `1.0.0` (operator, 2026-10-01) | Used from Signal through `/project`. Continues from the untagged `0.2.0` |
+| Build number | the tag's commit count while the unit's files are unchanged since the tag, else `+dev` | The CLIs run from the checkout. Almost every commit is data ("Rektion: add …"), and those must not turn a release into `+dev` |
+| `--version` | an eager click option on both CLIs, computed only when asked | `git` runs only for `--version`, not on every quiz |
+| No deploy gate, no skill check | none | Nothing is shipped. The skill doesn't call the CLIs, so there is nothing to drift |
+| Approvals | every edit, and the commit and push, approved by the operator first | AGENTS.md hard rules |
+
+### Key Changes
+`german_verbs/version.py` (new), `german_verbs/__init__.py` (`0.2.0`), `german_verbs/cli.py` and
+`german_verbs/learn.py` (`--version`), `tools/release.sh` (new), `CHANGELOG.md` (new), README
+*Versioning*, CLAUDE.md and AGENTS.md.
+
+### Verification
+- `uv run german-verbs --version` and `uv run learn-verbs --version` → `german-verbs 0.2.0+dev`;
+  `german-verbs get sein` still works.
+- The version logic was checked against a throwaway git repo: no tag → `+dev`; at the tag → `+1`;
+  a data commit after the tag → still `+1`; a code edit → `+dev`.
+
 ## Known Issues & Workarounds
 
 - **Lossy YAML↔MD round-trip.** `markdown_to_yaml` is explicitly simplified; treat generated MD as output-only and keep YAML authoritative. Permanent by design.
@@ -250,6 +281,7 @@ Format derived from the notes produced for lesson 20260915. Skill invocation its
 | 2026-09-24 | Added optional `example` list to Rektion YAML (36 of 53 entries), extracted from lesson transcript `DE-B1-20260908_transcript.md`; `rektion_to_md.py` now also escapes `<`/`>` in translations | Transcript is noisy speech-to-text, so sentences were taken from the teacher's corrections and grammar-fixed rather than copied verbatim; examples are rendered to a Beispiele column joined by `<br>`. Escaping fix: a UA translation `<щось>` would otherwise render as an invisible HTML tag |
 | 2026-09-24 | Rektion list grown to 64 entries (36 Akk + 28 Dat) incl. remaining lesson verbs; wrote `example` for the 17 entries the transcript didn't cover, so every entry now has examples | Each entry gets a statement plus the matching question form (wo-/da-compound for things, Präposition + wen/wem for persons), mirroring the lesson's question-building rule. Author-written examples, not from the transcript |
 | 2026-09-28 | Added `lesson-notes` skill for Claude Code and Codex as two separate copies | Codex skill discovery (`.agents/skills`) and argument handling differ from Claude Code; the two files must be kept in sync by hand |
+| 2026-10-01 | SemVer from `1.0.0`, tag `german-verbs-v*`; the build number counts while the unit's files equal the tag (data commits don't count); no deploy gate (Phase 8) | mini-agent Phase 155's rules for a tool that runs from its checkout |
 
 ## Future Work
 

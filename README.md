@@ -148,6 +148,27 @@ verbs:
         Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
 ```
 
+## Versioning
+
+`german-verbs` follows [SemVer](https://semver.org). **One version covers both CLIs, the
+`lesson-notes` skill and the YAML schemas**; changes are in [CHANGELOG.md](CHANGELOG.md), and
+releases are tagged `german-verbs-vX.Y.Z`. `uv run german-verbs --version` prints
+`german-verbs X.Y.Z+<build>`. There is no build step, so `<build>` is the release tag's commit count
+while the code, scripts, skills and `pyproject.toml`/`uv.lock` are unchanged since that tag, and
+`+dev` otherwise. Verb data commits never make a release `+dev`.
+
+What counts as breaking is decided by what depends on it:
+
+| Depends on it | What it relies on |
+|---|---|
+| the `lesson-notes` skill | the Rektion YAML's schema and path |
+| existing verb files | the schema `scripts/validate_yaml.py` checks |
+| mini-agent's `/project` | the CLI commands it runs (verb quiz, lookup) |
+
+A change that forces one of them to change at the same time is MAJOR; an addition they can ignore
+is MINOR; a fix, or a change to text only a person reads, is PATCH. Release with
+`tools/release.sh minor` (or `patch` / `major` / `X.Y.Z`) after the work is committed and pushed.
+
 ## Development
 
 To make changes to the package, edit the files in the `german_verbs` directory, then reinstall the package with:

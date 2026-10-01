@@ -5,7 +5,7 @@ The global AGENTS.md (`~/.pi/agent/AGENTS.md`) applies automatically; this file 
 
 ## What this is
 
-A Python CLI package (`german-verbs`, v0.2.0) for learning German irregular verbs. The verb data itself (YAML files under `verben/`) is the primary content that changes; the Python code in `german_verbs/` is a stable toolset for practicing, displaying, and converting that data. Most commits are data edits, not code edits.
+A Python CLI package (`german-verbs`; version in `pyproject.toml`, history in `CHANGELOG.md`) for learning German irregular verbs. The verb data itself (YAML files under `verben/`) is the primary content that changes; the Python code in `german_verbs/` is a stable toolset for practicing, displaying, and converting that data. Most commits are data edits, not code edits.
 
 ## Commands
 
@@ -22,6 +22,12 @@ uv run german-verbs <subcommand> [-f YAML_FILE]
 german-verbs subcommands: `list`, `get <infinitive>`, `get-by-id <id>`, `convert-to-md <file>`, `convert-to-yaml <file>`, `convert-all`, `find-duplicates`.
 
 convert.py at the repo root is a standalone shortcut equivalent to `convert-all`.
+
+**Versioning** (README → Versioning, Phase 8): SemVer, tag `german-verbs-vX.Y.Z`, `--version` on both
+CLIs. A change to the code, scripts, skill or a YAML schema adds a line under `## [Unreleased]` in
+`CHANGELOG.md` in the same commit; data commits don't. Release with `tools/release.sh …` only after
+an approved push. A change the lesson-notes skill, existing verb files or mini-agent's `/project`
+must follow is MAJOR.
 
 scripts/renumber_yaml.py renumbers verb IDs sequentially after manual edits (add/remove verbs).
 python3 scripts/renumber_yaml.py verben/irregular-verbs-b.yaml   # single file

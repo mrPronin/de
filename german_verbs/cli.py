@@ -4,6 +4,7 @@ import click
 from pathlib import Path
 
 from german_verbs.converter import markdown_to_yaml, yaml_to_markdown
+from german_verbs.version import print_version
 from german_verbs.verbs import (
     format_verb_display,
     get_verb_by_id,
@@ -14,6 +15,14 @@ from german_verbs.verbs import (
 
 
 @click.group()
+@click.option(
+    "--version",
+    is_flag=True,
+    expose_value=False,
+    is_eager=True,
+    callback=print_version,
+    help="Print german-verbs X.Y.Z+<build> and exit.",
+)
 def main():
     """German Verbs - CLI tool for working with German verb data."""
     pass
