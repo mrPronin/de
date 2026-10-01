@@ -23,6 +23,8 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-01
+
 First tagged release: the state after Phases 1–7, plus Phase 8. Continues from `0.2.0`
 (2025-05-13), the last untagged bump.
 
