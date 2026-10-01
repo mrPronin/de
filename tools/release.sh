@@ -28,7 +28,7 @@ git fetch -q origin main
 [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ] ||
   die "HEAD is not origin/main — push (or pull) first"
 
-cur=$(sed -n 's/^__version__ = "\(.*\)"$/\1/p' "$INIT")
+cur=$(sed -n 's/^__version__ = "\([^"]*\)".*$/\1/p' "$INIT")
 [ "$(sed -n 's/^version = "\(.*\)"$/\1/p' pyproject.toml | head -1)" = "$cur" ] ||
   die "pyproject.toml and $INIT disagree on the version"
 IFS=. read -r ma mi pa <<<"$cur"
