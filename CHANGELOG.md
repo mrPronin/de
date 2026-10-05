@@ -23,6 +23,8 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-10-05
+
 ### Changed
 - `lesson-notes`: the line under the title names the lesson parts only, no duration or breaks (Phase 9).
 - `lesson-notes`: section headings German first, `## N. <Deutsch> / <Українська>`, and the same order for bold sub-labels (`**Redemittel / Фрази-кліше:**`) (Phase 9).
