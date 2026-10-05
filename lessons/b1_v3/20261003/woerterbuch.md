@@ -2,7 +2,7 @@
 
 Тези заняття: [notes.md](notes.md).
 
-## Погода · Wetter
+## Wetter / Погода
 
 | Deutsch | Українська |
 |---|---|
@@ -22,7 +22,7 @@
 | *blühen* – *alles blüht* | цвісти |
 | *vorbei sein* | минути, скінчитися |
 
-## Довкілля · Umwelt
+## Umwelt / Довкілля
 
 | Deutsch | Українська |
 |---|---|
@@ -62,7 +62,7 @@
 | *die Selbstbegrenzung* | самообмеження |
 | *gesetzlich geregelt* | врегульовано законом |
 
-## Листи · Briefe
+## Briefe / Листи
 
 | Deutsch | Українська |
 |---|---|
@@ -83,7 +83,7 @@
 | *die Bemühung, -en* | старання, зусилля |
 | *im Voraus* | заздалегідь |
 
-## Книги й фільми · Bücher und Filme
+## Bücher und Filme / Книги й фільми
 
 | Deutsch | Українська |
 |---|---|

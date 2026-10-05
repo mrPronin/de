@@ -17,10 +17,12 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
 - Title: `# DE-<Course> - <YYYYMMDD>: <lesson title>`. `<Course>` is the Drive course folder without the
   underscore (`b1_v3` → `B1v3`); `<lesson title>` names the lesson's main topics in German, short
   (e.g. `# DE-B1v3 - 20261003: Wetter, Umweltschutz, Briefe, Buch und Film`).
-  Below it one sentence: how long the lesson was and which parts it had.
-- Each part of the lesson is a numbered section `## N. <Українська назва> · <Deutscher Name>`.
+  Below it one sentence naming the parts of the lesson. No duration, breaks, technical problems
+  or other session logistics.
+- Each part of the lesson is a numbered section `## N. <Deutscher Titel> / <Українська назва>`
+  (e.g. `## 1. Das Wetter / Погода`). Unnumbered sections follow the same German / Ukrainian order.
   Sub-headings and vocabulary group labels are bilingual too
-  (e.g. `**Куди · Wohin:**`, `**Фрази-кліше · Redemittel:**`, `**Помилки · Typische Fehler:**`).
+  in the same German / Ukrainian order (e.g. `**Wohin / Куди:**`, `**Redemittel / Фрази-кліше:**`, `**Typische Fehler / Помилки:**`).
 - Per part:
   - task / topic in one sentence;
   - useful Redemittel, grouped by function (suggest, agree, decline, distribute tasks, conclude…);
@@ -34,12 +36,12 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
   Name the lesson's verbs that the list doesn't have yet; once they are added to the YAML,
   change that part of the line to «Нові з цього заняття: …».
 - Teacher's tips set apart: Ukrainian + German (e.g. «Менше думати, більше говорити» · *Weniger denken, mehr sprechen*).
-- Final section `## Організаційне · Organisatorisches`: homework (mention `HA/` if it has files), date and time of the next lesson.
+- Final section `## Organisatorisches / Організаційне`: homework (mention `HA/` if it has files), date and time of the next lesson.
 
 ## Wörterbuch
 
 - Separate file, title `# DE-<Course> - <YYYYMMDD>: Wörterbuch`, below it a link back to `notes.md`.
-- Grouped by the lesson's topics, each group a bilingual `## <Українська> · <Deutsch>` heading and a two-column table `Deutsch | Українська`.
+- Grouped by the lesson's topics, each group a bilingual `## <Deutsch> / <Українська>` heading and a two-column table `Deutsch | Українська`.
 - German in *italics*; nouns with article and plural (*das Gewitter, -*, *die Wolke, -n*); prepositions and case where they belong (*abhängig von + Dat*).
 - Only words that came up in the lesson, no padding.
 
