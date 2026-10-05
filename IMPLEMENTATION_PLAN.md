@@ -290,6 +290,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Wörterbuch order and verbs (after 1.2.0) | File renamed `worterbuch.md`; rows sorted nouns → verbs → adjectives → other; verbs `ab \| hängen (u) von <Dat>` + `abhängen; hing ab; hat abgehangen`; verb forms from verbformen.de, Wiktionary where strong/weak depends on meaning | User's format. verbformen.de only shows weak *abhängen* (*hängte ab*), wrong for *abhängen von* |
 | Wörterbuch examples (after 1.3.0) | `Beispiele` column after `Deutsch`, one sentence per row, preferably from the lesson; German column headers | User's request; lesson sentences tie the word to the context it was learned in |
 | Notes language (after 1.3.0) | German prose at B1 level; Ukrainian only in heading halves, glosses, tips' translations, `Ukrainisch` column | User's request; the notes double as reading practice |
+| Teacher (after 1.4.0) | *die Lehrerin*, feminine | User confirmed the teacher is a woman; the neutral *Lehrkraft* from 1.4.0 was a guess-avoidance default |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes

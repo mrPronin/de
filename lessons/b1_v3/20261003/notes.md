@@ -189,7 +189,7 @@ Alle diese Verben stehen in der Rektion-Liste: [verben-mit-prapositionen.md](../
 
 ## Organisatorisches / Організаційне
 
-- **Hausaufgabe / Домашнє завдання:** Die Lehrkraft schickt Material zur Wiederholung der *Wechselpräpositionen*, Übungen zum Selbsttraining und ein *Hörverstehen*. Einen Ordner `HA/` gibt es noch nicht.
-- **Nächste Stunde / Наступне заняття:** Der Termin steht noch nicht fest. Dienstag ist unsicher, und Donnerstag passt nicht: Am 8.10. hast du Geburtstag und eine Party. Die Lehrkraft schickt freie Termine, und du wählst einen aus.
+- **Hausaufgabe / Домашнє завдання:** Die Lehrerin schickt Material zur Wiederholung der *Wechselpräpositionen*, Übungen zum Selbsttraining und ein *Hörverstehen*. Einen Ordner `HA/` gibt es noch nicht.
+- **Nächste Stunde / Наступне заняття:** Der Termin steht noch nicht fest. Dienstag ist unsicher, und Donnerstag passt nicht: Am 8.10. hast du Geburtstag und eine Party. Die Lehrerin schickt freie Termine, und du wählst einen aus.
 
-*Das Transkript ist sehr verrauscht (Sprachen gemischt, abgebrochene Wörter). Die Beispiele wurden aus dem Kontext und den Korrekturen der Lehrkraft rekonstruiert und grammatisch korrigiert.*
+*Das Transkript ist sehr verrauscht (Sprachen gemischt, abgebrochene Wörter). Die Beispiele wurden aus dem Kontext und den Korrekturen der Lehrerin rekonstruiert und grammatisch korrigiert.*

@@ -18,7 +18,7 @@ argument-hint: "[YYYYMMDD]"
   Ukrainian only in: the second half of headings and sub-labels, short glosses of new words in
   parentheses (*glatt* … „rutschig“ (слизько)), and the translation of the teacher's tips.
   Example sentences and the German words being taught in *italics*; explanatory prose not.
-  Address the learner as *du*; call the teacher *die Lehrkraft*.
+  Address the learner as *du*; the teacher is a woman: *die Lehrerin*, *sie*.
 - Title: `# DE-<Course> - <YYYYMMDD>: <lesson title>`. `<Course>` is the Drive course folder without the
   underscore (`b1_v3` → `B1v3`); `<lesson title>` names the lesson's main topics in German, short
   (e.g. `# DE-B1v3 - 20261003: Wetter, Umweltschutz, Briefe, Buch und Film`).

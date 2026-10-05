@@ -23,6 +23,9 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+### Changed
+- `lesson-notes`: the teacher is *die Lehrerin* (feminine), not the neutral *die Lehrkraft* (Phase 9).
+
 ## [1.4.0] - 2026-10-05
 
 ### Added
