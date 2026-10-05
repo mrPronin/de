@@ -23,6 +23,8 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-05
+
 ### Added
 - `lesson-notes` Wörterbuch: a `Beispiele` column with one example sentence per word; column headers in German (`Deutsch | Beispiele | Englisch | Ukrainisch`) (Phase 9).
 
