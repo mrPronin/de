@@ -23,6 +23,12 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+### Added
+- `lesson-notes` Wörterbuch: a `Beispiele` column with one example sentence per word; column headers in German (`Deutsch | Beispiele | Englisch | Ukrainisch`) (Phase 9).
+
+### Changed
+- `lesson-notes`: the text of `notes.md` and `worterbuch.md` is in German (B1 level); Ukrainian stays in the second half of headings, short glosses, tips' translations and the `Ukrainisch` column (Phase 9).
+
 ## [1.3.0] - 2026-10-05
 
 ### Changed

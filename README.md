@@ -155,8 +155,8 @@ Codex) turns a lesson transcript from `~/My Drive/_Data/DE/<course>/<YYYYMMDD>/`
 
 ```
 lessons/b1_v3/20261003/
-├── notes.md        # тези: lesson parts, Redemittel, grammar tables, typical mistakes, Rektion
-└── worterbuch.md   # vocabulary: Deutsch | English | Українська
+├── notes.md        # Stichpunkte in simple German: lesson parts, Redemittel, grammar, typical mistakes, Rektion
+└── worterbuch.md   # vocabulary: Deutsch | Beispiele | Englisch | Ukrainisch
 ```
 
 In `worterbuch.md` rows are sorted nouns → verbs → adjectives → other. Nouns carry a gender circle

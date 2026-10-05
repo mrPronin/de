@@ -288,6 +288,8 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Wörterbuch format | `Deutsch \| English \| Українська`; nouns `🔴 die Wolke / -n`; emoji circles for gender (🔴 f, 🔵 m, 🟢 n) (after 1.1.0) | User wanted gender in colour; GitHub strips `<span style>`, LaTeX `\color` renders as a formula and shows raw in md-to-pdf/VS Code, emoji work everywhere |
 | Wörterbuch plurals | From verbformen.de, never from memory; `–` only when it lists no plural; rare forms marked `(selten)` / `(fachspr.)` / `(je nach Bedeutung)` (after 1.2.0) | 1.2.0 notes showed `die Hitze / –` although the dictionary lists *Hitzen* (fachsprachlich): `–` had been used for "rarely used" against its own legend. All 65 nouns of 20261003 re-checked; 10 corrected |
 | Wörterbuch order and verbs (after 1.2.0) | File renamed `worterbuch.md`; rows sorted nouns → verbs → adjectives → other; verbs `ab \| hängen (u) von <Dat>` + `abhängen; hing ab; hat abgehangen`; verb forms from verbformen.de, Wiktionary where strong/weak depends on meaning | User's format. verbformen.de only shows weak *abhängen* (*hängte ab*), wrong for *abhängen von* |
+| Wörterbuch examples (after 1.3.0) | `Beispiele` column after `Deutsch`, one sentence per row, preferably from the lesson; German column headers | User's request; lesson sentences tie the word to the context it was learned in |
+| Notes language (after 1.3.0) | German prose at B1 level; Ukrainian only in heading halves, glosses, tips' translations, `Ukrainisch` column | User's request; the notes double as reading practice |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes

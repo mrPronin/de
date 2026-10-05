@@ -1,6 +1,6 @@
 ---
 name: lesson-notes
-description: Prepare bilingual (Ukrainian + German) lesson notes ("тези заняття") and a Wörterbuch from a German B1 lesson transcript in ~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/ and save them to lessons/ in this repo. Use when the user asks for тези / notes / Stichpunkte or a Wörterbuch of a German lesson or passes a lesson date.
+description: Prepare German lesson notes (Stichpunkte, "тези заняття") with Ukrainian glosses and a Wörterbuch from a German B1 lesson transcript in ~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/ and save them to lessons/ in this repo. Use when the user asks for тези / notes / Stichpunkte or a Wörterbuch of a German lesson or passes a lesson date.
 argument-hint: "[YYYYMMDD]"
 ---
 
@@ -14,11 +14,15 @@ argument-hint: "[YYYYMMDD]"
 
 ## Format
 
-- Language of the notes: Ukrainian. All German words, phrases and examples in *italics*.
+- Language of the notes: German, simple and at B1 level, so the notes are reading practice too.
+  Ukrainian only in: the second half of headings and sub-labels, short glosses of new words in
+  parentheses (*glatt* … „rutschig“ (слизько)), and the translation of the teacher's tips.
+  Example sentences and the German words being taught in *italics*; explanatory prose not.
+  Address the learner as *du*; call the teacher *die Lehrkraft*.
 - Title: `# DE-<Course> - <YYYYMMDD>: <lesson title>`. `<Course>` is the Drive course folder without the
   underscore (`b1_v3` → `B1v3`); `<lesson title>` names the lesson's main topics in German, short
   (e.g. `# DE-B1v3 - 20261003: Wetter, Umweltschutz, Briefe, Buch und Film`).
-  Below it one sentence naming the parts of the lesson. No duration, breaks, technical problems
+  Below it one sentence naming the parts of the lesson («Teile der Stunde: …»). No duration, breaks, technical problems
   or other session logistics.
 - Each part of the lesson is a numbered section `## N. <Deutscher Titel> / <Українська назва>`
   (e.g. `## 1. Das Wetter / Погода`). Unnumbered sections follow the same German / Ukrainian order.
@@ -35,18 +39,23 @@ argument-hint: "[YYYYMMDD]"
   Under the table one line linking to the full list, relative from the notes file:
   `[verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md)`.
   Name the lesson's verbs that the list doesn't have yet; once they are added to the YAML,
-  change that part of the line to «Нові з цього заняття: …».
-- Teacher's tips set apart: Ukrainian + German (e.g. «Менше думати, більше говорити» · *Weniger denken, mehr sprechen*).
+  change that part of the line to «Neu aus dieser Stunde: …».
+- Teacher's tips in `## 💡 Tipps / Поради`: German first, Ukrainian translation after
+  (e.g. *Weniger denken, mehr sprechen.* · «Менше думати, більше говорити»).
 - Final section `## Organisatorisches / Організаційне`: homework (mention `HA/` if it has files), date and time of the next lesson.
 
 ## Wörterbuch
 
 - Separate file `worterbuch.md`, title `# DE-<Course> - <YYYYMMDD>: Wörterbuch`, below it a link back to
-  `notes.md`, then the legend lines (copy them from the latest `lessons/*/*/worterbuch.md`): nouns
+  `notes.md` («Notizen zur Stunde: …»), then the legend lines (copy them from the latest `lessons/*/*/worterbuch.md`): nouns
   (gender circles, `/` = plural per verbformen.de, `–`, usage markers), verbs (`(r)`, `(u)`, `|`, the
-  forms line), and «У кожній таблиці: іменники → дієслова → прикметники → інше».
-- Grouped by the lesson's topics, each group a `## <Deutsch> / <Українська>` heading and a three-column
-  table `Deutsch | English | Українська`, plain text (no italics).
+  forms line), and «In jeder Tabelle: Nomen → Verben → Adjektive → Sonstiges». All in German.
+- Grouped by the lesson's topics, each group a `## <Deutsch> / <Українська>` heading and a four-column
+  table with German headers `Deutsch | Beispiele | Englisch | Ukrainisch`, plain text (no italics).
+- `Beispiele`: one short, correct German sentence per row that uses the word in the meaning it had in
+  the lesson. Prefer a sentence from the lesson (corrected, as in the notes); otherwise write a simple
+  B1 sentence on the lesson's topic. Verbs and nouns in the form the row shows (`ab | hängen von` →
+  `… hängt vom Zuschauer ab.`).
 - Inside each table sort by part of speech: nouns, then verbs, then adjectives (incl. participles used
   as adjectives, `gesetzlich geregelt`), then everything else (adverbs, prepositions, set phrases).
   Within a group keep the order of the lesson.
@@ -81,7 +90,7 @@ argument-hint: "[YYYYMMDD]"
 
 - It is noisy speech-to-text (German and Ukrainian mixed, cut-off and garbled words). Reconstruct meaning from context and from the teacher's corrections; give examples grammatically correct, not verbatim.
 - Invent nothing beyond what happened in the lesson; skip fragments that are unintelligible.
-- End with one sentence warning that the transcript is noisy and the examples were corrected.
+- End with one sentence (German, italics) warning that the transcript is noisy and the examples were corrected.
 
 ## Output
 

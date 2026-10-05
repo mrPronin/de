@@ -1,12 +1,12 @@
 # DE-B1v3 - 20261003: Wetter, Umweltschutz, Briefe, Buch und Film
 
-Частини заняття: погода (вправа з пропусками), *was für ein*, Umweltschutz (переказ думок і дискусія), граматика в листах, презентація книги та фільму.
+Teile der Stunde: Wetter (Lückentext), *was für ein*, Umweltschutz (Meinungen wiedergeben und diskutieren), Grammatik in Briefen, Buch und Film präsentieren.
 
-Словник заняття: [worterbuch.md](worterbuch.md).
+Wörterbuch zur Stunde: [worterbuch.md](worterbuch.md).
 
 ## 1. Das Wetter / Погода
 
-Вправа з пропусками, схожа на Sprachbausteine: дві ситуації, спека і мороз. Потім розмова про погоду в Берліні.
+Ein Lückentext wie bei den Sprachbausteinen: zwei Situationen, Hitze und Kälte. Danach ein Gespräch über das Wetter in Berlin.
 
 **Hitze / Спека:**
 - *Die Sonne scheint den ganzen Tag. Keine einzige Wolke ist am Himmel.*
@@ -27,15 +27,15 @@
 - *Meistens ist es bewölkt.*
 
 **Feinheiten / Нюанси:**
-- *es schneit* (йде сніг) ≠ *es scheint* (*die Sonne scheint*, світить).
-- *glatt* про дорогу означає «слизько», а про волосся «пряме» (протилежність *lockig*).
-- *vorbei* означає «минуло, скінчилося»: *Die Ferien sind vorbei. Es ist alles vorbei.*
+- *es schneit* (Schnee fällt; йде сніг) ≠ *es scheint* (*die Sonne scheint*; світить).
+- *glatt* bei Straßen heißt „rutschig“ (слизько), bei Haaren „nicht lockig“ (пряме).
+- *vorbei* heißt „zu Ende“ (минуло): *Die Ferien sind vorbei. Es ist alles vorbei.*
 
 ## 2. Grammatik: *was für ein* / Граматика: *was für ein*
 
-*Was für …?* означає «що за …? / який (за типом)?». Вживається як запитання (*Was für einen Film magst du?*) або як вигук-емоція (*Was für eine Kälte!*). Після нього йде **неозначений артикль**, який відмінюється.
+*Was für …?* fragt nach der Art (що за …? / який?). Man benutzt es als Frage (*Was für einen Film magst du?*) oder als Ausruf (*Was für eine Kälte!*). Danach steht der **unbestimmte Artikel**, und er wird dekliniert.
 
-| Відмінок · Kasus | m | f | n | Pl |
+| Kasus | m | f | n | Pl |
 |---|---|---|---|---|
 | Nom | *was für **ein** Mann* | *was für **eine** Kälte* | *was für **ein** Buch* | *was für Bücher* |
 | Akk | *was für **einen** Film* | *was für **eine*** | *was für **ein*** | *was für Bücher* |
@@ -43,11 +43,11 @@
 
 ## 3. Umweltschutz: Meinung wiedergeben / Захист довкілля: переказ думки
 
-Це формат усного іспиту: прочитати думку людини, переказати її в 3-й особі, потім сказати власну думку.
+Ein Format aus der mündlichen Prüfung: Man liest die Meinung einer Person, gibt sie in der 3. Person wieder und sagt dann die eigene Meinung.
 
-**Текст 1: Maya Heinemann, 28 років, *Umweltpädagogin*.** Для неї *Umweltschutz* це *das wichtigste Thema unserer Zeit*. Автомобіль продала, їздить велосипедом або автобусом. Ретельно сортує сміття, купує регіональні продукти. Приймає душ не довше 5 хвилин, сушить білизну надворі. *Umweltschutz ist keine Mode, sondern eine Lebensphilosophie.*
+**Text 1: Maya Heinemann, 28 Jahre, Umweltpädagogin.** Für sie ist Umweltschutz *das wichtigste Thema unserer Zeit*. Sie hat ihr Auto verkauft und fährt mit dem Fahrrad oder mit dem Bus. Sie trennt ihren Müll sehr genau und kauft nur regionale Produkte. Sie duscht nicht länger als fünf Minuten und trocknet ihre Wäsche draußen. *Umweltschutz ist keine Mode, sondern eine Lebensphilosophie.*
 
-**Текст 2: Wolfram Schäßler, 53 роки, *Bauleiter*.** Приватний захист довкілля, на його думку, це лише *eine Beruhigung für unser Gewissen*. Справжня проблема в *große Industrien und Länder wie China und Indien*. Він їздить автомобілем, літає у відпустку, бо *das Leben ist zu kurz für ständige Sorgen um die Umwelt*. Сміття сортує (бо так велить закон), але *Ökobewegung* вважає *übertrieben*. *Gesunder Menschenverstand ist wichtiger als strenge Regeln.*
+**Text 2: Wolfram Schäßler, 53 Jahre, Bauleiter.** Privater Umweltschutz ist für ihn nur *eine Beruhigung für unser Gewissen*. Das eigentliche Problem sind *große Industrien und Länder wie China und Indien*. Er fährt gern Auto und fliegt in den Urlaub, denn *das Leben ist zu kurz für ständige Sorgen um die Umwelt*. Seinen Müll trennt er (das verlangt das Gesetz), aber die *Ökobewegung* findet er *übertrieben*. *Gesunder Menschenverstand ist wichtiger als strenge Regeln.*
 
 **Redemittel / Фрази-кліше:**
 - *Ich habe die Meinung von … zum Thema „Umweltschutz im Alltag“ gelesen.*
@@ -58,12 +58,12 @@
 - *Er glaubt, ein einzelner Mensch kann die Situation nicht beeinflussen.*
 
 **Diskussion / Дискусія:**
-- У Берліні не можна сушити білизну на балконі, натомість у квартирі має бути сушарка. В Україні білизна надворі звичайна справа.
-- У *Altbau* / *denkmalgeschützten Gebäuden* сонячні панелі встановлювати не можна.
-- У думки Шесслера дві сторони. Фраза «нічого не можу змінити, винні великі країни» теж є *Beruhigung für das Gewissen*. Це *Denkweise*: *Ich bin ein kleiner Mensch und kann nichts beeinflussen.*
-- Атомна енергетика: Німеччина відмовилася від *Atomkraftwerke* і стала *abhängig von Russland*. *Die Wirtschaft von Frankreich wird von der Atomkraft unterstützt.* У Німеччині ціни на *Strom* одні з найвищих: *im Vergleich zu anderen Ländern* закип'ятити чайник коштує 5 центів.
-- Своя позиція: *Ich benutze öffentliche Verkehrsmittel. Ich versuche, Strom zu sparen. Jeder Mensch ist verantwortlich für den Umweltschutz, aber mit Verständnis.*
-- *die Nachhaltigkeit* (сталий розвиток) трапляється скрізь у рекламі. *Nachhaltig leben = ökologisch, umweltfreundlich leben.*
+- In Berlin darf man die Wäsche nicht auf dem Balkon trocknen; in der Wohnung muss es einen Trockner geben. In der Ukraine ist Wäsche draußen ganz normal.
+- Auf einem *Altbau* / einem *denkmalgeschützten Gebäude* darf man keine Solaranlagen installieren.
+- Die Meinung von Herrn Schäßler hat zwei Seiten: Auch der Satz „Ich kann nichts ändern, die großen Länder sind schuld“ ist eine *Beruhigung für das Gewissen*. Das ist eine *Denkweise*: *Ich bin ein kleiner Mensch und kann nichts beeinflussen.*
+- Atomkraft: Deutschland hat auf *Atomkraftwerke* verzichtet und wurde *abhängig von Russland*. *Die Wirtschaft von Frankreich wird von der Atomkraft unterstützt.* In Deutschland gehören die Preise für *Strom* zu den höchsten: *Im Vergleich zu anderen Ländern* kostet einmal Wasserkochen 5 Cent.
+- Eigene Meinung: *Ich benutze öffentliche Verkehrsmittel. Ich versuche, Strom zu sparen. Jeder Mensch ist verantwortlich für den Umweltschutz, aber mit Verständnis.*
+- *Die Nachhaltigkeit* (сталий розвиток) sieht man überall in der Werbung. *Nachhaltig leben = ökologisch, umweltfreundlich leben.*
 
 **Typische Fehler / Помилки:**
 
@@ -78,44 +78,44 @@
 
 ## 4. Grammatik in Briefen / Граматика в листах
 
-Дві вправи з пропусками. Перша — особистий лист до Жасмін про загублений гаманець. Друга — офіційний запит до мовної школи про курс на Рюгені.
+Zwei Lückentexte: ein persönlicher Brief an Jasmin über ein verlorenes Portemonnaie und eine formelle Anfrage an eine Sprachschule zu einem Kurs auf Rügen.
 
 **Persönlicher Brief / Особистий лист:**
-- *Es war **ein schöner Abend**.* Після *sein* стоїть Nominativ.
-- *Ich habe versucht, dich telefonisch **zu erreichen**.* Так само *Ich versuche, gesund zu essen.*
-- ***Als** ich gestern nach Hause gekommen **bin**, …* Тут *als* означає «коли» (одноразова подія в минулому).
-- *Kannst du dich noch **an** etwas **erinnern**? … ob ich es in meine Tasche gesteckt habe, **nachdem** ich bezahlt **hatte**.* Після *nachdem* вживається Plusquamperfekt.
-- ***An der Bar** / **Neben uns** standen zwei komische Männer.* Питання «де?», отже Dativ. Слово жіночого роду: *die Bar*.
+- *Es war **ein schöner Abend**.* Nach *sein* steht der Nominativ.
+- *Ich habe versucht, dich telefonisch **zu erreichen**.* Genauso: *Ich versuche, gesund zu essen.*
+- ***Als** ich gestern nach Hause gekommen **bin**, …* – *als* für ein einmaliges Ereignis in der Vergangenheit (коли).
+- *Kannst du dich noch **an** etwas **erinnern**? … ob ich es in meine Tasche gesteckt habe, **nachdem** ich bezahlt **hatte**.* Nach *nachdem* steht das Plusquamperfekt.
+- ***An der Bar** / **Neben uns** standen zwei komische Männer.* Frage „wo?“, also Dativ. Das Wort ist feminin: *die Bar*.
 - *Denkst du, dass **einer von ihnen** das Portemonnaie genommen haben könnte?*
 - *Vielleicht hat jemand dort das Portemonnaie **abgegeben**.*
 
 **Formeller Brief / Офіційний лист:**
-- *Ich habe Ihre Anzeige gelesen und hätte gern nähere Informationen **zu Ihren Kursen**.* Тут *zu* + Dativ Plural.
+- *Ich habe Ihre Anzeige gelesen und hätte gern nähere Informationen **zu Ihren Kursen**.* Hier *zu* + Dativ Plural.
 - ***Da** ich in einem Monat … werde, suche ich einen Kurs **für Fortgeschrittene**.*
 - ***Vor allem** interessiert mich Kommunikation im Beruf.*
 - *Sie schreiben in Ihrer Anzeige, dass die Teilnehmer in Gastfamilien wohnen können. **In diesem Zusammenhang würde ich gern wissen**, ob es auch die Möglichkeit gibt, preiswerte Zimmer **in einer Pension** oder in einem Hotel zu mieten.*
 - ***Zum Schluss** habe ich noch eine Frage zu Ihrem Freizeitprogramm. **Steht** auch der Besuch der Insel Hiddensee **auf dem Programm**?*
 - *Ich würde mich freuen, wenn Sie mir Ihren Katalog zusammen mit einigen touristischen Informationen zu Rügen schicken könnten.*
-- ***Vielen Dank im Voraus für Ihre Bemühungen.*** Подяка за старання (не лише *für Ihre Antwort / Hilfe*).
+- ***Vielen Dank im Voraus für Ihre Bemühungen.*** Man dankt für die Mühe, nicht nur *für Ihre Antwort / Hilfe*.
 
 **Konnektoren und Wortstellung / Сполучники та порядок слів:**
 
-| Сполучник | Значення | Порядок слів | Приклад |
+| Konnektor | Bedeutung | Wortstellung | Beispiel |
 |---|---|---|---|
-| *weil* | бо | дієслово в кінці | *…, weil ich eine Frage habe.* |
-| *da* | оскільки (≈ *weil*, часто на початку) | дієслово в кінці | ***Da** ich … werde, suche ich …* |
-| *denn* | бо, тому що | не впливає (позиція 0) | *…, **denn** ich habe noch eine Frage.* |
+| *weil* | Grund (бо) | Verb am Ende | *…, weil ich eine Frage habe.* |
+| *da* | Grund (оскільки), ≈ *weil*, oft am Satzanfang | Verb am Ende | ***Da** ich … werde, suche ich …* |
+| *denn* | Grund (бо, тому що) | keine Änderung (Position 0) | *…, **denn** ich habe noch eine Frage.* |
 
 **Präpositionen / Прийменники:**
 
-| Wechselpräpositionen: *in, an, auf, neben, zwischen, über, unter* | Тільки Dativ |
+| Wechselpräpositionen: *in, an, auf, neben, zwischen, über, unter* | Nur Dativ |
 |---|---|
 | **Wo?** → Dativ: *an der Bar, neben uns* | *mit, nach, aus, zu, von, bei* |
 | **Wohin?** → Akkusativ: *in die Tasche stecken* | *einer **von ihnen**, **zu** Ihren Kursen* |
 
-Займенник *sie* (вони): Nom *sie*, Dat ***ihnen***, Akk *sie*.
+Pronomen *sie* (Plural): Nom *sie*, Dat ***ihnen***, Akk *sie*.
 
-**irgend- / Невизначені слова:** *irgendetwas* (щось, що-небудь), *irgendwie* (якось), *irgendwo* (десь), *irgendwelche* (якісь).
+**irgend- / Невизначені слова:** *irgendetwas* (щось), *irgendwie* (якось), *irgendwo* (десь), *irgendwelche* (якісь).
 
 **Typische Fehler / Помилки:**
 
@@ -132,7 +132,7 @@
 
 ## 5. Buch und Film präsentieren / Презентація книги та фільму
 
-**Buch / Книга:** *The Expanse* (*Expansion*) від James S. A. Corey, кількох авторів під одним псевдонімом. Серія з 8–9 книг. Ти читав її тричі: російською, англійською, тепер українською.
+**Buch / Книга:** *The Expanse* (*Expansion*) von James S. A. Corey – mehrere Autoren unter einem Pseudonym. Eine Serie mit 8–9 Büchern. Du hast sie dreimal gelesen: auf Russisch, auf Englisch und jetzt auf Ukrainisch.
 - *Das ist ein Science-Fiction-Buch. Das Buch **wurde von** … **geschrieben**.*
 - *In dem Buch geht es um die Expansion der Menschheit **im Weltraum**.*
 - *Es gibt viele historische **Parallelen mit der Kolonisation** Amerikas.*
@@ -142,7 +142,7 @@
 - *Ein wichtiges Thema ist **das Grundeinkommen**: Was sind die Vor- und Nachteile? Welche Probleme kann es **lösen** oder **verursachen**?*
 - *Der Schreibstil ist nicht kompliziert, das Buch ist **spannend**.*
 
-**Film / Фільм:** *The Invite*, сучасна комедія і драма водночас.
+**Film / Фільм:** *The Invite*, eine moderne Komödie und zugleich ein Drama.
 - ***Es geht um** die Kommunikation **zwischen zwei Paaren**.*
 - *Sehr gute **Schauspielerei**; berühmte Schauspieler: Edward Norton, Olivia Wilde, Penélope Cruz.*
 - *Der ganze Film spielt an einem Abend in einer Wohnung.*
@@ -160,7 +160,7 @@
 | *Kommunikation zwischen zwei Paare* | *zwischen zwei **Paaren*** (Dat Pl) |
 | *es geht über* | *es geht **um*** |
 | *ein Szenario schreiben* | ***das Drehbuch*** |
-| *das Thema dieses Buches* (у серії) | *das Thema **von dieser Serie*** |
+| *das Thema dieses Buches* (bei einer Serie) | *das Thema **von dieser Serie*** |
 
 ## Rektion: Verben mit Präpositionen / Дієслова з прийменниками
 
@@ -169,27 +169,27 @@
 | *sich erinnern **an*** | *abhängen **von*** / *abhängig sein **von*** |
 | *verzichten **auf*** | *helfen **bei*** |
 | *(ständige) Sorgen **um** / sich Sorgen machen **um*** | |
-| *Einfluss haben **auf*** (а *beeinflussen* + Akk, без прийменника) | |
+| *Einfluss haben **auf*** (aber *beeinflussen* + Akk, ohne Präposition) | |
 | *verantwortlich sein **für*** | |
 
-Усі ці дієслова є в загальному списку Rektion: [verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md). Нові з цього заняття: *sich Sorgen machen um*, *Einfluss haben auf*, *verantwortlich sein für*, *abhängen von*, *helfen bei*.
+Alle diese Verben stehen in der Rektion-Liste: [verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md). Neu aus dieser Stunde: *sich Sorgen machen um*, *Einfluss haben auf*, *verantwortlich sein für*, *abhängen von*, *helfen bei*.
 
-**Fragewörter / Питальні слова:** про речі вживаємо *wo(r)-* + прийменник, про людей прийменник + *wen/wem*.
+**Fragewörter / Питальні слова:** bei Sachen *wo(r)-* + Präposition, bei Personen Präposition + *wen/wem*.
 - *Woran erinnerst du dich?* / *An wen?*
 - *Worauf verzichtet sie?* / *Auf wen?*
 - *Wovon hängt das ab?* / *Von wem?*
 - *Wobei hat sie geholfen?*
 
-## 💡 Tipps / Поради викладачки
+## 💡 Tipps / Поради
 
-- «Після модального дієслова потрібен інфінітив у кінці» · *Wenn wir ein Modalverb haben, brauchen wir den Infinitiv.* (*Es soll regnen.*)
-- «Коротенькі слова-заклади часто жіночого роду» · *die Bar*
-- «Що можеш зробити, те й треба робити» · *Was man machen kann, soll man machen.*
-- «Люди обирають для себе найзручніше пояснення» · *Man wählt immer die bequemste Erklärung.*
+- *Wenn wir ein Modalverb haben, brauchen wir den Infinitiv.* (*Es soll regnen.*) · «Після модального дієслова потрібен інфінітив у кінці»
+- Kurze Wörter für Lokale sind oft feminin: *die Bar*. · «Коротенькі слова-заклади часто жіночого роду»
+- *Was man machen kann, soll man machen.* · «Що можеш зробити, те й треба робити»
+- *Man wählt immer die bequemste Erklärung.* · «Люди обирають для себе найзручніше пояснення»
 
 ## Organisatorisches / Організаційне
 
-- **Hausaufgabe / Домашнє завдання:** викладачка надішле матеріали на повторення *Wechselpräpositionen*, вправи для самостійного тренування та *Hörverstehen*. Папки `HA/` поки немає.
-- **Nächste Stunde / Наступне заняття:** дата ще невідома. Викладачка не певна щодо вівторка, а четвер не підходить: 8.10 у тебе день народження і вечірка. Вона надішле вільні години, і ти обереш час.
+- **Hausaufgabe / Домашнє завдання:** Die Lehrkraft schickt Material zur Wiederholung der *Wechselpräpositionen*, Übungen zum Selbsttraining und ein *Hörverstehen*. Einen Ordner `HA/` gibt es noch nicht.
+- **Nächste Stunde / Наступне заняття:** Der Termin steht noch nicht fest. Dienstag ist unsicher, und Donnerstag passt nicht: Am 8.10. hast du Geburtstag und eine Party. Die Lehrkraft schickt freie Termine, und du wählst einen aus.
 
-*Транскрипт дуже шумний (суміш мов, обірвані слова), тому приклади відновлено за контекстом і виправленнями викладачки й подано в граматично правильній формі.*
+*Das Transkript ist sehr verrauscht (Sprachen gemischt, abgebrochene Wörter). Die Beispiele wurden aus dem Kontext und den Korrekturen der Lehrkraft rekonstruiert und grammatisch korrigiert.*
