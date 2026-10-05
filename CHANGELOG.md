@@ -28,6 +28,7 @@ Versioning). Each entry names the plan phase it came from.
 
 ### Changed
 - `lesson-notes` titles: `# DE-<Course> - <YYYYMMDD>: <lesson title>` for the notes and `…: Wörterbuch` for the vocabulary (Phase 9).
+- `lesson-notes`: the Rektion section links to `verben/verben-mit-prapositionen.md` and names the lesson's verbs missing from it (Phase 9).
 
 ## [1.0.0] - 2026-10-01
 

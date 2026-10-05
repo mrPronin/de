@@ -282,6 +282,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Overwrite | Read existing files and ask first | Notes may have been hand-edited after generation |
 | Commits | Lesson notes are data commits (no CHANGELOG line) | Same rule as verb data; only the skill change is in `[Unreleased]` |
 | Titles | `# DE-B1v3 - 20261003: <lesson title>` (notes), `…: Wörterbuch` (vocabulary) | User's naming: course + date first so lessons sort and are recognisable at a glance; replaces the bilingual `Тези заняття … · Stichpunkte …` title |
+| Rektion link | Notes' Rektion section links to `verben/verben-mit-prapositionen.md` (relative path) and names verbs not yet in it | Notes and the reference list stay connected; the missing-verbs line doubles as a reminder until the Rektion offer is acted on |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes

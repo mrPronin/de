@@ -29,6 +29,10 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
   - typical mistakes the teacher corrected, with the correct form.
 - Rektion (verbs with prepositions): a two-column table Akkusativ | Dativ, preposition in **bold**;
   separately the question words (wo(r)- + prep. for things, prep. + wen/wem for persons).
+  Under the table one line linking to the full list, relative from the notes file:
+  `[verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md)`.
+  Name the lesson's verbs that the list doesn't have yet; once they are added to the YAML,
+  change that part of the line to «Нові з цього заняття: …».
 - Teacher's tips set apart: Ukrainian + German (e.g. «Менше думати, більше говорити» · *Weniger denken, mehr sprechen*).
 - Final section `## Організаційне · Organisatorisches`: homework (mention `HA/` if it has files), date and time of the next lesson.
 
