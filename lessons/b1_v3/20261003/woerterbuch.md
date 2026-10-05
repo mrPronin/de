@@ -1,4 +1,4 @@
-# DE-B1v3 - 20261003, Wörterbuch
+# DE-B1v3 - 20261003: Wörterbuch
 
 Тези заняття: [notes.md](notes.md).
 

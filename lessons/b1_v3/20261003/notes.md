@@ -1,4 +1,4 @@
-# DE-B1v3 - 20261003, Wetter, Umweltschutz, Briefe, Buch und Film
+# DE-B1v3 - 20261003: Wetter, Umweltschutz, Briefe, Buch und Film
 
 Заняття тривало ≈ 93 хв, з них ≈ 10 хв забрала технічна перерва. Частини: погода (вправа з пропусками), *was für ein*, Umweltschutz (переказ думок і дискусія), граматика в листах, презентація книги та фільму.
 
@@ -171,6 +171,8 @@
 | *(ständige) Sorgen **um** / sich Sorgen machen **um*** | |
 | *Einfluss haben **auf*** (а *beeinflussen* + Akk, без прийменника) | |
 | *verantwortlich sein **für*** | |
+
+Усі ці дієслова є в загальному списку Rektion: [verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md). Нові з цього заняття: *sich Sorgen machen um*, *Einfluss haben auf*, *verantwortlich sein für*, *abhängen von*, *helfen bei*.
 
 **Питальні слова · Fragewörter:** про речі вживаємо *wo(r)-* + прийменник, про людей прийменник + *wen/wem*.
 - *Woran erinnerst du dich?* / *An wen?*

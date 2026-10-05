@@ -281,7 +281,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Skill output | Save files by default; chat gets paths + short overview | Notes are now repo content; the full text in chat duplicated the file |
 | Overwrite | Read existing files and ask first | Notes may have been hand-edited after generation |
 | Commits | Lesson notes are data commits (no CHANGELOG line) | Same rule as verb data; only the skill change is in `[Unreleased]` |
-| Titles | `# DE-B1v3 - 20261003, <lesson title>` (notes), `…, Wörterbuch` (vocabulary) | User's naming: course + date first so lessons sort and are recognisable at a glance; replaces the bilingual `Тези заняття … · Stichpunkte …` title |
+| Titles | `# DE-B1v3 - 20261003: <lesson title>` (notes), `…: Wörterbuch` (vocabulary) | User's naming: course + date first so lessons sort and are recognisable at a glance; replaces the bilingual `Тези заняття … · Stichpunkte …` title |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes
