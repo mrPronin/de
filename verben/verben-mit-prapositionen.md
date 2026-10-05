@@ -49,6 +49,9 @@ sich freuen має два значення:
 | 36 | auf | sich verlassen auf \<Akk\> | покладатися на когось / щось | to rely on / to count on | Ich verlasse mich auf meine Frau.<br>Auf wen verlässt du dich? (Person)<br>Worauf verlässt du dich? (Sache) |
 | 37 | für | ausgeben für \<Akk\> | витрачати (гроші) на | to spend (money) on | Sie gibt viel Geld für gesundes Essen aus.<br>Wofür gibst du dein Geld aus? |
 | 38 | auf | sich konzentrieren auf \<Akk\> | зосереджуватися на | to concentrate on | Im Büro konzentriere ich mich besser auf meine Aufgaben.<br>Worauf konzentrierst du dich? |
+| 39 | um | sich Sorgen machen um \<Akk\><br><br>die Sorge um \<Akk\>: das Leben ist zu kurz für ständige Sorgen um die Umwelt | хвилюватися, турбуватися про | to worry about | Er macht sich keine Sorgen um die Umwelt.<br>Um wen machst du dir Sorgen? (Person)<br>Worum machst du dir Sorgen? (Sache) |
+| 40 | auf | Einfluss haben auf \<Akk\><br><br>beeinflussen + Akk ohne Präposition: Ein einzelner Mensch kann die Situation nicht beeinflussen. | мати вплив на, впливати на | to have an influence on | Ein einzelner Mensch hat wenig Einfluss auf die Politik.<br>Auf wen hat er Einfluss? (Person)<br>Worauf hast du Einfluss? (Sache) |
+| 41 | für | verantwortlich sein für \<Akk\> | бути відповідальним за | to be responsible for | Jeder Mensch ist verantwortlich für den Umweltschutz.<br>Für wen bist du verantwortlich? (Person)<br>Wofür bist du verantwortlich? (Sache) |
 
 ## Verb + Präposition + Dat
 
@@ -85,3 +88,5 @@ an / vor → Dativ (у цих дієсловах)
 | 26 | von | sprechen von \<Dat\><br><br>von \<Dat\> — often a mention in passing; über \<Akk\> — talking about a topic in detail | говорити про когось / про щось (згадувати) | to speak of / to talk about | Er spricht oft von seiner Familie.<br>Von wem sprichst du? (Person)<br>Wovon sprichst du? (Sache) |
 | 27 | mit | sich treffen mit \<Dat\><br><br>jemanden treffen = zufällig oder geplant begegnen; sich mit jemandem treffen = verabredet | зустрічатися з кимось | to meet (up) with | Ich treffe mich heute Abend mit meinen Freunden.<br>Mit wem triffst du dich? |
 | 28 | an | zweifeln an \<Dat\><br><br>ich zweifle (-eln: e fällt weg, wie ich sammle), du zweifelst | сумніватися в комусь / в чомусь | to doubt | Ich zweifle an dir.<br>An wem zweifelst du? (Person)<br>Woran zweifelst du? (Sache) |
+| 29 | von | abhängen von \<Dat\><br><br>trennbar: das hängt von … ab; abhängig sein von \<Dat\> = бути залежним від (Deutschland war abhängig von Russland) | залежати від | to depend on | Das hängt vom Wetter ab.<br>Von wem hängt das ab? (Person)<br>Wovon hängt das ab? (Sache) |
+| 30 | bei | helfen bei \<Dat\><br><br>helfen + Dat (wem?): Ich helfe dir bei den Hausaufgaben. | допомагати з чимось / в чомусь | to help with | Esther Perel hat dem Regisseur beim Drehbuch geholfen.<br>Wobei kann ich dir helfen? |

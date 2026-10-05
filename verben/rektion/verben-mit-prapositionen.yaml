@@ -384,6 +384,41 @@ verbs:
       - Im Büro konzentriere ich mich besser auf meine Aufgaben.
       - Worauf konzentrierst du dich?
   - id: 39
+    case: Akk
+    präposition: um
+    verb: sich Sorgen machen um <Akk>
+    translations:
+      english: to worry about
+      ukrainian: хвилюватися, турбуватися про
+    note: "die Sorge um <Akk>: das Leben ist zu kurz für ständige Sorgen um die Umwelt"
+    example:
+      - Er macht sich keine Sorgen um die Umwelt.
+      - Um wen machst du dir Sorgen? (Person)
+      - Worum machst du dir Sorgen? (Sache)
+  - id: 40
+    case: Akk
+    präposition: auf
+    verb: Einfluss haben auf <Akk>
+    translations:
+      english: to have an influence on
+      ukrainian: мати вплив на, впливати на
+    note: "beeinflussen + Akk ohne Präposition: Ein einzelner Mensch kann die Situation nicht beeinflussen."
+    example:
+      - Ein einzelner Mensch hat wenig Einfluss auf die Politik.
+      - Auf wen hat er Einfluss? (Person)
+      - Worauf hast du Einfluss? (Sache)
+  - id: 41
+    case: Akk
+    präposition: für
+    verb: verantwortlich sein für <Akk>
+    translations:
+      english: to be responsible for
+      ukrainian: бути відповідальним за
+    example:
+      - Jeder Mensch ist verantwortlich für den Umweltschutz.
+      - Für wen bist du verantwortlich? (Person)
+      - Wofür bist du verantwortlich? (Sache)
+  - id: 42
     case: Dat
     präposition: mit
     verb: anfangen mit <Dat>
@@ -392,7 +427,7 @@ verbs:
       ukrainian: починати з
     example:
       - Ich fange mit meiner Arbeit an.
-  - id: 40
+  - id: 43
     case: Dat
     präposition: mit
     verb: telefonieren mit <Dat>
@@ -402,7 +437,7 @@ verbs:
     example:
       - Ich telefoniere jeden Tag mit meiner Mutter.
       - Mit wem telefonierst du?
-  - id: 41
+  - id: 44
     case: Dat
     präposition: mit
     verb: sich beschäftigen mit <Dat>
@@ -412,7 +447,7 @@ verbs:
     example:
       - Ich beschäftige mich mit der deutschen Grammatik.
       - Womit beschäftigst du dich?
-  - id: 42
+  - id: 45
     case: Dat
     präposition: mit
     verb: sprechen mit <Dat>
@@ -422,7 +457,7 @@ verbs:
     example:
       - Ich spreche mit dir über unsere Pläne.
       - Mit wem sprichst du?
-  - id: 43
+  - id: 46
     case: Dat
     präposition: mit
     verb: reden mit <Dat>
@@ -432,7 +467,7 @@ verbs:
     example:
       - Ich rede mit meinem Chef.
       - Mit wem redest du?
-  - id: 44
+  - id: 47
     case: Dat
     präposition: mit
     verb: diskutieren mit <Dat>
@@ -441,7 +476,7 @@ verbs:
       ukrainian: дискутувати з
     example:
       - Ich diskutiere mit meinem Freund über ein neues Projekt.
-  - id: 45
+  - id: 48
     case: Dat
     präposition: mit
     verb: arbeiten mit <Dat>
@@ -452,7 +487,7 @@ verbs:
       - Ich arbeite mit meinen Kollegen zusammen.
       - Ich arbeite mit dem Computer.
       - Womit arbeitest du?
-  - id: 46
+  - id: 49
     case: Dat
     präposition: mit
     verb: sich unterhalten mit <Dat>
@@ -461,7 +496,7 @@ verbs:
       ukrainian: спілкуватися з / розмовляти з / вести бесіду з
     example:
       - Ich unterhalte mich mit meinen Freunden.
-  - id: 47
+  - id: 50
     case: Dat
     präposition: nach
     verb: fragen nach <Dat>
@@ -471,7 +506,7 @@ verbs:
     example:
       - Ich frage nach seiner Telefonnummer.
       - Ich frage nach Ihren persönlichen Daten.
-  - id: 48
+  - id: 51
     case: Dat
     präposition: nach
     verb: sich erkundigen nach <Dat>
@@ -481,7 +516,7 @@ verbs:
     example:
       - Ich erkundige mich nach dem Weg.
       - Wonach erkundigst du dich?
-  - id: 49
+  - id: 52
     case: Dat
     präposition: nach
     verb: suchen nach <Dat>
@@ -491,7 +526,7 @@ verbs:
     example:
       - Ich suche nach meinem Schlüssel.
       - Wonach suchst du?
-  - id: 50
+  - id: 53
     case: Dat
     präposition: vor
     verb: sich fürchten vor <Dat>
@@ -501,7 +536,7 @@ verbs:
     example:
       - Das Kind fürchtet sich vor dem Hund.
       - Wovor fürchtest du dich?
-  - id: 51
+  - id: 54
     case: Dat
     präposition: an
     verb: teilnehmen an <Dat>
@@ -510,7 +545,7 @@ verbs:
       ukrainian: брати участь у
     example:
       - Ich nehme an diesem Projekt teil.
-  - id: 52
+  - id: 55
     case: Dat
     präposition: von
     verb: träumen von <Dat>
@@ -522,7 +557,7 @@ verbs:
       - Von wem träumst du? – Von Herrn Schulz. / Von ihm.
       - Ich träume nicht davon.
       - Ich habe 2 Millionen Euro im Lotto gewonnen. Davon habe ich nie geträumt.
-  - id: 53
+  - id: 56
     case: Dat
     präposition: zu
     verb: gehen zu <Dat>
@@ -532,7 +567,7 @@ verbs:
     example:
       - Ich gehe zum Arzt.
       - Zu wem gehst du?
-  - id: 54
+  - id: 57
     case: Dat
     präposition: zu
     verb: gehören zu <Dat>
@@ -541,7 +576,7 @@ verbs:
       ukrainian: належати до
     example:
       - Ich gehöre zu dieser Gruppe.
-  - id: 55
+  - id: 58
     case: Dat
     präposition: bei
     verb: wohnen bei <Dat>
@@ -551,7 +586,7 @@ verbs:
     example:
       - Ich wohne bei meinen Eltern.
       - Bei wem wohnst du?
-  - id: 56
+  - id: 59
     case: Dat
     präposition: zu
     verb: gratulieren <Dat> zu <Dat>
@@ -560,7 +595,7 @@ verbs:
       ukrainian: вітати когось із чимось
     example:
       - Ich gratuliere dir zum Geburtstag.
-  - id: 57
+  - id: 60
     case: Dat
     präposition: zu
     verb: einladen zu <Dat>
@@ -569,7 +604,7 @@ verbs:
       ukrainian: запрошувати когось на щось
     example:
       - Ich lade dich zur Party ein.
-  - id: 58
+  - id: 61
     case: Dat
     präposition: bei
     verb: sich bedanken bei <Dat>
@@ -578,7 +613,7 @@ verbs:
       ukrainian: дякувати комусь
     example:
       - Ich bedanke mich bei meiner Frau.
-  - id: 59
+  - id: 62
     case: Dat
     präposition: mit
     verb: beginnen mit <Dat>
@@ -588,7 +623,7 @@ verbs:
     example:
       - Ich beginne mit der Arbeit.
       - Ich beginne mit dem Projekt.
-  - id: 60
+  - id: 63
     case: Dat
     präposition: bei
     verb: sich beschweren bei <Dat>
@@ -597,7 +632,7 @@ verbs:
       ukrainian: скаржитись комусь
     example:
       - Ich beschwere mich beim Arzt über meine Krankheit.
-  - id: 61
+  - id: 64
     case: Dat
     präposition: bei
     verb: sich entschuldigen bei <Dat>
@@ -606,7 +641,7 @@ verbs:
       ukrainian: вибачатися перед кимось
     example:
       - Ich entschuldige mich bei dir für meinen Fehler.
-  - id: 62
+  - id: 65
     case: Dat
     präposition: bei
     verb: sich informieren bei <Dat>
@@ -616,7 +651,7 @@ verbs:
     example:
       - Ich informiere mich bei dir über den Stundenplan.
       - Bei wem informierst du dich?
-  - id: 63
+  - id: 66
     case: Dat
     präposition: zu
     verb: passen zu <Dat>
@@ -626,7 +661,7 @@ verbs:
     example:
       - Das passt zu dir.
       - Diese Schuhe passen zu deinem Kleid.
-  - id: 64
+  - id: 67
     case: Dat
     präposition: von
     verb: sprechen von <Dat>
@@ -638,7 +673,7 @@ verbs:
       - Er spricht oft von seiner Familie.
       - Von wem sprichst du? (Person)
       - Wovon sprichst du? (Sache)
-  - id: 65
+  - id: 68
     case: Dat
     präposition: mit
     verb: sich treffen mit <Dat>
@@ -649,7 +684,7 @@ verbs:
     example:
       - Ich treffe mich heute Abend mit meinen Freunden.
       - Mit wem triffst du dich?
-  - id: 66
+  - id: 69
     case: Dat
     präposition: an
     verb: zweifeln an <Dat>
@@ -661,3 +696,26 @@ verbs:
       - Ich zweifle an dir.
       - An wem zweifelst du? (Person)
       - Woran zweifelst du? (Sache)
+  - id: 70
+    case: Dat
+    präposition: von
+    verb: abhängen von <Dat>
+    translations:
+      english: to depend on
+      ukrainian: залежати від
+    note: "trennbar: das hängt von … ab; abhängig sein von <Dat> = бути залежним від (Deutschland war abhängig von Russland)"
+    example:
+      - Das hängt vom Wetter ab.
+      - Von wem hängt das ab? (Person)
+      - Wovon hängt das ab? (Sache)
+  - id: 71
+    case: Dat
+    präposition: bei
+    verb: helfen bei <Dat>
+    translations:
+      english: to help with
+      ukrainian: допомагати з чимось / в чомусь
+    note: "helfen + Dat (wem?): Ich helfe dir bei den Hausaufgaben."
+    example:
+      - Esther Perel hat dem Regisseur beim Drehbuch geholfen.
+      - Wobei kann ich dir helfen?
