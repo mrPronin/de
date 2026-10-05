@@ -2,7 +2,7 @@
 
 Тези заняття: [notes.md](notes.md).
 
-🔴 feminin · 🔵 maskulin · 🟢 neutral · після «/» — множина («–» — немає множини)
+🔴 feminin · 🔵 maskulin · 🟢 neutral · після «/» — множина за [verbformen.de](https://www.verbformen.de) · «–» — множини немає · (selten) — рідко вживається · (fachspr.) — лише у фаховій мові · (je nach Bedeutung) — лише в деяких значеннях
 
 ## Wetter / Погода
 
@@ -10,8 +10,8 @@
 |---|---|---|
 | 🟢 das Gewitter / - | thunderstorm | гроза |
 | 🔵 der Blitz / -e | lightning | блискавка |
-| 🔵 der Donner / - | thunder | грім |
-| 🔴 die Hitze / – | heat | спека |
+| 🔵 der Donner / - (selten) | thunder | грім |
+| 🔴 die Hitze / -n (fachspr.) | heat | спека |
 | 🔴 die Kälte / – | cold | холод |
 | 🔵 der Frost / ¨-e | frost | мороз |
 | 🔵 der Sonnenbrand / ¨-e | sunburn | сонячний опік |
@@ -32,18 +32,18 @@
 
 | Deutsch | English | Українська |
 |---|---|---|
-| 🔵 der Umweltschutz / – | environmental protection | захист довкілля |
+| 🔵 der Umweltschutz / -e (selten) | environmental protection | захист довкілля |
 | 🔴 die Umweltpädagogin / -nen | environmental educator | екопедагогиня |
 | 🔵 der Bauleiter / - | site manager | керівник будівництва, виконроб |
 | 🔵 der Müll / – | rubbish, waste | сміття |
 | den Müll trennen | to sort the rubbish | сортувати сміття |
 | 🔴 die Mülltrennung / – | waste separation | сортування сміття |
 | 🟢 das Produkt / -e – regionale Produkte | product – local products | продукт – місцеві продукти |
-| 🔴 die Wäsche / – – die Wäsche trocknen | laundry – to dry the laundry | білизна – сушити білизну |
+| 🔴 die Wäsche / -n (je nach Bedeutung) – die Wäsche trocknen | laundry – to dry the laundry | білизна – сушити білизну |
 | 🔵 der Trockner / - | dryer, drying rack | сушарка |
 | 🔴 die Lebensphilosophie / -n | philosophy of life | життєва філософія |
 | handeln | to act | діяти |
-| 🔴 die Beruhigung / -en | reassurance, calming | заспокоєння |
+| 🔴 die Beruhigung / -en (selten) | reassurance, calming | заспокоєння |
 | 🟢 das Gewissen / - | conscience | совість |
 | ständig | constant | постійний |
 | 🔴 die Sorge / -n (um + Akk) | worry (about) | турбота, тривога (про) |
@@ -61,18 +61,18 @@
 | 🟢 das Atomkraftwerk / -e | nuclear power plant | атомна електростанція |
 | 🔴 die Atomkraft / – | nuclear power | атомна енергія |
 | abhängig von + Dat | dependent on | залежний від |
-| 🔵 der Strom / – | electricity | електроенергія |
+| 🔵 der Strom / ¨-e | electricity | електроенергія |
 | 🔴 die Wirtschaft / -en | economy | економіка |
 | unterstützen | to support | підтримувати |
 | im Vergleich zu + Dat | compared to | порівняно з |
 | 🟢 das Verkehrsmittel / - – öffentliche Verkehrsmittel | means of transport – public transport | транспорт – громадський транспорт |
 | Strom / Wasser sparen | to save electricity / water | заощаджувати електроенергію / воду |
 | verantwortlich für + Akk | responsible for | відповідальний за |
-| 🟢 das Verständnis / – | understanding | розуміння |
+| 🟢 das Verständnis / -se (selten) | understanding | розуміння |
 | 🔴 die Nachhaltigkeit / – | sustainability | сталий розвиток |
 | nachhaltig | sustainable | сталий, екологічний |
 | umweltfreundlich | environmentally friendly | екологічний |
-| 🔴 die Selbstbegrenzung / – | self-restraint | самообмеження |
+| 🔴 die Selbstbegrenzung / -en | self-restraint | самообмеження |
 | gesetzlich geregelt | regulated by law | врегульовано законом |
 
 ## Briefe / Листи
@@ -105,7 +105,7 @@
 | 🔵 der Weltraum / – | (outer) space | космос |
 | 🔴 die Menschheit / – | humanity | людство |
 | 🔴 die Parallele / -n | parallel | паралель |
-| 🔴 die Kolonisation / – | colonisation | колонізація |
+| 🔴 die Kolonisation / -en (selten) | colonisation | колонізація |
 | darstellen | to portray, to depict | зображати |
 | 🔴 die Hauptfigur / -en | main character | головний герой |
 | 🔴 die Hauptperson / -en | main character | головна особа, герой |
@@ -114,7 +114,7 @@
 | 🔵 der Schreibstil / -e | writing style | стиль письма |
 | spannend | gripping, exciting | захопливий |
 | 🔵 der Hintergrund / ¨-e | background | тло, передісторія |
-| 🔴 die Schauspielerei / – | acting | акторська гра |
+| 🔴 die Schauspielerei / -en (selten) | acting | акторська гра |
 | 🟢 das Drehbuch / ¨-er | screenplay | сценарій |
 | 🔵 der Regisseur / -e | (film) director | режисер |
 | 🔴 die Beziehung / -en | relationship | стосунки |

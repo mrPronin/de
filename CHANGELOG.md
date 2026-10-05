@@ -23,6 +23,9 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+### Fixed
+- `lesson-notes` Wörterbuch: plurals come from verbformen.de with its usage notes (`-n (selten)`); `–` only for nouns with no plural, not for rare ones (Phase 9).
+
 ## [1.2.0] - 2026-10-05
 
 ### Changed

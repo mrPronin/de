@@ -286,6 +286,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Intro line | Names the lesson parts only; no duration, breaks or technical problems (after 1.1.0) | User: session logistics are noise in study notes |
 | Section headings | `## N. <Deutsch> / <Українська>`, also for unnumbered sections, Wörterbuch groups and bold sub-labels (after 1.1.0) | User's format: German first; `/` instead of `·` |
 | Wörterbuch format | `Deutsch \| English \| Українська`; nouns `🔴 die Wolke / -n`; emoji circles for gender (🔴 f, 🔵 m, 🟢 n) (after 1.1.0) | User wanted gender in colour; GitHub strips `<span style>`, LaTeX `\color` renders as a formula and shows raw in md-to-pdf/VS Code, emoji work everywhere |
+| Wörterbuch plurals | From verbformen.de, never from memory; `–` only when it lists no plural; rare forms marked `(selten)` / `(fachspr.)` / `(je nach Bedeutung)` (after 1.2.0) | 1.2.0 notes showed `die Hitze / –` although the dictionary lists *Hitzen* (fachsprachlich): `–` had been used for "rarely used" against its own legend. All 65 nouns of 20261003 re-checked; 10 corrected |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes
