@@ -41,9 +41,15 @@ argument-hint: "[YYYYMMDD]"
 
 ## Wörterbuch
 
-- Separate file, title `# DE-<Course> - <YYYYMMDD>: Wörterbuch`, below it a link back to `notes.md`.
-- Grouped by the lesson's topics, each group a bilingual `## <Deutsch> / <Українська>` heading and a two-column table `Deutsch | Українська`.
-- German in *italics*; nouns with article and plural (*das Gewitter, -*, *die Wolke, -n*); prepositions and case where they belong (*abhängig von + Dat*).
+- Separate file, title `# DE-<Course> - <YYYYMMDD>: Wörterbuch`, below it a link back to `notes.md`,
+  then the legend line «🔴 feminin · 🔵 maskulin · 🟢 neutral · після «/» — множина («–» — немає множини)».
+- Grouped by the lesson's topics, each group a `## <Deutsch> / <Українська>` heading and a three-column
+  table `Deutsch | English | Українська`, plain text (no italics).
+- Nouns: gender circle, article, singular, `/`, plural ending: `🔴 die Wolke / -n`, `🔵 der Frost / ¨-e`,
+  `🟢 das Gewitter / -`; `–` when there is no plural (`🔴 die Hitze / –`). One noun per row; a phrase
+  built on a noun goes after it (`🔴 die Regel / -n – strenge Regeln`). GitHub strips HTML colour,
+  hence the emoji.
+- Other words without a circle; prepositions and case where they belong (`abhängig von + Dat`).
 - Only words that came up in the lesson, no padding.
 
 ## Handling the transcript

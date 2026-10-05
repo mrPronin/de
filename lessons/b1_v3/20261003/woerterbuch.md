@@ -2,110 +2,124 @@
 
 Тези заняття: [notes.md](notes.md).
 
+🔴 feminin · 🔵 maskulin · 🟢 neutral · після «/» — множина («–» — немає множини)
+
 ## Wetter / Погода
 
-| Deutsch | Українська |
-|---|---|
-| *das Gewitter, -* | гроза |
-| *der Blitz / der Donner* | блискавка / грім |
-| *die Hitze* | спека |
-| *die Kälte* | холод |
-| *der Frost* | мороз |
-| *der Sonnenbrand* | сонячний опік |
-| *der Schatten* | тінь |
-| *der Wetterbericht* | прогноз погоди |
-| *die Wolke, -n* / *bewölkt* | хмара / хмарно |
-| *die Jahreszeit* / *die Lieblingsjahreszeit* | пора року / улюблена пора року |
-| *glatt* | слизький (дорога); прямий (волосся) |
-| *steigen / sinken* | підніматися / опускатися (температура) |
-| *tauen* – *der Schnee taut* | танути |
-| *blühen* – *alles blüht* | цвісти |
-| *vorbei sein* | минути, скінчитися |
+| Deutsch | English | Українська |
+|---|---|---|
+| 🟢 das Gewitter / - | thunderstorm | гроза |
+| 🔵 der Blitz / -e | lightning | блискавка |
+| 🔵 der Donner / - | thunder | грім |
+| 🔴 die Hitze / – | heat | спека |
+| 🔴 die Kälte / – | cold | холод |
+| 🔵 der Frost / ¨-e | frost | мороз |
+| 🔵 der Sonnenbrand / ¨-e | sunburn | сонячний опік |
+| 🔵 der Schatten / - | shade, shadow | тінь |
+| 🔵 der Wetterbericht / -e | weather forecast | прогноз погоди |
+| 🔴 die Wolke / -n | cloud | хмара |
+| 🔴 die Jahreszeit / -en | season | пора року |
+| 🔴 die Lieblingsjahreszeit / -en | favourite season | улюблена пора року |
+| bewölkt | cloudy | хмарно |
+| glatt | slippery (road); straight (hair) | слизький (дорога); прямий (волосся) |
+| steigen | to rise (temperature) | підніматися (температура) |
+| sinken | to fall, to drop | опускатися |
+| tauen – der Schnee taut | to thaw | танути |
+| blühen – alles blüht | to bloom | цвісти |
+| vorbei sein | to be over | минути, скінчитися |
 
 ## Umwelt / Довкілля
 
-| Deutsch | Українська |
-|---|---|
-| *der Umweltschutz* | захист довкілля |
-| *die Umweltpädagogin, -nen* | екопедагогиня |
-| *der Bauleiter, -* | керівник будівництва, виконроб |
-| *den Müll trennen* / *die Mülltrennung* | сортувати сміття / сортування сміття |
-| *regionale Produkte* | місцеві продукти |
-| *die Wäsche trocknen* / *der Trockner, -* | сушити білизну / сушарка |
-| *die Lebensphilosophie* | життєва філософія |
-| *handeln* | діяти |
-| *die Beruhigung* | заспокоєння |
-| *das Gewissen* | совість |
-| *ständig* | постійний |
-| *die Sorge, -n (um + Akk)* | турбота, тривога (про) |
-| *die Solaranlage, -n* | сонячна електростанція, панелі |
-| *die Ökobewegung* | екорух |
-| *übertrieben* | перебільшений |
-| *der gesunde Menschenverstand* | здоровий глузд |
-| *strenge Regeln* | суворі правила |
-| *der Altbau* / *denkmalgeschützt* | стара забудова / пам'ятка архітектури |
-| *die Denkweise* | спосіб мислення |
-| *der Gedanke, -n* | думка |
-| *beeinflussen* / *der Einfluss (auf + Akk)* | впливати / вплив (на) |
-| *das Atomkraftwerk, -e* / *die Atomkraft* | атомна електростанція / атомна енергія |
-| *abhängig von + Dat* | залежний від |
-| *der Strom* | електроенергія |
-| *die Wirtschaft* | економіка |
-| *unterstützen* | підтримувати |
-| *im Vergleich zu + Dat* | порівняно з |
-| *öffentliche Verkehrsmittel* | громадський транспорт |
-| *Strom / Wasser sparen* | заощаджувати електроенергію / воду |
-| *verantwortlich für + Akk* | відповідальний за |
-| *das Verständnis* | розуміння |
-| *die Nachhaltigkeit* / *nachhaltig* | сталий розвиток / сталий, екологічний |
-| *umweltfreundlich* | екологічний |
-| *die Selbstbegrenzung* | самообмеження |
-| *gesetzlich geregelt* | врегульовано законом |
+| Deutsch | English | Українська |
+|---|---|---|
+| 🔵 der Umweltschutz / – | environmental protection | захист довкілля |
+| 🔴 die Umweltpädagogin / -nen | environmental educator | екопедагогиня |
+| 🔵 der Bauleiter / - | site manager | керівник будівництва, виконроб |
+| 🔵 der Müll / – | rubbish, waste | сміття |
+| den Müll trennen | to sort the rubbish | сортувати сміття |
+| 🔴 die Mülltrennung / – | waste separation | сортування сміття |
+| 🟢 das Produkt / -e – regionale Produkte | product – local products | продукт – місцеві продукти |
+| 🔴 die Wäsche / – – die Wäsche trocknen | laundry – to dry the laundry | білизна – сушити білизну |
+| 🔵 der Trockner / - | dryer, drying rack | сушарка |
+| 🔴 die Lebensphilosophie / -n | philosophy of life | життєва філософія |
+| handeln | to act | діяти |
+| 🔴 die Beruhigung / -en | reassurance, calming | заспокоєння |
+| 🟢 das Gewissen / - | conscience | совість |
+| ständig | constant | постійний |
+| 🔴 die Sorge / -n (um + Akk) | worry (about) | турбота, тривога (про) |
+| 🔴 die Solaranlage / -n | solar panels | сонячна електростанція, панелі |
+| 🔴 die Ökobewegung / -en | environmental movement | екорух |
+| übertrieben | exaggerated | перебільшений |
+| 🔵 der gesunde Menschenverstand / – | common sense | здоровий глузд |
+| 🔴 die Regel / -n – strenge Regeln | rule – strict rules | правило – суворі правила |
+| 🔵 der Altbau / -ten | old building | стара забудова |
+| denkmalgeschützt | listed (heritage) | пам'ятка архітектури |
+| 🔴 die Denkweise / -n | way of thinking | спосіб мислення |
+| 🔵 der Gedanke / -n | thought | думка |
+| beeinflussen + Akk | to influence | впливати |
+| 🔵 der Einfluss / ¨-e (auf + Akk) | influence (on) | вплив (на) |
+| 🟢 das Atomkraftwerk / -e | nuclear power plant | атомна електростанція |
+| 🔴 die Atomkraft / – | nuclear power | атомна енергія |
+| abhängig von + Dat | dependent on | залежний від |
+| 🔵 der Strom / – | electricity | електроенергія |
+| 🔴 die Wirtschaft / -en | economy | економіка |
+| unterstützen | to support | підтримувати |
+| im Vergleich zu + Dat | compared to | порівняно з |
+| 🟢 das Verkehrsmittel / - – öffentliche Verkehrsmittel | means of transport – public transport | транспорт – громадський транспорт |
+| Strom / Wasser sparen | to save electricity / water | заощаджувати електроенергію / воду |
+| verantwortlich für + Akk | responsible for | відповідальний за |
+| 🟢 das Verständnis / – | understanding | розуміння |
+| 🔴 die Nachhaltigkeit / – | sustainability | сталий розвиток |
+| nachhaltig | sustainable | сталий, екологічний |
+| umweltfreundlich | environmentally friendly | екологічний |
+| 🔴 die Selbstbegrenzung / – | self-restraint | самообмеження |
+| gesetzlich geregelt | regulated by law | врегульовано законом |
 
 ## Briefe / Листи
 
-| Deutsch | Українська |
-|---|---|
-| *das Portemonnaie, -s* | гаманець |
-| *abgeben* | здати (знахідку) |
-| *die Bar, -s* | бар |
-| *irgendetwas / irgendwie / irgendwo* | щось / якось / десь |
-| *die Anzeige, -n* | оголошення |
-| *nähere Informationen* | детальніша інформація |
-| *der Kurs für Fortgeschrittene* | курс для досвідчених |
-| *vor allem* | насамперед |
-| *die Gastfamilie, -n* | приймаюча сім'я |
-| *in diesem Zusammenhang* | у зв'язку з цим |
-| *preiswert* | недорогий |
-| *die Pension, -en* | пансіон, гостьовий дім |
-| *zum Schluss* | наостанок |
-| *auf dem Programm stehen* | бути в програмі |
-| *die Bemühung, -en* | старання, зусилля |
-| *im Voraus* | заздалегідь |
+| Deutsch | English | Українська |
+|---|---|---|
+| 🟢 das Portemonnaie / -s | wallet | гаманець |
+| abgeben | to hand in | здати (знахідку) |
+| 🔴 die Bar / -s | bar | бар |
+| irgendetwas / irgendwie / irgendwo | something / somehow / somewhere | щось / якось / десь |
+| 🔴 die Anzeige / -n | advertisement | оголошення |
+| 🔴 die Information / -en – nähere Informationen | information – more details | інформація – детальніша інформація |
+| 🔵 der Kurs / -e – der Kurs für Fortgeschrittene | course – advanced course | курс – курс для досвідчених |
+| vor allem | above all | насамперед |
+| 🔴 die Gastfamilie / -n | host family | приймаюча сім'я |
+| 🔵 der Zusammenhang / ¨-e – in diesem Zusammenhang | connection – in this context | зв'язок – у зв'язку з цим |
+| preiswert | inexpensive | недорогий |
+| 🔴 die Pension / -en | guesthouse | пансіон, гостьовий дім |
+| zum Schluss | finally, in conclusion | наостанок |
+| auf dem Programm stehen | to be on the programme | бути в програмі |
+| 🔴 die Bemühung / -en | effort | старання, зусилля |
+| im Voraus | in advance | заздалегідь |
 
 ## Bücher und Filme / Книги й фільми
 
-| Deutsch | Українська |
-|---|---|
-| *das Science-Fiction-Buch* | науково-фантастична книга |
-| *der Autor, -en* | автор |
-| *der Weltraum* | космос |
-| *die Menschheit* | людство |
-| *die Parallele, -n* | паралель |
-| *die Kolonisation* | колонізація |
-| *darstellen* | зображати |
-| *die Hauptfigur, -en* / *die Hauptperson, -en* | головний герой |
-| *das Grundeinkommen* | базовий дохід |
-| *verursachen* | спричиняти |
-| *der Schreibstil* | стиль письма |
-| *spannend* | захопливий |
-| *der Hintergrund* | тло, передісторія |
-| *die Schauspielerei* | акторська гра |
-| *das Drehbuch, -bücher* | сценарій |
-| *der Regisseur, -e* | режисер |
-| *die Beziehung, -en* | стосунки |
-| *witzig / lustig* | дотепний / смішний |
-| *traurig* | сумний |
-| *die Handlung* | сюжет, дія |
-| *während + Gen* | під час |
-| *abhängen von + Dat* | залежати від |
+| Deutsch | English | Українська |
+|---|---|---|
+| 🟢 das Science-Fiction-Buch / ¨-er | science fiction book | науково-фантастична книга |
+| 🔵 der Autor / -en | author | автор |
+| 🔵 der Weltraum / – | (outer) space | космос |
+| 🔴 die Menschheit / – | humanity | людство |
+| 🔴 die Parallele / -n | parallel | паралель |
+| 🔴 die Kolonisation / – | colonisation | колонізація |
+| darstellen | to portray, to depict | зображати |
+| 🔴 die Hauptfigur / -en | main character | головний герой |
+| 🔴 die Hauptperson / -en | main character | головна особа, герой |
+| 🟢 das Grundeinkommen / - | basic income | базовий дохід |
+| verursachen | to cause | спричиняти |
+| 🔵 der Schreibstil / -e | writing style | стиль письма |
+| spannend | gripping, exciting | захопливий |
+| 🔵 der Hintergrund / ¨-e | background | тло, передісторія |
+| 🔴 die Schauspielerei / – | acting | акторська гра |
+| 🟢 das Drehbuch / ¨-er | screenplay | сценарій |
+| 🔵 der Regisseur / -e | (film) director | режисер |
+| 🔴 die Beziehung / -en | relationship | стосунки |
+| witzig / lustig | witty / funny | дотепний / смішний |
+| traurig | sad | сумний |
+| 🔴 die Handlung / -en | plot | сюжет, дія |
+| während + Gen | during | під час |
+| abhängen von + Dat | to depend on | залежати від |

@@ -285,6 +285,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Rektion link | Notes' Rektion section links to `verben/verben-mit-prapositionen.md` (relative path) and names verbs not yet in it | Notes and the reference list stay connected; the missing-verbs line doubles as a reminder until the Rektion offer is acted on |
 | Intro line | Names the lesson parts only; no duration, breaks or technical problems (after 1.1.0) | User: session logistics are noise in study notes |
 | Section headings | `## N. <Deutsch> / <Українська>`, also for unnumbered sections, Wörterbuch groups and bold sub-labels (after 1.1.0) | User's format: German first; `/` instead of `·` |
+| Wörterbuch format | `Deutsch \| English \| Українська`; nouns `🔴 die Wolke / -n`; emoji circles for gender (🔴 f, 🔵 m, 🟢 n) (after 1.1.0) | User wanted gender in colour; GitHub strips `<span style>`, LaTeX `\color` renders as a formula and shows raw in md-to-pdf/VS Code, emoji work everywhere |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes
