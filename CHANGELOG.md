@@ -23,6 +23,8 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-10-05
+
 ### Added
 - `lesson-notes` skill (both copies) also writes a Wörterbuch and saves `notes.md` + `woerterbuch.md` to `lessons/<course>/<YYYYMMDD>/` instead of answering only in chat (Phase 9).
 
