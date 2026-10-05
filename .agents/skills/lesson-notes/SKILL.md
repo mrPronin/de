@@ -14,7 +14,9 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
 ## Format
 
 - Language of the notes: Ukrainian. All German words, phrases and examples in *italics*.
-- Title: `# Тези заняття B1 від DD.MM.YYYY · Stichpunkte zur Stunde B1 vom DD.MM.YYYY`.
+- Title: `# DE-<Course> - <YYYYMMDD>, <lesson title>`. `<Course>` is the Drive course folder without the
+  underscore (`b1_v3` → `B1v3`); `<lesson title>` names the lesson's main topics in German, short
+  (e.g. `# DE-B1v3 - 20261003, Wetter, Umweltschutz, Briefe, Buch und Film`).
   Below it one sentence: how long the lesson was and which parts it had.
 - Each part of the lesson is a numbered section `## N. <Українська назва> · <Deutscher Name>`.
   Sub-headings and vocabulary group labels are bilingual too
@@ -32,7 +34,7 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
 
 ## Wörterbuch
 
-- Separate file, title `# Wörterbuch · Словник заняття B1 від DD.MM.YYYY`, below it a link back to `notes.md`.
+- Separate file, title `# DE-<Course> - <YYYYMMDD>, Wörterbuch`, below it a link back to `notes.md`.
 - Grouped by the lesson's topics, each group a bilingual `## <Українська> · <Deutsch>` heading and a two-column table `Deutsch | Українська`.
 - German in *italics*; nouns with article and plural (*das Gewitter, -*, *die Wolke, -n*); prepositions and case where they belong (*abhängig von + Dat*).
 - Only words that came up in the lesson, no padding.
