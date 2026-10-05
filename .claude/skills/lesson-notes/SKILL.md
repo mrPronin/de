@@ -1,6 +1,6 @@
 ---
 name: lesson-notes
-description: Prepare bilingual (Ukrainian + German) lesson notes ("тези заняття") from a German B1 lesson transcript in ~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/. Use when the user asks for тези / notes / Stichpunkte of a German lesson or passes a lesson date.
+description: Prepare bilingual (Ukrainian + German) lesson notes ("тези заняття") and a Wörterbuch from a German B1 lesson transcript in ~/My Drive/_Data/DE/b1_v3/<YYYYMMDD>/ and save them to lessons/ in this repo. Use when the user asks for тези / notes / Stichpunkte or a Wörterbuch of a German lesson or passes a lesson date.
 argument-hint: "[YYYYMMDD]"
 ---
 
@@ -31,6 +31,13 @@ argument-hint: "[YYYYMMDD]"
 - Teacher's tips set apart: Ukrainian + German (e.g. «Менше думати, більше говорити» · *Weniger denken, mehr sprechen*).
 - Final section `## Організаційне · Organisatorisches`: homework (mention `HA/` if it has files), date and time of the next lesson.
 
+## Wörterbuch
+
+- Separate file, title `# Wörterbuch · Словник заняття B1 від DD.MM.YYYY`, below it a link back to `notes.md`.
+- Grouped by the lesson's topics, each group a bilingual `## <Українська> · <Deutsch>` heading and a two-column table `Deutsch | Українська`.
+- German in *italics*; nouns with article and plural (*das Gewitter, -*, *die Wolke, -n*); prepositions and case where they belong (*abhängig von + Dat*).
+- Only words that came up in the lesson, no padding.
+
 ## Handling the transcript
 
 - It is noisy speech-to-text (German and Ukrainian mixed, cut-off and garbled words). Reconstruct meaning from context and from the teacher's corrections; give examples grammatically correct, not verbatim.
@@ -39,7 +46,13 @@ argument-hint: "[YYYYMMDD]"
 
 ## Output
 
-- Answer in chat. Do not create a file unless the user asks for `.md` / PDF (then save next to the transcript; PDF via `md-to-pdf` per global CLAUDE.md).
+- Save both files to `/Users/pronin/Documents.nosync/Developer/04-pet/de/lessons/<course>/<YYYYMMDD>/`,
+  mirroring the Drive path (`b1_v3/20261003` → `lessons/b1_v3/20261003/`):
+  `notes.md` (тези) and `woerterbuch.md`. `notes.md` links to `woerterbuch.md` under the title line.
+  If the files already exist, read them first and ask before overwriting.
+- In chat: the paths and a short overview of the lesson parts, not the full notes.
+- PDF only on request, beside the `.md` (PDF via `md-to-pdf` per global CLAUDE.md).
+- Don't commit unless asked.
 - After the notes, if the lesson had verbs with prepositions, check which are missing from
   `/Users/pronin/Documents.nosync/Developer/04-pet/de/verben/rektion/verben-mit-prapositionen.yaml`
   and offer (don't do it unasked) to add them.

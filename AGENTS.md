@@ -55,6 +55,7 @@ Verb data lives in `verben/*.yaml` (`irregular-verbs-a1.yaml`, `-a2.yaml`, `-b.y
 - `verben/generated/*.md` are **generated artifacts** — produce via `convert-to-md` / `convert-all`, never hand-edit.
 - Rektion (verbs with fixed prepositions, Akk/Dat, UA/EN; from Apple Note "DE - 09 - Verben mit festen Präpositionen (Rektion)"): **source of truth is `verben/rektion/verben-mit-prapositionen.yaml`** (own schema: `id`, `case` Akk|Dat, `präposition`, `verb`, `translations.{english,ukrainian}`, optional `note`, optional `example` list of sentences (rendered to the MD Beispiele column); top-level `rules.<case>` list and `notes.<case>` block). `verben/verben-mit-prapositionen.md` is **generated** from it by `python3 scripts/rektion_to_md.py` — edit the YAML, then regenerate; don't hand-edit the MD. The YAML lives in a subfolder on purpose — `validate_yaml.py`, `convert-all` and `find-duplicates` glob `verben/*.yaml` non-recursively and assume the irregular-verb schema.
 - YAML↔MD round-trips are lossy (examples flattened to `<br>`, angle brackets escaped).
+- Lesson notes: `lessons/<course>/<YYYYMMDD>/notes.md` + `woerterbuch.md` (path mirrors `~/My Drive/_Data/DE/<course>/<YYYYMMDD>/`), written by the `lesson-notes` skill. Data commits, no CHANGELOG line.
 - `person3` stored parenthetically in MD infinitive cell.
 
 ## Architecture

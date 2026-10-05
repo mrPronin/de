@@ -11,6 +11,7 @@ Delivered and working:
 - Verb datasets: A1, A2 (60 verbs), and a "b" grouping under `verben/`.
 - YAML↔Markdown conversion, duplicate detection, per-verb lookups.
 - YAML validation script (`scripts/validate_yaml.py`) for consistency checks.
+- Lesson notes (тези) and per-lesson Wörterbuch under `lessons/<course>/<YYYYMMDD>/`, written by the `lesson-notes` skill.
 - Reference table of verbs with fixed prepositions (Rektion): `verben/rektion/verben-mit-prapositionen.yaml` (38 Akk + 28 Dat, UA/EN) → generated `verben/verben-mit-prapositionen.md` via `scripts/rektion_to_md.py`.
 
 In progress:
@@ -30,6 +31,7 @@ No known blockers. There is no automated test suite, linter, or CI.
 | 6 | Testing / linting / CI | planned |
 | 7 | `lesson-notes` agent skill (Claude Code + Codex) | done |
 | 8 | SemVer: `--version`, CHANGELOG, `german-verbs-v1.0.0` | done |
+| 9 | Lesson notes + Wörterbuch stored in `lessons/` | done |
 
 ## Architecture
 
@@ -50,6 +52,7 @@ de/
 ├── .claude/skills/lesson-notes/SKILL.md # Claude Code skill: /lesson-notes [YYYYMMDD]
 ├── .agents/skills/lesson-notes/SKILL.md # Codex copy of the same skill: $lesson-notes
 ├── convert.py                  # standalone shortcut ≈ `german-verbs convert-all`
+├── lessons/<course>/<YYYYMMDD>/ # notes.md (тези) + woerterbuch.md per lesson; mirrors the Drive path
 ├── scripts/                    # maintenance utilities
 │   ├── rektion_to_md.py       # verben/rektion/*.yaml → verben/verben-mit-prapositionen.md
 │   ├── renumber_yaml.py       # renumber verb IDs after manual edits
@@ -265,6 +268,37 @@ neither CLI had `--version`.
 - **Released `german-verbs-v1.0.0`** (build 123). `german-verbs --version` and
   `learn-verbs --version` now say `german-verbs 1.0.0+123`.
 
+## Phase 9: Lesson notes + Wörterbuch stored in `lessons/` — done
+
+### Problem
+Lesson notes lived only in chat (or as a file beside the transcript on Google Drive), so they were not versioned with the rest of the learning material; a per-lesson vocabulary list was requested separately each time.
+
+### Design Decisions
+| Decision | Choice | Rationale |
+|---|---|---|
+| Folder | `lessons/<course>/<YYYYMMDD>/`, English name | Matches `doc/`, `scripts/`, `audio/`; `verben/` is German because it names the data itself. The `b1_v3/<date>` part mirrors `~/My Drive/_Data/DE/` so the skill maps transcript path → notes path mechanically, and a new course is just a new subfolder |
+| Files | `notes.md` + `woerterbuch.md`, cross-linked | Wörterbuch kept separate so per-lesson lists can later be merged into one vocabulary |
+| Skill output | Save files by default; chat gets paths + short overview | Notes are now repo content; the full text in chat duplicated the file |
+| Overwrite | Read existing files and ask first | Notes may have been hand-edited after generation |
+| Commits | Lesson notes are data commits (no CHANGELOG line) | Same rule as verb data; only the skill change is in `[Unreleased]` |
+| SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
+
+### Key Changes
+- `.claude/skills/lesson-notes/SKILL.md`, `.agents/skills/lesson-notes/SKILL.md`: new `## Wörterbuch` format section; `## Output` saves both files to `lessons/`.
+- `lessons/b1_v3/20261003/notes.md`, `woerterbuch.md`: first lesson stored (written before the skill change, from the chat output).
+- `CLAUDE.md`, `AGENTS.md`, `CHANGELOG.md`.
+
+### Usage
+```text
+/lesson-notes 20261003     # → lessons/b1_v3/20261003/{notes,woerterbuch}.md
+```
+
+### Dependencies
+None new.
+
+### Verification
+Files for 20261003 written and links checked by hand. The updated skill itself has not yet been run end to end.
+
 ## Known Issues & Workarounds
 
 - **Lossy YAML↔MD round-trip.** `markdown_to_yaml` is explicitly simplified; treat generated MD as output-only and keep YAML authoritative. Permanent by design.
@@ -286,6 +320,7 @@ neither CLI had `--version`.
 | 2026-09-24 | Added optional `example` list to Rektion YAML (36 of 53 entries), extracted from lesson transcript `DE-B1-20260908_transcript.md`; `rektion_to_md.py` now also escapes `<`/`>` in translations | Transcript is noisy speech-to-text, so sentences were taken from the teacher's corrections and grammar-fixed rather than copied verbatim; examples are rendered to a Beispiele column joined by `<br>`. Escaping fix: a UA translation `<щось>` would otherwise render as an invisible HTML tag |
 | 2026-09-24 | Rektion list grown to 64 entries (36 Akk + 28 Dat) incl. remaining lesson verbs; wrote `example` for the 17 entries the transcript didn't cover, so every entry now has examples | Each entry gets a statement plus the matching question form (wo-/da-compound for things, Präposition + wen/wem for persons), mirroring the lesson's question-building rule. Author-written examples, not from the transcript |
 | 2026-09-28 | Added `lesson-notes` skill for Claude Code and Codex as two separate copies | Codex skill discovery (`.agents/skills`) and argument handling differ from Claude Code; the two files must be kept in sync by hand |
+| 2026-10-05 | Lesson notes + Wörterbuch saved to `lessons/<course>/<YYYYMMDD>/` by the skill (Phase 9) | Versioned with the rest of the material; path mirrors Drive so mapping is mechanical |
 | 2026-10-01 | SemVer from `1.0.0`, tag `german-verbs-v*`; the build number counts while the unit's files equal the tag (data commits don't count); no deploy gate (Phase 8) | mini-agent Phase 155's rules for a tool that runs from its checkout |
 
 ## Future Work
