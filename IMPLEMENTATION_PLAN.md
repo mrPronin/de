@@ -307,6 +307,7 @@ None new.
 Files for 20261003 written and links checked by hand. The updated skill itself has not yet been run end to end.
 - **Released `german-verbs-v1.1.0`** (build 131). `german-verbs --version` now says `german-verbs 1.1.0+131`.
 - **Released `german-verbs-v1.2.0`** (build 135): no duration line, German / Ukrainian headings and labels, Wörterbuch `Deutsch | English | Українська` with gender circles.
+- **Released `german-verbs-v1.3.0`** (build 139): plurals from verbformen.de (`–` only when there is none), `worterbuch.md`, rows by part of speech, verbs with forms.
 
 ## Known Issues & Workarounds
 
