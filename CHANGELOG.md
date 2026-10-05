@@ -23,6 +23,8 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-10-05
+
 ### Changed
 - `lesson-notes` Wörterbuch: file renamed `woerterbuch.md` → `worterbuch.md`; rows sorted nouns → verbs → adjectives → other; verbs as `ab \| hängen (u) von <Dat>` with a forms line `abhängen; hing ab; hat abgehangen` (Phase 9).
 
