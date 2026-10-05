@@ -148,6 +148,21 @@ verbs:
         Wir haben das Meeting um 10 Uhr begonnen. / We have begun the meeting at 10 o'clock.
 ```
 
+## Lesson Notes (`lessons/`)
+
+The `lesson-notes` agent skill (`/lesson-notes 20261003` in Claude Code, `$lesson-notes 20261003` in
+Codex) turns a lesson transcript from `~/My Drive/_Data/DE/<course>/<YYYYMMDD>/` into two files:
+
+```
+lessons/b1_v3/20261003/
+├── notes.md        # тези: lesson parts, Redemittel, grammar tables, typical mistakes, Rektion
+└── worterbuch.md   # vocabulary: Deutsch | English | Українська
+```
+
+In `worterbuch.md` rows are sorted nouns → verbs → adjectives → other. Nouns carry a gender circle
+and the plural from verbformen.de (`🔴 die Wolke / -n`). Verbs are listed with their forms
+(`ab | hängen (u) von <Dat>`, then `abhängen; hing ab; hat abgehangen`).
+
 ## Versioning
 
 `german-verbs` follows [SemVer](https://semver.org). **One version covers both CLIs, the

@@ -52,7 +52,7 @@ de/
 ├── .claude/skills/lesson-notes/SKILL.md # Claude Code skill: /lesson-notes [YYYYMMDD]
 ├── .agents/skills/lesson-notes/SKILL.md # Codex copy of the same skill: $lesson-notes
 ├── convert.py                  # standalone shortcut ≈ `german-verbs convert-all`
-├── lessons/<course>/<YYYYMMDD>/ # notes.md (тези) + woerterbuch.md per lesson; mirrors the Drive path
+├── lessons/<course>/<YYYYMMDD>/ # notes.md (тези) + worterbuch.md per lesson; mirrors the Drive path
 ├── scripts/                    # maintenance utilities
 │   ├── rektion_to_md.py       # verben/rektion/*.yaml → verben/verben-mit-prapositionen.md
 │   ├── renumber_yaml.py       # renumber verb IDs after manual edits
@@ -277,7 +277,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Decision | Choice | Rationale |
 |---|---|---|
 | Folder | `lessons/<course>/<YYYYMMDD>/`, English name | Matches `doc/`, `scripts/`, `audio/`; `verben/` is German because it names the data itself. The `b1_v3/<date>` part mirrors `~/My Drive/_Data/DE/` so the skill maps transcript path → notes path mechanically, and a new course is just a new subfolder |
-| Files | `notes.md` + `woerterbuch.md`, cross-linked | Wörterbuch kept separate so per-lesson lists can later be merged into one vocabulary |
+| Files | `notes.md` + `worterbuch.md` (`woerterbuch.md` until after 1.2.0), cross-linked | Wörterbuch kept separate so per-lesson lists can later be merged into one vocabulary |
 | Skill output | Save files by default; chat gets paths + short overview | Notes are now repo content; the full text in chat duplicated the file |
 | Overwrite | Read existing files and ask first | Notes may have been hand-edited after generation |
 | Commits | Lesson notes are data commits (no CHANGELOG line) | Same rule as verb data; only the skill change is in `[Unreleased]` |
@@ -287,16 +287,17 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Section headings | `## N. <Deutsch> / <Українська>`, also for unnumbered sections, Wörterbuch groups and bold sub-labels (after 1.1.0) | User's format: German first; `/` instead of `·` |
 | Wörterbuch format | `Deutsch \| English \| Українська`; nouns `🔴 die Wolke / -n`; emoji circles for gender (🔴 f, 🔵 m, 🟢 n) (after 1.1.0) | User wanted gender in colour; GitHub strips `<span style>`, LaTeX `\color` renders as a formula and shows raw in md-to-pdf/VS Code, emoji work everywhere |
 | Wörterbuch plurals | From verbformen.de, never from memory; `–` only when it lists no plural; rare forms marked `(selten)` / `(fachspr.)` / `(je nach Bedeutung)` (after 1.2.0) | 1.2.0 notes showed `die Hitze / –` although the dictionary lists *Hitzen* (fachsprachlich): `–` had been used for "rarely used" against its own legend. All 65 nouns of 20261003 re-checked; 10 corrected |
+| Wörterbuch order and verbs (after 1.2.0) | File renamed `worterbuch.md`; rows sorted nouns → verbs → adjectives → other; verbs `ab \| hängen (u) von <Dat>` + `abhängen; hing ab; hat abgehangen`; verb forms from verbformen.de, Wiktionary where strong/weak depends on meaning | User's format. verbformen.de only shows weak *abhängen* (*hängte ab*), wrong for *abhängen von* |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes
 - `.claude/skills/lesson-notes/SKILL.md`, `.agents/skills/lesson-notes/SKILL.md`: new `## Wörterbuch` format section; `## Output` saves both files to `lessons/`.
 - `lessons/b1_v3/20261003/notes.md`, `woerterbuch.md`: first lesson stored (written before the skill change, from the chat output).
-- `CLAUDE.md`, `AGENTS.md`, `CHANGELOG.md`.
+- `CLAUDE.md`, `AGENTS.md`, `CHANGELOG.md`, `README.md` (Lesson Notes section).
 
 ### Usage
 ```text
-/lesson-notes 20261003     # → lessons/b1_v3/20261003/{notes,woerterbuch}.md
+/lesson-notes 20261003     # → lessons/b1_v3/20261003/{notes,worterbuch}.md
 ```
 
 ### Dependencies

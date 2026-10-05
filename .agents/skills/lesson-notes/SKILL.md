@@ -40,22 +40,41 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
 
 ## Wörterbuch
 
-- Separate file, title `# DE-<Course> - <YYYYMMDD>: Wörterbuch`, below it a link back to `notes.md`,
-  then the legend line (copy it from the latest `lessons/*/*/woerterbuch.md`): gender circles, `/` = plural
-  per verbformen.de, `–` = no plural, and the markers below.
+- Separate file `worterbuch.md`, title `# DE-<Course> - <YYYYMMDD>: Wörterbuch`, below it a link back to
+  `notes.md`, then the legend lines (copy them from the latest `lessons/*/*/worterbuch.md`): nouns
+  (gender circles, `/` = plural per verbformen.de, `–`, usage markers), verbs (`(r)`, `(u)`, `|`, the
+  forms line), and «У кожній таблиці: іменники → дієслова → прикметники → інше».
 - Grouped by the lesson's topics, each group a `## <Deutsch> / <Українська>` heading and a three-column
   table `Deutsch | English | Українська`, plain text (no italics).
+- Inside each table sort by part of speech: nouns, then verbs, then adjectives (incl. participles used
+  as adjectives, `gesetzlich geregelt`), then everything else (adverbs, prepositions, set phrases).
+  Within a group keep the order of the lesson.
 - Nouns: gender circle, article, singular, `/`, plural ending: `🔴 die Wolke / -n`, `🔵 der Frost / ¨-e`,
   `🟢 das Gewitter / -`. Take every plural from verbformen.de
   (`https://www.verbformen.de/deklination/substantive/<Wort>.htm`; for a compound missing there, its last
   part), never from memory. `–` only when the dictionary gives no plural (`🔵 der Müll / –`). Keep its
   usage notes after the ending: `(selten)` (selten/unüblich), `(fachspr.)` (nur fachsprachlich),
-  `(je nach Bedeutung)` (bedeutungsabhängig), e.g. `🔴 die Hitze / -n (fachspr.)`. The site rate-limits
-  (HTTP 429): pause between requests. One noun per row; a phrase
-  built on a noun goes after it (`🔴 die Regel / -n – strenge Regeln`). GitHub strips HTML colour,
+  `(je nach Bedeutung)` (bedeutungsabhängig), e.g. `🔴 die Hitze / -n (fachspr.)`. One noun per row; a
+  phrase built on a noun goes after it (`🔴 die Regel / -n – strenge Regeln`). GitHub strips HTML colour,
   hence the emoji.
-- Other words without a circle; prepositions and case where they belong (`abhängig von + Dat`).
+- Verbs: two lines in the Deutsch cell, joined by `<br>`:
+  1. infinitive, `(r)` regelmäßig or `(u)` unregelmäßig (strong and mixed), preposition with case;
+     a separable prefix split off with `\|` (an escaped pipe inside the table);
+  2. `Infinitiv; Präteritum (er); Perfekt (er, with hat/ist)`.
+
+  ```
+  verzichten (r) auf \<Akk\><br>verzichten; verzichtete; hat verzichtet
+  an \| bieten (u)<br>anbieten; bot an; hat angeboten
+  wenden (u) an \<Akk\><br>wenden; wandte; hat gewandt
+  ```
+  An optional third line `z. B. <phrase from the lesson>` (`z. B. den Müll trennen`). Take the forms
+  from verbformen.de (`https://www.verbformen.de/konjugation/<verb>.htm`, «Die Stammformen …»). It
+  shows only one reading: when strong and weak forms depend on meaning, check de.wiktionary.org and
+  use the lesson's meaning (*abhängen von*: *hing ab; hat abgehangen*, not *hängte ab*).
+- Prepositions with case as `\<Akk\>` / `\<Dat\>` / `\<Gen\>`, escaped so GitHub keeps them
+  (`abhängig von \<Dat\>`, `die Sorge / -n um \<Akk\>`). No circle on anything but nouns.
 - Only words that came up in the lesson, no padding.
+- verbformen.de rate-limits (HTTP 429): pause a few seconds between requests.
 
 ## Handling the transcript
 
@@ -67,7 +86,7 @@ description: Prepare bilingual (Ukrainian + German) lesson notes ("тези за
 
 - Save both files to `/Users/pronin/Documents.nosync/Developer/04-pet/de/lessons/<course>/<YYYYMMDD>/`,
   mirroring the Drive path (`b1_v3/20261003` → `lessons/b1_v3/20261003/`):
-  `notes.md` (тези) and `woerterbuch.md`. `notes.md` links to `woerterbuch.md` under the title line.
+  `notes.md` (тези) and `worterbuch.md`. `notes.md` links to `worterbuch.md` under the title line.
   If the files already exist, read them first and ask before overwriting.
 - In chat: the paths and a short overview of the lesson parts, not the full notes.
 - PDF only on request, beside the `.md` (PDF via `md-to-pdf <file>.md`, run in that folder).

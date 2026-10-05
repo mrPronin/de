@@ -2,7 +2,7 @@
 
 Частини заняття: погода (вправа з пропусками), *was für ein*, Umweltschutz (переказ думок і дискусія), граматика в листах, презентація книги та фільму.
 
-Словник заняття: [woerterbuch.md](woerterbuch.md).
+Словник заняття: [worterbuch.md](worterbuch.md).
 
 ## 1. Das Wetter / Погода
 

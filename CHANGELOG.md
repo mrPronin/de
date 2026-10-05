@@ -23,6 +23,9 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+### Changed
+- `lesson-notes` Wörterbuch: file renamed `woerterbuch.md` → `worterbuch.md`; rows sorted nouns → verbs → adjectives → other; verbs as `ab \| hängen (u) von <Dat>` with a forms line `abhängen; hing ab; hat abgehangen` (Phase 9).
+
 ### Fixed
 - `lesson-notes` Wörterbuch: plurals come from verbformen.de with its usage notes (`-n (selten)`); `–` only for nouns with no plural, not for rare ones (Phase 9).
 
