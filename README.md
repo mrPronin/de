@@ -160,7 +160,7 @@ lessons/b1_v3/20261003/
 ```
 
 In `worterbuch.md` rows are sorted nouns → verbs → adjectives → other. Nouns carry a gender circle
-and the plural from verbformen.de (`🔴 die Wolke / -n`). Verbs are listed with their forms
+and the plural from verbformen.de, or de.wiktionary.org when that site rate-limits (`🔴 die Wolke / -n`). Verbs are listed with their forms
 (`ab | hängen (u) von <Dat>`, then `abhängen; hing ab; hat abgehangen`).
 
 ## Versioning

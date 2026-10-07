@@ -291,6 +291,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Wörterbuch examples (after 1.3.0) | `Beispiele` column after `Deutsch`, one sentence per row, preferably from the lesson; German column headers | User's request; lesson sentences tie the word to the context it was learned in |
 | Notes language (after 1.3.0) | German prose at B1 level; Ukrainian only in heading halves, glosses, tips' translations, `Ukrainisch` column | User's request; the notes double as reading practice |
 | Teacher (after 1.4.0) | *die Lehrerin*, feminine | User confirmed the teacher is a woman; the neutral *Lehrkraft* from 1.4.0 was a guess-avoidance default |
+| Lookup fallback (after 1.4.1) | de.wiktionary.org raw wikitext when verbformen.de keeps answering HTTP 429; plural-only nouns without a circle | 20261006 run: verbformen.de refused after 30 of 66 nouns even with 3 s pauses and retries; Wiktionary has the same grammar fields and did not throttle |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes
@@ -307,7 +308,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 None new.
 
 ### Verification
-Files for 20261003 written and links checked by hand. The updated skill itself has not yet been run end to end.
+Files for 20261003 written and links checked by hand. First end-to-end run of the skill: lesson 20261006 (2026-10-07), transcript copied from `meeting-transcriber/data/` to Drive; 137 Wörterbuch rows, all tables 4 columns, gender circles match articles.
 - **Released `german-verbs-v1.1.0`** (build 131). `german-verbs --version` now says `german-verbs 1.1.0+131`.
 - **Released `german-verbs-v1.2.0`** (build 135): no duration line, German / Ukrainian headings and labels, Wörterbuch `Deutsch | English | Українська` with gender circles.
 - **Released `german-verbs-v1.3.0`** (build 139): plurals from verbformen.de (`–` only when there is none), `worterbuch.md`, rows by part of speech, verbs with forms.

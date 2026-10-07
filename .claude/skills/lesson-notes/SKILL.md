@@ -84,7 +84,11 @@ argument-hint: "[YYYYMMDD]"
 - Prepositions with case as `\<Akk\>` / `\<Dat\>` / `\<Gen\>`, escaped so GitHub keeps them
   (`abhängig von \<Dat\>`, `die Sorge / -n um \<Akk\>`). No circle on anything but nouns.
 - Only words that came up in the lesson, no padding.
-- verbformen.de rate-limits (HTTP 429): pause a few seconds between requests.
+- verbformen.de rate-limits (HTTP 429): pause a few seconds between requests. When it keeps refusing,
+  take the rest from de.wiktionary.org (`https://de.wiktionary.org/w/index.php?title=<Wort>&action=raw`:
+  `Genus`, `Nominativ Plural`; for verbs `Präteritum_ich`, `Partizip II`, `Hilfsverb`) and name both
+  sources in the legend. Print results unbuffered (`flush=True`) so progress is visible.
+- Plural-only nouns have no gender: no circle, `die Kosten (nur Plural)`, and the legend explains it.
 
 ## Handling the transcript
 
