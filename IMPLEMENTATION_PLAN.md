@@ -314,6 +314,7 @@ Files for 20261003 written and links checked by hand. First end-to-end run of th
 - **Released `german-verbs-v1.3.0`** (build 139): plurals from verbformen.de (`–` only when there is none), `worterbuch.md`, rows by part of speech, verbs with forms.
 - **Released `german-verbs-v1.4.0`** (build 142): notes and Wörterbuch in German (B1), `Beispiele` column, German column headers.
 - **Released `german-verbs-v1.4.1`** (build 145): the teacher is *die Lehrerin*.
+- **Released `german-verbs-v1.5.0`** (build 151): de.wiktionary.org fallback for plurals and verb forms; plural-only nouns without a circle.
 
 ## Known Issues & Workarounds
 
