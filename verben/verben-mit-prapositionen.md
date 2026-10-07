@@ -52,6 +52,7 @@ sich freuen має два значення:
 | 39 | um | sich Sorgen machen um \<Akk\><br><br>die Sorge um \<Akk\>: das Leben ist zu kurz für ständige Sorgen um die Umwelt | хвилюватися, турбуватися про | to worry about | Er macht sich keine Sorgen um die Umwelt.<br>Um wen machst du dir Sorgen? (Person)<br>Worum machst du dir Sorgen? (Sache) |
 | 40 | auf | Einfluss haben auf \<Akk\><br><br>beeinflussen + Akk ohne Präposition: Ein einzelner Mensch kann die Situation nicht beeinflussen. | мати вплив на, впливати на | to have an influence on | Ein einzelner Mensch hat wenig Einfluss auf die Politik.<br>Auf wen hat er Einfluss? (Person)<br>Worauf hast du Einfluss? (Sache) |
 | 41 | für | verantwortlich sein für \<Akk\> | бути відповідальним за | to be responsible for | Jeder Mensch ist verantwortlich für den Umweltschutz.<br>Für wen bist du verantwortlich? (Person)<br>Wofür bist du verantwortlich? (Sache) |
+| 42 | auf | hinweisen auf \<Akk\><br><br>trennbar: Der Veranstalter weist darauf hin, dass …; hinweisen; wies hin; hat hingewiesen | звертати увагу на, вказувати на | to point out, to draw attention to | Der Veranstalter weist darauf hin, dass man kein Essen mitbringen darf.<br>Auf wen hat sie hingewiesen? (Person)<br>Worauf weist er hin? (Sache) |
 
 ## Verb + Präposition + Dat
 
@@ -90,3 +91,5 @@ an / vor → Dativ (у цих дієсловах)
 | 28 | an | zweifeln an \<Dat\><br><br>ich zweifle (-eln: e fällt weg, wie ich sammle), du zweifelst | сумніватися в комусь / в чомусь | to doubt | Ich zweifle an dir.<br>An wem zweifelst du? (Person)<br>Woran zweifelst du? (Sache) |
 | 29 | von | abhängen von \<Dat\><br><br>trennbar: das hängt von … ab; abhängig sein von \<Dat\> = бути залежним від (Deutschland war abhängig von Russland) | залежати від | to depend on | Das hängt vom Wetter ab.<br>Von wem hängt das ab? (Person)<br>Wovon hängt das ab? (Sache) |
 | 30 | bei | helfen bei \<Dat\><br><br>helfen + Dat (wem?): Ich helfe dir bei den Hausaufgaben. | допомагати з чимось / в чомусь | to help with | Esther Perel hat dem Regisseur beim Drehbuch geholfen.<br>Wobei kann ich dir helfen? |
+| 31 | an | interessiert sein an \<Dat\><br><br>= sich interessieren für \<Akk\>; interessiert ist hier Partizip II als Adjektiv | бути зацікавленим у | to be interested in | Ich bin an Ihrem Vorschlag interessiert.<br>An wem bist du interessiert? (Person)<br>Woran bist du interessiert? (Sache) |
+| 32 | mit | zufrieden sein mit \<Dat\><br><br>Gegenteil: unzufrieden sein mit \<Dat\> | бути задоволеним кимось / чимось | to be satisfied with | Bist du mit deinem Training zufrieden?<br>Mit wem bist du zufrieden? (Person)<br>Womit bist du unzufrieden? (Sache) |

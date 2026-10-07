@@ -159,7 +159,7 @@ Anzeige: Der *Wohnungs-Service Zürich* vermittelt seit zwei *Jahrzehnten* befri
 | | *teilnehmen **an*** (*am Marathon teilnehmen*) |
 | | *(un)zufrieden sein **mit*** |
 
-Alle diese Verben gehören in die Rektion-Liste: [verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md). Noch nicht in der Liste: *interessiert sein an*, *(un)zufrieden sein mit*, *hinweisen auf*.
+Alle diese Verben stehen in der Rektion-Liste: [verben-mit-prapositionen.md](../../../verben/verben-mit-prapositionen.md). Neu aus dieser Stunde: *interessiert sein an*, *zufrieden sein mit*, *hinweisen auf*.
 
 **Fragewörter / Питальні слова:** bei Sachen *wo(r)-* + Präposition, bei Personen Präposition + *wen/wem*.
 - *Wofür interessierst du dich?* / *Für wen?*
