@@ -23,6 +23,8 @@ Versioning). Each entry names the plan phase it came from.
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-10-07
+
 ### Changed
 - `lesson-notes` Wörterbuch: de.wiktionary.org as fallback when verbformen.de rate-limits; plural-only nouns as `die Kosten (nur Plural)` without a circle (Phase 9).
 
