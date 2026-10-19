@@ -315,6 +315,7 @@ Files for 20261003 written and links checked by hand. First end-to-end run of th
 - **Released `german-verbs-v1.4.0`** (build 142): notes and Wörterbuch in German (B1), `Beispiele` column, German column headers.
 - **Released `german-verbs-v1.4.1`** (build 145): the teacher is *die Lehrerin*.
 - **Released `german-verbs-v1.5.0`** (build 151): de.wiktionary.org fallback for plurals and verb forms; plural-only nouns without a circle.
+- Lesson 20261016 (2026-10-19): first run that needed the 1.5.0 fallback from the start of the verb list. verbformen.de answered 429 after 17 of 35 nouns (3 s pauses), Wiktionary supplied the rest without throttling. Homework, the next lesson date and the teacher's song tip were only in the chat with the teacher, not in the transcript; the screenshots in the Drive folder supplied the grammar boards and the Sprachbausteine text.
 
 ## Known Issues & Workarounds
 
@@ -347,3 +348,4 @@ Files for 20261003 written and links checked by hand. First end-to-end run of th
 - Consider spaced-repetition / progress persistence across sessions (currently stats are per-session only).
 - Consider consolidating grouping scheme (CEFR-level files vs. letter-based `-b` file) to avoid overlap; `find-duplicates` exists partly to manage this.
 - Add audio pronunciation files for all 60 A2 verbs (currently only 9/60 have audio).
+- `lesson-notes`: read the chat with the teacher and the Drive folder's screenshots as sources for `Organisatorisches` and the grammar boards. Motivation: for 20261016 the homework files, the song to translate and the next lesson's date existed only in that chat; the skill mentions neither source. The chat reader shows only that a message has media, so attachments still need a manual look.
