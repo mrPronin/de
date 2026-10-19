@@ -159,6 +159,10 @@ lessons/b1_v3/20261003/
 └── worterbuch.md   # vocabulary: Deutsch | Beispiele | Englisch | Ukrainisch
 ```
 
+A `notes.pdf` beside them is made only on request (20261016 has one), from the lesson folder:
+`md-to-pdf notes.md --pdf-options '{"format":"A4","margin":"15mm","printBackground":true}'`.
+The options go on the command line, not into frontmatter, so the Markdown stays clean on GitHub.
+
 In `worterbuch.md` rows are sorted nouns → verbs → adjectives → other. Nouns carry a gender circle
 and the plural from verbformen.de, or de.wiktionary.org when that site rate-limits (`🔴 die Wolke / -n`). Verbs are listed with their forms
 (`ab | hängen (u) von <Dat>`, then `abhängen; hing ab; hat abgehangen`).

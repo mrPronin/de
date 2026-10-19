@@ -292,6 +292,7 @@ Lesson notes lived only in chat (or as a file beside the transcript on Google Dr
 | Notes language (after 1.3.0) | German prose at B1 level; Ukrainian only in heading halves, glosses, tips' translations, `Ukrainisch` column | User's request; the notes double as reading practice |
 | Teacher (after 1.4.0) | *die Lehrerin*, feminine | User confirmed the teacher is a woman; the neutral *Lehrkraft* from 1.4.0 was a guess-avoidance default |
 | Lookup fallback (after 1.4.1) | de.wiktionary.org raw wikitext when verbformen.de keeps answering HTTP 429; plural-only nouns without a circle | 20261006 run: verbformen.de refused after 30 of 66 nouns even with 3 s pauses and retries; Wiktionary has the same grammar fields and did not throttle |
+| PDF (2026-10-19) | Only on request, `notes.pdf` beside `notes.md`, committed; A4 / 15 mm passed as `md-to-pdf --pdf-options`, no YAML frontmatter in the `.md` | First PDF (20261016). Frontmatter would show as a table at the top of every note on GitHub and differ from the other lessons |
 | SemVer | MINOR | Additive skill behaviour; no existing consumer has to change |
 
 ### Key Changes
