@@ -202,3 +202,201 @@ Alle diese Verben stehen schon in der Rektion-Liste: [verben-mit-prapositionen.m
 - **Prüfung / Іспит:** 22.12.2026.
 
 *Das Transkript ist sehr verrauscht (Sprachen gemischt, abgebrochene Wörter). Die Beispiele wurden aus dem Kontext, den Screenshots und den Korrekturen der Lehrerin rekonstruiert und grammatisch korrigiert.*
+
+## 7. Liedanalyse: „3 Tage am Meer“ / Розбір пісні
+
+### Загальний зміст
+
+Пісня **„3 Tage am Meer“ — «Три дні біля моря»** про людину, яка довго працювала без пауз, втомилася від міста, шуму, людей і постійного напруження. Вона розуміє, що їй потрібно трохи відпочити — три дні біля моря на самоті, щоб знову відчути себе собою.
+
+Ключова думка:
+
+> **Drei Tage am Meer und ich weiß wieder, wer ich bin.**  
+> Три дні біля моря — і я знову розумію / згадую, хто я є.
+
+### 1. *Ich weiß, was ich kann*
+
+→ Я знаю, на що я здатний. / Я знаю, що я вмію.
+
+Тут *können* означає не просто «могти»: *was ich kann* — мої здібності, те, на що я здатний.
+
+- *Ich weiß, was ich kann.* — Я знаю, на що я здатний.
+- *Du kannst mehr, als du denkst.* — Ти здатен на більше, ніж думаєш.
+
+**Граматика:** *was ich kann* — підрядне речення, тому *kann* стоїть у кінці.
+
+### 2. *Trotzdem ab und an kommen Zweifel daran*
+
+Це дещо поетичний порядок слів. У звичайному реченні можна сказати: *Trotzdem kommen ab und an Zweifel daran.* — Але все одно час від часу з'являються сумніви щодо цього.
+
+- *ab und an* = час від часу, іноді; синоніми: *manchmal, hin und wieder, gelegentlich*.
+- *der Zweifel* — сумнів; множина: *die Zweifel*.
+- *Zweifel haben* — мати сумніви.
+
+*Ich brauche ab und an eine Pause.* — Мені час від часу потрібна перерва.
+
+### 3. *Ich frage mich dann*
+
+→ Тоді я запитую себе / замислююся...
+
+*Сich fragen* — зворотне дієслово. Українською часто природніше сказати «замислююся», а не буквально «ставлю собі питання».
+
+*Ich frage mich, warum er das gemacht hat.* — Я замислююся, чому він це зробив.
+
+### 4. *Wofür ich das alles mache*
+
+→ Заради чого я все це роблю? / Для чого я взагалі все це роблю?
+
+*wofür* = для чого, заради чого; утворено від *für + was*. У непрямому питанні дієслово стоїть у кінці:
+
+- *Wofür brauchst du das?* — Для чого тобі це потрібно?
+- *Ich weiß nicht, wofür ich das brauche.* — Я не знаю, для чого мені це потрібно.
+
+### 5. *Und mir ist mittlerweile klar*
+
+*Mir ist mittlerweile klar ...* → І тепер мені вже зрозуміло...
+
+Конструкція: **jemandem ist etwas klar** — комусь щось зрозуміло.
+
+*Mir ist klar, dass das schwierig ist.* — Мені зрозуміло, що це складно.
+
+*mittlerweile* = тим часом / тепер уже / на цей момент. У цьому контексті: «тепер я вже розумію».
+
+### 6. *Das waren Jahre ohne Pause*
+
+→ Це були роки без перерви.
+
+Йдеться про тривалий час, коли людина постійно працювала або була зайнята. Після *ohne* вживається Akkusativ: *ohne Pause* — без перерви.
+
+### 7. *Eigentlich weiß ich genau, was ich brauche*
+
+→ Насправді я точно знаю, що мені потрібно.
+
+*eigentlich* залежно від контексту означає «насправді», «взагалі-то», «власне», «по суті». Тут найкраще — «насправді». *brauchen* = потребувати: *Was brauchst du?* — Що тобі потрібно?
+
+### 8. *'Ne Pause*
+
+*'Ne Pause* — розмовне скорочення від *eine Pause*.
+
+У розмовній німецькій часто скорочують:
+- *eine → 'ne*
+- *einen → 'nen*
+- *ein → 'n*
+
+*Ich brauche 'ne Pause.* = *Ich brauche eine Pause.* — Мені потрібна перерва.
+
+## Приспів
+
+### *Drei Tage am Meer*
+
+→ Три дні біля моря.
+
+*am* = *an dem*. У цьому вислові *am Meer* означає «біля моря / на морі»:
+
+- *Wir machen Urlaub am Meer.* — Ми проводимо відпустку біля моря.
+- *im Meer schwimmen* — плавати у морі.
+
+Порівняй: *am Meer* — біля моря; *im Meer* — у морі.
+
+### *Und ich weiß wieder, wer ich bin*
+
+→ І я знову знаю, хто я.
+
+Природніше українською: «І я знову відчуваю, хто я є» або «І я знову знаходжу себе».
+
+*wieder* = знову. *Wer ich bin* — підрядне речення, тому *bin* стоїть у кінці. Порівняй: *Wer bin ich?* — Хто я?; *Ich weiß, wer ich bin.* — Я знаю, хто я.
+
+## Наступна частина
+
+### *Ohne alle anderen*
+
+→ Без усіх інших; тобто без інших людей / на самоті.
+
+*die anderen* = інші; *alle anderen* = всі інші. Після *ohne* вживається Akkusativ; у множині тут форма не змінюється: *ohne alle anderen*.
+
+### *Es fällt mir nicht leicht, ruhiger zu werden*
+
+→ Мені нелегко заспокоїтися. / Мені важко стати спокійнішим.
+
+Конструкція **jemandem fällt etwas leicht / schwer** — щось дається комусь легко / важко:
+
+- *Etwas fällt mir leicht.* — Щось дається мені легко.
+- *Etwas fällt mir schwer.* — Щось дається мені важко.
+- *Deutsch zu sprechen fällt mir noch schwer.* — Говорити німецькою мені поки важко.
+
+*ruhig* — спокійний; *ruhiger* — спокійніший; *werden* — ставати. Отже, *ruhiger werden* — ставати спокійнішим / заспокоюватися.
+
+### *Mir geht so viel auf die Nerven*
+
+→ Так багато всього діє мені на нерви. / Мене стільки всього дратує.
+
+**jemandem auf die Nerven gehen** = дратувати когось, діяти комусь на нерви. Зверни увагу: *mir* стоїть у Dativ.
+
+- *Der Lärm geht mir auf die Nerven.* — Шум діє мені на нерви.
+- *Du gehst mir auf die Nerven.* — Ти мене дратуєш.
+
+### *Ich sitze zu viel*
+
+→ Я занадто багато сиджу.
+
+- *viel* — багато
+- *sehr viel* — дуже багато
+- *zu viel* — занадто багато
+
+### *Ich atme nur Luft, die nach Straße schmeckt*
+
+Буквально: «Я дихаю лише повітрям, яке має смак вулиці». Природніше: «Я весь час дихаю міським, вуличним повітрям». Це образний рядок про міське середовище.
+
+**nach + Dativ schmecken** = мати смак чогось:
+
+- *Das schmeckt nach Zitrone.* — Це має смак лимона.
+- *Die Suppe schmeckt nach Knoblauch.* — Суп має смак часнику.
+
+У пісні *Luft, die nach Straße schmeckt* — метафора.
+
+### *Ich liebe die Stadt*
+
+→ Я люблю місто.
+
+### *Und trotzdem muss dringend mal wieder weit weg*
+
+Повна конструкція приблизно така: *Und trotzdem muss ich dringend mal wieder weit weg.* У пісні *ich* опущено з поетичних причин.
+
+→ Але попри це мені терміново потрібно знову кудись далеко поїхати.
+
+- *weit weg* — далеко: *Ich möchte weit weg.* — Я хочу кудись далеко.
+- *dringend* — терміново / дуже потрібно: *Ich brauche dringend Urlaub.* — Мені дуже потрібна відпустка.
+- *mal wieder* ≈ знову / вже пора знову: *Wir müssen mal wieder ans Meer fahren.* — Треба нам якось знову поїхати до моря.
+
+### *Zum Untertauchen*
+
+Буквально *untertauchen* означає «пірнати / занурюватися під воду». У переносному значенні — «зникнути на деякий час», «відгородитися від світу», «сховатися від усіх». У пісні це переносне значення, але через море є гра слів: воно також нагадує фізичне занурення у воду.
+
+*Ich brauche ein paar Tage zum Untertauchen.* — Мені потрібно кілька днів, щоб зникнути від усього світу.
+
+## Найважливіші вирази
+
+| Німецькою | Українською |
+|---|---|
+| *wissen, was man kann* | знати, на що ти здатен |
+| *ab und an* | час від часу |
+| *Zweifel haben* | мати сумніви |
+| *sich fragen* | запитувати себе / замислюватися |
+| *wofür* | для чого / заради чого |
+| *Mir ist klar, dass ...* | Мені зрозуміло, що... |
+| *eine Pause brauchen* | потребувати перерви |
+| *am Meer* | біля моря |
+| *Es fällt mir schwer.* | Мені це важко дається. |
+| *jemandem auf die Nerven gehen* | діяти комусь на нерви |
+| *zu viel* | занадто багато |
+| *nach etwas schmecken* | мати смак чогось |
+| *weit weg* | далеко |
+| *dringend* | терміново / дуже потрібно |
+| *mal wieder* | знову / вже пора знову |
+| *untertauchen* | занурюватися / зникнути від усіх |
+
+## Зміст пісні природною українською
+
+> Я знаю свої сили, але час від часу все одно сумніваюся й думаю: навіщо я все це роблю? Я роками жив без справжньої паузи. І тепер розумію, що мені потрібно: просто трохи відпочити. Три дні біля моря, без інших людей, — і я знову відчую себе собою. Місто мені подобається, але його шум, постійне сидіння й міське повітря мене виснажують. Мені потрібно ненадовго зникнути від усього.
+
+Для вивчення німецької особливо корисно запам'ятати п'ять конструкцій: **ab und an**, **sich fragen, wofür ...**, **Mir ist klar, dass ...**, **Es fällt mir schwer/leicht, ...**, **etwas geht mir auf die Nerven**. Вони природні й корисні на рівні B1–B2.
